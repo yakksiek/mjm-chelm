@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 30,
+            "activePatchIndex": 39,
             "patches": [
                 {
                     "date": 1674751476103,
@@ -128,6 +128,42 @@
                 {
                     "date": 1674761733632,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,14 +19,14 @@\n   --clr-primary-8: hsl(205, 86%, 81%);\n   --clr-primary-9: hsl(205, 90%, 88%);\n   --clr-primary-10: hsl(205, 100%, 96%); */\n   /* darkest grey - used for headings */\n-  --clr-grey-1: hsl(209, 61%, 16%);\n+  /* --clr-grey-1: hsl(209, 61%, 16%);\n   --clr-grey-2: hsl(211, 39%, 23%);\n   --clr-grey-3: hsl(209, 34%, 30%);\n-  --clr-grey-4: hsl(209, 28%, 39%);\n+  --clr-grey-4: hsl(209, 28%, 39%); */\n   /* grey used for paragraphs */\n-  --clr-grey-5: hsl(210, 22%, 49%);\n+  /* --clr-grey-5: hsl(210, 22%, 49%);\n   --clr-grey-6: hsl(209, 23%, 60%);\n   --clr-grey-7: hsl(211, 27%, 70%);\n   --clr-grey-8: hsl(210, 31%, 80%);\n   --clr-grey-9: hsl(212, 33%, 89%);\n@@ -34,9 +34,9 @@\n   --clr-white: #fff;\n   --clr-red-dark: hsl(360, 67%, 44%);\n   --clr-red-light: hsl(360, 71%, 66%);\n   --clr-green-dark: hsl(125, 67%, 44%);\n-  --clr-green-light: hsl(125, 71%, 66%);\n+  --clr-green-light: hsl(125, 71%, 66%); */\n   --clr-black: #222;\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n   --radius: 0.25rem;\n"
+                },
+                {
+                    "date": 1674820870278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n   --clr-red-dark: hsl(360, 67%, 44%);\n   --clr-red-light: hsl(360, 71%, 66%);\n   --clr-green-dark: hsl(125, 67%, 44%);\n   --clr-green-light: hsl(125, 71%, 66%); */\n-  --clr-black: #222;\n+  /* --clr-black: #222; */\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n   --radius: 0.25rem;\n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n@@ -184,9 +184,9 @@\n     width: 95vw;\n   }\n \n   .page {\n-    min-height: 100vh;\n+    /* min-height: 100vh; */\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1674821095345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,12 +181,13 @@\n \n @media screen and (min-width: 992px) {\n   .section {\n     width: 95vw;\n+    \n   }\n \n   .page {\n-    /* min-height: 100vh; */\n+    min-height: 100vh;\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1674821103236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,9 @@\n \n @media screen and (min-width: 992px) {\n   .section {\n     width: 95vw;\n-    \n+    min-height: 100vh;\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1674821109054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,8 @@\n \n @media screen and (min-width: 992px) {\n   .section {\n     width: 95vw;\n-    min-height: 100vh;\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1674821137986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -178,8 +178,12 @@\n   margin: 0 auto;\n   max-width: var(--max-width);\n }\n \n+.page {\n+  min\n+}\n+\n @media screen and (min-width: 992px) {\n   .section {\n     width: 95vw;\n   }\n"
+                },
+                {
+                    "date": 1674821143120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,9 +179,9 @@\n   max-width: var(--max-width);\n }\n \n .page {\n-  min\n+  min-height: 100vh;\n }\n \n @media screen and (min-width: 992px) {\n   .section {\n"
+                },
+                {
+                    "date": 1674821151245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,9 +179,9 @@\n   max-width: var(--max-width);\n }\n \n .page {\n-  min-height: 100vh;\n+  /* min-height: 100vh; */\n }\n \n @media screen and (min-width: 992px) {\n   .section {\n"
+                },
+                {
+                    "date": 1674821185393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,9 +179,9 @@\n   max-width: var(--max-width);\n }\n \n .page {\n-  /* min-height: 100vh; */\n+  min-height: 100vh;\n }\n \n @media screen and (min-width: 992px) {\n   .section {\n"
+                },
+                {
+                    "date": 1674822154937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,12 +196,8 @@\n /* =============== \n Variables\n =============== */\n \n-nav {\n-  /* background-color: var(--clr-white); */\n-  /* box-shadow: var(--light-shadow); */\n-}\n \n .nav-header {\n   display: flex;\n   align-items: center;\n"
                 }
             ],
             "date": 1674751476103,

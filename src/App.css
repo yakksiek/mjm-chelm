@@ -179,6 +179,10 @@ p {
   max-width: var(--max-width);
 }
 
+.page {
+  min-height: 100vh;
+}
+
 @media screen and (min-width: 992px) {
   .section {
     width: 95vw;
@@ -193,10 +197,6 @@ p {
 Variables
 =============== */
 
-nav {
-  /* background-color: var(--clr-white); */
-  /* box-shadow: var(--light-shadow); */
-}
 
 .nav-header {
   display: flex;
