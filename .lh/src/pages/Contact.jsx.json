@@ -1,0 +1,106 @@
+{
+    "sourceFile": "src/pages/Contact.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 22,
+            "patches": [
+                {
+                    "date": 1674753224471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674753230726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,19 +2,20 @@\n \n const Contact = () => {\n   return (\n     <section className=\"section page\">\n-      \n-      <h2>Contact</h2>\n-      <iframe\n-        src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n-        width=\"400\"\n-        height=\"300\"\n-        style={{ border: 0 }}\n-        allowfullscreen=\"\"\n-        loading=\"lazy\"\n-        referrerpolicy=\"no-referrer-when-downgrade\"\n-      ></iframe>\n+      <div>\n+        <h2>Contact</h2>\n+        <iframe\n+          src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n+          width=\"400\"\n+          height=\"300\"\n+          style={{ border: 0 }}\n+          allowfullscreen=\"\"\n+          loading=\"lazy\"\n+          referrerpolicy=\"no-referrer-when-downgrade\"\n+        ></iframe>\n+      </div>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1674753250292,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n const Contact = () => {\n   return (\n     <section className=\"section page\">\n       <div>\n+        \n         <h2>Contact</h2>\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n           width=\"400\"\n"
+                },
+                {
+                    "date": 1674753255787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,12 @@\n const Contact = () => {\n   return (\n     <section className=\"section page\">\n       <div>\n-        \n+        <div>\n+\n         <h2>Contact</h2>\n+        </div>\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n           width=\"400\"\n           height=\"300\"\n"
+                },
+                {
+                    "date": 1674753261307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n   return (\n     <section className=\"section page\">\n       <div>\n         <div>\n-\n         <h2>Contact</h2>\n         </div>\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n"
+                },
+                {
+                    "date": 1674753369477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import React from \"react\";\n \n+\n const Contact = () => {\n   return (\n     <section className=\"section page\">\n       <div>\n"
+                },
+                {
+                    "date": 1674753390659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n const Contact = () => {\n   return (\n     <section className=\"section page\">\n-      <div>\n+\n         <div>\n         <h2>Contact</h2>\n         </div>\n         <iframe\n"
+                },
+                {
+                    "date": 1674753397387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,11 @@\n \n         <div>\n         <h2>Contact</h2>\n         </div>\n+        <div>\n+          \n+        </div>\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n           width=\"400\"\n           height=\"300\"\n@@ -16,9 +19,9 @@\n           allowfullscreen=\"\"\n           loading=\"lazy\"\n           referrerpolicy=\"no-referrer-when-downgrade\"\n         ></iframe>\n-      </div>\n+\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1674753403185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,13 @@\n import React from \"react\";\n \n-\n const Contact = () => {\n   return (\n     <section className=\"section page\">\n-\n-        <div>\n+      <div>\n         <h2>Contact</h2>\n-        </div>\n-        <div>\n-          \n-        </div>\n+      </div>\n+      <div >\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n           width=\"400\"\n           height=\"300\"\n@@ -19,9 +15,9 @@\n           allowfullscreen=\"\"\n           loading=\"lazy\"\n           referrerpolicy=\"no-referrer-when-downgrade\"\n         ></iframe>\n-\n+      </div>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1674753413928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,15 @@\n import React from \"react\";\n \n+import classes from ''\n+\n const Contact = () => {\n   return (\n     <section className=\"section page\">\n       <div>\n         <h2>Contact</h2>\n       </div>\n-      <div >\n+      <div>\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n           width=\"400\"\n           height=\"300\"\n"
+                },
+                {
+                    "date": 1674753420914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\n \n-import classes from ''\n+import classes from './Contact.module'\n \n const Contact = () => {\n   return (\n     <section className=\"section page\">\n"
+                },
+                {
+                    "date": 1674753426016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from \"react\";\n \n-import classes from './Contact.module'\n+import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n     <section className=\"section page\">\n"
+                },
+                {
+                    "date": 1674753441473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n-    <section className=\"section page\">\n+    <section className=\"section page \">\n       <div>\n         <h2>Contact</h2>\n       </div>\n       <div>\n"
+                },
+                {
+                    "date": 1674753448228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n-    <section className=\"section page \">\n+    <section className={\"section page \"}>\n       <div>\n         <h2>Contact</h2>\n       </div>\n       <div>\n"
+                },
+                {
+                    "date": 1674753454945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n-    <section className={\"section page \"}>\n+    <section className={`section page`}>\n       <div>\n         <h2>Contact</h2>\n       </div>\n       <div>\n"
+                },
+                {
+                    "date": 1674753462186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n-    <section className={`section page`}>\n+    <section className={`${flex}section page`}>\n       <div>\n         <h2>Contact</h2>\n       </div>\n       <div>\n"
+                },
+                {
+                    "date": 1674753475473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n-    <section className={`${flex}section page`}>\n+    <section className={`${contact} section page`}>\n       <div>\n         <h2>Contact</h2>\n       </div>\n       <div>\n"
+                },
+                {
+                    "date": 1674753488584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n-    <section className={`${contact} section page`}>\n+    <section className={`${classes.contactPage} section page`}>\n       <div>\n         <h2>Contact</h2>\n       </div>\n       <div>\n"
+                },
+                {
+                    "date": 1674753496850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n-    <section className={`${classes.contactPage} section page`}>\n+    <section className={`${classes[]} section page`}>\n       <div>\n         <h2>Contact</h2>\n       </div>\n       <div>\n"
+                },
+                {
+                    "date": 1674753505811,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Contact.module.css\";\n \n const Contact = () => {\n   return (\n-    <section className={`${classes[]} section page`}>\n+    <section className={`${classes['contact-page']} section page`}>\n       <div>\n         <h2>Contact</h2>\n       </div>\n       <div>\n"
+                },
+                {
+                    "date": 1674753707302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Contact = () => {\n   return (\n     <section className={`${classes['contact-page']} section page`}>\n       <div>\n-        <h2>Contact</h2>\n+        <h2>MJM</h2>\n       </div>\n       <div>\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n"
+                },
+                {
+                    "date": 1674753712562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Contact = () => {\n   return (\n     <section className={`${classes['contact-page']} section page`}>\n       <div>\n-        <h2>MJM</h2>\n+        <h2>'MJM</h2>\n       </div>\n       <div>\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n"
+                },
+                {
+                    "date": 1674753722920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n const Contact = () => {\n   return (\n     <section className={`${classes['contact-page']} section page`}>\n       <div>\n-        <h2>\"MJM\" Sp </h2>\n+        <h2>\"MJM\" Sp</h2>\n       </div>\n       <div>\n         <iframe\n           src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n"
+                }
+            ],
+            "date": 1674753224471,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\n\nconst Contact = () => {\n  return (\n    <section className=\"section page\">\n      \n      <h2>Contact</h2>\n      <iframe\n        src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.5265729167672!2d23.53785311630435!3d51.13564007957579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47239ab91931b959%3A0xa1e0e9518298a35a!2s%22MJM%22%20Sp.%20z%20o.o.!5e0!3m2!1spl!2spl!4v1672087981649!5m2!1spl!2spl\"\n        width=\"400\"\n        height=\"300\"\n        style={{ border: 0 }}\n        allowfullscreen=\"\"\n        loading=\"lazy\"\n        referrerpolicy=\"no-referrer-when-downgrade\"\n      ></iframe>\n    </section>\n  );\n};\n\nexport default Contact;\n"
+        }
+    ]
+}

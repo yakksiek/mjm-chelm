@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/pages/Contact.module.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1674753519029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674753541251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+.contact-page {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674753550178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .contact-page {\n-    \n+    display: flex;\n+    ju\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674753559963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .contact-page {\n     display: flex;\n-    ju\n+    justify-items: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674753565966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n .contact-page {\n     display: flex;\n     justify-items: center;\n-    just\n+    just]\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1674754552312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .contact-page {\n   display: flex;\n   align-items: center;\n   justify-content: center;\n-  ali\n+  al\n   gap: 2rem;\n   color: var(--clr-primary-1);\n   width: 70vw;\n   height: 70vh;\n"
+                }
+            ],
+            "date": 1674753519029,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

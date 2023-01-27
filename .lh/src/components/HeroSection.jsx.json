@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/components/HeroSection.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1674752606066,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1674752618715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n+import heroImage from \"../assets/hero-image2.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n"
+                },
+                {
+                    "date": 1674752633904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n-import heroImage from \"../assets/hero-image2.jpeg\";\n+import mjm1 from \"../assets/MJM-12.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n"
+                },
+                {
+                    "date": 1674752640654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm1 from \"../assets/MJM-12.jpeg\";\n+import mjm1 from \"../assets/MJM-12.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n"
+                },
+                {
+                    "date": 1674752654633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n-import mjm1 from \"../assets/MJM-12.jpeg\";\n-import mjm1 from \"../assets/MJM-12.jpeg\";\n+import mjm12 from \"../assets/MJM-12.jpeg\";\n+import mjm2 from \"../assets/MJM-12.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n"
+                },
+                {
+                    "date": 1674752667622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/MJM-12.jpeg\";\n-import mjm2 from \"../assets/MJM-12.jpeg\";\n+import mjm18 from \"../assets/MJM-18.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n@@ -26,9 +26,9 @@\n             </Link>\n           </div>\n         </div>\n         <div className={classes[\"image-container\"]}>\n-          <img src={} className={classes[\"image-hero\"]} />\n+          <img src={mjm12} className={classes[\"image-hero\"]} />\n         </div>\n       </div>\n       <div className={`${classes.bio} section`}>\n         <p>\n"
+                },
+                {
+                    "date": 1674752703071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n-import mjm12 from \"../assets/MJM-12.jpeg\";\n+import mjm12 from \"../assets/MJM12.jpeg\";\n import mjm18 from \"../assets/MJM-18.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n"
+                },
+                {
+                    "date": 1674752735839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n-import mjm12 from \"../assets/MJM12.jpeg\";\n-import mjm18 from \"../assets/MJM-18.jpeg\";\n+import mjm12 from \"../assets/mjm12.jpeg\";\n+import mjm18 from \"../assets/MJM18.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n"
+                },
+                {
+                    "date": 1674752928655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n-import mjm12 from \"../assets/mjm12.jpeg\";\n+import mjm12 from \"../\";\n import mjm18 from \"../assets/MJM18.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n"
+                },
+                {
+                    "date": 1674752965363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n-import mjm12 from \"../\";\n+import mjm12 from \"../assets/\";\n import mjm18 from \"../assets/MJM18.jpeg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n"
+                },
+                {
+                    "date": 1674752975257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n-import mjm12 from \"../assets/\";\n-import mjm18 from \"../assets/MJM18.jpeg\";\n+import mjm12 from \"../assets/mjm12.jpg\";\n+import mjm18 from \"../assets/\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n"
+                }
+            ],
+            "date": 1674752606066,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport { Link } from \"react-router-dom\";\n\nimport classes from \"./HeroSection.module.css\";\nimport heroImage from \"../assets/hero-image2.jpeg\";\nimport certificate1 from \"../assets/certificate1.png\";\nimport lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\nimport cemex from \"../assets/cemex.png\";\n\nconst HeroSection = () => {\n  return (\n    <main>\n      <div className={`${classes.hero} section`}>\n        <div className={classes.info}>\n          <h1>MJM</h1>\n          <h2>Sp. z o. o. Chełm</h2>\n          <h3>\n            Zbudujmy przyszłość razem\n            <span className={classes[\"info-dot\"]}>.</span>\n          </h3>\n          <div className={classes[\"call-to-action\"]}>\n            <Link className={classes[\"button-hero\"]} to=\"/kontakt\">\n              <button className=\"button\">Kontakt</button>\n            </Link>\n          </div>\n        </div>\n        <div className={classes[\"image-container\"]}>\n          <img src={} className={classes[\"image-hero\"]} />\n        </div>\n      </div>\n      <div className={`${classes.bio} section`}>\n        <p>\n          „MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku. Powstała\n          w wyniku przekształceń własnościowych w Cementowni „Chełm” na bazie\n          jej Wydziału Mechanicznego. Podstawowy zakres działalności Spółki to\n          wykonawstwo i montaż konstrukcji stalowych, obróbka skrawaniem,\n          remonty mechaniczne maszyn i urządzeń przemysłowych, wykonawstwo\n          części zamiennych i ich regeneracja, naprawa, modernizacja i\n          konserwacja urządzeń podlegających UDT. Usługi świadczymy głównie na\n          rzecz zakładów przemysłowych. Realizujemy również kompleksowe zadania\n          inwestycyjne.\n        </p>\n      </div>\n      <div className={classes.partners}>\n        <h3>Nasi partnerzy i certifikaty</h3>\n        <div className={classes[\"logo-partners-container\"]}>\n          <div>\n            <img src={lubelskieLogo} alt=\"logo-lubelskie\" />\n          </div>\n          <div>\n            <img src={cemex} alt=\"logo-cemex\" />\n          </div>\n          <div className={classes.certificate1}>\n            <img src={certificate1} alt=\"certificate\" />\n          </div>\n        </div>\n      </div>\n    </main>\n  );\n};\n\nexport default HeroSection;\n"
+        }
+    ]
+}
