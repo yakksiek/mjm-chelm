@@ -7,7 +7,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <section className="section page">
+    <section className="section">
       <div className={classes["contact-container"]}>
         <div className={classes["contact-info"]}>
           <div>
@@ -59,9 +59,9 @@ const Contact = () => {
               width="400"
               height="300"
               style={{ border: 0 }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>

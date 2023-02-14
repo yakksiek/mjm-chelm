@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1676207407723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1676207412980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         <Route path=\"certifikaty-i-uprawienia\" element={<Certificates />} />\n         <Route path=\"kontakt\" element={<Contact />} />\n         <Route path=\"*\" element={<Error />} />\n       </Routes>\n-        {/* <footer>To jest footer</footer> */}\n+        <Footer />\n     </BrowserRouter>\n   );\n }\n \n"
+                }
+            ],
+            "date": 1676207407723,
+            "name": "Commit-0",
+            "content": "import { BrowserRouter, Routes, Route } from \"react-router-dom\";\nimport \"./App.css\";\n\nimport {\n  Certificates,\n  Contact,\n  Error,\n  Gallery,\n  Offer,\n  HomePage,\n} from \"./pages/index\";\nimport Navbar from \"./components/Navbar\";\nimport Footer from \"./components/Footer\";\n\nfunction App() {\n  return (\n    <BrowserRouter>\n      <Navbar />\n      <Routes>\n        <Route path=\"/\" element={<HomePage />} />\n        <Route path=\"oferta\" element={<Offer />} />\n        <Route path=\"galeria\" element={<Gallery />} />\n        <Route path=\"certifikaty-i-uprawienia\" element={<Certificates />} />\n        <Route path=\"kontakt\" element={<Contact />} />\n        <Route path=\"*\" element={<Error />} />\n      </Routes>\n        {/* <footer>To jest footer</footer> */}\n    </BrowserRouter>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}

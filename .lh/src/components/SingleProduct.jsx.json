@@ -1,0 +1,234 @@
+{
+    "sourceFile": "src/components/SingleProduct.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 54,
+            "patches": [
+                {
+                    "date": 1675167092772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675168104749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import React from 'react'\n \n+\n const SingleProduct = () => {\n   return (\n     <div>SingleProduct</div>\n   )\n"
+                },
+                {
+                    "date": 1675168129583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import React from 'react'\n+import {AiOutlinePlusCircle, }\n \n-\n const SingleProduct = () => {\n   return (\n     <div>SingleProduct</div>\n   )\n"
+                },
+                {
+                    "date": 1675168139364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\n-import {AiOutlinePlusCircle, }\n+import {AiOutlinePlusCircle, AiOutlineMinusCircle}\n \n const SingleProduct = () => {\n   return (\n     <div>SingleProduct</div>\n"
+                },
+                {
+                    "date": 1675168144833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\n-import {AiOutlinePlusCircle, AiOutlineMinusCircle}\n+import {AiOutlinePlusCircle, AiOutlineMinusCircle} from 'react-'\n \n const SingleProduct = () => {\n   return (\n     <div>SingleProduct</div>\n"
+                },
+                {
+                    "date": 1675168201944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n-import React from 'react'\n-import {AiOutlinePlusCircle, AiOutlineMinusCircle} from 'react-'\n+import React from \"react\";\n+import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = () => {\n-  return (\n-    <div>SingleProduct</div>\n-  )\n-}\n\\ No newline at end of file\n+  return (<div>SingleProduct</div>;\n+};\n \n-export default SingleProduct\n+export default SingleProduct;\n"
+                },
+                {
+                    "date": 1675168210861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = () => {\n-  return (<div>SingleProduct</div>;\n+  return \n+  <div>SingleProduct</div>;\n };\n \n export default SingleProduct;\n"
+                },
+                {
+                    "date": 1675168216685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = () => {\n   return \n-  <div>SingleProduct</div>;\n+  <div>SingleProduct<Ai</div>;\n };\n \n export default SingleProduct;\n"
+                },
+                {
+                    "date": 1675168223618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,12 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = () => {\n-  return \n-  <div>SingleProduct<Ai</div>;\n+  return;\n+  <div>\n+    SingleProduct\n+    <AiOutlineMinusCircle />\n+  </div>;\n };\n \n export default SingleProduct;\n"
+                },
+                {
+                    "date": 1675168230100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = () => {\n-  return;\n+  return\n+  (\n   <div>\n     SingleProduct\n     <AiOutlineMinusCircle />\n   </div>;\n"
+                },
+                {
+                    "date": 1675168244209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = () => {\n-  return\n-  (\n-  <div>\n-    SingleProduct\n-    <AiOutlineMinusCircle />\n-  </div>;\n+  return (\n+    <div>\n+      SingleProduct\n+      <AiOutlineMinusCircle />\n+    </div>\n+  );\n };\n \n export default SingleProduct;\n"
+                },
+                {
+                    "date": 1675168261994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n-const SingleProduct = () => {\n+const SingleProduct = ({}) => {\n   return (\n     <div>\n       SingleProduct\n       <AiOutlineMinusCircle />\n"
+                },
+                {
+                    "date": 1675168285260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n-const SingleProduct = ({}) => {\n+const SingleProduct = ({title, ser}) => {\n   return (\n     <div>\n       SingleProduct\n       <AiOutlineMinusCircle />\n"
+                },
+                {
+                    "date": 1675168307524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,13 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n-const SingleProduct = ({title, ser}) => {\n+const SingleProduct = ({ title, services }) => {\n   return (\n-    <div>\n+    <ari>\n       SingleProduct\n       <AiOutlineMinusCircle />\n-    </div>\n+    </ari>\n   );\n };\n \n export default SingleProduct;\n"
+                },
+                {
+                    "date": 1675168313743,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,12 +2,12 @@\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = ({ title, services }) => {\n   return (\n-    <ari>\n+    <article class>\n       SingleProduct\n       <AiOutlineMinusCircle />\n-    </ari>\n+    </article>\n   );\n };\n \n export default SingleProduct;\n"
+                },
+                {
+                    "date": 1675168330959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,10 @@\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = ({ title, services }) => {\n   return (\n-    <article class>\n-      SingleProduct\n-      <AiOutlineMinusCircle />\n+    <article className=\"service\">\n+      <header></header>\n     </article>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675168337207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n const SingleProduct = ({ title, services }) => {\n   return (\n     <article className=\"service\">\n-      <header></header>\n+      <header\n     </article>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675168344154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n \n const SingleProduct = ({ title, services }) => {\n   return (\n     <article className=\"service\">\n-      <header\n+      <header>\n+        <h4>{title}</h4>\n+      </header>\n     </article>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675168356929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n   return (\n     <article className=\"service\">\n       <header>\n         <h4>{title}</h4>\n+        <button></button>\n       </header>\n     </article>\n   );\n };\n"
+                },
+                {
+                    "date": 1675168363322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\n     <article className=\"service\">\n       <header>\n         <h4>{title}</h4>\n-        <button></button>\n+        <button>btn</button>\n       </header>\n     </article>\n   );\n };\n"
+                },
+                {
+                    "date": 1675168384189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n       <header>\n         <h4>{title}</h4>\n         <button>btn</button>\n       </header>\n+      \n     </article>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675168394764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n       <header>\n         <h4>{title}</h4>\n         <button>btn</button>\n       </header>\n-      \n+      <div></div>\n     </article>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675168401387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,11 @@\n       <header>\n         <h4>{title}</h4>\n         <button>btn</button>\n       </header>\n-      <div></div>\n+      <div>\n+        {}\n+      </div>\n     </article>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675168408377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n         <h4>{title}</h4>\n         <button>btn</button>\n       </header>\n       <div>\n-        {}\n+        {ser}\n       </div>\n     </article>\n   );\n };\n"
+                },
+                {
+                    "date": 1675168416215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n         <h4>{title}</h4>\n         <button>btn</button>\n       </header>\n       <div>\n-        {ser}\n+        {services.map(service => {\n+          \n+        })}\n       </div>\n     </article>\n   );\n };\n"
+                },
+                {
+                    "date": 1675168424966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,13 @@\n       <header>\n         <h4>{title}</h4>\n         <button>btn</button>\n       </header>\n-      <div>\n+      <ul>\n         {services.map(service => {\n-          \n+          return \n         })}\n-      </div>\n+      </ul>\n     </article>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675168432110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n         <button>btn</button>\n       </header>\n       <ul>\n         {services.map(service => {\n-          return \n+          return <li>{serv}</li>\n         })}\n       </ul>\n     </article>\n   );\n"
+                },
+                {
+                    "date": 1675168505512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,13 +5,13 @@\n   return (\n     <article className=\"service\">\n       <header>\n         <h4>{title}</h4>\n-        <button>btn</button>\n+        <button class>btn</button>\n       </header>\n       <ul>\n         {services.map(service => {\n-          return <li>{serv}</li>\n+          return <li>{service}</li>\n         })}\n       </ul>\n     </article>\n   );\n"
+                },
+                {
+                    "date": 1675168511047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\n     <article className=\"service\">\n       <header>\n         <h4>{title}</h4>\n-        <button class>btn</button>\n+        <button className=classes{}>btn</button>\n       </header>\n       <ul>\n         {services.map(service => {\n           return <li>{service}</li>\n"
+                },
+                {
+                    "date": 1675168519782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\n     <article className=\"service\">\n       <header>\n         <h4>{title}</h4>\n-        <button className=classes{}>btn</button>\n+        <button className={classes[]}>btn</button>\n       </header>\n       <ul>\n         {services.map(service => {\n           return <li>{service}</li>\n"
+                },
+                {
+                    "date": 1675168528046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   return (\n     <article className=\"service\">\n       <header>\n         <h4>{title}</h4>\n-        <button className={classes[]}>btn</button>\n+        <button className={classes['btn-toggle']}>btn</button>\n       </header>\n       <ul>\n         {services.map(service => {\n           return <li>{service}</li>\n"
+                },
+                {
+                    "date": 1675168543818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,16 +2,16 @@\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n const SingleProduct = ({ title, services }) => {\n   return (\n-    <article className=\"service\">\n+    <article className={classes.service}>\n       <header>\n         <h4>{title}</h4>\n-        <button className={classes['btn-toggle']}>btn</button>\n+        <button className={classes[\"btn-toggle\"]}>btn</button>\n       </header>\n       <ul>\n-        {services.map(service => {\n-          return <li>{service}</li>\n+        {services.map((service) => {\n+          return <li>{service}</li>;\n         })}\n       </ul>\n     </article>\n   );\n"
+                },
+                {
+                    "date": 1675168580285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n+import classes form ''\n+\n const SingleProduct = ({ title, services }) => {\n   return (\n     <article className={classes.service}>\n       <header>\n"
+                },
+                {
+                    "date": 1675168587500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n-import classes form ''\n+import classes form './SingleProduct.module.css';\n \n const SingleProduct = ({ title, services }) => {\n   return (\n     <article className={classes.service}>\n"
+                },
+                {
+                    "date": 1675168965620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\n import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n-import classes form './SingleProduct.module.css';\n+import classes from \"./SingleProduct.module.css\";\n \n const SingleProduct = ({ title, services }) => {\n   return (\n     <article className={classes.service}>\n@@ -10,9 +10,9 @@\n         <h4>{title}</h4>\n         <button className={classes[\"btn-toggle\"]}>btn</button>\n       </header>\n       <ul>\n-        {services.map((service) => {\n+        {services.map((service, i) => {\n           return <li>{service}</li>;\n         })}\n       </ul>\n     </article>\n"
+                },
+                {
+                    "date": 1675168973282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <button className={classes[\"btn-toggle\"]}>btn</button>\n       </header>\n       <ul>\n         {services.map((service, i) => {\n-          return <li>{service}</li>;\n+          return <li key{i}>{service}</li>;\n         })}\n       </ul>\n     </article>\n   );\n"
+                },
+                {
+                    "date": 1675169334261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,13 @@\n   return (\n     <article className={classes.service}>\n       <header>\n         <h4>{title}</h4>\n-        <button className={classes[\"btn-toggle\"]}>btn</button>\n+        <button className={classes[\"btn-toggle\"]}>:</button>\n       </header>\n       <ul>\n         {services.map((service, i) => {\n-          return <li key{i}>{service}</li>;\n+          return <li key={i}>{service}</li>;\n         })}\n       </ul>\n     </article>\n   );\n"
+                },
+                {
+                    "date": 1675169392874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from \"react\";\n-import { AiOutlinePlusCircle, AiOutlineMinusCircle } from \"react-icons/ai\";\n+import { AiOutlinePlus, AiOutlineMinusCircle } from \"react-icons/ai\";\n \n import classes from \"./SingleProduct.module.css\";\n \n const SingleProduct = ({ title, services }) => {\n"
+                },
+                {
+                    "date": 1675169401068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from \"react\";\n-import { AiOutlinePlus, AiOutlineMinusCircle } from \"react-icons/ai\";\n+import { AiOutlinePlus, AiOutlineMinus } from \"react-icons/ai\";\n \n import classes from \"./SingleProduct.module.css\";\n \n const SingleProduct = ({ title, services }) => {\n"
+                },
+                {
+                    "date": 1675169566488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,10 @@\n \n import classes from \"./SingleProduct.module.css\";\n \n const SingleProduct = ({ title, services }) => {\n+  const [show]\n+\n   return (\n     <article className={classes.service}>\n       <header>\n         <h4>{title}</h4>\n"
+                },
+                {
+                    "date": 1675169574549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n import classes from \"./SingleProduct.module.css\";\n \n const SingleProduct = ({ title, services }) => {\n-  const [show]\n+  const [showInfo, setShowInfo] = useState(false);\n \n   return (\n     <article className={classes.service}>\n       <header>\n"
+                },
+                {
+                    "date": 1675169585895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import React from \"react\";\n+import React, {useState} from \"react\";\n import { AiOutlinePlus, AiOutlineMinus } from \"react-icons/ai\";\n \n import classes from \"./SingleProduct.module.css\";\n \n"
+                },
+                {
+                    "date": 1675169611565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n       <header>\n         <h4>{title}</h4>\n         <button className={classes[\"btn-toggle\"]}>:</button>\n       </header>\n+      \n       <ul>\n         {services.map((service, i) => {\n           return <li key={i}>{service}</li>;\n         })}\n"
+                },
+                {
+                    "date": 1675169619287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       <header>\n         <h4>{title}</h4>\n         <button className={classes[\"btn-toggle\"]}>:</button>\n       </header>\n-      \n+      {showInfo && }\n       <ul>\n         {services.map((service, i) => {\n           return <li key={i}>{service}</li>;\n         })}\n"
+                },
+                {
+                    "date": 1675169626626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import React, {useState} from \"react\";\n+import React, { useState } from \"react\";\n import { AiOutlinePlus, AiOutlineMinus } from \"react-icons/ai\";\n \n import classes from \"./SingleProduct.module.css\";\n \n@@ -11,14 +11,15 @@\n       <header>\n         <h4>{title}</h4>\n         <button className={classes[\"btn-toggle\"]}>:</button>\n       </header>\n-      {showInfo && }\n-      <ul>\n-        {services.map((service, i) => {\n-          return <li key={i}>{service}</li>;\n-        })}\n-      </ul>\n+      {showInfo && (\n+        <ul>\n+          {services.map((service, i) => {\n+            return <li key={i}>{service}</li>;\n+          })}\n+        </ul>\n+      )}\n     </article>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675169670655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   return (\n     <article className={classes.service}>\n       <header>\n         <h4>{title}</h4>\n-        <button className={classes[\"btn-toggle\"]}>:</button>\n+        <button className={classes[\"btn-toggle\"]}>pokaż więcej</button>\n       </header>\n       {showInfo && (\n         <ul>\n           {services.map((service, i) => {\n"
+                },
+                {
+                    "date": 1675169684794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   return (\n     <article className={classes.service}>\n       <header>\n         <h4>{title}</h4>\n-        <button className={classes[\"btn-toggle\"]}>pokaż więcej</button>\n+        <button className={classes[\"btn-toggle\"]} onClick={}>pokaż więcej</button>\n       </header>\n       {showInfo && (\n         <ul>\n           {services.map((service, i) => {\n"
+                },
+                {
+                    "date": 1675169698444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   return (\n     <article className={classes.service}>\n       <header>\n         <h4>{title}</h4>\n-        <button className={classes[\"btn-toggle\"]} onClick={}>pokaż więcej</button>\n+        <button className={classes[\"btn-toggle\"]} onClick={() => }>pokaż więcej</button>\n       </header>\n       {showInfo && (\n         <ul>\n           {services.map((service, i) => {\n"
+                },
+                {
+                    "date": 1675169705186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n   return (\n     <article className={classes.service}>\n       <header>\n         <h4>{title}</h4>\n-        <button className={classes[\"btn-toggle\"]} onClick={() => }>pokaż więcej</button>\n+        <button className={classes[\"btn-toggle\"]} onClick={() => setShowInfo(!se)}>pokaż więcej</button>\n       </header>\n       {showInfo && (\n         <ul>\n           {services.map((service, i) => {\n"
+                },
+                {
+                    "date": 1675169747055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,14 @@\n   return (\n     <article className={classes.service}>\n       <header>\n         <h4>{title}</h4>\n-        <button className={classes[\"btn-toggle\"]} onClick={() => setShowInfo(!se)}>pokaż więcej</button>\n+        <button\n+          className={classes[\"btn-toggle\"]}\n+          onClick={() => setShowInfo(!setShowInfo)}\n+        >\n+          {showInfo}\n+        </button>\n       </header>\n       {showInfo && (\n         <ul>\n           {services.map((service, i) => {\n"
+                },
+                {
+                    "date": 1675169756525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         <button\n           className={classes[\"btn-toggle\"]}\n           onClick={() => setShowInfo(!setShowInfo)}\n         >\n-          {showInfo}\n+          {showInfo ? <}\n         </button>\n       </header>\n       {showInfo && (\n         <ul>\n"
+                },
+                {
+                    "date": 1675169762294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n         <button\n           className={classes[\"btn-toggle\"]}\n           onClick={() => setShowInfo(!setShowInfo)}\n         >\n-          {showInfo ? <}\n+          {showInfo ? <AiOutlineMinus /> : <}\n         </button>\n       </header>\n       {showInfo && (\n         <ul>\n"
+                },
+                {
+                    "date": 1675169832335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,11 +11,11 @@\n       <header>\n         <h4>{title}</h4>\n         <button\n           className={classes[\"btn-toggle\"]}\n-          onClick={() => setShowInfo(!setShowInfo)}\n+          onClick={() => setShowInfo(!showInfo)}\n         >\n-          {showInfo ? <AiOutlineMinus /> : <}\n+          {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}\n         </button>\n       </header>\n       {showInfo && (\n         <ul>\n"
+                },
+                {
+                    "date": 1676301974973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const SingleProduct = ({ title, services }) => {\n   const [showInfo, setShowInfo] = useState(false);\n \n   return (\n-    <article className={classes.service}>\n+    <article className={classes.service} onClick={() => setShowInfo(!showInfo)}>\n       <header>\n         <h4>{title}</h4>\n         <button\n           className={classes[\"btn-toggle\"]}\n"
+                },
+                {
+                    "date": 1676363844293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n       <header>\n         <h4>{title}</h4>\n         <button\n           className={classes[\"btn-toggle\"]}\n-          onClick={() => setShowInfo(!showInfo)}\n+          // onClick={() => setShowInfo(!showInfo)}\n         >\n           {showInfo ? <AiOutlineMinus /> : <AiOutlinePlus />}\n         </button>\n       </header>\n"
+                }
+            ],
+            "date": 1675167092772,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nconst SingleProduct = () => {\n  return (\n    <div>SingleProduct</div>\n  )\n}\n\nexport default SingleProduct"
+        }
+    ]
+}

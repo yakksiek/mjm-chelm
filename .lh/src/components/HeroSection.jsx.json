@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 10,
+            "activePatchIndex": 30,
             "patches": [
                 {
                     "date": 1674752606066,
@@ -48,6 +48,86 @@
                 {
                     "date": 1674752975257,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n-import mjm12 from \"../assets/\";\n-import mjm18 from \"../assets/MJM18.jpeg\";\n+import mjm12 from \"../assets/mjm12.jpg\";\n+import mjm18 from \"../assets/\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n"
+                },
+                {
+                    "date": 1675092947307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n-import mjm18 from \"../assets/\";\n+import mjm18 from \"../assets/MJM18.jpg\";\n import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n@@ -13,9 +13,9 @@\n   return (\n     <main>\n       <div className={`${classes.hero} section`}>\n         <div className={classes.info}>\n-          <h1>MJM</h1>\n+          <h1>\"MJM</h1>\n           <h2>Sp. z o. o. Chełm</h2>\n           <h3>\n             Zbudujmy przyszłość razem\n             <span className={classes[\"info-dot\"]}>.</span>\n"
+                },
+                {
+                    "date": 1675096369763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   return (\n     <main>\n       <div className={`${classes.hero} section`}>\n         <div className={classes.info}>\n-          <h1>\"MJM</h1>\n+          <h1>\"MJM\"</h1>\n           <h2>Sp. z o. o. Chełm</h2>\n           <h3>\n             Zbudujmy przyszłość razem\n             <span className={classes[\"info-dot\"]}>.</span>\n@@ -51,9 +51,9 @@\n           </div>\n           <div>\n             <img src={cemex} alt=\"logo-cemex\" />\n           </div>\n-          <div className={classes.certificate1}>\n+          <div >\n             <img src={certificate1} alt=\"certificate\" />\n           </div>\n         </div>\n       </div>\n"
+                },
+                {
+                    "date": 1675096513682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,10 +51,14 @@\n           </div>\n           <div>\n             <img src={cemex} alt=\"logo-cemex\" />\n           </div>\n-          <div >\n-            <img src={certificate1} alt=\"certificate\" />\n+          <div>\n+            <img\n+              \n+              src={certificate1}\n+              alt=\"certificate\"\n+            />\n           </div>\n         </div>\n       </div>\n     </main>\n"
+                },
+                {
+                    "date": 1675097172058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n import mjm18 from \"../assets/MJM18.jpg\";\n-import certificate1 from \"../assets/certificate1.png\";\n+import certificate1 from \"../assets/UDT-CERT-300x298-1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n const HeroSection = () => {\n@@ -51,14 +51,10 @@\n           </div>\n           <div>\n             <img src={cemex} alt=\"logo-cemex\" />\n           </div>\n-          <div>\n-            <img\n-              \n-              src={certificate1}\n-              alt=\"certificate\"\n-            />\n+          <div className={classes.certificate1}>\n+            <img src={certificate1} alt=\"certificate\" />\n           </div>\n         </div>\n       </div>\n     </main>\n"
+                },
+                {
+                    "date": 1675097903180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,8 +53,9 @@\n             <img src={cemex} alt=\"logo-cemex\" />\n           </div>\n           <div className={classes.certificate1}>\n             <img src={certificate1} alt=\"certificate\" />\n+            \n           </div>\n         </div>\n       </div>\n     </main>\n"
+                },
+                {
+                    "date": 1675098409229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,8 @@\n             <img src={cemex} alt=\"logo-cemex\" />\n           </div>\n           <div className={classes.certificate1}>\n             <img src={certificate1} alt=\"certificate\" />\n-            \n           </div>\n         </div>\n       </div>\n     </main>\n"
+                },
+                {
+                    "date": 1675098415960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n import mjm18 from \"../assets/MJM18.jpg\";\n-import certificate1 from \"../assets/UDT-CERT-300x298-1.png\";\n+import certificate1 from \"../assets/cer.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n const HeroSection = () => {\n"
+                },
+                {
+                    "date": 1675099911984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n import mjm18 from \"../assets/MJM18.jpg\";\n-import certificate1 from \"../assets/cer.png\";\n+import certificate1 from \"../assets/certificate1.png\";\n import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n const HeroSection = () => {\n@@ -29,9 +29,9 @@\n         <div className={classes[\"image-container\"]}>\n           <img src={mjm12} className={classes[\"image-hero\"]} />\n         </div>\n       </div>\n-      <div className={`${classes.bio} section`}>\n+      <div className={`${classes.bio}`}>\n         <p>\n           „MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku. Powstała\n           w wyniku przekształceń własnościowych w Cementowni „Chełm” na bazie\n           jej Wydziału Mechanicznego. Podstawowy zakres działalności Spółki to\n"
+                },
+                {
+                    "date": 1675100093291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n const HeroSection = () => {\n   return (\n     <main>\n-      <div className={`${classes.hero} section`}>\n+      <div className={`${classes.hero}`}>\n         <div className={classes.info}>\n           <h1>\"MJM\"</h1>\n           <h2>Sp. z o. o. Chełm</h2>\n           <h3>\n"
+                },
+                {
+                    "date": 1675100099972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n const HeroSection = () => {\n   return (\n     <main>\n-      <div className={`${classes.hero}`}>\n+      <div className={`${classes.hero} section`}>\n         <div className={classes.info}>\n           <h1>\"MJM\"</h1>\n           <h2>Sp. z o. o. Chełm</h2>\n           <h3>\n"
+                },
+                {
+                    "date": 1675100640925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \n const HeroSection = () => {\n   return (\n     <main>\n-      <div className={`${classes.hero} section`}>\n+      <div className={`${classes.hero}`}>\n         <div className={classes.info}>\n           <h1>\"MJM\"</h1>\n           <h2>Sp. z o. o. Chełm</h2>\n           <h3>\n"
+                },
+                {
+                    "date": 1675103000979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n import mjm18 from \"../assets/MJM18.jpg\";\n import certificate1 from \"../assets/certificate1.png\";\n-import lubelskieLogo from \"../assets/wojewodztwo-lubelskie.jpeg\";\n+import hardox from \"../assets/wojewodztwo-lubelskie.jpeg\";\n import cemex from \"../assets/cemex.png\";\n \n const HeroSection = () => {\n   return (\n"
+                },
+                {
+                    "date": 1675103007968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n import mjm18 from \"../assets/MJM18.jpg\";\n import certificate1 from \"../assets/certificate1.png\";\n-import hardox from \"../assets/wojewodztwo-lubelskie.jpeg\";\n+import hardox from \"../assets/hardox\";\n import cemex from \"../assets/cemex.png\";\n \n const HeroSection = () => {\n   return (\n"
+                },
+                {
+                    "date": 1675103018293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n import mjm18 from \"../assets/MJM18.jpg\";\n import certificate1 from \"../assets/certificate1.png\";\n-import hardox from \"../assets/hardox\";\n+import hardox from \"../assets/hardox.png\";\n import cemex from \"../assets/cemex.png\";\n \n const HeroSection = () => {\n   return (\n@@ -46,9 +46,9 @@\n       <div className={classes.partners}>\n         <h3>Nasi partnerzy i certifikaty</h3>\n         <div className={classes[\"logo-partners-container\"]}>\n           <div>\n-            <img src={lubelskieLogo} alt=\"logo-lubelskie\" />\n+            <img src={hardox} alt=\"logo-lubelskie\" />\n           </div>\n           <div>\n             <img src={cemex} alt=\"logo-cemex\" />\n           </div>\n"
+                },
+                {
+                    "date": 1675103025064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n       <div className={classes.partners}>\n         <h3>Nasi partnerzy i certifikaty</h3>\n         <div className={classes[\"logo-partners-container\"]}>\n           <div>\n-            <img src={hardox} alt=\"logo-lubelskie\" />\n+            <img src={hardox} alt=\"hardox-logo\" />\n           </div>\n           <div>\n             <img src={cemex} alt=\"logo-cemex\" />\n           </div>\n"
+                },
+                {
+                    "date": 1675103031032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n       <div className={classes.partners}>\n         <h3>Nasi partnerzy i certifikaty</h3>\n         <div className={classes[\"logo-partners-container\"]}>\n           <div>\n-            <img src={hardox} alt=\"hardox-logo\" />\n+            <img src={hardox} alt=\"hardox logo\" />\n           </div>\n           <div>\n             <img src={cemex} alt=\"logo-cemex\" />\n           </div>\n"
+                },
+                {
+                    "date": 1675103037487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n           <div>\n             <img src={hardox} alt=\"hardox logo\" />\n           </div>\n           <div>\n-            <img src={cemex} alt=\"logo-cemex\" />\n+            <img src={cemex} alt=\"cemex logo\" />\n           </div>\n           <div className={classes.certificate1}>\n             <img src={certificate1} alt=\"certificate\" />\n           </div>\n"
+                },
+                {
+                    "date": 1676214533313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,12 +15,9 @@\n       <div className={`${classes.hero}`}>\n         <div className={classes.info}>\n           <h1>\"MJM\"</h1>\n           <h2>Sp. z o. o. Chełm</h2>\n-          <h3>\n-            Zbudujmy przyszłość razem\n-            <span className={classes[\"info-dot\"]}>.</span>\n-          </h3>\n+       \n           <div className={classes[\"call-to-action\"]}>\n             <Link className={classes[\"button-hero\"]} to=\"/kontakt\">\n               <button className=\"button\">Kontakt</button>\n             </Link>\n"
+                },
+                {
+                    "date": 1676289580494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,13 @@\n       <div className={`${classes.hero}`}>\n         <div className={classes.info}>\n           <h1>\"MJM\"</h1>\n           <h2>Sp. z o. o. Chełm</h2>\n-       \n+\n           <div className={classes[\"call-to-action\"]}>\n+            <h3>\n+              Zbudujmy przyszłość razem.</span>\n+            </h3>\n             <Link className={classes[\"button-hero\"]} to=\"/kontakt\">\n               <button className=\"button\">Kontakt</button>\n             </Link>\n           </div>\n"
+                },
+                {
+                    "date": 1676299014160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n-import mjm18 from \"../assets/MJM18.jpg\";\n import certificate1 from \"../assets/certificate1.png\";\n import hardox from \"../assets/hardox.png\";\n import cemex from \"../assets/cemex.png\";\n \n@@ -18,9 +17,9 @@\n           <h2>Sp. z o. o. Chełm</h2>\n \n           <div className={classes[\"call-to-action\"]}>\n             <h3>\n-              Zbudujmy przyszłość razem.</span>\n+              Zbudujmy przyszłość razem.\n             </h3>\n             <Link className={classes[\"button-hero\"]} to=\"/kontakt\">\n               <button className=\"button\">Kontakt</button>\n             </Link>\n"
                 }
             ],
             "date": 1674752606066,

@@ -2,25 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import classes from "./HeroSection.module.css";
-import heroImage from "../assets/hero-image2.jpeg";
 import mjm12 from "../assets/mjm12.jpg";
-import mjm18 from "../assets/MJM18.jpg";
 import certificate1 from "../assets/certificate1.png";
-import lubelskieLogo from "../assets/wojewodztwo-lubelskie.jpeg";
+import hardox from "../assets/hardox.png";
 import cemex from "../assets/cemex.png";
 
 const HeroSection = () => {
   return (
     <main>
-      <div className={`${classes.hero} section`}>
+      <div className={`${classes.hero}`}>
         <div className={classes.info}>
-          <h1>MJM</h1>
+          <h1>"MJM"</h1>
           <h2>Sp. z o. o. Chełm</h2>
-          <h3>
-            Zbudujmy przyszłość razem
-            <span className={classes["info-dot"]}>.</span>
-          </h3>
+
           <div className={classes["call-to-action"]}>
+            <h3>
+              Zbudujmy przyszłość razem.
+            </h3>
             <Link className={classes["button-hero"]} to="/kontakt">
               <button className="button">Kontakt</button>
             </Link>
@@ -30,7 +28,7 @@ const HeroSection = () => {
           <img src={mjm12} className={classes["image-hero"]} />
         </div>
       </div>
-      <div className={`${classes.bio} section`}>
+      <div className={`${classes.bio}`}>
         <p>
           „MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku. Powstała
           w wyniku przekształceń własnościowych w Cementowni „Chełm” na bazie
@@ -47,10 +45,10 @@ const HeroSection = () => {
         <h3>Nasi partnerzy i certifikaty</h3>
         <div className={classes["logo-partners-container"]}>
           <div>
-            <img src={lubelskieLogo} alt="logo-lubelskie" />
+            <img src={hardox} alt="hardox logo" />
           </div>
           <div>
-            <img src={cemex} alt="logo-cemex" />
+            <img src={cemex} alt="cemex logo" />
           </div>
           <div className={classes.certificate1}>
             <img src={certificate1} alt="certificate" />

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 191,
             "patches": [
                 {
                     "date": 1674752092767,
@@ -28,6 +28,750 @@
                 {
                     "date": 1674753079169,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,9 @@\n   align-content: center;\n }\n \n .logo-partners-container div {\n-  height: 100px;\n+  height: 60px;\n   margin: 1.25rem 0;\n }\n \n .logo-partners-container div img {\n"
+                },
+                {
+                    "date": 1675092506411,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,9 @@\n }\n \n .partners h3 {\n   margin-bottom: 1rem;\n+  font: #fff;\n }\n \n .logo-partners-container {\n   display: flex;\n"
+                },
+                {
+                    "date": 1675092525592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n-  \n+\n   margin: 2rem;\n }\n \n .image-container {\n@@ -56,9 +56,8 @@\n }\n \n .partners h3 {\n   margin-bottom: 1rem;\n-  font: #fff;\n }\n \n .logo-partners-container {\n   display: flex;\n@@ -77,9 +76,9 @@\n }\n \n .logo-partners-container div img {\n   height: 100%;\n-  object-fit:cover;\n+  object-fit: cover;\n }\n \n .logo-partners-container .certificate1 {\n   height: 70px;\n"
+                },
+                {
+                    "date": 1675092550218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n \n   .partners {\n     margin: 4rem 0;\n     background-color: transparent;\n-    color: var(--clr-primary-1);\n+    /* color: var(--clr-primary-1); */\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675092555692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,8 +159,9 @@\n   .partners {\n     margin: 4rem 0;\n     background-color: transparent;\n     /* color: var(--clr-primary-1); */\n+    color: \n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675092568684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n   .partners {\n     margin: 4rem 0;\n     background-color: transparent;\n     /* color: var(--clr-primary-1); */\n-    color: \n+    color: gray\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675092578032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n   .partners {\n     margin: 4rem 0;\n     background-color: transparent;\n     /* color: var(--clr-primary-1); */\n-    color: gray\n+    color: black\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675092586765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n   .partners {\n     margin: 4rem 0;\n     background-color: transparent;\n     /* color: var(--clr-primary-1); */\n-    color: black\n+    color: white\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675092836391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n   .partners {\n     margin: 4rem 0;\n     background-color: transparent;\n     /* color: var(--clr-primary-1); */\n-    color: white\n+\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675093091562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   margin-bottom: 2rem;\n   height: 44vh;\n+  background-color: var(--);\n }\n \n .info {\n   color: #fff;\n@@ -158,9 +159,9 @@\n \n   .partners {\n     margin: 4rem 0;\n     background-color: transparent;\n-    /* color: var(--clr-primary-1); */\n+    color: var(--clr-primary-1);\n \n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1675093121325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   margin-bottom: 2rem;\n   height: 44vh;\n-  background-color: var(--);\n }\n \n .info {\n   color: #fff;\n@@ -160,9 +159,8 @@\n   .partners {\n     margin: 4rem 0;\n     background-color: transparent;\n     color: var(--clr-primary-1);\n-\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675093200486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,9 +101,9 @@\n     flex-direction: column;\n     justify-content: center;\n     /* align-items: center; */\n     align-content: center;\n-    color: var(--clr-primary-1);\n+    /* color: var(--clr-primary-1); */\n     background-color: transparent;\n   }\n \n   /* .info > * {\n"
+                },
+                {
+                    "date": 1675093217492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,9 +101,9 @@\n     flex-direction: column;\n     justify-content: center;\n     /* align-items: center; */\n     align-content: center;\n-    /* color: var(--clr-primary-1); */\n+    color: var(--clr-primary-1);\n     background-color: transparent;\n   }\n \n   /* .info > * {\n@@ -131,8 +131,9 @@\n   }\n \n   .bio {\n     padding: 0 10%;\n+    background-color: ;\n   }\n \n   .bio p {\n     margin: 4rem 0;\n"
+                },
+                {
+                    "date": 1675093222607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,9 @@\n   }\n \n   .bio {\n     padding: 0 10%;\n-    background-color: ;\n+    background-color: var;\n   }\n \n   .bio p {\n     margin: 4rem 0;\n"
+                },
+                {
+                    "date": 1675093231839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -131,9 +131,10 @@\n   }\n \n   .bio {\n     padding: 0 10%;\n-    background-color: var;\n+    background-color: var(--clr-primary-1);\n+    color: #fff\n   }\n \n   .bio p {\n     margin: 4rem 0;\n"
+                },
+                {
+                    "date": 1675093237542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,14 +132,15 @@\n \n   .bio {\n     padding: 0 10%;\n     background-color: var(--clr-primary-1);\n-    color: #fff\n+   \n   }\n \n   .bio p {\n     margin: 4rem 0;\n     font-weight: 500;\n+    color: #fff\n   }\n \n   .image-container {\n     width: 80%;\n"
+                },
+                {
+                    "date": 1675093243460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,8 +139,9 @@\n   .bio p {\n     margin: 4rem 0;\n     font-weight: 500;\n     color: #fff\n+    pa\n   }\n \n   .image-container {\n     width: 80%;\n"
+                },
+                {
+                    "date": 1675093248579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,9 +139,9 @@\n   .bio p {\n     margin: 4rem 0;\n     font-weight: 500;\n     color: #fff\n-    pa\n+    \n   }\n \n   .image-container {\n     width: 80%;\n"
+                },
+                {
+                    "date": 1675093818557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n }\n \n .info h2 {\n   margin-top: -1rem;\n+  \n }\n \n .info .info-dot {\n   color: var(--clr-primary-1);\n@@ -138,9 +139,10 @@\n \n   .bio p {\n     margin: 4rem 0;\n     font-weight: 500;\n-    color: #fff\n+    color: #fff;\n+    padding: 20px 0;\n     \n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675093825987,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n }\n \n .info h2 {\n   margin-top: -1rem;\n-  \n+  font-weight: bold;\n }\n \n .info .info-dot {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675094033269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,8 @@\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n-\n   margin: 2rem;\n }\n \n .image-container {\n"
+                },
+                {
+                    "date": 1675094052406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,12 @@\n .info button {\n   margin-top: 1.5rem;\n }\n \n+.bio {\n+  \n+}\n+\n .bio p {\n   color: var(--clr-primary-1);\n   margin: 2rem;\n }\n"
+                },
+                {
+                    "date": 1675094064151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,10 @@\n   margin-top: 1.5rem;\n }\n \n .bio {\n-  \n+  width: 100vh;\n+  margin: ;\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675094087009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n \n .bio {\n   width: 100vh;\n-  margin: ;\n+  margin: 0 auto;\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675094096298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n   margin-top: 1.5rem;\n }\n \n .bio {\n-  width: 100vh;\n+  width: 100%;\n   margin: 0 auto;\n }\n \n .bio p {\n"
+                },
+                {
+                    "date": 1675094107348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n \n .bio {\n   width: 100%;\n-  margin: 0 auto;\n+  margin: 0;\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675094112565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n \n .bio {\n   width: 100%;\n   margin: 0;\n+  p\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675094118950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,11 +34,11 @@\n   margin-top: 1.5rem;\n }\n \n .bio {\n-  width: 100%;\n+  width: 100v;\n   margin: 0;\n-  p\n+  padding: 0;\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675094166363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n   margin-top: 1.5rem;\n }\n \n .bio {\n-  width: 100v;\n+  width: 100vw;\n   margin: 0;\n   padding: 0;\n }\n \n@@ -136,9 +136,9 @@\n     font-weight: 900;\n   }\n \n   .bio {\n-    padding: 0 10%;\n+    /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n    \n   }\n \n"
+                },
+                {
+                    "date": 1675094177886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,9 +145,9 @@\n   .bio p {\n     margin: 4rem 0;\n     font-weight: 500;\n     color: #fff;\n-    padding: 20px 0;\n+    padding: 20px 40px;\n     \n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675094202839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,8 +146,9 @@\n     margin: 4rem 0;\n     font-weight: 500;\n     color: #fff;\n     padding: 20px 40px;\n+    max-width: ;\n     \n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675094209978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,9 +146,9 @@\n     margin: 4rem 0;\n     font-weight: 500;\n     color: #fff;\n     padding: 20px 40px;\n-    max-width: ;\n+    max-width: 800px;\n     \n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675094215772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -147,8 +147,9 @@\n     font-weight: 500;\n     color: #fff;\n     padding: 20px 40px;\n     max-width: 800px;\n+  \n     \n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675094222113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,14 +142,13 @@\n    \n   }\n \n   .bio p {\n-    margin: 4rem 0;\n+    margin: 4rem auto;\n     font-weight: 500;\n     color: #fff;\n     padding: 20px 40px;\n     max-width: 800px;\n-  \n     \n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675094235833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -147,9 +147,8 @@\n     font-weight: 500;\n     color: #fff;\n     padding: 20px 40px;\n     max-width: 800px;\n-    \n   }\n \n   .image-container {\n     width: 80%;\n"
+                },
+                {
+                    "date": 1675095352622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,9 @@\n \n .bio p {\n   color: var(--clr-primary-1);\n   margin: 2rem;\n+  li\n }\n \n .image-container {\n   height: 44vh;\n"
+                },
+                {
+                    "date": 1675095405457,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,14 +37,14 @@\n .bio {\n   width: 100vw;\n   margin: 0;\n   padding: 0;\n+  color: var(--clr-primary-1);\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n   margin: 2rem;\n-  li\n }\n \n .image-container {\n   height: 44vh;\n"
+                },
+                {
+                    "date": 1675095414920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n .bio {\n   width: 100vw;\n   margin: 0;\n   padding: 0;\n-  color: var(--clr-primary-1);\n+  -backcolor: var(--clr-primary-1);\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675095420211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n .bio {\n   width: 100vw;\n   margin: 0;\n   padding: 0;\n-  -backcolor: var(--clr-primary-1);\n+  background-color: var(--clr-primary-1);\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675095427142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,10 +35,10 @@\n }\n \n .bio {\n   width: 100vw;\n-  margin: 0;\n-  padding: 0;\n+  /* margin: 0; */\n+  /* padding: 0; */\n   background-color: var(--clr-primary-1);\n }\n \n .bio p {\n"
+                },
+                {
+                    "date": 1675095432810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n   width: 100vw;\n   /* margin: 0; */\n   /* padding: 0; */\n   background-color: var(--clr-primary-1);\n+  color: #fff;\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675095438000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n   width: 100vw;\n   /* margin: 0; */\n   /* padding: 0; */\n   background-color: var(--clr-primary-1);\n-  color: #fff;\n+  \n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1675095444363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n   \n }\n \n .bio p {\n-  color: var(--clr-primary-1);\n+  color: color: #fff;\n   margin: 2rem;\n }\n \n .image-container {\n"
+                },
+                {
+                    "date": 1675095486078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,14 +38,15 @@\n   width: 100vw;\n   /* margin: 0; */\n   /* padding: 0; */\n   background-color: var(--clr-primary-1);\n-  \n }\n \n .bio p {\n-  color: color: #fff;\n-  margin: 2rem;\n+  color: #fff;\n+  color: #fff;\n+  padding: 20px 40px;\n+  max-width: 800px;\n }\n \n .image-container {\n   height: 44vh;\n@@ -140,9 +141,8 @@\n \n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n-   \n   }\n \n   .bio p {\n     margin: 4rem auto;\n"
+                },
+                {
+                    "date": 1675095521256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,11 +42,11 @@\n }\n \n .bio p {\n   color: #fff;\n-  color: #fff;\n   padding: 20px 40px;\n   max-width: 800px;\n+  li\n }\n \n .image-container {\n   height: 44vh;\n"
+                },
+                {
+                    "date": 1675095527997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n .bio p {\n   color: #fff;\n   padding: 20px 40px;\n   max-width: 800px;\n-  li\n+  line-height: 1.6;\n }\n \n .image-container {\n   height: 44vh;\n"
+                },
+                {
+                    "date": 1675095559479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .hero {\n   /* display: flex; */\n   /* flex-direction: column-reverse; */\n   position: relative;\n-  margin-bottom: 2rem;\n+  /* margin-bottom: 2rem; */\n   height: 44vh;\n }\n \n .info {\n"
+                },
+                {
+                    "date": 1675095593627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n   .hero {\n     display: flex;\n     flex-direction: row;\n     margin-top: 1rem;\n-    margin-bottom: 2rem;\n+    /* margin-bottom: 2rem; */\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675095625171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n     display: flex;\n     flex-direction: row;\n     margin-top: 1rem;\n     /* margin-bottom: 2rem; */\n-    height: 400px;\n+    /* height: 400px; */\n   }\n \n   .info {\n     position: static;\n"
+                },
+                {
+                    "date": 1675095635177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,14 +99,14 @@\n     display: flex;\n     flex-direction: row;\n     margin-top: 1rem;\n     /* margin-bottom: 2rem; */\n-    /* height: 400px; */\n+    height: 400px;\n   }\n \n   .info {\n     position: static;\n-    width: 60%;\n+    /* width: 60%; */\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     /* align-items: center; */\n"
+                },
+                {
+                    "date": 1675095648964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n   }\n \n   .info {\n     position: static;\n-    /* width: 60%; */\n+    width: 60%;\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     /* align-items: center; */\n@@ -147,9 +147,9 @@\n   .bio p {\n     margin: 4rem auto;\n     font-weight: 500;\n     color: #fff;\n-    padding: 20px 40px;\n+    /* padding: 20px 40px; */\n     max-width: 800px;\n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675095698786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -144,12 +144,12 @@\n     background-color: var(--clr-primary-1);\n   }\n \n   .bio p {\n-    margin: 4rem auto;\n+    /* margin: 4rem auto; */\n     font-weight: 500;\n     color: #fff;\n-    /* padding: 20px 40px; */\n+    padding: 20px 40px;\n     max-width: 800px;\n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675095710247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -147,9 +147,9 @@\n   .bio p {\n     /* margin: 4rem auto; */\n     font-weight: 500;\n     color: #fff;\n-    padding: 20px 40px;\n+    padding: 40px 40px;\n     max-width: 800px;\n   }\n \n   .image-container {\n"
+                },
+                {
+                    "date": 1675095725758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -149,8 +149,9 @@\n     font-weight: 500;\n     color: #fff;\n     padding: 40px 40px;\n     max-width: 800px;\n+    margin: 0 ;\n   }\n \n   .image-container {\n     width: 80%;\n"
+                },
+                {
+                    "date": 1675095731773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,17 +141,17 @@\n \n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n+    text-align: center;\n   }\n \n   .bio p {\n     /* margin: 4rem auto; */\n     font-weight: 500;\n     color: #fff;\n     padding: 40px 40px;\n     max-width: 800px;\n-    margin: 0 ;\n   }\n \n   .image-container {\n     width: 80%;\n"
+                },
+                {
+                    "date": 1675095738007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,9 +145,9 @@\n     text-align: center;\n   }\n \n   .bio p {\n-    /* margin: 4rem auto; */\n+    margin: 4rem auto;\n     font-weight: 500;\n     color: #fff;\n     padding: 40px 40px;\n     max-width: 800px;\n"
+                },
+                {
+                    "date": 1675096277590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,9 +171,9 @@\n   }\n \n   .partners {\n     margin: 4rem 0;\n-    background-color: transparent;\n+    background-color: white;\n     color: var(--clr-primary-1);\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1675096283976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,9 +171,9 @@\n   }\n \n   .partners {\n     margin: 4rem 0;\n-    background-color: white;\n+    background-color: transparent;\n     color: var(--clr-primary-1);\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1675096298482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,9 +171,8 @@\n   }\n \n   .partners {\n     margin: 4rem 0;\n-    background-color: transparent;\n     color: var(--clr-primary-1);\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1675096565621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n }\n \n .logo-partners-container div {\n   height: 60px;\n-  margin: 1.25rem 0;\n+  margin: 1.25rem auto;\n }\n \n .logo-partners-container div img {\n   height: 100%;\n"
+                },
+                {
+                    "date": 1675096588908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,5 +177,10 @@\n \n   .logo-partners-container {\n     flex-direction: row;\n   }\n+\n+  .logo-partners-container div {\n+    height: 60px;\n+    margin: 1.25rem auto;\n+  }\n }\n"
+                },
+                {
+                    "date": 1675096597752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,8 +179,8 @@\n     flex-direction: row;\n   }\n \n   .logo-partners-container div {\n-    height: 60px;\n+    height: 200px;\n     margin: 1.25rem auto;\n   }\n }\n"
+                },
+                {
+                    "date": 1675097119187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,10 +177,5 @@\n \n   .logo-partners-container {\n     flex-direction: row;\n   }\n-\n-  .logo-partners-container div {\n-    height: 200px;\n-    margin: 1.25rem auto;\n-  }\n }\n"
+                },
+                {
+                    "date": 1675097208538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,5 +177,10 @@\n \n   .logo-partners-container {\n     flex-direction: row;\n   }\n+\n+  .logo-partners-container div {\n+    height: 200px;\n+    margin: 1.25rem auto;\n+  }\n }\n"
+                },
+                {
+                    "date": 1675097359416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,5 +182,7 @@\n   .logo-partners-container div {\n     height: 200px;\n     margin: 1.25rem auto;\n   }\n+\n+  .c\n }\n"
+                },
+                {
+                    "date": 1675097365425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,6 +183,8 @@\n     height: 200px;\n     margin: 1.25rem auto;\n   }\n \n-  .c\n+  .certificate1 div {\n+    transform: ;\n+  }\n }\n"
+                },
+                {
+                    "date": 1675097376858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -183,8 +183,8 @@\n     height: 200px;\n     margin: 1.25rem auto;\n   }\n \n-  .certificate1 div {\n-    transform: ;\n+  .certificate1 img {\n+    transform: scale(1.5);\n   }\n }\n"
+                },
+                {
+                    "date": 1675097385589,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -178,13 +178,8 @@\n   .logo-partners-container {\n     flex-direction: row;\n   }\n \n-  .logo-partners-container div {\n-    height: 200px;\n-    margin: 1.25rem auto;\n-  }\n-\n   .certificate1 img {\n     transform: scale(1.5);\n   }\n }\n"
+                },
+                {
+                    "date": 1675097390917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,7 +179,7 @@\n     flex-direction: row;\n   }\n \n   .certificate1 img {\n-    transform: scale(1.5);\n+    transform: scale(1.2);\n   }\n }\n"
+                },
+                {
+                    "date": 1675097834052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -178,8 +178,6 @@\n   .logo-partners-container {\n     flex-direction: row;\n   }\n \n-  .certificate1 img {\n-    transform: scale(1.2);\n-  }\n+  \n }\n"
+                },
+                {
+                    "date": 1675097846832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,9 @@\n   object-fit: cover;\n }\n \n .logo-partners-container .certificate1 {\n-  height: 70px;\n+  /* height: 70px; */\n }\n \n /* image on the right  */\n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1675097852119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,10 +88,10 @@\n   height: 100%;\n   object-fit: cover;\n }\n \n-.logo-partners-container .certificate1 {\n-  /* height: 70px; */\n+.certificate1 img {\n+  transform: scale(1.2);\n }\n \n /* image on the right  */\n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1675097859877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,9 @@\n   object-fit: cover;\n }\n \n .certificate1 img {\n-  transform: scale(1.2);\n+  transform: scale(1.3);\n }\n \n /* image on the right  */\n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1675097886587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,9 @@\n   object-fit: cover;\n }\n \n .certificate1 img {\n-  transform: scale(1.3);\n+  transform: scale(1.5);\n }\n \n /* image on the right  */\n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1675098455246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,8 +88,10 @@\n   height: 100%;\n   object-fit: cover;\n }\n \n+.c\n+\n .certificate1 img {\n   transform: scale(1.5);\n }\n \n"
+                },
+                {
+                    "date": 1675098462193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,9 +88,11 @@\n   height: 100%;\n   object-fit: cover;\n }\n \n-.c\n+.certificate1 {\n+  background-color: ;\n+}\n \n .certificate1 img {\n   transform: scale(1.5);\n }\n"
+                },
+                {
+                    "date": 1675098479859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,10 @@\n   object-fit: cover;\n }\n \n .certificate1 {\n-  background-color: ;\n+  background-color: #fff;\n+  back\n }\n \n .certificate1 img {\n   transform: scale(1.5);\n"
+                },
+                {
+                    "date": 1675098485357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n }\n \n .certificate1 {\n   background-color: #fff;\n-  back\n+  width: 100%;\n }\n \n .certificate1 img {\n   transform: scale(1.5);\n"
+                },
+                {
+                    "date": 1675098494215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n }\n \n .certificate1 {\n   background-color: #fff;\n-  width: 100%;\n+  \n }\n \n .certificate1 img {\n   transform: scale(1.5);\n"
+                },
+                {
+                    "date": 1675098864044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,9 +89,9 @@\n   object-fit: cover;\n }\n \n .certificate1 {\n-  background-color: #fff;\n+\n   \n }\n \n .certificate1 img {\n"
+                },
+                {
+                    "date": 1675098881620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,8 +61,9 @@\n .partners {\n   margin: 2rem;\n   text-align: center;\n   color: var(--clr-primary-1);\n+  background-color:   background-color: #fff;;\n }\n \n .partners h3 {\n   margin-bottom: 1rem;\n@@ -88,13 +89,8 @@\n   height: 100%;\n   object-fit: cover;\n }\n \n-.certificate1 {\n-\n-  \n-}\n-\n .certificate1 img {\n   transform: scale(1.5);\n }\n \n"
+                },
+                {
+                    "date": 1675098900687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,12 +58,12 @@\n   object-fit: cover;\n }\n \n .partners {\n-  margin: 2rem;\n+  padding: 2rem;\n   text-align: center;\n   color: var(--clr-primary-1);\n-  background-color:   background-color: #fff;;\n+  background-color: #fff;;\n }\n \n .partners h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1675099183583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n   object-fit: cover;\n }\n \n .partners {\n-  padding: 2rem;\n+  padding: 4rem;\n   text-align: center;\n   color: var(--clr-primary-1);\n   background-color: #fff;;\n }\n"
+                },
+                {
+                    "date": 1675099209104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n   object-fit: cover;\n }\n \n .partners {\n-  padding: 4rem;\n+  padding: 4rem 0;\n   text-align: center;\n   color: var(--clr-primary-1);\n   background-color: #fff;;\n }\n@@ -171,9 +171,9 @@\n     color: white;\n   }\n \n   .partners {\n-    margin: 4rem 0;\n+    pa: 4rem 0;\n     color: var(--clr-primary-1);\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1675099251664,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,9 +171,9 @@\n     color: white;\n   }\n \n   .partners {\n-    pa: 4rem 0;\n+    /* padding: 4rem 0; */\n     color: var(--clr-primary-1);\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1675099332584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,9 +146,9 @@\n     text-align: center;\n   }\n \n   .bio p {\n-    margin: 4rem auto;\n+    pad: 4rem auto;\n     font-weight: 500;\n     color: #fff;\n     padding: 40px 40px;\n     max-width: 800px;\n@@ -171,9 +171,9 @@\n     color: white;\n   }\n \n   .partners {\n-    /* padding: 4rem 0; */\n+    padding: 4rem 0;\n     color: var(--clr-primary-1);\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1675099339228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,9 +146,9 @@\n     text-align: center;\n   }\n \n   .bio p {\n-    pad: 4rem auto;\n+    padding: 4rem;\n     font-weight: 500;\n     color: #fff;\n     padding: 40px 40px;\n     max-width: 800px;\n"
+                },
+                {
+                    "date": 1675099352132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,8 +146,9 @@\n     text-align: center;\n   }\n \n   .bio p {\n+    margin: 0 auto;\n     padding: 4rem;\n     font-weight: 500;\n     color: #fff;\n     padding: 40px 40px;\n"
+                },
+                {
+                    "date": 1675099396783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n .bio p {\n   color: #fff;\n-  padding: 20px 40px;\n+  /* padding: 20px 40px; */\n   max-width: 800px;\n   line-height: 1.6;\n }\n \n"
+                },
+                {
+                    "date": 1675099402739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n }\n \n .bio p {\n   color: #fff;\n-  /* padding: 20px 40px; */\n+  padding: 40px 40px;\n   max-width: 800px;\n   line-height: 1.6;\n }\n \n"
+                },
+                {
+                    "date": 1675099418131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,10 +35,9 @@\n }\n \n .bio {\n   width: 100vw;\n-  /* margin: 0; */\n-  /* padding: 0; */\n+ m:\n   background-color: var(--clr-primary-1);\n }\n \n .bio p {\n"
+                },
+                {
+                    "date": 1675099424666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n \n .bio {\n   width: 100vw;\n- m:\n+ \n   background-color: var(--clr-primary-1);\n }\n \n .bio p {\n"
+                },
+                {
+                    "date": 1675099507253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,17 +35,17 @@\n }\n \n .bio {\n   width: 100vw;\n- \n   background-color: var(--clr-primary-1);\n }\n \n .bio p {\n   color: #fff;\n   padding: 40px 40px;\n   max-width: 800px;\n   line-height: 1.6;\n+  margin: 0;\n }\n \n .image-container {\n   height: 44vh;\n@@ -60,9 +60,9 @@\n .partners {\n   padding: 4rem 0;\n   text-align: center;\n   color: var(--clr-primary-1);\n-  background-color: #fff;;\n+  background-color: #fff;\n }\n \n .partners h3 {\n   margin-bottom: 1rem;\n@@ -178,7 +178,5 @@\n \n   .logo-partners-container {\n     flex-direction: row;\n   }\n-\n-  \n }\n"
+                },
+                {
+                    "date": 1675099842816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,8 +142,9 @@\n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n+    w\n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675099849395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n-    w\n+    width: 100;\n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675099865116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n-    width: 100;\n+    width: 100%;\n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675099879284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n-    width: 100%;\n+    max-width: 100%;\n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675099989228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,8 +143,9 @@\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n     max-width: 100%;\n+    \n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675100003569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,10 +142,9 @@\n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n-    max-width: 100%;\n-    \n+    margin: 0 auto;\n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675100065564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,9 +146,9 @@\n     margin: 0 auto;\n   }\n \n   .bio p {\n-    margin: 0 auto;\n+    /* margin: 0 auto; */\n     padding: 4rem;\n     font-weight: 500;\n     color: #fff;\n     padding: 40px 40px;\n"
+                },
+                {
+                    "date": 1675100074144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,13 +142,13 @@\n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n-    margin: 0 auto;\n+    /* margin: 0 auto; */\n   }\n \n   .bio p {\n-    /* margin: 0 auto; */\n+    margin: 0 auto;\n     padding: 4rem;\n     font-weight: 500;\n     color: #fff;\n     padding: 40px 40px;\n"
+                },
+                {
+                    "date": 1675100080569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n-    /* margin: 0 auto; */\n+    margin: 0 auto;\n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675100131937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,8 +94,12 @@\n }\n \n /* image on the right  */\n @media (min-width: 760px) {\n+main {\n+  width: 100%;\n+}\n+\n   .hero {\n     display: flex;\n     flex-direction: row;\n     margin-top: 1rem;\n"
+                },
+                {
+                    "date": 1675100138803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,9 +95,9 @@\n \n /* image on the right  */\n @media (min-width: 760px) {\n main {\n-  width: 100%;\n+  width: 100vw;\n }\n \n   .hero {\n     display: flex;\n"
+                },
+                {
+                    "date": 1675100146609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,11 +94,8 @@\n }\n \n /* image on the right  */\n @media (min-width: 760px) {\n-main {\n-  width: 100vw;\n-}\n \n   .hero {\n     display: flex;\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675100200883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,13 +134,8 @@\n     margin-top: 1rem;\n     line-height: 1.4;\n   }\n \n-  .info-dot {\n-    color: var(--clr-primary-1);\n-    font-weight: 900;\n-  }\n-\n   .bio {\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n"
+                },
+                {
+                    "date": 1675100224596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,8 +139,9 @@\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n     margin: 0 auto;\n+    \n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675100231492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,9 +139,9 @@\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n     margin: 0 auto;\n-    \n+    w\n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675100387280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   /* margin-bottom: 2rem; */\n   height: 44vh;\n+  \n }\n \n .info {\n   color: #fff;\n@@ -139,9 +140,9 @@\n     /* padding: 0 10%; */\n     background-color: var(--clr-primary-1);\n     text-align: center;\n     margin: 0 auto;\n-    w\n+    width: 100vw;\n   }\n \n   .bio p {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675100400140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   /* margin-bottom: 2rem; */\n   height: 44vh;\n-  \n }\n \n .info {\n   color: #fff;\n@@ -99,9 +98,9 @@\n \n   .hero {\n     display: flex;\n     flex-direction: row;\n-    margin-top: 1rem;\n+    margin: 1rem;\n     /* margin-bottom: 2rem; */\n     height: 400px;\n   }\n \n"
+                },
+                {
+                    "date": 1675100405969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n \n   .hero {\n     display: flex;\n     flex-direction: row;\n-    margin: 1rem;\n+    margin: 1rem auto 0 auto;\n     /* margin-bottom: 2rem; */\n     height: 400px;\n   }\n \n"
+                },
+                {
+                    "date": 1675100461801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   /* margin-bottom: 2rem; */\n   height: 44vh;\n+  ma\n }\n \n .info {\n   color: #fff;\n"
+                },
+                {
+                    "date": 1675100469765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   /* margin-bottom: 2rem; */\n   height: 44vh;\n-  ma\n }\n \n .info {\n   color: #fff;\n"
+                },
+                {
+                    "date": 1675100512818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n   .hero {\n     display: flex;\n     flex-direction: row;\n     margin: 1rem auto 0 auto;\n-    /* margin-bottom: 2rem; */\n+    width: ;\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675100520592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,10 @@\n   .hero {\n     display: flex;\n     flex-direction: row;\n     margin: 1rem auto 0 auto;\n-    width: ;\n+    width: var(--max-width)\n+    ;\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675100552718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,15 +94,14 @@\n }\n \n /* image on the right  */\n @media (min-width: 760px) {\n-\n   .hero {\n     display: flex;\n     flex-direction: row;\n     margin: 1rem auto 0 auto;\n-    width: var(--max-width)\n-    ;\n+    width: var(--max-width);\n+    width: ;\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675100559122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,11 +97,11 @@\n @media (min-width: 760px) {\n   .hero {\n     display: flex;\n     flex-direction: row;\n+    width: 100%;\n     margin: 1rem auto 0 auto;\n     width: var(--max-width);\n-    width: ;\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675100569182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,13 +95,13 @@\n \n /* image on the right  */\n @media (min-width: 760px) {\n   .hero {\n+    width: var(--max-width);\n+    width: 100vw;\n     display: flex;\n     flex-direction: row;\n-    width: 100%;\n     margin: 1rem auto 0 auto;\n-    width: var(--max-width);\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675100616476,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,10 +95,8 @@\n \n /* image on the right  */\n @media (min-width: 760px) {\n   .hero {\n-    width: var(--max-width);\n-    width: 100vw;\n     display: flex;\n     flex-direction: row;\n     margin: 1rem auto 0 auto;\n     height: 400px;\n"
+                },
+                {
+                    "date": 1675100743091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,9 +103,8 @@\n   }\n \n   .info {\n     position: static;\n-    width: 60%;\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     /* align-items: center; */\n"
+                },
+                {
+                    "date": 1675100755280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,8 +103,9 @@\n   }\n \n   .info {\n     position: static;\n+    width: 60%;\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     /* align-items: center; */\n"
+                },
+                {
+                    "date": 1675100762768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,17 +95,18 @@\n \n /* image on the right  */\n @media (min-width: 760px) {\n   .hero {\n+\n     display: flex;\n     flex-direction: row;\n     margin: 1rem auto 0 auto;\n     height: 400px;\n   }\n \n   .info {\n     position: static;\n-    width: 60%;\n+    /* width: 60%; */\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n     /* align-items: center; */\n"
+                },
+                {
+                    "date": 1675100983797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,10 @@\n   .hero {\n \n     display: flex;\n     flex-direction: row;\n-    margin: 1rem auto 0 auto;\n+    margin: 0 auto;\n+    max-width: 1000px;\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675100995515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -99,9 +99,9 @@\n \n     display: flex;\n     flex-direction: row;\n     margin: 0 auto;\n-    max-width: 1000px;\n+    max-width: var();\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675101014392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,13 +95,12 @@\n \n /* image on the right  */\n @media (min-width: 760px) {\n   .hero {\n-\n     display: flex;\n     flex-direction: row;\n     margin: 0 auto;\n-    max-width: var();\n+    max-width: var(--max-width);\n     height: 400px;\n   }\n \n   .info {\n"
+                },
+                {
+                    "date": 1675101187512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,8 +170,9 @@\n \n   .partners {\n     padding: 4rem 0;\n     color: var(--clr-primary-1);\n+    max-width: var(--max-width);\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675101196770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,8 +171,9 @@\n   .partners {\n     padding: 4rem 0;\n     color: var(--clr-primary-1);\n     max-width: var(--max-width);\n+    margin: ;\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675101233300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,9 +171,10 @@\n   .partners {\n     padding: 4rem 0;\n     color: var(--clr-primary-1);\n     max-width: var(--max-width);\n-    margin: ;\n+    \n+    margin: 0 auto;\n   }\n \n   .logo-partners-container {\n     flex-direction: row;\n"
+                },
+                {
+                    "date": 1675101240091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,10 +170,10 @@\n \n   .partners {\n     padding: 4rem 0;\n     color: var(--clr-primary-1);\n-    max-width: var(--max-width);\n     \n+  \n     margin: 0 auto;\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1675101249721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -176,7 +176,9 @@\n     margin: 0 auto;\n   }\n \n   .logo-partners-container {\n+    margin: 0 atuo;\n     flex-direction: row;\n+    max-width: var(--max-width);\n   }\n }\n"
+                },
+                {
+                    "date": 1675101256530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -172,13 +172,13 @@\n     padding: 4rem 0;\n     color: var(--clr-primary-1);\n     \n   \n-    margin: 0 auto;\n+    /* margin: 0 auto; */\n   }\n \n   .logo-partners-container {\n-    margin: 0 atuo;\n+    margin: 0 auto;\n     flex-direction: row;\n     max-width: var(--max-width);\n   }\n }\n"
+                },
+                {
+                    "date": 1675101331945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,9 +135,9 @@\n   }\n \n   .bio {\n     /* padding: 0 10%; */\n-    background-color: var(--clr-primary-1);\n+    /* background-color: var(--clr-primary-1); */\n     text-align: center;\n     margin: 0 auto;\n     width: 100vw;\n   }\n@@ -170,11 +170,8 @@\n \n   .partners {\n     padding: 4rem 0;\n     color: var(--clr-primary-1);\n-    \n-  \n-    /* margin: 0 auto; */\n   }\n \n   .logo-partners-container {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1675101337834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,9 +135,9 @@\n   }\n \n   .bio {\n     /* padding: 0 10%; */\n-    /* background-color: var(--clr-primary-1); */\n+    background-color: var(--clr-primary-1);\n     text-align: center;\n     margin: 0 auto;\n     width: 100vw;\n   }\n"
+                },
+                {
+                    "date": 1675101351739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n }\n \n .bio {\n   width: 100vw;\n-  background-color: var(--clr-primary-1);\n+  /* background-color: var(--clr-primary-1); */\n }\n \n .bio p {\n   color: #fff;\n"
+                },
+                {
+                    "date": 1675101359274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -135,9 +135,9 @@\n   }\n \n   .bio {\n     /* padding: 0 10%; */\n-    background-color: var(--clr-primary-1);\n+    /* background-color: var(--clr-primary-1); */\n     text-align: center;\n     margin: 0 auto;\n     width: 100vw;\n   }\n"
+                },
+                {
+                    "date": 1675101379133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,9 +145,9 @@\n   .bio p {\n     margin: 0 auto;\n     padding: 4rem;\n     font-weight: 500;\n-    color: #fff;\n+    color: var(--clr-primary-1)\n     padding: 40px 40px;\n     max-width: 800px;\n   }\n \n"
+                },
+                {
+                    "date": 1675101520916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -145,11 +145,12 @@\n   .bio p {\n     margin: 0 auto;\n     padding: 4rem;\n     font-weight: 500;\n-    color: var(--clr-primary-1)\n+    color: var(--clr-primary-1);\n     padding: 40px 40px;\n     max-width: 800px;\n+    font-size: ;\n   }\n \n   .image-container {\n     width: 80%;\n"
+                },
+                {
+                    "date": 1675101527535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,9 +148,9 @@\n     font-weight: 500;\n     color: var(--clr-primary-1);\n     padding: 40px 40px;\n     max-width: 800px;\n-    font-size: ;\n+    font-size: 18px;\n   }\n \n   .image-container {\n     width: 80%;\n"
+                },
+                {
+                    "date": 1675101541379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,9 +146,9 @@\n     margin: 0 auto;\n     padding: 4rem;\n     font-weight: 500;\n     color: var(--clr-primary-1);\n-    padding: 40px 40px;\n+    padding: 20px 40px;\n     max-width: 800px;\n     font-size: 18px;\n   }\n \n"
+                },
+                {
+                    "date": 1675101546485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,9 +146,9 @@\n     margin: 0 auto;\n     padding: 4rem;\n     font-weight: 500;\n     color: var(--clr-primary-1);\n-    padding: 20px 40px;\n+    padding: 40px 20px;\n     max-width: 800px;\n     font-size: 18px;\n   }\n \n"
+                },
+                {
+                    "date": 1676214478280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n   font-size: 2rem;\n }\n \n .info button {\n-  margin-top: 1.5rem;\n+  /* margin-top: 1.5rem; */\n }\n \n .bio {\n   width: 100vw;\n"
+                },
+                {
+                    "date": 1676214497613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,12 +29,8 @@\n   color: var(--clr-primary-1);\n   font-size: 2rem;\n }\n \n-.info button {\n-  /* margin-top: 1.5rem; */\n-}\n-\n .bio {\n   width: 100vw;\n   /* background-color: var(--clr-primary-1); */\n }\n"
+                },
+                {
+                    "date": 1676214574062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,8 +117,9 @@\n \n   .info h1 {\n     font-weight: 800;\n     font-size: 60px;\n+    mar\n   }\n \n   .info h2 {\n     margin-top: 0;\n"
+                },
+                {
+                    "date": 1676214688191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -117,9 +117,9 @@\n \n   .info h1 {\n     font-weight: 800;\n     font-size: 60px;\n-    mar\n+    margin-bottom: 0;\n   }\n \n   .info h2 {\n     margin-top: 0;\n@@ -166,9 +166,9 @@\n     color: white;\n   }\n \n   .partners {\n-    padding: 4rem 0;\n+    padding: 2rem 0;\n     color: var(--clr-primary-1);\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1676214710021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,8 +170,12 @@\n     padding: 2rem 0;\n     color: var(--clr-primary-1);\n   }\n \n+  .partners h3 {\n+    \n+  }\n+\n   .logo-partners-container {\n     margin: 0 auto;\n     flex-direction: row;\n     max-width: var(--max-width);\n"
+                },
+                {
+                    "date": 1676214718202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -171,9 +171,9 @@\n     color: var(--clr-primary-1);\n   }\n \n   .partners h3 {\n-    \n+    margin-bottom: 2rem;\n   }\n \n   .logo-partners-container {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1676215082212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,12 +124,12 @@\n   .info h2 {\n     margin-top: 0;\n   }\n \n-  .info h3 {\n-    font-size: 30px;\n-    margin-top: 1rem;\n-    line-height: 1.4;\n+  .section-services h3 {\n+    margin-bottom: 2rem;\n+    font-size: 2rem;\n+    text-align: center;\n   }\n \n   .bio {\n     /* padding: 0 10%; */\n"
+                },
+                {
+                    "date": 1676215097353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,9 @@\n   .info h2 {\n     margin-top: 0;\n   }\n \n-  .section-services h3 {\n+  .call h3 {\n     margin-bottom: 2rem;\n     font-size: 2rem;\n     text-align: center;\n   }\n"
+                },
+                {
+                    "date": 1676215112942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,13 +124,13 @@\n   .info h2 {\n     margin-top: 0;\n   }\n \n-  .call h3 {\n-    margin-bottom: 2rem;\n-    font-size: 2rem;\n-    text-align: center;\n-  }\n+.section-services h3 {\n+  margin-bottom: 2rem;\n+  font-size: 2rem;\n+  text-align: center;\n+}\n \n   .bio {\n     /* padding: 0 10%; */\n     /* background-color: var(--clr-primary-1); */\n"
+                },
+                {
+                    "date": 1676215146416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,10 +59,12 @@\n   color: var(--clr-primary-1);\n   background-color: #fff;\n }\n \n-.partners h3 {\n-  margin-bottom: 1rem;\n+.section-services h3 {\n+  margin-bottom: 2rem;\n+  font-size: 2rem;\n+  text-align: center;\n }\n \n .logo-partners-container {\n   display: flex;\n@@ -124,13 +126,13 @@\n   .info h2 {\n     margin-top: 0;\n   }\n \n-.section-services h3 {\n-  margin-bottom: 2rem;\n-  font-size: 2rem;\n-  text-align: center;\n-}\n+  .info h3 {\n+    font-size: 30px;\n+    margin-top: 1rem;\n+    line-height: 1.4;\n+  }\n \n   .bio {\n     /* padding: 0 10%; */\n     /* background-color: var(--clr-primary-1); */\n"
+                },
+                {
+                    "date": 1676215189553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,11 +59,11 @@\n   color: var(--clr-primary-1);\n   background-color: #fff;\n }\n \n-.section-services h3 {\n+.partners h3 {\n   margin-bottom: 2rem;\n-  font-size: 2rem;\n+  font-size: 1.5rem;\n   text-align: center;\n }\n \n .logo-partners-container {\n"
+                },
+                {
+                    "date": 1676215195897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n }\n \n .partners h3 {\n   margin-bottom: 2rem;\n-  font-size: 1.5rem;\n+  font-size: 2rem;\n   text-align: center;\n }\n \n .logo-partners-container {\n"
+                },
+                {
+                    "date": 1676215202464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n }\n \n .partners h3 {\n   margin-bottom: 2rem;\n-  font-size: 2rem;\n+  font-size: 1.5rem;\n   text-align: center;\n }\n \n .logo-partners-container {\n"
+                },
+                {
+                    "date": 1676215225550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,9 +173,9 @@\n     color: var(--clr-primary-1);\n   }\n \n   .partners h3 {\n-    margin-bottom: 2rem;\n+    /* margin-bottom: 2rem; */\n   }\n \n   .logo-partners-container {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1676215231659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -173,8 +173,9 @@\n     color: var(--clr-primary-1);\n   }\n \n   .partners h3 {\n+    font-size: 2rem;\n     /* margin-bottom: 2rem; */\n   }\n \n   .logo-partners-container {\n"
+                },
+                {
+                    "date": 1676215426297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n   object-fit: cover;\n }\n \n .partners {\n-  padding: 4rem 0;\n+  padding: 2rem 0;\n   text-align: center;\n   color: var(--clr-primary-1);\n   background-color: #fff;\n }\n"
+                },
+                {
+                    "date": 1676215453402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,9 +168,8 @@\n     color: white;\n   }\n \n   .partners {\n-    padding: 2rem 0;\n     color: var(--clr-primary-1);\n   }\n \n   .partners h3 {\n"
+                },
+                {
+                    "date": 1676215469659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,12 +167,8 @@\n   .button-hero {\n     color: white;\n   }\n \n-  .partners {\n-    color: var(--clr-primary-1);\n-  }\n-\n   .partners h3 {\n     font-size: 2rem;\n     /* margin-bottom: 2rem; */\n   }\n"
+                },
+                {
+                    "date": 1676215506399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -169,9 +169,9 @@\n   }\n \n   .partners h3 {\n     font-size: 2rem;\n-    /* margin-bottom: 2rem; */\n+    margin-bottom: 2rem;\n   }\n \n   .logo-partners-container {\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1676215535959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -60,9 +60,9 @@\n   background-color: #fff;\n }\n \n .partners h3 {\n-  margin-bottom: 2rem;\n+  margin-bottom: 1rem;\n   font-size: 1.5rem;\n   text-align: center;\n }\n \n"
+                },
+                {
+                    "date": 1676215742626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,11 +68,8 @@\n \n .logo-partners-container {\n   display: flex;\n   flex-direction: column;\n-  /* max-height: 100px; */\n-  /* height: 50%; */\n-  /* width: 80%; */\n   justify-content: space-around;\n   align-items: center;\n   align-content: center;\n }\n"
+                },
+                {
+                    "date": 1676215773010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,9 @@\n }\n \n .bio {\n   width: 100vw;\n+  color: \n   /* background-color: var(--clr-primary-1); */\n }\n \n .bio p {\n"
+                },
+                {
+                    "date": 1676215782640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n }\n \n .bio {\n   width: 100vw;\n-  color: \n+ \n   /* background-color: var(--clr-primary-1); */\n }\n \n .bio p {\n"
+                },
+                {
+                    "date": 1676215799516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,10 @@\n   /* background-color: var(--clr-primary-1); */\n }\n \n .bio p {\n-  color: #fff;\n+  color: var(--clr-primary-1);\n+  \n   padding: 40px 40px;\n   max-width: 800px;\n   line-height: 1.6;\n   margin: 0;\n"
+                },
+                {
+                    "date": 1676215804869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n-  \n+  text-align: center;\n   padding: 40px 40px;\n   max-width: 800px;\n   line-height: 1.6;\n   margin: 0;\n"
+                },
+                {
+                    "date": 1676215815999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -134,9 +134,9 @@\n \n   .bio {\n     /* padding: 0 10%; */\n     /* background-color: var(--clr-primary-1); */\n-    text-align: center;\n+\n     margin: 0 auto;\n     width: 100vw;\n   }\n \n"
+                },
+                {
+                    "date": 1676215829422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -143,9 +143,9 @@\n   .bio p {\n     margin: 0 auto;\n     padding: 4rem;\n     font-weight: 500;\n-    color: var(--clr-primary-1);\n+    /* color: var(--clr-primary-1); */\n     padding: 40px 20px;\n     max-width: 800px;\n     font-size: 18px;\n   }\n"
+                },
+                {
+                    "date": 1676215836855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,11 +141,10 @@\n   }\n \n   .bio p {\n     margin: 0 auto;\n-    padding: 4rem;\n+    /* padding: 4rem; */\n     font-weight: 500;\n-    /* color: var(--clr-primary-1); */\n     padding: 40px 20px;\n     max-width: 800px;\n     font-size: 18px;\n   }\n"
+                },
+                {
+                    "date": 1676215873319,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,9 +141,8 @@\n   }\n \n   .bio p {\n     margin: 0 auto;\n-    /* padding: 4rem; */\n     font-weight: 500;\n     padding: 40px 20px;\n     max-width: 800px;\n     font-size: 18px;\n"
+                },
+                {
+                    "date": 1676241410520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n   object-fit: cover;\n }\n \n .partners {\n-  padding: 2rem 0;\n+  padding: 40px;\n   text-align: center;\n   color: var(--clr-primary-1);\n   background-color: #fff;\n }\n"
+                },
+                {
+                    "date": 1676241430104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n   object-fit: cover;\n }\n \n .partners {\n-  padding: 40px;\n+  padding: 30px;\n   text-align: center;\n   color: var(--clr-primary-1);\n   background-color: #fff;\n }\n"
+                },
+                {
+                    "date": 1676241502588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .bio p {\n   color: var(--clr-primary-1);\n   text-align: center;\n-  padding: 40px 40px;\n+  padding: 30px;\n   max-width: 800px;\n   line-height: 1.6;\n   margin: 0;\n }\n"
+                },
+                {
+                    "date": 1676241516679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n \n .bio p {\n   color: var(--clr-primary-1);\n   text-align: center;\n-  padding: 30px;\n+  padding: 30px 40px;\n   max-width: 800px;\n   line-height: 1.6;\n   margin: 0;\n }\n"
+                },
+                {
+                    "date": 1676241790525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   /* margin-bottom: 2rem; */\n   height: 44vh;\n+  padding: ;\n }\n \n .info {\n   color: #fff;\n"
+                },
+                {
+                    "date": 1676241799720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   /* margin-bottom: 2rem; */\n   height: 44vh;\n-  padding: ;\n+  padding: 30px 0;\n }\n \n .info {\n   color: #fff;\n"
+                },
+                {
+                    "date": 1676241805440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   /* margin-bottom: 2rem; */\n   height: 44vh;\n-  padding: 30px 0;\n+  padding: 100px 0;\n }\n \n .info {\n   color: #fff;\n"
+                },
+                {
+                    "date": 1676241814823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n   /* flex-direction: column-reverse; */\n   position: relative;\n   /* margin-bottom: 2rem; */\n   height: 44vh;\n-  padding: 100px 0;\n }\n \n .info {\n   color: #fff;\n"
+                },
+                {
+                    "date": 1676241853972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,8 +29,10 @@\n   color: var(--clr-primary-1);\n   font-size: 2rem;\n }\n \n+.info\n+\n .bio {\n   width: 100vw;\n  \n   /* background-color: var(--clr-primary-1); */\n"
+                },
+                {
+                    "date": 1676241863351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,11 @@\n   color: var(--clr-primary-1);\n   font-size: 2rem;\n }\n \n-.info\n+.info button {\n+  margin-bottom: 5px;\n+}\n \n .bio {\n   width: 100vw;\n  \n"
+                },
+                {
+                    "date": 1676241879981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   justify-content: center;\n }\n \n .info h2 {\n-  margin-top: -1rem;\n+  margin-top: 1rem;\n   font-weight: bold;\n }\n \n .info .info-dot {\n@@ -30,9 +30,9 @@\n   font-size: 2rem;\n }\n \n .info button {\n-  margin-bottom: 5px;\n+  margin-bottom: 10px;\n }\n \n .bio {\n   width: 100vw;\n"
+                },
+                {
+                    "date": 1676241890258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   justify-content: center;\n }\n \n .info h2 {\n-  margin-top: 1rem;\n+  margin-top: -1.5rem;\n   font-weight: bold;\n }\n \n .info .info-dot {\n"
+                },
+                {
+                    "date": 1676289705823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,13 +24,8 @@\n   margin-top: -1.5rem;\n   font-weight: bold;\n }\n \n-.info .info-dot {\n-  color: var(--clr-primary-1);\n-  font-size: 2rem;\n-}\n-\n .info button {\n   margin-bottom: 10px;\n }\n \n"
+                },
+                {
+                    "date": 1676291866795,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,8 @@\n }\n \n .bio {\n   width: 100vw;\n- \n-  /* background-color: var(--clr-primary-1); */\n }\n \n .bio p {\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676295093977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .hero {\n   /* display: flex; */\n   /* flex-direction: column-reverse; */\n   position: relative;\n-  /* margin-bottom: 2rem; */\n+\n   height: 44vh;\n }\n \n .info {\n"
+                },
+                {
+                    "date": 1676295109582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,6 @@\n .hero {\n-  /* display: flex; */\n-  /* flex-direction: column-reverse; */\n   position: relative;\n-\n   height: 44vh;\n }\n \n .info {\n@@ -108,12 +105,8 @@\n     color: var(--clr-primary-1);\n     background-color: transparent;\n   }\n \n-  /* .info > * {\n-    margin-bottom: 20px;\n-  } */\n-\n   .info h1 {\n     font-weight: 800;\n     font-size: 60px;\n     margin-bottom: 0;\n"
+                },
+                {
+                    "date": 1676295115809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,13 +95,13 @@\n   }\n \n   .info {\n     position: static;\n-    /* width: 60%; */\n+\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n-    /* align-items: center; */\n+\n     align-content: center;\n     color: var(--clr-primary-1);\n     background-color: transparent;\n   }\n"
+                },
+                {
+                    "date": 1676295141212,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -95,16 +95,15 @@\n   }\n \n   .info {\n     position: static;\n-\n     display: flex;\n     flex-direction: column;\n     justify-content: center;\n-\n     align-content: center;\n     color: var(--clr-primary-1);\n     background-color: transparent;\n+    padding: 20px;\n   }\n \n   .info h1 {\n     font-weight: 800;\n"
                 }
             ],
             "date": 1674752092767,

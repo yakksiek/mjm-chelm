@@ -1,9 +1,10 @@
 import React, { useState, useRef, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { FaBars } from "react-icons/fa";
 
 import { links } from "../data";
+import classes from "./Navbar.module.css";
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -22,11 +23,15 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="nav-center section">
-        <div className="nav-header">
-          <img src={logo} alt="logo" className="logo" />
+      <div className={classes["nav-center"]}>
+        <div className={classes["nav-header"]}>
+          <Link to="/">
+            <img src={logo} alt="logo" className={classes.logo} />
+          </Link>
           <button
-            className={`${showLinks ? "nav-toggle-clicked" : ""} nav-toggle `}
+            className={`${showLinks ? classes["nav-toggle-clicked"] : ""} ${
+              classes["nav-toggle"]
+            } `}
             onClick={() => setShowLinks(!showLinks)}
           >
             <FaBars />
@@ -34,17 +39,17 @@ const Navbar = () => {
         </div>
         <div
           ref={linksContainerRef}
-          className={`${showLinks ? "show-container" : ""} links-container `}
+          className={`${showLinks ? classes["show-container"] : ""} ${
+            classes["links-container"]
+          } `}
         >
-          <ul className="links" ref={linksRef}>
+          <ul className={classes.links} ref={linksRef}>
             {links.map((link) => {
               const { id, url, text } = link;
               return (
-                <li key={id} onClick={() => setShowLinks(!showLinks)}>
-                  <NavLink to={url} className="link">
-                    {text}
-                  </NavLink>
-                </li>
+                <NavLink key={id} to={url} className={classes.link}>
+                  <li onClick={() => setShowLinks(!showLinks)}>{text}</li>
+                </NavLink>
               );
             })}
           </ul>

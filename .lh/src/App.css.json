@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 39,
+            "activePatchIndex": 166,
             "patches": [
                 {
                     "date": 1674751476103,
@@ -164,6 +164,514 @@
                 {
                     "date": 1674822154937,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,12 +196,8 @@\n /* =============== \n Variables\n =============== */\n \n-nav {\n-  /* background-color: var(--clr-white); */\n-  /* box-shadow: var(--light-shadow); */\n-}\n \n .nav-header {\n   display: flex;\n   align-items: center;\n"
+                },
+                {
+                    "date": 1675092728180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,13 +67,13 @@\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n   ); */\n-  background: linear-gradient(\n+  /* background: linear-gradient(\n     0deg,\n     rgba(0, 68, 141, 1) 0%,\n     rgba(255, 255, 255, 1) 100%\n-  );\n+  ); */\n \n   background-repeat: no-repeat;\n   line-height: 1.5;\n   font-size: 0.875rem;\n"
+                },
+                {
+                    "date": 1675092737386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   box-sizing: border-box;\n }\n body {\n   font-family: \"Poppins\", sans-serif;\n-  background: rgb(0, 68, 147);\n+  background: white;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n"
+                },
+                {
+                    "date": 1675092795517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,13 +67,13 @@\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n   ); */\n-  /* background: linear-gradient(\n+  background: linear-gradient(\n     0deg,\n     rgba(0, 68, 141, 1) 0%,\n     rgba(255, 255, 255, 1) 100%\n-  ); */\n+  );\n \n   background-repeat: no-repeat;\n   line-height: 1.5;\n   font-size: 0.875rem;\n"
+                },
+                {
+                    "date": 1675092803894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,13 +67,13 @@\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n   ); */\n-  background: linear-gradient(\n+  /* background: linear-gradient(\n     0deg,\n     rgba(0, 68, 141, 1) 0%,\n     rgba(255, 255, 255, 1) 100%\n-  );\n+  ); */\n \n   background-repeat: no-repeat;\n   line-height: 1.5;\n   font-size: 0.875rem;\n"
+                },
+                {
+                    "date": 1675092870002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   box-sizing: border-box;\n }\n body {\n   font-family: \"Poppins\", sans-serif;\n-  background: white;\n+  background: #FFFAFA;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n"
+                },
+                {
+                    "date": 1675092886362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   box-sizing: border-box;\n }\n body {\n   font-family: \"Poppins\", sans-serif;\n-  background: #FFFAFA;\n+  background: #F0FFF0;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n"
+                },
+                {
+                    "date": 1675092893219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   box-sizing: border-box;\n }\n body {\n   font-family: \"Poppins\", sans-serif;\n-  background: #F0FFF0;\n+  background: ##F5FFFA\t;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n"
+                },
+                {
+                    "date": 1675092903569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   box-sizing: border-box;\n }\n body {\n   font-family: \"Poppins\", sans-serif;\n-  background: ##F5FFFA\t;\n+  background: ##FFFAFA\t;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n"
+                },
+                {
+                    "date": 1675092914174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,9 @@\n   box-sizing: border-box;\n }\n body {\n   font-family: \"Poppins\", sans-serif;\n-  background: ##FFFAFA\t;\n+  background: #fff;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n     rgba(255, 255, 255, 1) 98%\n@@ -196,9 +196,8 @@\n /* =============== \n Variables\n =============== */\n \n-\n .nav-header {\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n"
+                },
+                {
+                    "date": 1675093689029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n @import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap\");\n+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');\n \n /*\n =============== \n Variables\n"
+                },
+                {
+                    "date": 1675093695653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,34 +11,8 @@\n   /* dark shades of primary color*/\n   --clr-primary-1: hsl(212, 100%, 29%);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n-  /* primary/main color */\n-  /* --clr-primary-5: hsl(205, 78%, 60%); */\n-  /* lighter shades of primary color */\n-  /* --clr-primary-6: hsl(205, 89%, 70%);\n-  --clr-primary-7: hsl(205, 90%, 76%);\n-  --clr-primary-8: hsl(205, 86%, 81%);\n-  --clr-primary-9: hsl(205, 90%, 88%);\n-  --clr-primary-10: hsl(205, 100%, 96%); */\n-  /* darkest grey - used for headings */\n-  /* --clr-grey-1: hsl(209, 61%, 16%);\n-  --clr-grey-2: hsl(211, 39%, 23%);\n-  --clr-grey-3: hsl(209, 34%, 30%);\n-  --clr-grey-4: hsl(209, 28%, 39%); */\n-  /* grey used for paragraphs */\n-  /* --clr-grey-5: hsl(210, 22%, 49%);\n-  --clr-grey-6: hsl(209, 23%, 60%);\n-  --clr-grey-7: hsl(211, 27%, 70%);\n-  --clr-grey-8: hsl(210, 31%, 80%);\n-  --clr-grey-9: hsl(212, 33%, 89%);\n-  --clr-grey-10: hsl(210, 36%, 96%);\n-  --clr-white: #fff;\n-  --clr-red-dark: hsl(360, 67%, 44%);\n-  --clr-red-light: hsl(360, 71%, 66%);\n-  --clr-green-dark: hsl(125, 67%, 44%);\n-  --clr-green-light: hsl(125, 71%, 66%); */\n-  /* --clr-black: #222; */\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n   --radius: 0.25rem;\n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n"
+                },
+                {
+                    "date": 1675093702407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,9 @@\n   padding: 0;\n   box-sizing: border-box;\n }\n body {\n-  font-family: \"Poppins\", sans-serif;\n+  /* font-family: \"Poppins\", sans-serif; */\n   background: #fff;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n"
+                },
+                {
+                    "date": 1675093710317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,9 @@\n   box-sizing: border-box;\n }\n body {\n   /* font-family: \"Poppins\", sans-serif; */\n+  font-family: \"Mon\";\n   background: #fff;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n"
+                },
+                {
+                    "date": 1675093715497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n   box-sizing: border-box;\n }\n body {\n   /* font-family: \"Poppins\", sans-serif; */\n-  font-family: \"Mon\";\n+  font-family: \"Montserrat\";\n   background: #fff;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n"
+                },
+                {
+                    "date": 1675093858740,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n @import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap\");\n @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');\n+<style>\n+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');\n+</style>\n \n /*\n =============== \n Variables\n@@ -36,9 +39,9 @@\n   box-sizing: border-box;\n }\n body {\n   /* font-family: \"Poppins\", sans-serif; */\n-  font-family: \"Montserrat\";\n+  font-family: \"Montserrat\", sans-serif;\n   background: #fff;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n"
+                },
+                {
+                    "date": 1675093869571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n @import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap\");\n @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');\n-<style>\n+\n @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');\n-</style>\n \n+\n /*\n =============== \n Variables\n ===============\n@@ -39,9 +39,9 @@\n   box-sizing: border-box;\n }\n body {\n   /* font-family: \"Poppins\", sans-serif; */\n-  font-family: \"Montserrat\", sans-serif;\n+  /* font-family: \"Montserrat\", sans-serif; */\n   background: #fff;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n"
+                },
+                {
+                    "date": 1675093964553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,8 +40,9 @@\n }\n body {\n   /* font-family: \"Poppins\", sans-serif; */\n   /* font-family: \"Montserrat\", sans-serif; */\n+  font-family: 'Roboto', sans-serif;\n   background: #fff;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n@@ -51,9 +52,9 @@\n     0deg,\n     rgba(0, 68, 141, 1) 0%,\n     rgba(255, 255, 255, 1) 100%\n   ); */\n-\n+back\n   background-repeat: no-repeat;\n   line-height: 1.5;\n   font-size: 0.875rem;\n   color: white;\n"
+                },
+                {
+                    "date": 1675094586190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n @import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap\");\n-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap');\n+@import url(\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap\");\n \n-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');\n+@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap\");\n \n-\n /*\n =============== \n Variables\n ===============\n@@ -40,9 +39,9 @@\n }\n body {\n   /* font-family: \"Poppins\", sans-serif; */\n   /* font-family: \"Montserrat\", sans-serif; */\n-  font-family: 'Roboto', sans-serif;\n+  font-family: \"Roboto\", sans-serif;\n   background: #fff;\n   /* background: linear-gradient(\n     180deg,\n     rgba(0, 68, 147, 1) 0%,\n@@ -52,9 +51,14 @@\n     0deg,\n     rgba(0, 68, 141, 1) 0%,\n     rgba(255, 255, 255, 1) 100%\n   ); */\n-back\n+  background: radial-gradient(\n+    circle at 18.7% 37.8%,\n+    rgb(250, 250, 250) 0%,\n+    rgb(225, 234, 238) 90%\n+  );\n+\n   background-repeat: no-repeat;\n   line-height: 1.5;\n   font-size: 0.875rem;\n   color: white;\n@@ -164,9 +168,9 @@\n }\n \n @media screen and (min-width: 992px) {\n   .section {\n-    width: 95vw;\n+    width: ;\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1675094592145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,9 +168,10 @@\n }\n \n @media screen and (min-width: 992px) {\n   .section {\n-    width: ;\n+    width: 100%;\n+    max-width: ;\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1675094860622,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n /* section */\n .section {\n   /* width: 90vw; */\n   margin: 0 auto;\n-  max-width: var(--max-width);\n+\n }\n \n .page {\n   min-height: 100vh;\n@@ -169,9 +169,9 @@\n \n @media screen and (min-width: 992px) {\n   .section {\n     width: 100%;\n-    max-width: ;\n+    max-width: 1200px;\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1675094932021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,19 +159,18 @@\n /* section */\n .section {\n   /* width: 90vw; */\n   margin: 0 auto;\n-\n }\n \n .page {\n   min-height: 100vh;\n }\n \n-@media screen and (min-width: 992px) {\n+@media (min-width: 992px) {\n   .section {\n     width: 100%;\n-    max-width: 1200px;\n+    max-width: var(--max-width);\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1675094941667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n }\n \n @media (min-width: 992px) {\n   .section {\n-    width: 100%;\n+    /* width: 100%; */\n     max-width: var(--max-width);\n   }\n \n   .page {\n"
+                },
+                {
+                    "date": 1675099631162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n }\n \n @media (min-width: 992px) {\n   .section {\n-    /* width: 100%; */\n+    width: 100%;\n     max-width: var(--max-width);\n   }\n \n   .page {\n@@ -185,8 +185,9 @@\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n   padding: 1rem;\n+  \n }\n \n .nav-toggle {\n   font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1675099637361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,9 +185,9 @@\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n   padding: 1rem;\n-  \n+  width: 90;\n }\n \n .nav-toggle {\n   font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1675099646246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,9 +185,9 @@\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n   padding: 1rem;\n-  width: 90;\n+  width: 95vw;\n }\n \n .nav-toggle {\n   font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1675099652533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,9 +185,8 @@\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n   padding: 1rem;\n-  width: 95vw;\n }\n \n .nav-toggle {\n   font-size: 1.5rem;\n"
+                },
+                {
+                    "date": 1675099698608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,8 +180,12 @@\n /* =============== \n Variables\n =============== */\n \n+.nav-center {\n+  \n+}\n+\n .nav-header {\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n"
+                },
+                {
+                    "date": 1675099704448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,9 @@\n Variables\n =============== */\n \n .nav-center {\n-  \n+  width: 95;\n }\n \n .nav-header {\n   display: flex;\n"
+                },
+                {
+                    "date": 1675099734362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,9 @@\n Variables\n =============== */\n \n .nav-center {\n-  width: 95;\n+  width: 95vw;\n }\n \n .nav-header {\n   display: flex;\n@@ -239,9 +239,9 @@\n }\n \n @media screen and (min-width: 760px) {\n   .nav-center {\n-    max-width: 1170px;\n+    /* max-width: 1170px; */\n     margin: 0 auto;\n     display: flex;\n     align-items: center;\n     justify-content: space-between;\n"
+                },
+                {
+                    "date": 1675099741669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -240,8 +240,11 @@\n \n @media screen and (min-width: 760px) {\n   .nav-center {\n     /* max-width: 1170px; */\n+    .nav-center {\n+      width: 95vw;\n+    \n     margin: 0 auto;\n     display: flex;\n     align-items: center;\n     justify-content: space-between;\n"
+                },
+                {
+                    "date": 1675100254559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -240,11 +240,9 @@\n \n @media screen and (min-width: 760px) {\n   .nav-center {\n     /* max-width: 1170px; */\n-    .nav-center {\n-      width: 95vw;\n-    \n+    width: 95vw;\n     margin: 0 auto;\n     display: flex;\n     align-items: center;\n     justify-content: space-between;\n"
+                },
+                {
+                    "date": 1675100360309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,12 +156,12 @@\n   }\n }\n \n /* section */\n-.section {\n+/* .section {\n   /* width: 90vw; */\n   margin: 0 auto;\n-}\n+} */\n \n .page {\n   min-height: 100vh;\n }\n"
+                },
+                {
+                    "date": 1675100431099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,12 +156,12 @@\n   }\n }\n \n /* section */\n-/* .section {\n+.section {\n   /* width: 90vw; */\n   margin: 0 auto;\n-} */\n+}\n \n .page {\n   min-height: 100vh;\n }\n"
+                },
+                {
+                    "date": 1675100443094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n \n /* section */\n .section {\n   /* width: 90vw; */\n-  margin: 0 auto;\n+  /* margin: 0 auto; */\n }\n \n .page {\n   min-height: 100vh;\n"
+                },
+                {
+                    "date": 1675100857298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,9 +168,9 @@\n \n @media (min-width: 992px) {\n   .section {\n     width: 100%;\n-    max-width: var(--max-width);\n+    /* max-width: var(--max-width); */\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1675100862916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n }\n \n @media (min-width: 992px) {\n   .section {\n-    width: 100%;\n+    /* width: 100%; */\n     /* max-width: var(--max-width); */\n   }\n \n   .page {\n"
+                },
+                {
+                    "date": 1675101408487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,8 +182,9 @@\n =============== */\n \n .nav-center {\n   width: 95vw;\n+  \n }\n \n .nav-header {\n   display: flex;\n"
+                },
+                {
+                    "date": 1675101416492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,10 +181,10 @@\n Variables\n =============== */\n \n .nav-center {\n-  width: 95vw;\n-  \n+  /* width: 95vw; */\n+  background-color: #fff;\n }\n \n .nav-header {\n   display: flex;\n"
+                },
+                {
+                    "date": 1675101442321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,10 +181,10 @@\n Variables\n =============== */\n \n .nav-center {\n-  /* width: 95vw; */\n-  background-color: #fff;\n+  width: 95vw;\n+  /* background-color: #fff; */\n }\n \n .nav-header {\n   display: flex;\n"
+                },
+                {
+                    "date": 1676203173206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -174,8 +174,12 @@\n \n   .page {\n     min-height: 100vh;\n   }\n+\n+  .page h2 {\n+    color: var();\n+  }\n }\n \n /* =============== \n Variables\n"
+                },
+                {
+                    "date": 1676203183024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -176,9 +176,10 @@\n     min-height: 100vh;\n   }\n \n   .page h2 {\n-    color: var();\n+    color: var(--clr-primary-1);\n+    \n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1676203189271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,9 +177,9 @@\n   }\n \n   .page h2 {\n     color: var(--clr-primary-1);\n-    \n+    padding: ;\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1676203196702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,9 +177,9 @@\n   }\n \n   .page h2 {\n     color: var(--clr-primary-1);\n-    padding: ;\n+    padding: 20px 20px;\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1676203204340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,9 +177,9 @@\n   }\n \n   .page h2 {\n     color: var(--clr-primary-1);\n-    padding: 20px 20px;\n+    padding: 20px;\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1676203223529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,18 +168,18 @@\n \n @media (min-width: 992px) {\n   .section {\n     /* width: 100%; */\n-    /* max-width: var(--max-width); */\n+    max-width: var(--max-width);\n   }\n \n   .page {\n     min-height: 100vh;\n   }\n \n   .page h2 {\n     color: var(--clr-primary-1);\n-    padding: 20px;\n+    padding: 20px 0;\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1676203229109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,9 +168,9 @@\n \n @media (min-width: 992px) {\n   .section {\n     /* width: 100%; */\n-    max-width: var(--max-width);\n+    /* max-width: var(--max-width); */\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1676203326274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,8 +179,10 @@\n   .page h2 {\n     color: var(--clr-primary-1);\n     padding: 20px 0;\n   }\n+\n+  .page\n }\n \n /* =============== \n Variables\n"
+                },
+                {
+                    "date": 1676203333062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,11 @@\n     color: var(--clr-primary-1);\n     padding: 20px 0;\n   }\n \n-  .page\n+  .page-container {\n+    \n+  }\n }\n \n /* =============== \n Variables\n"
+                },
+                {
+                    "date": 1676203341189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,9 @@\n     padding: 20px 0;\n   }\n \n   .page-container {\n-    \n+    max-width: var();\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1676203355782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -181,9 +181,10 @@\n     padding: 20px 0;\n   }\n \n   .page-container {\n-    max-width: var();\n+    max-width: var(--max-width);\n+    mar\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1676203416462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,10 +167,10 @@\n }\n \n @media (min-width: 992px) {\n   .section {\n-    /* width: 100%; */\n-    /* max-width: var(--max-width); */\n+    max-width: var(--max-width);\n+    margin: 0 auto;\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1676203429449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,10 +167,9 @@\n }\n \n @media (min-width: 992px) {\n   .section {\n-    max-width: var(--max-width);\n-    margin: 0 auto;\n+\n   }\n \n   .page {\n     min-height: 100vh;\n@@ -182,9 +181,9 @@\n   }\n \n   .page-container {\n     max-width: var(--max-width);\n-    mar\n+    margin: 0 auto;\n   }\n }\n \n /* =============== \n"
+                },
+                {
+                    "date": 1676212555482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,9 @@\n   /* dark shades of primary color*/\n   --clr-primary-1: hsl(212, 100%, 29%);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n+  \n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n   --radius: 0.25rem;\n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n"
+                },
+                {
+                    "date": 1676212584309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   /* dark shades of primary color*/\n   --clr-primary-1: hsl(212, 100%, 29%);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n-  \n+  --clr-primary-5: \n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n   --radius: 0.25rem;\n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n"
+                },
+                {
+                    "date": 1676216249635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   /* dark shades of primary color*/\n   --clr-primary-1: hsl(212, 100%, 29%);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n-  --clr-primary-5: \n+  --clr-primary-5: hsl(220, 4%, 86%);\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n   --radius: 0.25rem;\n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n@@ -192,8 +192,9 @@\n =============== */\n \n .nav-center {\n   width: 95vw;\n+  \n   /* background-color: #fff; */\n }\n \n .nav-header {\n"
+                },
+                {
+                    "date": 1676216489553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -192,9 +192,9 @@\n =============== */\n \n .nav-center {\n   width: 95vw;\n-  \n+  max-width: 1600px;\n   /* background-color: #fff; */\n }\n \n .nav-header {\n@@ -292,9 +292,9 @@\n    \n   } */\n \n   .links .link:hover {\n-    background: lightgray;\n+    background: var();\n     padding: 0.5rem 1rem;\n     color: var(--clr-primary-1);\n   }\n }\n"
+                },
+                {
+                    "date": 1676216498683,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -292,9 +292,10 @@\n    \n   } */\n \n   .links .link:hover {\n-    background: var();\n+    background: var(--clr-primary-1);\n+    \n     padding: 0.5rem 1rem;\n     color: var(--clr-primary-1);\n   }\n }\n"
+                },
+                {
+                    "date": 1676216506112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -293,9 +293,8 @@\n   } */\n \n   .links .link:hover {\n     background: var(--clr-primary-1);\n-    \n     padding: 0.5rem 1rem;\n-    color: var(--clr-primary-1);\n+    color: #fff;\n   }\n }\n"
+                },
+                {
+                    "date": 1676216588925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -205,9 +205,9 @@\n }\n \n .nav-toggle {\n   font-size: 1.5rem;\n-  color: white;\n+  color: var(--clr-primary-1);\n   background: transparent;\n   border-color: transparent;\n   transition: var(--transition);\n   cursor: pointer;\n"
+                },
+                {
+                    "date": 1676216608792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n   cursor: pointer;\n }\n \n .nav-toggle.nav-toggle-clicked {\n-  color: grey;\n+  color: var();\n   transform: rotate(90deg);\n }\n \n .logo {\n"
+                },
+                {
+                    "date": 1676216829780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n   cursor: pointer;\n }\n \n .nav-toggle.nav-toggle-clicked {\n-  color: var();\n+  color: #fff;\n   transform: rotate(90deg);\n }\n \n .logo {\n@@ -224,9 +224,9 @@\n \n .links-container {\n   height: 0;\n   overflow: hidden;\n-  transition: var(--transition);\n+  /* transition: var(--transition); */\n }\n \n .show-container {\n   height: 10rem;\n"
+                },
+                {
+                    "date": 1676216841344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -224,9 +224,9 @@\n \n .links-container {\n   height: 0;\n   overflow: hidden;\n-  /* transition: var(--transition); */\n+  transition: var(--transition);\n }\n \n .show-container {\n   height: 10rem;\n"
+                },
+                {
+                    "date": 1676216887261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -237,11 +237,11 @@\n   font-weight: 400;\n   display: block;\n   font-size: 1.25rem;\n   padding: 0.5rem 1rem;\n-  transition: var(--transition);\n+  /* transition: var(--transition); */\n   padding: 0.5rem 1.5rem;\n-  /* text-align: center; */\n+\n }\n \n .links .link:hover {\n   background: lightgray;\n"
+                },
+                {
+                    "date": 1676216898166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,13 +235,11 @@\n .links .link {\n   color: var(--clr-primary-1);\n   font-weight: 400;\n   display: block;\n-  font-size: 1.25rem;\n+  font-size: 1.25rem; (dynamiczną cz)\n   padding: 0.5rem 1rem;\n-  /* transition: var(--transition); */\n   padding: 0.5rem 1.5rem;\n-\n }\n \n .links .link:hover {\n   background: lightgray;\n"
+                },
+                {
+                    "date": 1676216904267,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,9 +235,9 @@\n .links .link {\n   color: var(--clr-primary-1);\n   font-weight: 400;\n   display: block;\n-  font-size: 1.25rem; (dynamiczną cz)\n+  font-size: 1.25rem; \n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n }\n \n"
+                },
+                {
+                    "date": 1676216919064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,9 +235,9 @@\n .links .link {\n   color: var(--clr-primary-1);\n   font-weight: 400;\n   display: block;\n-  font-size: 1.25rem; \n+  font-size: 1.5rem; \n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n }\n \n"
+                },
+                {
+                    "date": 1676216925741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -235,9 +235,9 @@\n .links .link {\n   color: var(--clr-primary-1);\n   font-weight: 400;\n   display: block;\n-  font-size: 1.5rem; \n+  font-size: 1.25rem; \n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n }\n \n"
+                },
+                {
+                    "date": 1676216937794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -280,9 +280,9 @@\n     margin: 0 0.2rem;\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 1rem;\n-    font-size: 1.15rem;\n+    font-size: 1.25rem;\n     font-weight: 400;\n   }\n \n   /* .links .link:hover {\n"
+                },
+                {
+                    "date": 1676217023566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -280,9 +280,10 @@\n     margin: 0 0.2rem;\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 1rem;\n-    font-size: 1.25rem;\n+    /* font-size: 1.25rem; */\n+    \n     font-weight: 400;\n   }\n \n   /* .links .link:hover {\n"
+                },
+                {
+                    "date": 1676217031081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -281,9 +281,9 @@\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 1rem;\n     /* font-size: 1.25rem; */\n-    \n+    font-size: clamp()\n     font-weight: 400;\n   }\n \n   /* .links .link:hover {\n"
+                },
+                {
+                    "date": 1676217036253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -281,9 +281,9 @@\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 1rem;\n     /* font-size: 1.25rem; */\n-    font-size: clamp()\n+    font-size: clamp(1rem);\n     font-weight: 400;\n   }\n \n   /* .links .link:hover {\n"
+                },
+                {
+                    "date": 1676217046520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -281,9 +281,9 @@\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 1rem;\n     /* font-size: 1.25rem; */\n-    font-size: clamp(1rem);\n+    font-size: clamp(1rem, 1.25rem);\n     font-weight: 400;\n   }\n \n   /* .links .link:hover {\n"
+                },
+                {
+                    "date": 1676217059907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -281,9 +281,9 @@\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 1rem;\n     /* font-size: 1.25rem; */\n-    font-size: clamp(1rem, 1.25rem);\n+    font-size: clamp(1rem, 2vw,1.25rem);\n     font-weight: 400;\n   }\n \n   /* .links .link:hover {\n"
+                },
+                {
+                    "date": 1676217091407,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -281,9 +281,9 @@\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 1rem;\n     /* font-size: 1.25rem; */\n-    font-size: clamp(1rem, 2vw,1.25rem);\n+    font-size: clamp(0.9rem, 2vw,1.25rem);\n     font-weight: 400;\n   }\n \n   /* .links .link:hover {\n"
+                },
+                {
+                    "date": 1676217114734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -279,9 +279,9 @@\n     padding: 0;\n     margin: 0 0.2rem;\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n-    padding: 0.5rem 1rem;\n+    /* padding: 0.5rem 1rem; */\n     /* font-size: 1.25rem; */\n     font-size: clamp(0.9rem, 2vw,1.25rem);\n     font-weight: 400;\n   }\n"
+                },
+                {
+                    "date": 1676217123863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -279,9 +279,9 @@\n     padding: 0;\n     margin: 0 0.2rem;\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n-    /* padding: 0.5rem 1rem; */\n+    padding: 0.5rem 0.75rem;\n     /* font-size: 1.25rem; */\n     font-size: clamp(0.9rem, 2vw,1.25rem);\n     font-weight: 400;\n   }\n"
+                },
+                {
+                    "date": 1676283287253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,9 +193,8 @@\n \n .nav-center {\n   width: 95vw;\n   max-width: 1600px;\n-  /* background-color: #fff; */\n }\n \n .nav-header {\n   display: flex;\n"
+                },
+                {
+                    "date": 1676283294602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -241,9 +241,8 @@\n }\n \n .links .link:hover {\n   background: lightgray;\n-  /* background-color: lightgray; */\n   color: white;\n   padding: 0.5rem 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1676283310421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -212,9 +212,8 @@\n   cursor: pointer;\n }\n \n .nav-toggle.nav-toggle-clicked {\n-  color: #fff;\n   transform: rotate(90deg);\n }\n \n .logo {\n"
+                },
+                {
+                    "date": 1676283435550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,107 +190,4 @@\n /* =============== \n Variables\n =============== */\n \n-.nav-center {\n-  width: 95vw;\n-  max-width: 1600px;\n-}\n-\n-.nav-header {\n-  display: flex;\n-  align-items: center;\n-  justify-content: space-between;\n-  padding: 1rem;\n-}\n-\n-.nav-toggle {\n-  font-size: 1.5rem;\n-  color: var(--clr-primary-1);\n-  background: transparent;\n-  border-color: transparent;\n-  transition: var(--transition);\n-  cursor: pointer;\n-}\n-\n-.nav-toggle.nav-toggle-clicked {\n-  transform: rotate(90deg);\n-}\n-\n-.logo {\n-  height: 60px;\n-}\n-\n-.links-container {\n-  height: 0;\n-  overflow: hidden;\n-  transition: var(--transition);\n-}\n-\n-.show-container {\n-  height: 10rem;\n-}\n-\n-.links .link {\n-  color: var(--clr-primary-1);\n-  font-weight: 400;\n-  display: block;\n-  font-size: 1.25rem; \n-  padding: 0.5rem 1rem;\n-  padding: 0.5rem 1.5rem;\n-}\n-\n-.links .link:hover {\n-  background: lightgray;\n-  color: white;\n-  padding: 0.5rem 1rem;\n-}\n-\n-@media screen and (min-width: 760px) {\n-  .nav-center {\n-    /* max-width: 1170px; */\n-    width: 95vw;\n-    margin: 0 auto;\n-    display: flex;\n-    align-items: center;\n-    justify-content: space-between;\n-    padding: 1rem;\n-  }\n-\n-  .nav-header {\n-    padding: 0;\n-  }\n-\n-  .nav-toggle {\n-    display: none;\n-  }\n-\n-  .links-container {\n-    height: auto !important;\n-  }\n-\n-  .links {\n-    display: flex;\n-  }\n-\n-  .links .link {\n-    padding: 0;\n-    margin: 0 0.2rem;\n-    border: 1px solid transparent;\n-    border-radius: 0.75rem;\n-    padding: 0.5rem 0.75rem;\n-    /* font-size: 1.25rem; */\n-    font-size: clamp(0.9rem, 2vw,1.25rem);\n-    font-weight: 400;\n-  }\n-\n-  /* .links .link:hover {\n-    padding: 0;\n-   \n-  } */\n-\n-  .links .link:hover {\n-    background: var(--clr-primary-1);\n-    padding: 0.5rem 1rem;\n-    color: #fff;\n-  }\n-}\n"
+                },
+                {
+                    "date": 1676283780272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,4 +190,107 @@\n /* =============== \n Variables\n =============== */\n \n+/* .nav-center {\n+  width: 95vw;\n+  max-width: 1600px;\n+}\n+\n+.nav-header {\n+  display: flex;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding: 1rem;\n+}\n+\n+.nav-toggle {\n+  font-size: 1.5rem;\n+  color: var(--clr-primary-1);\n+  background: transparent;\n+  border-color: transparent;\n+  transition: var(--transition);\n+  cursor: pointer;\n+}\n+\n+.nav-toggle.nav-toggle-clicked {\n+  transform: rotate(90deg);\n+}\n+\n+.logo {\n+  height: 60px;\n+}\n+\n+.links-container {\n+  height: 0;\n+  overflow: hidden;\n+  transition: var(--transition);\n+}\n+\n+.show-container {\n+  height: 10rem;\n+}\n+\n+.links .link {\n+  color: var(--clr-primary-1);\n+  font-weight: 400;\n+  display: block;\n+  font-size: 1.25rem; \n+  padding: 0.5rem 1rem;\n+  padding: 0.5rem 1.5rem;\n+}\n+\n+.links .link:hover {\n+  background: lightgray;\n+  color: white;\n+  padding: 0.5rem 1rem;\n+}\n+\n+@media screen and (min-width: 760px) {\n+  .nav-center {\n+    /* max-width: 1170px; */\n+    width: 95vw;\n+    margin: 0 auto;\n+    display: flex;\n+    align-items: center;\n+    justify-content: space-between;\n+    padding: 1rem;\n+  }\n+\n+  .nav-header {\n+    padding: 0;\n+  }\n+\n+  .nav-toggle {\n+    display: none;\n+  }\n+\n+  .links-container {\n+    height: auto !important;\n+  }\n+\n+  .links {\n+    display: flex;\n+  }\n+\n+  .links .link {\n+    padding: 0;\n+    margin: 0 0.2rem;\n+    border: 1px solid transparent;\n+    border-radius: 0.75rem;\n+    padding: 0.5rem 0.75rem;\n+    /* font-size: 1.25rem; */\n+    font-size: clamp(0.9rem, 2vw,1.25rem);\n+    font-weight: 400;\n+  }\n+\n+  /* .links .link:hover {\n+    padding: 0;\n+   \n+  } */\n+\n+  .links .link:hover {\n+    background: var(--clr-primary-1);\n+    padding: 0.5rem 1rem;\n+    color: #fff;\n+  }\n+} */\n"
+                },
+                {
+                    "date": 1676283796371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n /* =============== \n Variables\n =============== */\n \n-/* .nav-center {\n+.nav-center {\n   width: 95vw;\n   max-width: 1600px;\n }\n \n@@ -212,8 +212,9 @@\n   cursor: pointer;\n }\n \n .nav-toggle.nav-toggle-clicked {\n+  color: #fff;\n   transform: rotate(90deg);\n }\n \n .logo {\n@@ -292,5 +293,5 @@\n     background: var(--clr-primary-1);\n     padding: 0.5rem 1rem;\n     color: #fff;\n   }\n-} */\n+}\n"
+                },
+                {
+                    "date": 1676283804649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -212,9 +212,8 @@\n   cursor: pointer;\n }\n \n .nav-toggle.nav-toggle-clicked {\n-  color: #fff;\n   transform: rotate(90deg);\n }\n \n .logo {\n@@ -247,9 +246,8 @@\n }\n \n @media screen and (min-width: 760px) {\n   .nav-center {\n-    /* max-width: 1170px; */\n     width: 95vw;\n     margin: 0 auto;\n     display: flex;\n     align-items: center;\n"
+                },
+                {
+                    "date": 1676283811609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -276,18 +276,12 @@\n     margin: 0 0.2rem;\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 0.75rem;\n-    /* font-size: 1.25rem; */\n     font-size: clamp(0.9rem, 2vw,1.25rem);\n     font-weight: 400;\n   }\n \n-  /* .links .link:hover {\n-    padding: 0;\n-   \n-  } */\n-\n   .links .link:hover {\n     background: var(--clr-primary-1);\n     padding: 0.5rem 1rem;\n     color: #fff;\n"
+                },
+                {
+                    "date": 1676283819723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n /* =============== \n Variables\n =============== */\n \n-.nav-center {\n+/* .nav-center {\n   width: 95vw;\n   max-width: 1600px;\n }\n \n@@ -285,5 +285,5 @@\n     background: var(--clr-primary-1);\n     padding: 0.5rem 1rem;\n     color: #fff;\n   }\n-}\n+} */\n"
+                },
+                {
+                    "date": 1676284363287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n-  --radius: 0.25rem;\n+  /* --radius: 0.25rem; */\n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n   --max-width: 1170px;\n   --fixed-width: 620px;\n"
+                },
+                {
+                    "date": 1676284369527,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n-  /* --radius: 0.25rem; */\n+  --radius: 0.25rem;\n+  \n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n   --max-width: 1170px;\n   --fixed-width: 620px;\n"
+                },
+                {
+                    "date": 1676284376386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n   --radius: 0.25rem;\n-  \n+  --box-shadow: \n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n   --max-width: 1170px;\n   --fixed-width: 620px;\n"
+                },
+                {
+                    "date": 1676284389947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,14 @@\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n   --radius: 0.25rem;\n-  --box-shadow: \n+  --box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),\n+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),\n+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),\n+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),\n+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),\n+  100px 100px 80px rgba(0, 0, 0, 0.07);\n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n   --max-width: 1170px;\n   --fixed-width: 620px;\n"
+                },
+                {
+                    "date": 1676284512603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,15 +16,15 @@\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n-  --radius: 0.25rem;\n+  --border-radius: 0.25rem;\n   --box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),\n-  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),\n-  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),\n-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),\n-  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),\n-  100px 100px 80px rgba(0, 0, 0, 0.07);\n+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),\n+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),\n+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),\n+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),\n+    100px 100px 80px rgba(0, 0, 0, 0.07);\n   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);\n   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);\n   --max-width: 1170px;\n   --fixed-width: 620px;\n@@ -174,9 +174,8 @@\n }\n \n @media (min-width: 992px) {\n   .section {\n-\n   }\n \n   .page {\n     min-height: 100vh;\n"
+                },
+                {
+                    "date": 1676284521011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --transition: all 0.3s linear;\n   --spacing: 0.1rem;\n-  --border-radius: 0.25rem;\n+  --border-radius: 10px;\n   --box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),\n     6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),\n     12.5px 12.5px 10px rgba(0, 0, 0, 0.035),\n     22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),\n"
+                },
+                {
+                    "date": 1676288042285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,8 +124,12 @@\n   }\n }\n /*  global classes */\n \n+.active {\n+  background-color: aqua;\n+}\n+\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676288085566,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .active {\n-  background-color: aqua;\n+  background-color: #fff;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288096865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .active {\n-  background-color: #fff;\n+  background-color: lightblue;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288103428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .active {\n-  background-color: lightblue;\n+  background-color: light;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288164997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .active {\n-  background-color: light;\n+  background-color: var(--clr-primary-1);\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288170194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,8 +126,9 @@\n /*  global classes */\n \n .active {\n   background-color: var(--clr-primary-1);\n+  color: #fff\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288182370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,9 +126,9 @@\n /*  global classes */\n \n .active {\n   background-color: var(--clr-primary-1);\n-  color: #fff\n+  \n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288188783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,8 +129,10 @@\n   background-color: var(--clr-primary-1);\n   \n }\n \n+.active \n+\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676288204052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,13 +126,10 @@\n /*  global classes */\n \n .active {\n   background-color: var(--clr-primary-1);\n-  \n }\n \n-.active \n-\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676288215647,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .active {\n-  background-color: var(--clr-primary-1);\n+  background-color: var;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288285057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .active {\n-  background-color: var;\n+  bord\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288291927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .active {\n-  bord\n+  border-bottom: 2px solid ;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288298030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .active {\n-  border-bottom: 2px solid ;\n+  border-bottom: 2px solid var(--clr-primary-1);\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288309912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,9 @@\n   }\n }\n /*  global classes */\n \n-.active {\n+.active  {\n   border-bottom: 2px solid var(--clr-primary-1);\n }\n \n .button {\n"
+                },
+                {
+                    "date": 1676288464226,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,9 @@\n   }\n }\n /*  global classes */\n \n-.active  {\n+li > .active {\n   border-bottom: 2px solid var(--clr-primary-1);\n }\n \n .button {\n"
+                },
+                {
+                    "date": 1676288545033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,12 +124,8 @@\n   }\n }\n /*  global classes */\n \n-li > .active {\n-  border-bottom: 2px solid var(--clr-primary-1);\n-}\n-\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676288922908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,8 +124,10 @@\n   }\n }\n /*  global classes */\n \n+\n+\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676288928522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,10 +124,12 @@\n   }\n }\n /*  global classes */\n \n+.active {\n+  background-color: red;\n+}\n \n-\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676288934606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,8 +128,10 @@\n .active {\n   background-color: red;\n }\n \n+.active\n+\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676288944274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -128,9 +128,11 @@\n .active {\n   background-color: red;\n }\n \n-.active\n+.active > li {\n+  border-bottom: 1;\n+}\n \n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n"
+                },
+                {
+                    "date": 1676288951361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n   background-color: red;\n }\n \n .active > li {\n-  border-bottom: 1;\n+  border-bottom: 1px solid green;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676288958613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n   background-color: red;\n }\n \n .active > li {\n-  border-bottom: 1px solid green;\n+  border-bottom: 2px solid green;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676289001700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,13 +125,13 @@\n }\n /*  global classes */\n \n .active {\n-  background-color: red;\n+  /* background-color: red; */\n }\n \n .active > li {\n-  border-bottom: 2px solid green;\n+  background-color: 2px solid green;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676289010438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -129,9 +129,9 @@\n   /* background-color: red; */\n }\n \n .active > li {\n-  background-color: 2px solid green;\n+  background-color: var(--clr-primary-1);\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676289015540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,8 +130,9 @@\n }\n \n .active > li {\n   background-color: var(--clr-primary-1);\n+  color: #fff;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676289121618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,10 @@\n }\n /*  global classes */\n \n .active {\n-  /* background-color: red; */\n+  background: var(--clr-primary-1);\n+  padding: 0.5rem 1rem;\n }\n \n .active > li {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676289189711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,12 +124,9 @@\n   }\n }\n /*  global classes */\n \n-.active {\n-  background: var(--clr-primary-1);\n-  padding: 0.5rem 1rem;\n-}\n+x\n \n .active > li {\n   background-color: var(--clr-primary-1);\n   color: #fff;\n"
+                },
+                {
+                    "date": 1676289204838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,12 @@\n   }\n }\n /*  global classes */\n \n-x\n+.active {\n+  background: var(--clr-primary-1);\n+  padding: 0.5rem 1rem;\n+}\n \n .active > li {\n   background-color: var(--clr-primary-1);\n   color: #fff;\n"
+                },
+                {
+                    "date": 1676289286949,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,17 +124,9 @@\n   }\n }\n /*  global classes */\n \n-.active {\n-  background: var(--clr-primary-1);\n-  padding: 0.5rem 1rem;\n-}\n \n-.active > li {\n-  background-color: var(--clr-primary-1);\n-  color: #fff;\n-}\n \n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n"
+                },
+                {
+                    "date": 1676289355480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,10 +124,13 @@\n   }\n }\n /*  global classes */\n \n+.active li {\n+  background: var(--clr-primary-1);\n+  padding: 0.5rem 1rem;\n+}\n \n-\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676289368032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,13 +124,10 @@\n   }\n }\n /*  global classes */\n \n-.active li {\n-  background: var(--clr-primary-1);\n-  padding: 0.5rem 1rem;\n-}\n \n+\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1676289386909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,10 +124,8 @@\n   }\n }\n /*  global classes */\n \n-\n-\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n@@ -193,8 +191,13 @@\n     margin: 0 auto;\n   }\n }\n \n+.active {\n+  background: var(--clr-primary-1);\n+  padding: 0.5rem 1rem;\n+}\n+\n /* =============== \n Variables\n =============== */\n \n"
+                },
+                {
+                    "date": 1676289392115,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,8 +196,10 @@\n   background: var(--clr-primary-1);\n   padding: 0.5rem 1rem;\n }\n \n+.\n+\n /* =============== \n Variables\n =============== */\n \n"
+                },
+                {
+                    "date": 1676289399584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,9 +196,11 @@\n   background: var(--clr-primary-1);\n   padding: 0.5rem 1rem;\n }\n \n-.\n+.active li {\n+  color: #fff;\n+}\n \n /* =============== \n Variables\n =============== */\n"
+                },
+                {
+                    "date": 1676289405804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,12 +196,10 @@\n   background: var(--clr-primary-1);\n   padding: 0.5rem 1rem;\n }\n \n-.active li {\n-  color: #fff;\n-}\n \n+\n /* =============== \n Variables\n =============== */\n \n"
+                },
+                {
+                    "date": 1676289427419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,10 +196,12 @@\n   background: var(--clr-primary-1);\n   padding: 0.5rem 1rem;\n }\n \n+.active li {\n+  color: #fff;\n+}\n \n-\n /* =============== \n Variables\n =============== */\n \n"
                 }
             ],
             "date": 1674751476103,

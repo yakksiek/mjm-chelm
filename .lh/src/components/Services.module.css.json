@@ -1,0 +1,286 @@
+{
+    "sourceFile": "src/components/Services.module.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 67,
+            "patches": [
+                {
+                    "date": 1675092612576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675092619144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin: 2rem 0;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n-  /* color: var(--clr-primary-1); */\n+  color: white;\n }\n \n .container-services {\n   /* display: flex; */\n"
+                },
+                {
+                    "date": 1675092628192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n     margin: 4rem 0;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    color: var(--clr-primary-1);\n+    /* color: var(--clr-primary-1); */\n     width: 95vw;\n   }\n \n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1675092636985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n     margin: 4rem 0;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    /* color: var(--clr-primary-1); */\n+    color: var(--clr-primary-1);\n     width: 95vw;\n   }\n \n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1675092646797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n     margin: 4rem 0;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    color: var(--clr-primary-1);\n+    /* color: var(--clr-primary-1); */\n     width: 95vw;\n   }\n \n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1675092672064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,8 @@\n     margin: 4rem 0;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    /* color: var(--clr-primary-1); */\n     width: 95vw;\n   }\n \n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1675092691606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n     margin: 4rem 0;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n+    /* color: var(--clr-primary-1); */\n     width: 95vw;\n   }\n \n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1675092699630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n     margin: 4rem 0;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    /* color: var(--clr-primary-1); */\n+   \n     width: 95vw;\n   }\n \n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1675094770559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   margin: 2rem 0;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n-  color: white;\n+  color: var(--clr-primary-1);\n }\n \n .container-services {\n   /* display: flex; */\n@@ -28,13 +28,13 @@\n }\n \n @media (min-width: 800px) {\n   .section-services {\n-    margin: 4rem 0;\n+    margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-   \n+\n     width: 95vw;\n   }\n \n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1675094782431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,9 @@\n     margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-\n-    width: 95vw;\n+    /* width: 95vw; */\n   }\n \n   .section-services h3 {\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1675094968836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n-@media (min-width: 800px) {\n+@media (min-width: px) {\n   .section-services {\n     margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1675094976808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,15 +26,15 @@\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n-@media (min-width: px) {\n+@media (min-width: 992px) {\n   .section-services {\n     margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    /* width: 95vw; */\n+    width: 95vw;\n   }\n \n   .section-services h3 {\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1675094985626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .section-services {\n-  margin: 2rem 0;\n+  margin: 2rem auto;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n@@ -32,9 +32,9 @@\n     margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    width: 95vw;\n+    /* width: 95vw; */\n   }\n \n   .section-services h3 {\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1675095023983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,7 +51,7 @@\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n-    width: 30vw;\n+    /* width: 30vw; */\n   }\n }\n"
+                },
+                {
+                    "date": 1675095076323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,5 +53,9 @@\n     padding: 1rem;\n     text-align: center;\n     /* width: 30vw; */\n   }\n+\n+  ul > * {\n+    flex: 1 1 1;\n+  }\n }\n"
+                },
+                {
+                    "date": 1675095089650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,8 +54,6 @@\n     text-align: center;\n     /* width: 30vw; */\n   }\n \n-  ul > * {\n-    flex: 1 1 1;\n-  }\n+\n }\n"
+                },
+                {
+                    "date": 1675095095609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n-    /* width: 30vw; */\n+    width: 33;\n   }\n \n \n }\n"
+                },
+                {
+                    "date": 1675095142280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,13 @@\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n-    width: 33;\n+    width: 33%;\n   }\n \n+  .service ul {\n+    display: ;\n+  }\n \n+\n }\n"
+                },
+                {
+                    "date": 1675095151073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,10 @@\n     width: 33%;\n   }\n \n   .service ul {\n-    display: ;\n+    display: flex;\n+    flex-direction: column;\n   }\n \n \n }\n"
+                },
+                {
+                    "date": 1675095169721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,11 +54,6 @@\n     text-align: center;\n     width: 33%;\n   }\n \n-  .service ul {\n-    display: flex;\n-    flex-direction: column;\n-  }\n \n-\n }\n"
+                },
+                {
+                    "date": 1675095225458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n-    width: 33%;\n+\n   }\n \n \n }\n"
+                },
+                {
+                    "date": 1675095234086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,12 +48,15 @@\n     display: flex;\n     padding: 0 4rem;\n   }\n \n+  .container-services > * {\n+    fl\n+  }\n+\n   .service {\n     padding: 1rem;\n     text-align: center;\n-\n   }\n \n \n }\n"
+                },
+                {
+                    "date": 1675095256069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,14 +49,12 @@\n     padding: 0 4rem;\n   }\n \n   .container-services > * {\n-    fl\n+    flex-l: 1 1 1;\n   }\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n   }\n-\n-\n }\n"
+                },
+                {
+                    "date": 1675095261136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n     padding: 0 4rem;\n   }\n \n   .container-services > * {\n-    flex-l: 1 1 1;\n+    flex: 1 1 1;\n   }\n \n   .service {\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1675095277438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,12 +48,8 @@\n     display: flex;\n     padding: 0 4rem;\n   }\n \n-  .container-services > * {\n-    flex: 1 1 1;\n-  }\n-\n   .service {\n     padding: 1rem;\n     text-align: center;\n   }\n"
+                },
+                {
+                    "date": 1675096140831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,9 @@\n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n+    li\n   }\n \n   .container-services {\n     display: flex;\n@@ -51,6 +52,7 @@\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n+    width: 33%;\n   }\n }\n"
+                },
+                {
+                    "date": 1675096148224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n-    li\n+    line-height: 1.5;\n   }\n \n   .container-services {\n     display: flex;\n"
+                },
+                {
+                    "date": 1675096170065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n   }\n \n   .container-services {\n     display: flex;\n-    padding: 0 4rem;\n+    /* padding: 0 4rem; */\n   }\n \n   .service {\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1675096177128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n   }\n \n   .container-services {\n     display: flex;\n-    /* padding: 0 4rem; */\n+    padding: 0 4rem;\n   }\n \n   .service {\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1675096185544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n   }\n \n   .container-services {\n     display: flex;\n-    padding: 0 4rem;\n+    /* padding: 0 4rem; */\n   }\n \n   .service {\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1675096197364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n   }\n \n   .container-services {\n     display: flex;\n-    /* padding: 0 4rem; */\n+    padding: 0 4rem;\n   }\n \n   .service {\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1675096211075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,13 +42,13 @@\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n     line-height: 1.5;\n+    \n   }\n \n   .container-services {\n     display: flex;\n-    padding: 0 4rem;\n   }\n \n   .service {\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1675096219794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n     line-height: 1.5;\n-    \n+    font-size: ;\n   }\n \n   .container-services {\n     display: flex;\n"
+                },
+                {
+                    "date": 1675096227315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,9 @@\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n     line-height: 1.5;\n-    font-size: ;\n+    font-size: 28px;\n   }\n \n   .container-services {\n     display: flex;\n"
+                },
+                {
+                    "date": 1675096390932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,10 @@\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n+certificate1\n+\n @media (min-width: 992px) {\n   .section-services {\n     margin: 4rem auto;\n     display: flex;\n@@ -42,9 +44,9 @@\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n     line-height: 1.5;\n-    font-size: 28px;\n+    font-size: 18px;\n   }\n \n   .container-services {\n     display: flex;\n"
+                },
+                {
+                    "date": 1675096398893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,11 @@\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n-certificate1\n+.certificate1 {\n+  transform: scale(1.5);\n+}\n \n @media (min-width: 992px) {\n   .section-services {\n     margin: 4rem auto;\n"
+                },
+                {
+                    "date": 1675096406084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n   /* text-align: left; */\n }\n \n .certificate1 {\n-  transform: scale(1.5);\n+  transform: scale(2);\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1675096431208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n   /* text-align: left; */\n }\n \n .certificate1 {\n-  transform: scale(2);\n+  width: 110;\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1675096475473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n   /* text-align: left; */\n }\n \n .certificate1 {\n-  width: 110;\n+  ma\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1675096484469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n   /* text-align: left; */\n }\n \n .certificate1 {\n-  ma\n+  background-color: #fff;\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1675097186528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n   /* text-align: left; */\n }\n \n .certificate1 {\n-  background-color: #fff;\n+  background-color: ;\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1675097193676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,12 +26,8 @@\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n-.certificate1 {\n-  background-color: ;\n-}\n-\n @media (min-width: 992px) {\n   .section-services {\n     margin: 4rem auto;\n     display: flex;\n"
+                },
+                {
+                    "date": 1675101088821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,10 @@\n     margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    /* width: 95vw; */\n+    margin: 0 auto;\n+    max-width: var(--max-width);\n   }\n \n   .section-services h3 {\n     margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1675101107574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,8 @@\n     margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    margin: 0 auto;\n     max-width: var(--max-width);\n   }\n \n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1676214805648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,17 +28,17 @@\n }\n \n @media (min-width: 992px) {\n   .section-services {\n+    max-width: var(--max-width);\n     margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    max-width: var(--max-width);\n   }\n \n   .section-services h3 {\n-    margin-bottom: 1rem;\n+    margin-bottom: 2rem;\n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n"
+                },
+                {
+                    "date": 1676214911742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,11 +35,9 @@\n     flex-direction: column;\n     align-items: center;\n   }\n \n-  .section-services h3 {\n-    margin-bottom: 2rem;\n-  }\n+ \n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n     line-height: 1.5;\n"
+                },
+                {
+                    "date": 1676214917486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,10 @@\n   align-items: center;\n   color: var(--clr-primary-1);\n }\n \n-.container-services {\n-  /* display: flex; */\n-  padding: 0 2rem;\n+.section-services h3 {\n+  margin-bottom: 2rem;\n }\n \n .service {\n   padding: 1rem;\n"
+                },
+                {
+                    "date": 1676214929284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   list-style-position: inside;\n }\n \n .service li {\n-  margin-bottom: 0.5rem;\n+  /* margin-bottom: 0.5rem; */\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n"
+                },
+                {
+                    "date": 1676214998245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n }\n \n .section-services h3 {\n   margin-bottom: 2rem;\n+  \n }\n \n .service {\n   padding: 1rem;\n@@ -20,9 +21,9 @@\n   list-style-position: inside;\n }\n \n .service li {\n-  /* margin-bottom: 0.5rem; */\n+  margin-bottom: 0.2rem;\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n"
+                },
+                {
+                    "date": 1676215004696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n }\n \n .section-services h3 {\n   margin-bottom: 2rem;\n-  \n+  font-size: 2rem;\n }\n \n .service {\n   padding: 1rem;\n"
+                },
+                {
+                    "date": 1676215026300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n \n .section-services h3 {\n   margin-bottom: 2rem;\n   font-size: 2rem;\n+  al\n }\n \n .service {\n   padding: 1rem;\n"
+                },
+                {
+                    "date": 1676215267847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n }\n \n .section-services h3 {\n   margin-bottom: 2rem;\n-  font-size: 2rem;\n-  al\n+  font-size: 1.5rem;\n+  text-align: center;\n }\n \n .service {\n   padding: 1rem;\n"
+                },
+                {
+                    "date": 1676215282883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,13 @@\n     flex-direction: column;\n     align-items: center;\n   }\n \n+  .section-services h3 {\n+    margin-bottom: 2rem;\n+    font-size: 1.5rem;\n+    text-align: center;\n+  }\n  \n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n"
+                },
+                {
+                    "date": 1676215289044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,11 +37,11 @@\n     align-items: center;\n   }\n \n   .section-services h3 {\n-    margin-bottom: 2rem;\n+\n     font-size: 1.5rem;\n-    text-align: center;\n+ \n   }\n  \n \n   .section-services h4 {\n"
+                },
+                {
+                    "date": 1676215334859,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .section-services {\n-  margin: 2rem auto;\n+  margin: 1rem auto;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n@@ -38,9 +38,9 @@\n   }\n \n   .section-services h3 {\n \n-    font-size: 1.5rem;\n+    font-size: 2rem;\n  \n   }\n  \n \n"
+                },
+                {
+                    "date": 1676215612293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,8 @@\n     align-items: center;\n   }\n \n   .section-services h3 {\n-\n     font-size: 2rem;\n  \n   }\n  \n"
+                },
+                {
+                    "date": 1676215619760,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n   }\n \n   .section-services h3 {\n     font-size: 2rem;\n- \n+    margin-bottom: 2rem;\n   }\n  \n \n   .section-services h4 {\n"
+                },
+                {
+                    "date": 1676215634966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   color: var(--clr-primary-1);\n }\n \n .section-services h3 {\n-  margin-bottom: 2rem;\n+  margin-bottom: 1rem;\n   font-size: 1.5rem;\n   text-align: center;\n }\n \n"
+                },
+                {
+                    "date": 1676241532764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .section-services {\n   margin: 1rem auto;\n+  \n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676241540200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .section-services {\n   margin: 1rem auto;\n-  \n+  padding: 30px;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1676241605109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,10 @@\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n+.\n+\n @media (min-width: 992px) {\n   .section-services {\n     max-width: var(--max-width);\n     margin: 4rem auto;\n"
+                },
+                {
+                    "date": 1676241646666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,11 @@\n   list-style-type: disc;\n   /* text-align: left; */\n }\n \n-.\n+.button-view-offer {\n+  \n+}\n \n @media (min-width: 992px) {\n   .section-services {\n     max-width: var(--max-width);\n"
+                },
+                {
+                    "date": 1676241696454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n   /* text-align: left; */\n }\n \n .button-view-offer {\n-  \n+  ma\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1676241705190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n   /* text-align: left; */\n }\n \n .button-view-offer {\n-  ma\n+  margin-top: 15px;\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1676291920968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,10 @@\n .button-view-offer {\n   margin-top: 15px;\n }\n \n+\n+\n @media (min-width: 992px) {\n   .section-services {\n     max-width: var(--max-width);\n     margin: 4rem auto;\n"
+                },
+                {
+                    "date": 1676291928390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,10 @@\n .button-view-offer {\n   margin-top: 15px;\n }\n \n+@media (min-width)\n \n-\n @media (min-width: 992px) {\n   .section-services {\n     max-width: var(--max-width);\n     margin: 4rem auto;\n"
+                },
+                {
+                    "date": 1676291936163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,12 @@\n .button-view-offer {\n   margin-top: 15px;\n }\n \n-@media (min-width)\n+@media (min-width: 760px) {\n \n+}\n+\n @media (min-width: 992px) {\n   .section-services {\n     max-width: var(--max-width);\n     margin: 4rem auto;\n@@ -43,12 +45,9 @@\n     flex-direction: column;\n     align-items: center;\n   }\n \n-  .section-services h3 {\n-    font-size: 2rem;\n-    margin-bottom: 2rem;\n-  }\n+\n  \n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n"
+                },
+                {
+                    "date": 1676295226187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,23 +33,22 @@\n   margin-top: 15px;\n }\n \n @media (min-width: 760px) {\n-\n+  .section-services h3 {\n+    font-size: 2rem;\n+    margin-bottom: 2rem;\n+  }\n }\n \n @media (min-width: 992px) {\n   .section-services {\n     max-width: var(--max-width);\n-    margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n   }\n \n-\n- \n-\n   .section-services h4 {\n     margin-bottom: 1.5rem;\n     line-height: 1.5;\n     font-size: 18px;\n"
+                }
+            ],
+            "date": 1675092612576,
+            "name": "Commit-0",
+            "content": ".section-services {\n  margin: 2rem 0;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  /* color: var(--clr-primary-1); */\n}\n\n.container-services {\n  /* display: flex; */\n  padding: 0 2rem;\n}\n\n.service {\n  padding: 1rem;\n  text-align: center;\n}\n\n.service ul {\n  list-style-type: disc;\n  list-style-position: inside;\n}\n\n.service li {\n  margin-bottom: 0.5rem;\n  list-style-type: disc;\n  /* text-align: left; */\n}\n\n@media (min-width: 800px) {\n  .section-services {\n    margin: 4rem 0;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    color: var(--clr-primary-1);\n    width: 95vw;\n  }\n\n  .section-services h3 {\n    margin-bottom: 1rem;\n  }\n\n  .section-services h4 {\n    margin-bottom: 1.5rem;\n  }\n\n  .container-services {\n    display: flex;\n    padding: 0 4rem;\n  }\n\n  .service {\n    padding: 1rem;\n    text-align: center;\n    width: 30vw;\n  }\n}\n"
+        }
+    ]
+}

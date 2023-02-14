@@ -10,6 +10,7 @@ import {
   HomePage,
 } from "./pages/index";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Route path="kontakt" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
-        {/* <footer>To jest footer</footer> */}
+        <Footer />
     </BrowserRouter>
   );
 }

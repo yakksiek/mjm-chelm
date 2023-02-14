@@ -1,0 +1,182 @@
+{
+    "sourceFile": "src/pages/Offer.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 41,
+            "patches": [
+                {
+                    "date": 1675166573463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675166579278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,12 @@\n import React from \"react\";\n-import\n+import Accordion from \"../components/Accordion\";\n \n const Offer = () => {\n   return (\n     <section className=\"section page\">\n       <h2>Offer</h2>\n+      <Accordion />\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167108660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Offer = () => {\n   return (\n     <section className=\"section page\">\n       <h2>Offer</h2>\n-      <Accordion />\n+\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167113843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from \"react\";\n-import Accordion from \"../components/Accordion\";\n+import \n \n const Offer = () => {\n   return (\n     <section className=\"section page\">\n"
+                },
+                {
+                    "date": 1675167119416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n import React from \"react\";\n-import \n+import SingleProduct from \"../components/SingleProduct\";\n \n+\n const Offer = () => {\n   return (\n     <section className=\"section page\">\n       <h2>Offer</h2>\n"
+                },
+                {
+                    "date": 1675167125640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\n import SingleProduct from \"../components/SingleProduct\";\n+import{ran}\n \n-\n const Offer = () => {\n   return (\n     <section className=\"section page\">\n       <h2>Offer</h2>\n"
+                },
+                {
+                    "date": 1675167195533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n import React from \"react\";\n import SingleProduct from \"../components/SingleProduct\";\n-import{ran}\n+import { rangeOfServices } from \"../data\";\n \n const Offer = () => {\n   return (\n-    <section className=\"section page\">\n+    <section className={classes.of}>\n       <h2>Offer</h2>\n \n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167200883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { rangeOfServices } from \"../data\";\n \n const Offer = () => {\n   return (\n-    <section className={classes.of}>\n+    <section className={classes.['']}>\n       <h2>Offer</h2>\n \n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167206017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { rangeOfServices } from \"../data\";\n \n const Offer = () => {\n   return (\n-    <section className={classes.['']}>\n+    <section className={classes.['offer-page']}>\n       <h2>Offer</h2>\n \n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167230069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import { rangeOfServices } from \"../data\";\n \n const Offer = () => {\n   return (\n-    <section className={classes.['offer-page']}>\n+    <section className={classes['section-offer']}>\n       <h2>Offer</h2>\n \n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167309885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import React from \"react\";\n import SingleProduct from \"../components/SingleProduct\";\n import { rangeOfServices } from \"../data\";\n \n+import classes from './'\n+\n const Offer = () => {\n   return (\n     <section className={classes['section-offer']}>\n       <h2>Offer</h2>\n"
+                },
+                {
+                    "date": 1675167318204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\n import SingleProduct from \"../components/SingleProduct\";\n import { rangeOfServices } from \"../data\";\n \n-import classes from './'\n+import classes from ''\n \n const Offer = () => {\n   return (\n     <section className={classes['section-offer']}>\n"
+                },
+                {
+                    "date": 1675167326460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,14 @@\n import React from \"react\";\n import SingleProduct from \"../components/SingleProduct\";\n import { rangeOfServices } from \"../data\";\n \n-import classes from ''\n+import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={classes['section-offer']}>\n+    <section className={classes[\"section-offer\"]}>\n       <h2>Offer</h2>\n-\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167340953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\n import SingleProduct from \"../components/SingleProduct\";\n import { rangeOfServices } from \"../data\";\n \n-import classes from \"./Offer.module.css\";\n+import classes from \"Offer.module.css\";\n \n const Offer = () => {\n   return (\n     <section className={classes[\"section-offer\"]}>\n"
+                },
+                {
+                    "date": 1675167356446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import React from \"react\";\n import SingleProduct from \"../components/SingleProduct\";\n import { rangeOfServices } from \"../data\";\n \n-import classes from \"Offer.module.css\";\n+import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n     <section className={classes[\"section-offer\"]}>\n"
+                },
+                {
+                    "date": 1675167437712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \n const Offer = () => {\n   return (\n     <section className={classes[\"section-offer\"]}>\n-      <h2>Offer</h2>\n+      <h2>Nasza oferta obejmuje</h2>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167443644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n const Offer = () => {\n   return (\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n+      \n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167458770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n const Offer = () => {\n   return (\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n-      \n+      section\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167465462,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n const Offer = () => {\n   return (\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n-      section\n+      <section ></section>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167528843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,11 @@\n const Offer = () => {\n   return (\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n-      <section ></section>\n+      <section>\n+        {}\n+      </section>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167536274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   return (\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n-        {}\n+        {p.map()}\n       </section>\n     </section>\n   );\n };\n"
+                },
+                {
+                    "date": 1675167547808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n   return (\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n-        {p.map()}\n+        {rangeOfServices.map(service => {\n+          \n+        })}\n       </section>\n     </section>\n   );\n };\n"
+                },
+                {
+                    "date": 1675167553934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map(service => {\n-          \n+          return \n         })}\n       </section>\n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167559742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map(service => {\n-          return \n+          return <SingleProduct key/>\n         })}\n       </section>\n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167569214,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map(service => {\n-          return <SingleProduct key/>\n+          return <SingleProduct key={}/>\n         })}\n       </section>\n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167578809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map(service => {\n-          return <SingleProduct key={}/>\n+          return <SingleProduct key={service,}/>\n         })}\n       </section>\n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167596347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n   return (\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n-        {rangeOfServices.map(service => {\n-          return <SingleProduct key={service,}/>\n+        {rangeOfServices.map((service) => {\n+          return <SingleProduct key={service.id} {...question} />;\n         })}\n       </section>\n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167620329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n-          return <SingleProduct key={service.id} {...question} />;\n+          return <SingleProduct key={service.id} {...ser} />;\n         })}\n       </section>\n     </section>\n   );\n"
+                },
+                {
+                    "date": 1675167915410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,26 @@\n     <section className={classes[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n-          return <SingleProduct key={service.id} {...ser} />;\n+          return <SingleProduct key={service.id} {...service} />;\n         })}\n       </section>\n+      <section>\n+        {rangeOfServices.map((service) => {\n+          return <SingleProduct key={service.id} {...service} />;\n+        })}\n+      </section>\n+      <section>\n+        {rangeOfServices.map((service) => {\n+          return <SingleProduct key={service.id} {...service} />;\n+        })}\n+      </section>\n+      <section>\n+        {rangeOfServices.map((service) => {\n+          return <SingleProduct key={service.id} {...service} />;\n+        })}\n+      </section>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167921173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n       </section>\n-      <section>\n+       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n       </section>\n"
+                },
+                {
+                    "date": 1675167929381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,24 +11,23 @@\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n-      </section>\n-      <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n-      </section>\n-      <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n-      </section>\n-       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n+        {rangeOfServices.map((service) => {\n+          return <SingleProduct key={service.id} {...service} />;\n+        })}\n+        \n       </section>\n+      \n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1675167934641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,20 +11,8 @@\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n-        {rangeOfServices.map((service) => {\n-          return <SingleProduct key={service.id} {...service} />;\n-        })}\n-        {rangeOfServices.map((service) => {\n-          return <SingleProduct key={service.id} {...service} />;\n-        })}\n-        {rangeOfServices.map((service) => {\n-          return <SingleProduct key={service.id} {...service} />;\n-        })}\n-        {rangeOfServices.map((service) => {\n-          return <SingleProduct key={service.id} {...service} />;\n-        })}\n         \n       </section>\n       \n     </section>\n"
+                },
+                {
+                    "date": 1676203616079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,15 +5,14 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={classes[\"section-offer\"]}>\n+    <section className={zclasses[\"section-offer\"]}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n-        \n       </section>\n       \n     </section>\n   );\n"
+                },
+                {
+                    "date": 1676203623395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={zclasses[\"section-offer\"]}>\n+    <section className={`classes[\"section-offer\"]`}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1676203629791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`classes[\"section-offer\"]`}>\n+    <section className={`${classes[\"section-offer\"]`}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1676203638166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes[\"section-offer\"]`}>\n+    <section className={`${classes[\"section-offer\"]} page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1676284173804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,10 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n+      <h2>Nasza oferta obejmuje</h2>\n     <section className={`${classes[\"section-offer\"]} page-container`}>\n-      <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n"
+                },
+                {
+                    "date": 1676284179274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n+    M\n       <h2>Nasza oferta obejmuje</h2>\n     <section className={`${classes[\"section-offer\"]} page-container`}>\n       <section>\n         {rangeOfServices.map((service) => {\n"
+                },
+                {
+                    "date": 1676284187186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,11 +5,11 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    M\n+  \n+    <section className={`${classes[\"section-offer\"]} page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n-    <section className={`${classes[\"section-offer\"]} page-container`}>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n"
+                },
+                {
+                    "date": 1676284202058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,17 +5,15 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-  \n+    <h2>Nasza oferta obejmuje</h2>\n     <section className={`${classes[\"section-offer\"]} page-container`}>\n-      <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n       </section>\n-      \n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1676284209384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,16 +5,18 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n+    <>\n     <h2>Nasza oferta obejmuje</h2>\n     <section className={`${classes[\"section-offer\"]} page-container`}>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n       </section>\n     </section>\n+        </>\n   );\n };\n \n export default Offer;\n"
+                },
+                {
+                    "date": 1676284223400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,18 +5,18 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <>\n-    <h2>Nasza oferta obejmuje</h2>\n+  \n     <section className={`${classes[\"section-offer\"]} page-container`}>\n+      <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n       </section>\n+      \n     </section>\n-        </>\n   );\n };\n \n export default Offer;\n"
+                }
+            ],
+            "date": 1675166573463,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport\n\nconst Offer = () => {\n  return (\n    <section className=\"section page\">\n      <h2>Offer</h2>\n    </section>\n  );\n};\n\nexport default Offer;\n"
+        }
+    ]
+}

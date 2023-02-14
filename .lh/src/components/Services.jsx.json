@@ -1,0 +1,46 @@
+{
+    "sourceFile": "src/components/Services.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 7,
+            "patches": [
+                {
+                    "date": 1675094654702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675094664896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n const Products = () => {\n   return (\n     <section className={`${classes[\"section-services\"]} section`}>\n-      <div className=\"container section\">\n+      <div className=\"container\">\n         <h3>Czym się zajmujemy</h3>\n       </div>\n       <div className={`${classes[\"container-services\"]} container`}>\n         <div className={classes.service}>\n"
+                },
+                {
+                    "date": 1675094838529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Services.module.css\";\n \n const Products = () => {\n   return (\n-    <section className={`${classes[\"section-services\"]} section`}>\n+    <section className={`${classes[\"section-services\"]} section container`}>\n       <div className=\"container\">\n         <h3>Czym się zajmujemy</h3>\n       </div>\n       <div className={`${classes[\"container-services\"]} container`}>\n"
+                },
+                {
+                    "date": 1675095197313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Services.module.css\";\n \n const Products = () => {\n   return (\n-    <section className={`${classes[\"section-services\"]} section container`}>\n+    <section className={`${classes[\"section-services\"]} section `}>\n       <div className=\"container\">\n         <h3>Czym się zajmujemy</h3>\n       </div>\n       <div className={`${classes[\"container-services\"]} container`}>\n@@ -17,14 +17,17 @@\n             <li>kratownice</li>\n           </ul>\n         </div>\n         <div className={classes.service}>\n+          <div>\n+\n           <h4>Montaż, naprawa, modernizacja i konserwacja dźwignic</h4>\n           <ul>\n             <li>suwnice i wciągniki, wciągarki</li>\n             <li>podesty ruchome</li>\n             <li>żurawie stałe i samojezdne</li>\n           </ul>\n+          </div>\n         </div>\n         <div className={classes.service}>\n           <h4>\n             Remonty i modernizacja ciągów technologicznych, maszyn i urządzeń\n"
+                },
+                {
+                    "date": 1675095207104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,17 +17,14 @@\n             <li>kratownice</li>\n           </ul>\n         </div>\n         <div className={classes.service}>\n-          <div>\n-\n           <h4>Montaż, naprawa, modernizacja i konserwacja dźwignic</h4>\n           <ul>\n             <li>suwnice i wciągniki, wciągarki</li>\n             <li>podesty ruchome</li>\n             <li>żurawie stałe i samojezdne</li>\n           </ul>\n-          </div>\n         </div>\n         <div className={classes.service}>\n           <h4>\n             Remonty i modernizacja ciągów technologicznych, maszyn i urządzeń\n"
+                },
+                {
+                    "date": 1676203511981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n const Products = () => {\n   return (\n     <section className={`${classes[\"section-services\"]} section `}>\n-      <div className=\"container\">\n+      <div className=\"\">\n         <h3>Czym się zajmujemy</h3>\n       </div>\n       <div className={`${classes[\"container-services\"]} container`}>\n         <div className={classes.service}>\n"
+                },
+                {
+                    "date": 1676203533656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import classes from \"./Services.module.css\";\n \n const Products = () => {\n   return (\n-    <section className={`${classes[\"section-services\"]} section  `}>\n+    <section className={`${classes[\"section-services\"]} section p `}>\n       <div className=\"\">\n         <h3>Czym się zajmujemy</h3>\n       </div>\n       <div className={`${classes[\"container-services\"]}`}>\n"
+                },
+                {
+                    "date": 1676203557537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n \n const Products = () => {\n   return (\n     <section\n-      className={ `${classes[\"section-services\"]} section  `}\n+      className={`page-container ${classes[\"section-services\"]} section  `}\n     >\n       <div className=\"\">\n         <h3>Czym się zajmujemy</h3>\n       </div>\n"
+                }
+            ],
+            "date": 1675094654702,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\n\nimport classes from \"./Services.module.css\";\n\nconst Products = () => {\n  return (\n    <section className={`${classes[\"section-services\"]} section`}>\n      <div className=\"container section\">\n        <h3>Czym się zajmujemy</h3>\n      </div>\n      <div className={`${classes[\"container-services\"]} container`}>\n        <div className={classes.service}>\n          <h4>Wykonastwo i montaż konstrukcji stalowych</h4>\n          <ul>\n            <li>estakady pod taśmociągi, podpory, słupy, schody, pomosty</li>\n            <li>podtorza suwnic i wciągników, belki podsuwnicowe</li>\n            <li>kratownice</li>\n          </ul>\n        </div>\n        <div className={classes.service}>\n          <h4>Montaż, naprawa, modernizacja i konserwacja dźwignic</h4>\n          <ul>\n            <li>suwnice i wciągniki, wciągarki</li>\n            <li>podesty ruchome</li>\n            <li>żurawie stałe i samojezdne</li>\n          </ul>\n        </div>\n        <div className={classes.service}>\n          <h4>\n            Remonty i modernizacja ciągów technologicznych, maszyn i urządzeń\n            przemysłowych\n          </h4>\n          <ul>\n            <li>piece obrotowe, chłodniki planetarne i rusztowe</li>\n            <li>młyny cementu, surowca, węgla, wapna</li>\n            <li>suszarnie</li>\n          </ul>\n        </div>\n      </div>\n      <button className=\"button\">Zobacz pełną ofertę</button>\n    </section>\n  );\n};\n\nexport default Products;\n"
+        }
+    ]
+}

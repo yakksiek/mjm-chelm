@@ -1,0 +1,54 @@
+{
+    "sourceFile": "src/components/SingleProduct.module.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1675168616503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675168689425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n-.question {\n-    padding: 1rem 1.5rem;\n-    border: 2px solid var(--clr-grey-special);\n-    margin-bottom: 1rem;\n-    border-radius: var(--radius);\n-    box-shadow: var(--light-shadow);\n-  }\n\\ No newline at end of file\n+.service {\n+  padding: 1rem 1.5rem;\n+  border: 2px solid var(--clr-grey-special);\n+  margin-bottom: 1rem;\n+  border-radius: var(--radius);\n+  box-shadow: var(--light-shadow);\n+}\n+\n"
+                },
+                {
+                    "date": 1675168694958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,4 +5,8 @@\n   border-radius: var(--radius);\n   box-shadow: var(--light-shadow);\n }\n \n+.service h4 {\n+    text-transform: none;\n+    line-height: 1.5;\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675168717413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n   border-radius: var(--radius);\n   box-shadow: var(--light-shadow);\n }\n \n-.service h4 {\n-    text-transform: none;\n-    line-height: 1.5;\n+..question p {\n+    color: var(--clr-grey-3);\n+    margin-bottom: 0;\n+    margin-top: 0.5rem;\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675168722843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   border-radius: var(--radius);\n   box-shadow: var(--light-shadow);\n }\n \n-..question p {\n+.service p {\n     color: var(--clr-grey-3);\n     margin-bottom: 0;\n     margin-top: 0.5rem;\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675168732211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n   border-radius: var(--radius);\n   box-shadow: var(--light-shadow);\n }\n \n-.service p {\n+.service li {\n     color: var(--clr-grey-3);\n     margin-bottom: 0;\n     margin-top: 0.5rem;\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1675168745815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,10 @@\n   border-radius: var(--radius);\n   box-shadow: var(--light-shadow);\n }\n \n+\n+\n .service li {\n     color: var(--clr-grey-3);\n     margin-bottom: 0;\n     margin-top: 0.5rem;\n"
+                },
+                {
+                    "date": 1675168751658,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,12 @@\n   border-radius: var(--radius);\n   box-shadow: var(--light-shadow);\n }\n \n+ul {\n+    list-style-type: disc;\n+}\n \n-\n .service li {\n     color: var(--clr-grey-3);\n     margin-bottom: 0;\n     margin-top: 0.5rem;\n"
+                },
+                {
+                    "date": 1675168764083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   border: 2px solid var(--clr-grey-special);\n   margin-bottom: 1rem;\n   border-radius: var(--radius);\n   box-shadow: var(--light-shadow);\n-  pad\n+  padding: ;\n }\n \n ul {\n     list-style-type: disc;\n"
+                },
+                {
+                    "date": 1676302124058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,11 @@\n .service li {\n   color: var(--clr-grey-3);\n   margin-bottom: 0;\n   margin-top: 0.5rem;\n+  -webkit-user-select: none; /* Safari */\n+  -ms-user-select: none; /* IE 10 and IE 11 */\n+  user-select: none; /* Standard syntax */\n }\n \n .service header {\n   display: flex;\n"
+                }
+            ],
+            "date": 1675168616503,
+            "name": "Commit-0",
+            "content": ".question {\n    padding: 1rem 1.5rem;\n    border: 2px solid var(--clr-grey-special);\n    margin-bottom: 1rem;\n    border-radius: var(--radius);\n    box-shadow: var(--light-shadow);\n  }"
+        }
+    ]
+}

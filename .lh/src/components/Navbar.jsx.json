@@ -1,0 +1,126 @@
+{
+    "sourceFile": "src/components/Navbar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 27,
+            "patches": [
+                {
+                    "date": 1675099760104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1676283453659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n import logo from \"../assets/logo.png\";\n import { FaBars } from \"react-icons/fa\";\n \n import { links } from \"../data\";\n+import \n \n const Navbar = () => {\n   const [showLinks, setShowLinks] = useState(false);\n \n"
+                },
+                {
+                    "date": 1676283460466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import logo from \"../assets/logo.png\";\n import { FaBars } from \"react-icons/fa\";\n \n import { links } from \"../data\";\n-import \n+import classes from './'\n \n const Navbar = () => {\n   const [showLinks, setShowLinks] = useState(false);\n \n"
+                },
+                {
+                    "date": 1676283466057,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import logo from \"../assets/logo.png\";\n import { FaBars } from \"react-icons/fa\";\n \n import { links } from \"../data\";\n-import classes from './'\n+import classes from './Navbar.module.css'\n \n const Navbar = () => {\n   const [showLinks, setShowLinks] = useState(false);\n \n"
+                },
+                {
+                    "date": 1676283565059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n   }, [showLinks]);\n \n   return (\n     <nav>\n-      <div className=\"nav-center\">\n+      <div className={classes[]}>\n         <div className=\"nav-header\">\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n             className={`${showLinks ? \"nav-toggle-clicked\" : \"\"} nav-toggle `}\n"
+                },
+                {
+                    "date": 1676283580309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,10 @@\n   }, [showLinks]);\n \n   return (\n     <nav>\n-      <div className={classes[]}>\n-        <div className=\"nav-header\">\n+      <div className={classes['nav-center']}>\n+        <div className={classes['nav-header']}>\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n             className={`${showLinks ? \"nav-toggle-clicked\" : \"\"} nav-toggle `}\n             onClick={() => setShowLinks(!showLinks)}\n"
+                },
+                {
+                    "date": 1676283610798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n       <div className={classes['nav-center']}>\n         <div className={classes['nav-header']}>\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n-            className={`${showLinks ? \"nav-toggle-clicked\" : \"\"} nav-toggle `}\n+            className={`${showLinks ? {na} : \"\"} nav-toggle `}\n             onClick={() => setShowLinks(!showLinks)}\n           >\n             <FaBars />\n           </button>\n"
+                },
+                {
+                    "date": 1676283622329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n       <div className={classes['nav-center']}>\n         <div className={classes['nav-header']}>\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n-            className={`${showLinks ? {na} : \"\"} nav-toggle `}\n+            className={`${showLinks ? classes : \"\"} nav-toggle `}\n             onClick={() => setShowLinks(!showLinks)}\n           >\n             <FaBars />\n           </button>\n"
+                },
+                {
+                    "date": 1676283641538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n import logo from \"../assets/logo.png\";\n import { FaBars } from \"react-icons/fa\";\n \n import { links } from \"../data\";\n-import classes from './Navbar.module.css'\n+import classes from \"./Navbar.module.css\";\n \n const Navbar = () => {\n   const [showLinks, setShowLinks] = useState(false);\n \n@@ -22,13 +22,15 @@\n   }, [showLinks]);\n \n   return (\n     <nav>\n-      <div className={classes['nav-center']}>\n-        <div className={classes['nav-header']}>\n+      <div className={classes[\"nav-center\"]}>\n+        <div className={classes[\"nav-header\"]}>\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n-            className={`${showLinks ? classes : \"\"} nav-toggle `}\n+            className={`${\n+              showLinks ? classes[\"nav-toggle-clicked\"] : \"\"\n+            } ${clas} `}\n             onClick={() => setShowLinks(!showLinks)}\n           >\n             <FaBars />\n           </button>\n"
+                },
+                {
+                    "date": 1676283646889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n             className={`${\n               showLinks ? classes[\"nav-toggle-clicked\"] : \"\"\n-            } ${clas} `}\n+            } classes `}\n             onClick={() => setShowLinks(!showLinks)}\n           >\n             <FaBars />\n           </button>\n"
+                },
+                {
+                    "date": 1676283658261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n             className={`${\n               showLinks ? classes[\"nav-toggle-clicked\"] : \"\"\n-            } classes `}\n+            } nav-toggle `}\n             onClick={() => setShowLinks(!showLinks)}\n           >\n             <FaBars />\n           </button>\n"
+                },
+                {
+                    "date": 1676283664360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n             className={`${\n               showLinks ? classes[\"nav-toggle-clicked\"] : \"\"\n-            } nav-toggle `}\n+            } classes. `}\n             onClick={() => setShowLinks(!showLinks)}\n           >\n             <FaBars />\n           </button>\n"
+                },
+                {
+                    "date": 1676283675495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n           <img src={logo} alt=\"logo\" className=\"logo\" />\n           <button\n             className={`${\n               showLinks ? classes[\"nav-toggle-clicked\"] : \"\"\n-            } classes. `}\n+            } ${classes['nav-toggle']} `}\n             onClick={() => setShowLinks(!showLinks)}\n           >\n             <FaBars />\n           </button>\n"
+                },
+                {
+                    "date": 1676283704571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           </button>\n         </div>\n         <div\n           ref={linksContainerRef}\n-          className={`${showLinks ? \"show-container\" : \"\"} links-container `}\n+          className={`${showLinks ? classes['show-container'] : \"\"} links-container `}\n         >\n           <ul className=\"links\" ref={linksRef}>\n             {links.map((link) => {\n               const { id, url, text } = link;\n"
+                },
+                {
+                    "date": 1676283711769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           </button>\n         </div>\n         <div\n           ref={linksContainerRef}\n-          className={`${showLinks ? classes['show-container'] : \"\"} links-container `}\n+          className={`${showLinks ? classes['show-container'] : \"\"} ${c} `}\n         >\n           <ul className=\"links\" ref={linksRef}>\n             {links.map((link) => {\n               const { id, url, text } = link;\n"
+                },
+                {
+                    "date": 1676283718224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           </button>\n         </div>\n         <div\n           ref={linksContainerRef}\n-          className={`${showLinks ? classes['show-container'] : \"\"} ${c} `}\n+          className={`${showLinks ? classes['show-container'] : \"\"} ${classes['links-container']} `}\n         >\n           <ul className=\"links\" ref={linksRef}>\n             {links.map((link) => {\n               const { id, url, text } = link;\n"
+                },
+                {
+                    "date": 1676283749220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n         <div\n           ref={linksContainerRef}\n           className={`${showLinks ? classes['show-container'] : \"\"} ${classes['links-container']} `}\n         >\n-          <ul className=\"links\" ref={linksRef}>\n+          <ul className={classes.links} ref={linksRef}>\n             {links.map((link) => {\n               const { id, url, text } = link;\n               return (\n                 <li key={id} onClick={() => setShowLinks(!showLinks)}>\n"
+                },
+                {
+                    "date": 1676283757676,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n             {links.map((link) => {\n               const { id, url, text } = link;\n               return (\n                 <li key={id} onClick={() => setShowLinks(!showLinks)}>\n-                  <NavLink to={url} className=\"link\">\n+                  <NavLink to={url} className={classes.link}>\n                     {text}\n                   </NavLink>\n                 </li>\n               );\n"
+                },
+                {
+                    "date": 1676283848334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   return (\n     <nav>\n       <div className={classes[\"nav-center\"]}>\n         <div className={classes[\"nav-header\"]}>\n-          <img src={logo} alt=\"logo\" className=\"logo\" />\n+          <img src={logo} alt=\"logo\" className={classes.logo} />\n           <button\n             className={`${\n               showLinks ? classes[\"nav-toggle-clicked\"] : \"\"\n             } ${classes['nav-toggle']} `}\n"
+                },
+                {
+                    "date": 1676288865269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,10 +42,10 @@\n           <ul className={classes.links} ref={linksRef}>\n             {links.map((link) => {\n               const { id, url, text } = link;\n               return (\n+                  <NavLink to={url} className={classes.link}>\n                 <li key={id} onClick={() => setShowLinks(!showLinks)}>\n-                  <NavLink to={url} className={classes.link}>\n                     {text}\n                   </NavLink>\n                 </li>\n               );\n"
+                },
+                {
+                    "date": 1676288875920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,12 +43,12 @@\n             {links.map((link) => {\n               const { id, url, text } = link;\n               return (\n                   <NavLink to={url} className={classes.link}>\n-                <li key={id} onClick={() => setShowLinks(!showLinks)}>\n+                <li ż onClick={() => setShowLinks(!showLinks)}>\n                     {text}\n+                </li>\n                   </NavLink>\n-                </li>\n               );\n             })}\n           </ul>\n         </div>\n"
+                },
+                {
+                    "date": 1676288881469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n             {links.map((link) => {\n               const { id, url, text } = link;\n               return (\n                   <NavLink to={url} className={classes.link}>\n-                <li ż onClick={() => setShowLinks(!showLinks)}>\n+                <li  onClick={() => setShowLinks(!showLinks)}>\n                     {text}\n                 </li>\n                   </NavLink>\n               );\n"
+                },
+                {
+                    "date": 1676291513337,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React, { useState, useRef, useEffect } from \"react\";\n-import { NavLink } from \"react-router-dom\";\n+import { NavLink, Link } from \"react-router-dom\";\n import logo from \"../assets/logo.png\";\n import { FaBars } from \"react-icons/fa\";\n \n import { links } from \"../data\";\n@@ -26,29 +26,29 @@\n       <div className={classes[\"nav-center\"]}>\n         <div className={classes[\"nav-header\"]}>\n           <img src={logo} alt=\"logo\" className={classes.logo} />\n           <button\n-            className={`${\n-              showLinks ? classes[\"nav-toggle-clicked\"] : \"\"\n-            } ${classes['nav-toggle']} `}\n+            className={`${showLinks ? classes[\"nav-toggle-clicked\"] : \"\"} ${\n+              classes[\"nav-toggle\"]\n+            } `}\n             onClick={() => setShowLinks(!showLinks)}\n           >\n             <FaBars />\n           </button>\n         </div>\n         <div\n           ref={linksContainerRef}\n-          className={`${showLinks ? classes['show-container'] : \"\"} ${classes['links-container']} `}\n+          className={`${showLinks ? classes[\"show-container\"] : \"\"} ${\n+            classes[\"links-container\"]\n+          } `}\n         >\n           <ul className={classes.links} ref={linksRef}>\n             {links.map((link) => {\n               const { id, url, text } = link;\n               return (\n-                  <NavLink to={url} className={classes.link}>\n-                <li  onClick={() => setShowLinks(!showLinks)}>\n-                    {text}\n-                </li>\n-                  </NavLink>\n+                <NavLink key={id} to={url} className={classes.link}>\n+                  <li onClick={() => setShowLinks(!showLinks)}>{text}</li>\n+                </NavLink>\n               );\n             })}\n           </ul>\n         </div>\n"
+                },
+                {
+                    "date": 1676291522427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,9 @@\n   return (\n     <nav>\n       <div className={classes[\"nav-center\"]}>\n         <div className={classes[\"nav-header\"]}>\n+          \n           <img src={logo} alt=\"logo\" className={classes.logo} />\n           <button\n             className={`${showLinks ? classes[\"nav-toggle-clicked\"] : \"\"} ${\n               classes[\"nav-toggle\"]\n"
+                },
+                {
+                    "date": 1676291531745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,11 @@\n   return (\n     <nav>\n       <div className={classes[\"nav-center\"]}>\n         <div className={classes[\"nav-header\"]}>\n-          \n+        <NavLink key={id} to={url} className={classes.link}>\n           <img src={logo} alt=\"logo\" className={classes.logo} />\n+          </NavLink>\n           <button\n             className={`${showLinks ? classes[\"nav-toggle-clicked\"] : \"\"} ${\n               classes[\"nav-toggle\"]\n             } `}\n"
+                },
+                {
+                    "date": 1676291537843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,11 @@\n   return (\n     <nav>\n       <div className={classes[\"nav-center\"]}>\n         <div className={classes[\"nav-header\"]}>\n-        <NavLink key={id} to={url} className={classes.link}>\n+        <Link key={id} to={url} className={classes.link}>\n           <img src={logo} alt=\"logo\" className={classes.logo} />\n-          </NavLink>\n+          </Link>\n           <button\n             className={`${showLinks ? classes[\"nav-toggle-clicked\"] : \"\"} ${\n               classes[\"nav-toggle\"]\n             } `}\n"
+                },
+                {
+                    "date": 1676291562453,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n   return (\n     <nav>\n       <div className={classes[\"nav-center\"]}>\n         <div className={classes[\"nav-header\"]}>\n-        <Link key={id} to={url} className={classes.link}>\n-          <img src={logo} alt=\"logo\" className={classes.logo} />\n+          <Link to={url} className={classes.link}>\n+            <img src={logo} alt=\"logo\" className={classes.logo} />\n           </Link>\n           <button\n             className={`${showLinks ? classes[\"nav-toggle-clicked\"] : \"\"} ${\n               classes[\"nav-toggle\"]\n"
+                },
+                {
+                    "date": 1676291571870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   return (\n     <nav>\n       <div className={classes[\"nav-center\"]}>\n         <div className={classes[\"nav-header\"]}>\n-          <Link to='/' className={classes.link}>\n+          <Link to='/'>\n             <img src={logo} alt=\"logo\" className={classes.logo} />\n           </Link>\n           <button\n             className={`${showLinks ? classes[\"nav-toggle-clicked\"] : \"\"} ${\n"
+                }
+            ],
+            "date": 1675099760104,
+            "name": "Commit-0",
+            "content": "import React, { useState, useRef, useEffect } from \"react\";\nimport { NavLink } from \"react-router-dom\";\nimport logo from \"../assets/logo.png\";\nimport { FaBars } from \"react-icons/fa\";\n\nimport { links } from \"../data\";\n\nconst Navbar = () => {\n  const [showLinks, setShowLinks] = useState(false);\n\n  const linksContainerRef = useRef(null);\n  const linksRef = useRef(null);\n\n  useEffect(() => {\n    const linksHeight = linksRef.current.getBoundingClientRect();\n    if (showLinks) {\n      linksContainerRef.current.style.height = `${linksHeight.height}px`;\n    } else {\n      linksContainerRef.current.style.height = `0px`;\n    }\n  }, [showLinks]);\n\n  return (\n    <nav>\n      <div className=\"nav-center\">\n        <div className=\"nav-header\">\n          <img src={logo} alt=\"logo\" className=\"logo\" />\n          <button\n            className={`${showLinks ? \"nav-toggle-clicked\" : \"\"} nav-toggle `}\n            onClick={() => setShowLinks(!showLinks)}\n          >\n            <FaBars />\n          </button>\n        </div>\n        <div\n          ref={linksContainerRef}\n          className={`${showLinks ? \"show-container\" : \"\"} links-container `}\n        >\n          <ul className=\"links\" ref={linksRef}>\n            {links.map((link) => {\n              const { id, url, text } = link;\n              return (\n                <li key={id} onClick={() => setShowLinks(!showLinks)}>\n                  <NavLink to={url} className=\"link\">\n                    {text}\n                  </NavLink>\n                </li>\n              );\n            })}\n          </ul>\n        </div>\n      </div>\n    </nav>\n  );\n};\n\nexport default Navbar;\n"
+        }
+    ]
+}

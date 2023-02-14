@@ -1,0 +1,27 @@
+.section-offer {
+  display: flex;
+  padding: 10px;
+  /* align-items: center; */
+  /* text-align: center; */
+  justify-content: center;
+  flex-direction: column;
+  color: var(--clr-primary-1);
+  width: 100%;
+  background-color: #fff;
+}
+
+.section-offer h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .section-offer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 90%;
+    margin: 5vh auto;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }
+}

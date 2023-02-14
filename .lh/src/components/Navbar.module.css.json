@@ -1,0 +1,110 @@
+{
+    "sourceFile": "src/components/Navbar.module.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 23,
+            "patches": [
+                {
+                    "date": 1676283442646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1676287920867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,12 @@\n     background: lightgray;\n     color: white;\n     padding: 0.5rem 1rem;\n   }\n+\n+  .link.active {\n+    background-color: ;\n+  }\n   \n   @media screen and (min-width: 760px) {\n     .nav-center {\n       /* max-width: 1170px; */\n"
+                },
+                {
+                    "date": 1676288003480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,10 +51,10 @@\n     color: white;\n     padding: 0.5rem 1rem;\n   }\n \n-  .link.active {\n-    background-color: ;\n+ .active {\n+    background-color: aqua;\n   }\n   \n   @media screen and (min-width: 760px) {\n     .nav-center {\n"
+                },
+                {
+                    "date": 1676288015772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,11 +51,9 @@\n     color: white;\n     padding: 0.5rem 1rem;\n   }\n \n- .active {\n-    background-color: aqua;\n-  }\n+ \n   \n   @media screen and (min-width: 760px) {\n     .nav-center {\n       /* max-width: 1170px; */\n"
+                },
+                {
+                    "date": 1676289066237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,14 +44,14 @@\n     font-size: 1.25rem; \n     padding: 0.5rem 1rem;\n     padding: 0.5rem 1.5rem;\n   }\n-  \n+/*   \n   .links .link:hover {\n     background: lightgray;\n     color: white;\n     padding: 0.5rem 1rem;\n-  }\n+  } */\n \n  \n   \n   @media screen and (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1676289077291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,14 +44,14 @@\n     font-size: 1.25rem; \n     padding: 0.5rem 1rem;\n     padding: 0.5rem 1.5rem;\n   }\n-/*   \n+  \n   .links .link:hover {\n     background: lightgray;\n     color: white;\n     padding: 0.5rem 1rem;\n-  } */\n+  }\n \n  \n   \n   @media screen and (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1676289089826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,13 +45,13 @@\n     padding: 0.5rem 1rem;\n     padding: 0.5rem 1.5rem;\n   }\n   \n-  .links .link:hover {\n+  /* .links .link:hover {\n     background: lightgray;\n     color: white;\n     padding: 0.5rem 1rem;\n-  }\n+  } */\n \n  \n   \n   @media screen and (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1676289195782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,10 @@\n     color: white;\n     padding: 0.5rem 1rem;\n   } */\n \n+  background: var(--clr-primary-1);\n+  padding: 0.5rem 1rem;\n  \n   \n   @media screen and (min-width: 760px) {\n     .nav-center {\n"
+                },
+                {
+                    "date": 1676289210175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,11 +51,12 @@\n     color: white;\n     padding: 0.5rem 1rem;\n   } */\n \n-  background: var(--clr-primary-1);\n-  padding: 0.5rem 1rem;\n- \n+  .active {\n+    background: var(--clr-primary-1);\n+    padding: 0.5rem 1rem;\n+  }\n   \n   @media screen and (min-width: 760px) {\n     .nav-center {\n       /* max-width: 1170px; */\n"
+                },
+                {
+                    "date": 1676289223089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,109 +1,108 @@\n .nav-center {\n+  width: 95vw;\n+  max-width: 1600px;\n+}\n+\n+.nav-header {\n+  display: flex;\n+  align-items: center;\n+  justify-content: space-between;\n+  padding: 1rem;\n+}\n+\n+.nav-toggle {\n+  font-size: 1.5rem;\n+  color: var(--clr-primary-1);\n+  background: transparent;\n+  border-color: transparent;\n+  transition: var(--transition);\n+  cursor: pointer;\n+}\n+\n+.nav-toggle.nav-toggle-clicked {\n+  transform: rotate(90deg);\n+}\n+\n+.logo {\n+  height: 60px;\n+}\n+\n+.links-container {\n+  height: 0;\n+  overflow: hidden;\n+  transition: var(--transition);\n+}\n+\n+.show-container {\n+  height: 10rem;\n+}\n+\n+.links .link {\n+  color: var(--clr-primary-1);\n+  font-weight: 400;\n+  display: block;\n+  font-size: 1.25rem;\n+  padding: 0.5rem 1rem;\n+  padding: 0.5rem 1.5rem;\n+}\n+\n+/* .links .link:hover {\n+    background: lightgray;\n+    color: white;\n+    padding: 0.5rem 1rem;\n+  } */\n+\n+.active li {\n+  background: var(--clr-primary-1);\n+  padding: 0.5rem 1rem;\n+}\n+\n+@media screen and (min-width: 760px) {\n+  .nav-center {\n+    /* max-width: 1170px; */\n     width: 95vw;\n-    max-width: 1600px;\n-  }\n-  \n-  .nav-header {\n+    margin: 0 auto;\n     display: flex;\n     align-items: center;\n     justify-content: space-between;\n     padding: 1rem;\n   }\n-  \n+\n+  .nav-header {\n+    padding: 0;\n+  }\n+\n   .nav-toggle {\n-    font-size: 1.5rem;\n-    color: var(--clr-primary-1);\n-    background: transparent;\n-    border-color: transparent;\n-    transition: var(--transition);\n-    cursor: pointer;\n+    display: none;\n   }\n-  \n-  .nav-toggle.nav-toggle-clicked {\n-    transform: rotate(90deg);\n-  }\n-  \n-  .logo {\n-    height: 60px;\n-  }\n-  \n+\n   .links-container {\n-    height: 0;\n-    overflow: hidden;\n-    transition: var(--transition);\n+    height: auto !important;\n   }\n-  \n-  .show-container {\n-    height: 10rem;\n+\n+  .links {\n\\ No newline at end of file\n+    display: flex;\n   }\n-  \n+\n   .links .link {\n-    color: var(--clr-primary-1);\n+    padding: 0;\n+    margin: 0 0.2rem;\n+    border: 1px solid transparent;\n+    border-radius: 0.75rem;\n+    padding: 0.5rem 0.75rem;\n+    /* font-size: 1.25rem; */\n+    font-size: clamp(0.9rem, 2vw, 1.25rem);\n     font-weight: 400;\n-    display: block;\n-    font-size: 1.25rem; \n-    padding: 0.5rem 1rem;\n-    padding: 0.5rem 1.5rem;\n   }\n-  \n+\n   /* .links .link:hover {\n-    background: lightgray;\n-    color: white;\n-    padding: 0.5rem 1rem;\n-  } */\n+      padding: 0;\n+     \n+    } */\n \n-  .active {\n+  .links .link:hover {\n     background: var(--clr-primary-1);\n     padding: 0.5rem 1rem;\n+    color: #fff;\n   }\n-  \n-  @media screen and (min-width: 760px) {\n-    .nav-center {\n-      /* max-width: 1170px; */\n-      width: 95vw;\n-      margin: 0 auto;\n-      display: flex;\n-      align-items: center;\n-      justify-content: space-between;\n-      padding: 1rem;\n-    }\n-  \n-    .nav-header {\n-      padding: 0;\n-    }\n-  \n-    .nav-toggle {\n-      display: none;\n-    }\n-  \n-    .links-container {\n-      height: auto !important;\n-    }\n-  \n-    .links {\n-      display: flex;\n-    }\n-  \n-    .links .link {\n-      padding: 0;\n-      margin: 0 0.2rem;\n-      border: 1px solid transparent;\n-      border-radius: 0.75rem;\n-      padding: 0.5rem 0.75rem;\n-      /* font-size: 1.25rem; */\n-      font-size: clamp(0.9rem, 2vw,1.25rem);\n-      font-weight: 400;\n-    }\n-  \n-    /* .links .link:hover {\n-      padding: 0;\n-     \n-    } */\n-  \n-    .links .link:hover {\n-      background: var(--clr-primary-1);\n-      padding: 0.5rem 1rem;\n-      color: #fff;\n-    }\n-  }\n-  \n+}\n"
+                },
+                {
+                    "date": 1676289229341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,12 +51,8 @@\n     color: white;\n     padding: 0.5rem 1rem;\n   } */\n \n-.active li {\n-  background: var(--clr-primary-1);\n-  padding: 0.5rem 1rem;\n-}\n \n @media screen and (min-width: 760px) {\n   .nav-center {\n     /* max-width: 1170px; */\n@@ -104,5 +100,5 @@\n     background: var(--clr-primary-1);\n     padding: 0.5rem 1rem;\n     color: #fff;\n   }\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1676289247080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,8 @@\n     color: white;\n     padding: 0.5rem 1rem;\n   } */\n \n-\n @media screen and (min-width: 760px) {\n   .nav-center {\n     /* max-width: 1170px; */\n     width: 95vw;\n@@ -100,5 +99,10 @@\n     background: var(--clr-primary-1);\n     padding: 0.5rem 1rem;\n     color: #fff;\n   }\n+\n+  .active li {\n+    background: var(--clr-primary-1);\n+    /* padding: 0.5rem 1rem; */\n+  }\n }\n"
+                },
+                {
+                    "date": 1676289269216,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,9 @@\n     padding: 0.5rem 1rem;\n     color: #fff;\n   }\n \n-  .active li {\n+  .active > li {\n     background: var(--clr-primary-1);\n-    /* padding: 0.5rem 1rem; */\n+    padding: 0.5rem 1rem;\n   }\n }\n"
+                },
+                {
+                    "date": 1676289302715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,9 +100,6 @@\n     padding: 0.5rem 1rem;\n     color: #fff;\n   }\n \n-  .active > li {\n-    background: var(--clr-primary-1);\n-    padding: 0.5rem 1rem;\n-  }\n+  \n }\n"
+                },
+                {
+                    "date": 1676289318251,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,13 @@\n   width: 95vw;\n   max-width: 1600px;\n }\n \n+.active > li {\n+  background: var(--clr-primary-1);\n+  padding: 0.5rem 1rem;\n+}\n+\n .nav-header {\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n"
+                },
+                {
+                    "date": 1676289323863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   width: 95vw;\n   max-width: 1600px;\n }\n \n-.active > li {\n+.active + li {\n   background: var(--clr-primary-1);\n   padding: 0.5rem 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1676289340611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   width: 95vw;\n   max-width: 1600px;\n }\n \n-.active + li {\n+.active {\n   background: var(--clr-primary-1);\n   padding: 0.5rem 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1676289347174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   width: 95vw;\n   max-width: 1600px;\n }\n \n-.active {\n+.active li {\n   background: var(--clr-primary-1);\n   padding: 0.5rem 1rem;\n }\n \n"
+                },
+                {
+                    "date": 1676289417325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,13 +2,8 @@\n   width: 95vw;\n   max-width: 1600px;\n }\n \n-.active li {\n-  background: var(--clr-primary-1);\n-  padding: 0.5rem 1rem;\n-}\n-\n .nav-header {\n   display: flex;\n   align-items: center;\n   justify-content: space-between;\n@@ -50,8 +45,12 @@\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n }\n \n+.active li {\n+  color: #fff;\n+}\n+\n /* .links .link:hover {\n     background: lightgray;\n     color: white;\n     padding: 0.5rem 1rem;\n"
+                },
+                {
+                    "date": 1676289424397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,12 +45,10 @@\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n }\n \n-.active li {\n-  color: #fff;\n-}\n \n+\n /* .links .link:hover {\n     background: lightgray;\n     color: white;\n     padding: 0.5rem 1rem;\n@@ -103,7 +101,5 @@\n     background: var(--clr-primary-1);\n     padding: 0.5rem 1rem;\n     color: #fff;\n   }\n-\n-  \n }\n"
+                },
+                {
+                    "date": 1676292498586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .nav-center {\n-  width: 95vw;\n+  /* width: 95vw; */\n   max-width: 1600px;\n }\n \n .nav-header {\n"
+                },
+                {
+                    "date": 1676292509999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n .nav-center {\n-  /* width: 95vw; */\n   max-width: 1600px;\n }\n \n .nav-header {\n"
+                },
+                {
+                    "date": 1676292518685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .nav-center {\n-  max-width: 1600px;\n+\n }\n \n .nav-header {\n   display: flex;\n"
+                },
+                {
+                    "date": 1676292526389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,5 @@\n-.nav-center {\n \n-}\n \n .nav-header {\n   display: flex;\n   align-items: center;\n@@ -44,10 +42,8 @@\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n }\n \n-\n-\n /* .links .link:hover {\n     background: lightgray;\n     color: white;\n     padding: 0.5rem 1rem;\n@@ -61,8 +57,9 @@\n     display: flex;\n     align-items: center;\n     justify-content: space-between;\n     padding: 1rem;\n+    max-width: 1600px;\n   }\n \n   .nav-header {\n     padding: 0;\n"
+                }
+            ],
+            "date": 1676283442646,
+            "name": "Commit-0",
+            "content": ".nav-center {\n    width: 95vw;\n    max-width: 1600px;\n  }\n  \n  .nav-header {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    padding: 1rem;\n  }\n  \n  .nav-toggle {\n    font-size: 1.5rem;\n    color: var(--clr-primary-1);\n    background: transparent;\n    border-color: transparent;\n    transition: var(--transition);\n    cursor: pointer;\n  }\n  \n  .nav-toggle.nav-toggle-clicked {\n    transform: rotate(90deg);\n  }\n  \n  .logo {\n    height: 60px;\n  }\n  \n  .links-container {\n    height: 0;\n    overflow: hidden;\n    transition: var(--transition);\n  }\n  \n  .show-container {\n    height: 10rem;\n  }\n  \n  .links .link {\n    color: var(--clr-primary-1);\n    font-weight: 400;\n    display: block;\n    font-size: 1.25rem; \n    padding: 0.5rem 1rem;\n    padding: 0.5rem 1.5rem;\n  }\n  \n  .links .link:hover {\n    background: lightgray;\n    color: white;\n    padding: 0.5rem 1rem;\n  }\n  \n  @media screen and (min-width: 760px) {\n    .nav-center {\n      /* max-width: 1170px; */\n      width: 95vw;\n      margin: 0 auto;\n      display: flex;\n      align-items: center;\n      justify-content: space-between;\n      padding: 1rem;\n    }\n  \n    .nav-header {\n      padding: 0;\n    }\n  \n    .nav-toggle {\n      display: none;\n    }\n  \n    .links-container {\n      height: auto !important;\n    }\n  \n    .links {\n      display: flex;\n    }\n  \n    .links .link {\n      padding: 0;\n      margin: 0 0.2rem;\n      border: 1px solid transparent;\n      border-radius: 0.75rem;\n      padding: 0.5rem 0.75rem;\n      /* font-size: 1.25rem; */\n      font-size: clamp(0.9rem, 2vw,1.25rem);\n      font-weight: 400;\n    }\n  \n    /* .links .link:hover {\n      padding: 0;\n     \n    } */\n  \n    .links .link:hover {\n      background: var(--clr-primary-1);\n      padding: 0.5rem 1rem;\n      color: #fff;\n    }\n  }\n  "
+        }
+    ]
+}

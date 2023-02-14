@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/pages/Gallery.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1675004747602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675004753614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n const Gallery = () => {\n   return (\n     <section className=\"section page\">\n       <h2>Gallery</h2>\n-      <\n+      <Gallery\n     </section>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1676203277087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,13 @@\n \n const Gallery = () => {\n   return (\n     <section className=\"section page\">\n-      \n+      <div>\n+\n       <h2>Galeria</h2>\n       <PhotoGallery />\n+      </div>\n     </section>\n   );\n };\n \n"
+                }
+            ],
+            "date": 1675004747602,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\n\nconst Gallery = () => {\n  return (\n    <section className=\"section page\">\n      <h2>Gallery</h2>\n    </section>\n  )\n}\n\nexport default Gallery"
+        }
+    ]
+}

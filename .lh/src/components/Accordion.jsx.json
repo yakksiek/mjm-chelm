@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/components/Accordion.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1675166504958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675166518447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n import React from 'react'\n \n+\n+\n const Accordion = () => {\n   return (\n     <div>Accordion</div>\n   )\n"
+                },
+                {
+                    "date": 1675166524080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from 'react'\n+import {}\n \n \n-\n const Accordion = () => {\n   return (\n     <div>Accordion</div>\n   )\n"
+                },
+                {
+                    "date": 1675166537409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from 'react'\n-import {}\n+import {rangeOfServices} from '../'\n \n \n const Accordion = () => {\n   return (\n"
+                },
+                {
+                    "date": 1675166546295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,10 @@\n-import React from 'react'\n-import {rangeOfServices} from '../'\n+import React from \"react\";\n+import { rangeOfServices } from \"../data\";\n \n+console.log(rangeOfServices);\n \n const Accordion = () => {\n-  return (\n-    <div>Accordion</div>\n-  )\n\\ No newline at end of file\n-}\n+  return <div>Accordion</div>;\n+};\n \n-export default Accordion\n+export default Accordion;\n"
+                },
+                {
+                    "date": 1675166559259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,7 @@\n import React from \"react\";\n import { rangeOfServices } from \"../data\";\n \n-console.log(rangeOfServices);\n-\n const Accordion = () => {\n   return <div>Accordion</div>;\n };\n \n"
+                }
+            ],
+            "date": 1675166504958,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nconst Accordion = () => {\n  return (\n    <div>Accordion</div>\n  )\n}\n\nexport default Accordion"
+        }
+    ]
+}

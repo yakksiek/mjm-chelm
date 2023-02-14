@@ -9,10 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "album": "^0.1.15",
+    "photo": "^0.2.13",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.6.0"
+    "react-router-dom": "^6.6.0",
+    "react-photo-album": "^2.0.0",
+    "yet-another-react-lightbox": "^2.2.7"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

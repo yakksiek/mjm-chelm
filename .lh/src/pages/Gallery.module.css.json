@@ -1,0 +1,62 @@
+{
+    "sourceFile": "src/pages/Gallery.module.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1676286055399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1676286079734,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,16 @@\n-page-gallery \n\\ No newline at end of file\n+.page-gallery {\n+    width: 90%;\n+    margin: 5vh auto;\n+}\n+\n+@media screen and (min-width: 800px) {\n+    .section-offer {\n+      display: grid;\n+      grid-template-columns: 1fr 2fr;\n+      width: 90%;\n+      margin: 5vh auto;\n+      box-shadow: var(--box-shadow);\n+      border-radius: var(--border-radius);\n+    }\n+  }\n+  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676286090418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n-.page-gallery {\n+/* .page-gallery {\n     width: 90%;\n     margin: 5vh auto;\n-}\n+} */\n \n @media screen and (min-width: 800px) {\n     .section-offer {\n       display: grid;\n"
+                },
+                {
+                    "date": 1676286124587,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n /* .page-gallery {\n     width: 90%;\n-    margin: 5vh auto;\n+\n } */\n \n @media screen and (min-width: 800px) {\n     .section-offer {\n"
+                },
+                {
+                    "date": 1676286133069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-/* .page-gallery {\n+.page-gallery {\n     width: 90%;\n+    ma\n+}\n \n-} */\n-\n @media screen and (min-width: 800px) {\n     .section-offer {\n       display: grid;\n       grid-template-columns: 1fr 2fr;\n"
+                },
+                {
+                    "date": 1676286195970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,15 @@\n .page-gallery {\n     width: 90%;\n-    ma\n+    margin: 0 auto;\n }\n \n @media screen and (min-width: 800px) {\n     .section-offer {\n       display: grid;\n       grid-template-columns: 1fr 2fr;\n       width: 90%;\n-      margin: 5vh auto;\n+      margin: 0 auto;\n       box-shadow: var(--box-shadow);\n       border-radius: var(--border-radius);\n     }\n   }\n"
+                },
+                {
+                    "date": 1676286202117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,8 @@\n     .section-offer {\n       display: grid;\n       grid-template-columns: 1fr 2fr;\n       width: 90%;\n-      margin: 0 auto;\n       box-shadow: var(--box-shadow);\n       border-radius: var(--border-radius);\n     }\n   }\n"
+                },
+                {
+                    "date": 1676286207736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n @media screen and (min-width: 800px) {\n     .section-offer {\n       display: grid;\n       grid-template-columns: 1fr 2fr;\n-      width: 90%;\n+\n       box-shadow: var(--box-shadow);\n       border-radius: var(--border-radius);\n     }\n   }\n"
+                },
+                {
+                    "date": 1676286214296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,9 @@\n \n @media screen and (min-width: 800px) {\n     .section-offer {\n       display: grid;\n-      grid-template-columns: 1fr 2fr;\n-\n+      /* grid-template-columns: 1fr 2fr; */\n       box-shadow: var(--box-shadow);\n       border-radius: var(--border-radius);\n     }\n   }\n"
+                },
+                {
+                    "date": 1676286233449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,13 +2,6 @@\n     width: 90%;\n     margin: 0 auto;\n }\n \n-@media screen and (min-width: 800px) {\n-    .section-offer {\n-      display: grid;\n-      /* grid-template-columns: 1fr 2fr; */\n-      box-shadow: var(--box-shadow);\n-      border-radius: var(--border-radius);\n-    }\n-  }\n+\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676286276606,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,8 @@\n     width: 90%;\n     margin: 0 auto;\n }\n \n-\n+.page-gallery h2 {\n+    color: var\n+}\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676286303945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-gallery {\n     width: 90%;\n-    margin: 0 auto;\n+    margin: 2vh auto;\n }\n \n .page-gallery h2 {\n-    color: var\n+    color: var(--clr-primary-1)\n }\n   \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1676286055399,
+            "name": "Commit-0",
+            "content": "page-gallery "
+        }
+    ]
+}
