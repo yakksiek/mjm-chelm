@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 30,
+            "activePatchIndex": 31,
             "patches": [
                 {
                     "date": 1674752606066,
@@ -128,6 +128,10 @@
                 {
                     "date": 1676299014160,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,8 @@\n \n import classes from \"./HeroSection.module.css\";\n import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n-import mjm18 from \"../assets/MJM18.jpg\";\n import certificate1 from \"../assets/certificate1.png\";\n import hardox from \"../assets/hardox.png\";\n import cemex from \"../assets/cemex.png\";\n \n@@ -18,9 +17,9 @@\n           <h2>Sp. z o. o. Chełm</h2>\n \n           <div className={classes[\"call-to-action\"]}>\n             <h3>\n-              Zbudujmy przyszłość razem.</span>\n+              Zbudujmy przyszłość razem.\n             </h3>\n             <Link className={classes[\"button-hero\"]} to=\"/kontakt\">\n               <button className=\"button\">Kontakt</button>\n             </Link>\n"
+                },
+                {
+                    "date": 1677184840517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n import React from \"react\";\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n-import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n import certificate1 from \"../assets/certificate1.png\";\n import hardox from \"../assets/hardox.png\";\n import cemex from \"../assets/cemex.png\";\n@@ -42,9 +41,9 @@\n           inwestycyjne.\n         </p>\n       </div>\n       <div className={classes.partners}>\n-        <h3>Nasi partnerzy i certifikaty</h3>\n+        <h3>Nasi partnerzy i certyfikaty</h3>\n         <div className={classes[\"logo-partners-container\"]}>\n           <div>\n             <img src={hardox} alt=\"hardox logo\" />\n           </div>\n"
                 }
             ],
             "date": 1674752606066,

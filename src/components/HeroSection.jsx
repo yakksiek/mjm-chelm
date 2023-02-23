@@ -42,7 +42,7 @@ const HeroSection = () => {
         </p>
       </div>
       <div className={classes.partners}>
-        <h3>Nasi partnerzy i certifikaty</h3>
+        <h3>Nasi partnerzy i certyfikaty</h3>
         <div className={classes["logo-partners-container"]}>
           <div>
             <img src={hardox} alt="hardox logo" />

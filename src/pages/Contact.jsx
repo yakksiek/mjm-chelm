@@ -16,17 +16,15 @@ const Contact = () => {
             />
             <p>"MJM" Sp. z o. o.</p>
             <p>ul. Fabryczna 6</p>
-            <p>22-110 Chełm</p>
+            <p>22-100 Chełm</p>
             <p>województwo lubelskie</p>
           </div>
           <div>
             <BsTelephone
               className={`${classes["icon-phone"]} ${classes["contact-icon"]}`}
             />
-            <p>tel./fax 82 563 26 52</p>
+            <p>tel. 82 563 26 52</p>
             <p>tel. 82 564 65 41</p>
-            <p>tel. 82 564 66 91</p>
-            <p>tel. 82 564 64 40</p>
           </div>
           <div>
             <HiOutlineMail

@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 3,
             "patches": [
                 {
                     "date": 1675005725812,
@@ -16,6 +16,10 @@
                 {
                     "date": 1675005779026,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n import Zoom from \"yet-another-react-lightbox/plugins/zoom\";\n import Captions from \"yet-another-react-lightbox/plugins/captions\";\n \n import \"yet-another-react-lightbox/plugins/thumbnails.css\";\n+import \"yet-another-react-lightbox/plugins/captions.css\";\n \n import { photos } from \"../data\";\n // import slides from \"../data/slides\";\n \n"
+                },
+                {
+                    "date": 1677185809682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n         open={index >= 0}\n         index={index}\n         close={() => setIndex(-1)}\n         slides={photos}\n-        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}\n+        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}\n       />\n     </>\n   );\n };\n"
                 }
             ],
             "date": 1675005725812,

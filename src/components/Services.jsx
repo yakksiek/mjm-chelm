@@ -10,7 +10,7 @@ const Products = () => {
 
       <div className={`${classes["container-services"]}`}>
         <div className={classes.service}>
-          <h4>Wykonastwo i montaż konstrukcji stalowych</h4>
+          <h4>Wykonawstwo i montaż konstrukcji stalowych</h4>
           <ul>
             <li>estakady pod taśmociągi, podpory, słupy, schody, pomosty</li>
             <li>podtorza suwnic i wciągników, belki podsuwnicowe</li>
@@ -39,15 +39,15 @@ const Products = () => {
               Certyfikat ISO 3834-2 – System jakości w spawalnictwie zgodny z
               normą PN-EN ISO 3834-2:2007 – wydany 28.12.2010 r.
             </li>
-            <li>
+            {/* <li>
               uprawnienia do montażu suwnic i cięgników - decyzja Urzędu Dozoru
               Technicznego NR-UD-13-39-M/1-97
             </li>
             <li>
               uprawnienia do naprawy suwnic - decyzja Urzędu Dozoru Technicznego
               Nr-UD-13-39-N/1-97
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               uprawnienia do modernizacji podestów ruchomych, suw- nic, żurawi
               samojezdnych i stałych, wciągarek, dźwigników, wózków jezdniowych
               – decyzja Urzędu Dozoru Technicznego NR-UD-13-39-P/1-04
@@ -56,7 +56,7 @@ const Products = () => {
               uprawnienia do prowadzenia działalności szkoleniowej – wpis do
               ewidencji szkół i placówek niepublicznych prowa- dzonej przez
               Urząd Miasta Chełma pod nr 9
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
