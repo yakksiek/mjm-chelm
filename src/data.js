@@ -16,8 +16,8 @@ export const links = [
   },
   {
     id: 4,
-    url: "/certifikaty-i-uprawienia",
-    text: "Certifikaty i uprawnienia",
+    url: "/certyfikaty-i-uprawienia",
+    text: "Certyfikaty i uprawnienia",
   },
   {
     id: 5,
@@ -247,59 +247,59 @@ export const certificates = [
     src: iso1090pl,
     width: 745,
     height: 1024,
-    description: "Certyfikat ISO 1090 PL"
+    description: "Certyfikat ISO 1090 PL",
   },
   {
     src: iso1090en,
     width: 745,
     height: 1024,
-    description: "Certyfikat ISO 1090 EN"
+    description: "Certyfikat ISO 1090 EN",
   },
   {
     src: iso3834,
     width: 745,
     height: 1024,
-    description: "Certyfikat ISO 3834"
+    description: "Certyfikat ISO 3834",
   },
   {
     src: iso9001,
     width: 745,
     height: 1024,
-    description: "Certyfikat ISO 9001"
+    description: "Certyfikat ISO 9001",
   },
   {
     src: iso26000pl,
     width: 745,
     height: 1024,
-    description: "Certyfikat ISO 26000 PL"
+    description: "Certyfikat ISO 26000 PL",
   },
   {
     src: iso26000en,
     width: 745,
     height: 1024,
-    description: "Certyfikat ISO 26000 EN"
+    description: "Certyfikat ISO 26000 EN",
   },
   {
     src: hardoxCertification,
     width: 745,
     height: 1024,
-    description: "Uprawnienia Hardox"
+    description: "Uprawnienia Hardox",
   },
   {
     src: udtModernisationCertification,
     width: 745,
     height: 1024,
-    description: "Urząd Dozoru Technicznego - uprawnienia do wykonywania modernizacji"
+    description:
+      "Urząd Dozoru Technicznego - uprawnienia do wykonywania modernizacji",
   },
   {
     src: udtRepairCertification,
     width: 745,
     height: 1024,
-    description: "Urząd Dozoru Technicznego - uprawnienia do wykonywania napraw"
+    description:
+      "Urząd Dozoru Technicznego - uprawnienia do wykonywania napraw",
   },
-
-
-]
+];
 
 export const rangeOfServices = [
   {

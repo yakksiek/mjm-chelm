@@ -6,7 +6,7 @@ import { certificates } from "../data";
 const Certificates = () => {
   return (
     <section className=" page page-container">
-      <h2>Certifikaty i uprawnienia</h2>
+      <h2>Certyfikaty i uprawnienia</h2>
       <PhotoGallery images={certificates} />
     </section>
   );

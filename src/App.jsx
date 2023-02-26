@@ -20,11 +20,11 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="oferta" element={<Offer />} />
         <Route path="galeria" element={<Gallery />} />
-        <Route path="certifikaty-i-uprawienia" element={<Certificates />} />
+        <Route path="certyfikaty-i-uprawienia" element={<Certificates />} />
         <Route path="kontakt" element={<Contact />} />
         <Route path="*" element={<Error />} />
       </Routes>
-        <Footer />
+      <Footer />
     </BrowserRouter>
   );
 }
