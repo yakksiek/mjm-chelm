@@ -3,11 +3,35 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1676203683512,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677437007555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import React from \"react\";\n \n const Certificates = () => {\n   return (\n-    <section className=\"section page page-container\">\n-      <h2>Certificates</h2>\n+    <section className=\" page page-container\">\n+      <h2>Certifikaty i uprawnienia</h2>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677437179557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n import React from \"react\";\n \n+\n const Certificates = () => {\n   return (\n     <section className=\" page page-container\">\n       <h2>Certifikaty i uprawnienia</h2>\n"
+                },
+                {
+                    "date": 1677437188315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n import React from \"react\";\n+import PhotoGallery from \"../components/PhotoGallery\";\n \n+import \n \n const Certificates = () => {\n   return (\n     <section className=\" page page-container\">\n"
+                },
+                {
+                    "date": 1677437199874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\n import PhotoGallery from \"../components/PhotoGallery\";\n \n-import \n+import { certificates } from \"../data\";\n \n const Certificates = () => {\n   return (\n     <section className=\" page page-container\">\n"
+                },
+                {
+                    "date": 1677437208739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n const Certificates = () => {\n   return (\n     <section className=\" page page-container\">\n       <h2>Certifikaty i uprawnienia</h2>\n+      <PhotoGallery images={}/>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677437222864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const Certificates = () => {\n   return (\n     <section className=\" page page-container\">\n       <h2>Certifikaty i uprawnienia</h2>\n-      <PhotoGallery images={Certificates} />\n+      <PhotoGallery images={certificates} />\n     </section>\n   );\n };\n \n"
                 }
             ],
             "date": 1676203683512,

@@ -13,17 +13,14 @@ import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 
-import { photos } from "../data";
-// import slides from "../data/slides";
-
-const PhotoGallery = () => {
+const PhotoGallery = ({ images }) => {
   const [index, setIndex] = React.useState(-1);
 
   return (
     <>
       <PhotoAlbum
         layout="rows"
-        photos={photos}
+        photos={images}
         targetRowHeight={150}
         onClick={({ index }) => setIndex(index)}
       />
@@ -32,7 +29,7 @@ const PhotoGallery = () => {
         open={index >= 0}
         index={index}
         close={() => setIndex(-1)}
-        slides={photos}
+        slides={images}
         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}
       />
     </>

@@ -228,6 +228,79 @@ export const photos = [
   },
 ];
 
+///////////////////
+// CERTIFICATES
+//////////////////
+
+import iso1090pl from "./assets/gallery_certificates/Certyfikat_ISO_1090_ZKP_PL.jpg";
+import iso1090en from "./assets/gallery_certificates/Certyfikat_ISO_1090_ZKP_EN.jpg";
+import iso3834 from "./assets/gallery_certificates/Certyfikat_ISO_3834.jpg";
+import iso9001 from "./assets/gallery_certificates/Certyfikat_ISO_9001.jpg";
+import iso26000pl from "./assets/gallery_certificates/Certyfikat_ISO_26000_PL.jpg";
+import iso26000en from "./assets/gallery_certificates/Certyfikat_ISO_26000_EN.jpg";
+import hardoxCertification from "./assets/gallery_certificates/Uprawnienie_HARDOX.jpg";
+import udtModernisationCertification from "./assets/gallery_certificates/Uprawnienie_UDT-modernizacja.jpg";
+import udtRepairCertification from "./assets/gallery_certificates/Uprawnienie_UDT-naprawa.jpg";
+
+export const certificates = [
+  {
+    src: iso1090pl,
+    width: 745,
+    height: 1024,
+    description: "Certyfikat ISO 1090 PL"
+  },
+  {
+    src: iso1090en,
+    width: 745,
+    height: 1024,
+    description: "Certyfikat ISO 1090 EN"
+  },
+  {
+    src: iso3834,
+    width: 745,
+    height: 1024,
+    description: "Certyfikat ISO 3834"
+  },
+  {
+    src: iso9001,
+    width: 745,
+    height: 1024,
+    description: "Certyfikat ISO 9001"
+  },
+  {
+    src: iso26000pl,
+    width: 745,
+    height: 1024,
+    description: "Certyfikat ISO 26000 PL"
+  },
+  {
+    src: iso26000en,
+    width: 745,
+    height: 1024,
+    description: "Certyfikat ISO 26000 EN"
+  },
+  {
+    src: hardoxCertification,
+    width: 745,
+    height: 1024,
+    description: "Uprawnienia Hardox"
+  },
+  {
+    src: udtModernisationCertification,
+    width: 745,
+    height: 1024,
+    description: "Urząd Dozoru Technicznego - uprawnienia do wykonywania modernizacji"
+  },
+  {
+    src: udtRepairCertification,
+    width: 745,
+    height: 1024,
+    description: "Urząd Dozoru Technicznego - uprawnienia do wykonywania napraw"
+  },
+
+
+]
+
 export const rangeOfServices = [
   {
     id: 1,

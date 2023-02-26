@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 3,
+            "activePatchIndex": 6,
             "patches": [
                 {
                     "date": 1675005725812,
@@ -20,6 +20,18 @@
                 {
                     "date": 1677185809682,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n         open={index >= 0}\n         index={index}\n         close={() => setIndex(-1)}\n         slides={photos}\n-        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}\n+        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}\n       />\n     </>\n   );\n };\n"
+                },
+                {
+                    "date": 1677437130185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n \n import { photos } from \"../data\";\n // import slides from \"../data/slides\";\n \n-const PhotoGallery = () => {\n+const PhotoGallery = ({images}) => {\n   const [index, setIndex] = React.useState(-1);\n \n   return (\n     <>\n"
+                },
+                {
+                    "date": 1677437136739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,16 +15,16 @@\n \n import { photos } from \"../data\";\n // import slides from \"../data/slides\";\n \n-const PhotoGallery = ({images}) => {\n+const PhotoGallery = ({ images }) => {\n   const [index, setIndex] = React.useState(-1);\n \n   return (\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n-        photos={photos}\n+        photos={images}\n         targetRowHeight={150}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n@@ -32,9 +32,9 @@\n         open={index >= 0}\n         index={index}\n         close={() => setIndex(-1)}\n         slides={photos}\n-        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}\n+        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}\n       />\n     </>\n   );\n };\n"
+                },
+                {
+                    "date": 1677437153167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n import \"yet-another-react-lightbox/plugins/thumbnails.css\";\n import \"yet-another-react-lightbox/plugins/captions.css\";\n \n-import { photos } from \"../data\";\n+\n // import slides from \"../data/slides\";\n \n const PhotoGallery = ({ images }) => {\n   const [index, setIndex] = React.useState(-1);\n@@ -31,9 +31,9 @@\n       <Lightbox\n         open={index >= 0}\n         index={index}\n         close={() => setIndex(-1)}\n-        slides={photos}\n+        slides={images}\n         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}\n       />\n     </>\n   );\n"
                 }
             ],
             "date": 1675005725812,
