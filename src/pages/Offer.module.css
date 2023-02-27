@@ -1,8 +1,6 @@
 .section-offer {
   display: flex;
   padding: 10px;
-  /* align-items: center; */
-  /* text-align: center; */
   justify-content: center;
   flex-direction: column;
   color: var(--clr-primary-1);
