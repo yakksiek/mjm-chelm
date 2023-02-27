@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 7,
             "patches": [
                 {
                     "date": 1676203683512,
@@ -32,6 +32,10 @@
                 {
                     "date": 1677437222864,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const Certificates = () => {\n   return (\n     <section className=\" page page-container\">\n       <h2>Certifikaty i uprawnienia</h2>\n-      <PhotoGallery images={Certificates} />\n+      <PhotoGallery images={certificates} />\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677437862716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import { certificates } from \"../data\";\n \n const Certificates = () => {\n   return (\n-    <section className=\" page page-container\">\n+    <section className=\" page-container\">\n       <h2>Certyfikaty i uprawnienia</h2>\n       <PhotoGallery images={certificates} />\n     </section>\n   );\n"
                 }
             ],
             "date": 1676203683512,

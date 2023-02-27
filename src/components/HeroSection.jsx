@@ -16,9 +16,7 @@ const HeroSection = () => {
           <h2>Sp. z o. o. Chełm</h2>
 
           <div className={classes["call-to-action"]}>
-            <h3>
-              Zbudujmy przyszłość razem.
-            </h3>
+            <h3>Zbudujmy przyszłość razem.</h3>
             <Link className={classes["button-hero"]} to="/kontakt">
               <button className="button">Kontakt</button>
             </Link>
@@ -30,7 +28,7 @@ const HeroSection = () => {
       </div>
       <div className={`${classes.bio}`}>
         <p>
-          „MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku. Powstała
+          "MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku. Powstała
           w wyniku przekształceń własnościowych w Cementowni „Chełm” na bazie
           jej Wydziału Mechanicznego. Podstawowy zakres działalności Spółki to
           wykonawstwo i montaż konstrukcji stalowych, obróbka skrawaniem,
@@ -39,6 +37,12 @@ const HeroSection = () => {
           konserwacja urządzeń podlegających UDT. Usługi świadczymy głównie na
           rzecz zakładów przemysłowych. Realizujemy również kompleksowe zadania
           inwestycyjne.
+        </p>
+        <p>
+          Od 2018 r. ”MJM” Sp. z o. o. dołączyła do grona Hardox Wearparts -
+          sieci czołowego światowego producenta części eksploatacyjnych i
+          usługodawcy w zakresie blach trudnościeralnych grupy SSAB, producenta
+          blach trudnościeralnych Hardox.
         </p>
       </div>
       <div className={classes.partners}>

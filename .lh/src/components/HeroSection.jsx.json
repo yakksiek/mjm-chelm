@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 31,
+            "activePatchIndex": 34,
             "patches": [
                 {
                     "date": 1674752606066,
@@ -132,6 +132,18 @@
                 {
                     "date": 1677184840517,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n import React from \"react\";\n import { Link } from \"react-router-dom\";\n \n import classes from \"./HeroSection.module.css\";\n-import heroImage from \"../assets/hero-image2.jpeg\";\n import mjm12 from \"../assets/mjm12.jpg\";\n import certificate1 from \"../assets/certificate1.png\";\n import hardox from \"../assets/hardox.png\";\n import cemex from \"../assets/cemex.png\";\n@@ -42,9 +41,9 @@\n           inwestycyjne.\n         </p>\n       </div>\n       <div className={classes.partners}>\n-        <h3>Nasi partnerzy i certifikaty</h3>\n+        <h3>Nasi partnerzy i certyfikaty</h3>\n         <div className={classes[\"logo-partners-container\"]}>\n           <div>\n             <img src={hardox} alt=\"hardox logo\" />\n           </div>\n"
+                },
+                {
+                    "date": 1677448550415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n           konserwacja urządzeń podlegających UDT. Usługi świadczymy głównie na\n           rzecz zakładów przemysłowych. Realizujemy również kompleksowe zadania\n           inwestycyjne.\n         </p>\n+        <p>Od 2018 r. ”MJM” Sp. z o. o. dołączyła  do grona Hardox Wearparts - sieci czołowego światowego producenta części eksploatacyjnych i usługodawcy w zakresie blach trudnościeralnych grupy SSAB, producenta blach trudnościeralnych Hardox.</p>\n       </div>\n       <div className={classes.partners}>\n         <h3>Nasi partnerzy i certyfikaty</h3>\n         <div className={classes[\"logo-partners-container\"]}>\n"
+                },
+                {
+                    "date": 1677448563668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,11 +15,9 @@\n           <h1>\"MJM\"</h1>\n           <h2>Sp. z o. o. Chełm</h2>\n \n           <div className={classes[\"call-to-action\"]}>\n-            <h3>\n-              Zbudujmy przyszłość razem.\n-            </h3>\n+            <h3>Zbudujmy przyszłość razem.</h3>\n             <Link className={classes[\"button-hero\"]} to=\"/kontakt\">\n               <button className=\"button\">Kontakt</button>\n             </Link>\n           </div>\n@@ -39,9 +37,11 @@\n           konserwacja urządzeń podlegających UDT. Usługi świadczymy głównie na\n           rzecz zakładów przemysłowych. Realizujemy również kompleksowe zadania\n           inwestycyjne.\n         </p>\n-        <p>Od 2018 r. ”MJM” Sp. z o. o. dołączyła  do grona Hardox Wearparts - sieci czołowego światowego producenta części eksploatacyjnych i usługodawcy w zakresie blach trudnościeralnych grupy SSAB, producenta blach trudnościeralnych Hardox.</p>\n+        <p>\n+          \n+        </p>\n       </div>\n       <div className={classes.partners}>\n         <h3>Nasi partnerzy i certyfikaty</h3>\n         <div className={classes[\"logo-partners-container\"]}>\n"
+                },
+                {
+                    "date": 1677448571299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,13 @@\n           części zamiennych i ich regeneracja, naprawa, modernizacja i\n           konserwacja urządzeń podlegających UDT. Usługi świadczymy głównie na\n           rzecz zakładów przemysłowych. Realizujemy również kompleksowe zadania\n           inwestycyjne.\n+          <br/>\n+          Od 2018 r. ”MJM” Sp. z o. o. dołączyła do grona Hardox Wearparts -\n+          sieci czołowego światowego producenta części eksploatacyjnych i\n+          usługodawcy w zakresie blach trudnościeralnych grupy SSAB, producenta\n+          blach trudnościeralnych Hardox.\n         </p>\n       </div>\n       <div className={classes.partners}>\n         <h3>Nasi partnerzy i certyfikaty</h3>\n"
                 }
             ],
             "date": 1674752606066,

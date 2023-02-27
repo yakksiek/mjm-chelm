@@ -10,53 +10,48 @@ const Products = () => {
 
       <div className={`${classes["container-services"]}`}>
         <div className={classes.service}>
-          <h4>Wykonawstwo i montaż konstrukcji stalowych</h4>
+          <h4>TUTAJ MOŻE TYTUŁ PODSUMOWUJĄCY TĘ GRUPĘ</h4>
           <ul>
-            <li>estakady pod taśmociągi, podpory, słupy, schody, pomosty</li>
-            <li>podtorza suwnic i wciągników, belki podsuwnicowe</li>
-            <li>kratownice</li>
+            <li>Wykonawstwo i montaż konstrukcji stalowych</li>
+            <li>
+              Wykonawstwo urządzeń wg dokumentacji zleceniodawcy lub własnych
+              projektów oraz części zamiennych do maszyn i urządzeń
+            </li>
+            <li>
+              Remonty i modernizacja ciągów technologicznych, maszyn i urządzeń
+              przemysłowych
+            </li>
           </ul>
         </div>
         <div className={classes.service}>
-          <h4>Montaż, naprawa, modernizacja i konserwacja dźwignic</h4>
+          <h4>TUTAJ MOŻE TYTUŁ PODSUMOWUJĄCY TĘ GRUPĘ</h4>
           <ul>
-            <li>suwnice i wciągniki, wciągarki</li>
-            <li>podesty ruchome</li>
-            <li>żurawie stałe i samojezdne</li>
+            <li>Obróbka skrawaniem i obróbka plastyczna na zimno lub gorąco</li>
+            <li>
+              Montaż, naprawa, modernizacja i konserwacja dźwignic (suwnice,
+              wciągniki, wciągarki, podesty ruchome, żurawie, dźwigniki, wózki
+              jezdniowe)
+            </li>
+            <li>Wykonawstwo prac spawalniczych</li>
           </ul>
         </div>
         <div className={classes.service}>
-          <h4>
-            Spółka „MJM” posiada następujące certyfi- katy, uprawnienia i
-            pozwolenia:
-          </h4>
+          <h4>Spółka "MJM" posiada następujące certyfikaty i uprawnienia:</h4>
           <ul>
+            <li>Certyfikat ISO 9001 - System zarządzania jakością</li>
+            <li>Certyfikat ISO 3834-2 – System jakości w spawalnictwie</li>
             <li>
-              Certyfikat ISO 9001 - System zarządzania jakością zgodny z normą
-              PN-EN ISO 9001:2009 wydany 28.12.2010 r.
+              Certyfikat zgodności Zakładowej Kontroli Produkcji wg PN-EN 1090-1
+            </li>
+            <li>Certyfikat PN ISO 26000 - Społeczna odpowiedzialność</li>
+            <li>
+              Uprawnienia nadane przez Urząd Dozoru Technicznego do naprawy i
+              modernizacji urządzeń dźwignicowych podlegających UDT
             </li>
             <li>
-              Certyfikat ISO 3834-2 – System jakości w spawalnictwie zgodny z
-              normą PN-EN ISO 3834-2:2007 – wydany 28.12.2010 r.
+              Uprawnienia do prowadzenia działalności szkoleniowej – wpis do
+              ewidencji szkół i placówek niepublicznych
             </li>
-            {/* <li>
-              uprawnienia do montażu suwnic i cięgników - decyzja Urzędu Dozoru
-              Technicznego NR-UD-13-39-M/1-97
-            </li>
-            <li>
-              uprawnienia do naprawy suwnic - decyzja Urzędu Dozoru Technicznego
-              Nr-UD-13-39-N/1-97
-            </li> */}
-            {/* <li>
-              uprawnienia do modernizacji podestów ruchomych, suw- nic, żurawi
-              samojezdnych i stałych, wciągarek, dźwigników, wózków jezdniowych
-              – decyzja Urzędu Dozoru Technicznego NR-UD-13-39-P/1-04
-            </li>
-            <li>
-              uprawnienia do prowadzenia działalności szkoleniowej – wpis do
-              ewidencji szkół i placówek niepublicznych prowa- dzonej przez
-              Urząd Miasta Chełma pod nr 9
-            </li> */}
           </ul>
         </div>
       </div>

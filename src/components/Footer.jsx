@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
           <div>
             <p>tel. 82 564 65 41</p>
-            <p>tel./fax 82 563 26 52</p>
+            <p>tel. 82 563 26 52</p>
             <p>
               <a href="mailto:mjm@mjm.chelm.pl">mjm@mjm.chelm.pl</a>
             </p>

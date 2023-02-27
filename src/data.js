@@ -363,8 +363,8 @@ export const rangeOfServices = [
     id: 5,
     title: "Obróbka skrawaniem i obróbka plastyczna",
     services: [
-      "toczenie na tokarkach uniwersalnych (śr. Do 1200 mm , długość do 4500 mm)",
-      "toczenie na tokarce karuzelowej (śr. do 1380 mm)",
+      "toczenie na tokarkach uniwersalnych (śr. do 1000 mm , długość do 4500 mm)",
+      "toczenie na tokarce karuzelowej (śr. do 1300 mm)",
       "frezowanie",
       "struganie (szerokość 800 mm , długość 4000 mm)",
       "dłutowanie",
@@ -380,9 +380,9 @@ export const rangeOfServices = [
     id: 6,
     title: "Prace spawalnicze",
     services: [
-      "spawanie łukowe",
-      "spawanie w osłonie argonu i dwutlenku węgla",
-      "cięcie przecinarką plazmową",
+      "spawanie łukowe i MAG",
+      "spawanie cobotem",
+      "cięcie przecinarką plazmową i gazową",
     ],
   },
 ];
