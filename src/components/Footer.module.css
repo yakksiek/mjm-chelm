@@ -1,13 +1,7 @@
 .footer-section {
   background-color: var(--clr-primary-1);
   padding: 5px 20px;
-}
-.footer-section {
-  /* position: fixed; */
-  width: 100%;
-  height: 75px;
-  /* background-color: red; */
-  /* bottom: 0; */
+  margin-top: auto;
 }
 
 footer p {
@@ -59,12 +53,6 @@ footer p {
 }
 
 @media (max-width: 700px) {
-
-  .footer-section {
-    height: auto;
-  }
-
-
   .footer-content {
     flex-direction: column;
     align-items: center;

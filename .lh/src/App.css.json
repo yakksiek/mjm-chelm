@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 198,
+            "activePatchIndex": 218,
             "patches": [
                 {
                     "date": 1674751476103,
@@ -800,6 +800,86 @@
                 {
                     "date": 1677590100950,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n \n .page {\n   width: 100%;\n   /* height: 80vh; */\n-  padding: 10px;\n+  /* padding: 10px; */\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677606268158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,8 +124,10 @@\n   }\n }\n /*  global classes */\n \n+.componets\n+\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1677606273351,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,11 @@\n   }\n }\n /*  global classes */\n \n-.componets\n+.componets-container {\n+  min\n+}\n \n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n"
+                },
+                {
+                    "date": 1677606317747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .componets-container {\n-  min\n+  min-height: 100vh;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1677606390282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -126,8 +126,9 @@\n /*  global classes */\n \n .componets-container {\n   min-height: 100vh;\n+  display: flex;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n@@ -180,9 +181,8 @@\n   }\n }\n \n @media (min-width: 992px) {\n-\n   .page h2 {\n     color: var(--clr-primary-1);\n     padding: 20px 0;\n   }\n"
+                },
+                {
+                    "date": 1677606430617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,8 +127,9 @@\n \n .componets-container {\n   min-height: 100vh;\n   display: flex;\n+  flex-direction: column;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1677606710602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -176,9 +176,9 @@\n \n   .page {\n     width: 70%;\n     max-width: 1000px;\n-    height: calc(100vh - 175px);\n+    /* height: calc(100vh - 175px); */\n     margin: 0 auto;\n   }\n }\n \n"
+                },
+                {
+                    "date": 1677606721331,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -177,9 +177,9 @@\n   .page {\n     width: 70%;\n     max-width: 1000px;\n     /* height: calc(100vh - 175px); */\n-    margin: 0 auto;\n+    /* margin: 0 auto; */\n   }\n }\n \n @media (min-width: 992px) {\n"
+                },
+                {
+                    "date": 1677606819492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .componets-container {\n-  min-height: 100vh;\n+  height: 100vh;\n   display: flex;\n   flex-direction: column;\n }\n \n"
+                },
+                {
+                    "date": 1677606853148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,9 +124,9 @@\n   }\n }\n /*  global classes */\n \n-.componets-container {\n+.components-container {\n   height: 100vh;\n   display: flex;\n   flex-direction: column;\n }\n@@ -177,9 +177,9 @@\n   .page {\n     width: 70%;\n     max-width: 1000px;\n     /* height: calc(100vh - 175px); */\n-    /* margin: 0 auto; */\n+    margin: 0 auto;\n   }\n }\n \n @media (min-width: 992px) {\n"
+                },
+                {
+                    "date": 1677606859694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n \n .components-container {\n   height: 100vh;\n   display: flex;\n-  flex-direction: column;\n+  /* flex-direction: column; */\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n"
+                },
+                {
+                    "date": 1677606906056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,9 +127,9 @@\n \n .components-container {\n   height: 100vh;\n   display: flex;\n-  /* flex-direction: column; */\n+  flex-direction: column;\n }\n \n .button {\n   background-color: var(--clr-primary-1);\n@@ -164,9 +164,9 @@\n }\n \n .page {\n   width: 100%;\n-  /* height: 80vh; */\n+  height: 80vh;\n   /* padding: 10px; */\n }\n \n @media (min-width: 800px) {\n"
+                },
+                {
+                    "date": 1677607316037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -125,9 +125,9 @@\n }\n /*  global classes */\n \n .components-container {\n-  height: 100vh;\n+  min-height: 100vh;\n   display: flex;\n   flex-direction: column;\n }\n \n"
+                },
+                {
+                    "date": 1677607443882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,14 +124,10 @@\n   }\n }\n /*  global classes */\n \n-.components-container {\n-  min-height: 100vh;\n-  display: flex;\n-  flex-direction: column;\n-}\n \n+\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n"
+                },
+                {
+                    "date": 1677607553076,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,9 +160,9 @@\n }\n \n .page {\n   width: 100%;\n-  height: 80vh;\n+  /* height: 80vh; */\n   /* padding: 10px; */\n }\n \n @media (min-width: 800px) {\n@@ -197,4 +197,11 @@\n \n .active li {\n   color: #fff;\n }\n+\n+\n+.components-container {\n+  min-height: 100vh;\n+  display: flex;\n+  flex-direction: column;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677607584635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,10 +160,8 @@\n }\n \n .page {\n   width: 100%;\n-  /* height: 80vh; */\n-  /* padding: 10px; */\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677607594983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,8 +160,9 @@\n }\n \n .page {\n   width: 100%;\n+  margin\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677607610902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,9 +160,9 @@\n }\n \n .page {\n   width: 100%;\n-  margin\n+  height: 100%;\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677607626395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,10 +124,8 @@\n   }\n }\n /*  global classes */\n \n-\n-\n .button {\n   background-color: var(--clr-primary-1);\n   border: 1px solid transparent;\n   border-radius: 0.75rem;\n@@ -158,12 +156,11 @@\n   outline: 2px solid transparent;\n   outline-offset: 2px;\n }\n \n-.page {\n+/* .page {\n   width: 100%;\n-  height: 100%;\n-}\n+} */\n \n @media (min-width: 800px) {\n   .button {\n     padding: 0.5rem 1.5rem;\n@@ -197,10 +194,9 @@\n .active li {\n   color: #fff;\n }\n \n-\n .components-container {\n   min-height: 100vh;\n   display: flex;\n   flex-direction: column;\n-}\n\\ No newline at end of file\n+}\n"
+                },
+                {
+                    "date": 1677607631758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,11 +156,11 @@\n   outline: 2px solid transparent;\n   outline-offset: 2px;\n }\n \n-/* .page {\n+.page {\n   width: 100%;\n-} */\n+}\n \n @media (min-width: 800px) {\n   .button {\n     padding: 0.5rem 1.5rem;\n"
+                },
+                {
+                    "date": 1677607637705,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n   }\n \n   .page {\n     width: 70%;\n-    max-width: 1000px;\n+    /* max-width: 1000px; */\n     /* height: calc(100vh - 175px); */\n     margin: 0 auto;\n   }\n }\n"
                 }
             ],
             "date": 1674751476103,

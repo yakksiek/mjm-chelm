@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 12,
             "patches": [
                 {
                     "date": 1676207407723,
@@ -16,6 +16,46 @@
                 {
                     "date": 1677437566864,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n       <Routes>\n         <Route path=\"/\" element={<HomePage />} />\n         <Route path=\"oferta\" element={<Offer />} />\n         <Route path=\"galeria\" element={<Gallery />} />\n-        <Route path=\"certifikaty-i-uprawienia\" element={<Certificates />} />\n+        <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n         <Route path=\"kontakt\" element={<Contact />} />\n         <Route path=\"*\" element={<Error />} />\n       </Routes>\n         <Footer />\n"
+                },
+                {
+                    "date": 1677606007860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,18 +14,21 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n+    <div>\n+    </div>\n       <Navbar />\n+      \n       <Routes>\n         <Route path=\"/\" element={<HomePage />} />\n         <Route path=\"oferta\" element={<Offer />} />\n         <Route path=\"galeria\" element={<Gallery />} />\n         <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n         <Route path=\"kontakt\" element={<Contact />} />\n         <Route path=\"*\" element={<Error />} />\n       </Routes>\n-        <Footer />\n+      <Footer />\n     </BrowserRouter>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1677606014349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,21 +14,20 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-    <div>\n-    </div>\n-      <Navbar />\n-      \n-      <Routes>\n-        <Route path=\"/\" element={<HomePage />} />\n-        <Route path=\"oferta\" element={<Offer />} />\n-        <Route path=\"galeria\" element={<Gallery />} />\n-        <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n-        <Route path=\"kontakt\" element={<Contact />} />\n-        <Route path=\"*\" element={<Error />} />\n-      </Routes>\n-      <Footer />\n+      <div>\n+        <Navbar />\n+        <Routes>\n+          <Route path=\"/\" element={<HomePage />} />\n+          <Route path=\"oferta\" element={<Offer />} />\n+          <Route path=\"galeria\" element={<Gallery />} />\n+          <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n+          <Route path=\"kontakt\" element={<Contact />} />\n+          <Route path=\"*\" element={<Error />} />\n+        </Routes>\n+        <Footer />\n+      </div>\n     </BrowserRouter>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1677606024340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-      <div>\n+      <div class>\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n"
+                },
+                {
+                    "date": 1677606030911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-      <div class>\n+\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n@@ -24,10 +24,9 @@\n           <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n           <Route path=\"kontakt\" element={<Contact />} />\n           <Route path=\"*\" element={<Error />} />\n         </Routes>\n-        <Footer />\n-      </div>\n+        <Footer /\n     </BrowserRouter>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1677606073912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-\n+  <div>\n+    \n+  </div>\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n@@ -24,9 +26,10 @@\n           <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n           <Route path=\"kontakt\" element={<Contact />} />\n           <Route path=\"*\" element={<Error />} />\n         </Routes>\n-        <Footer /\n+        <Footer />\n+\n     </BrowserRouter>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1677606080875,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,11 +14,9 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-  <div>\n-    \n-  </div>\n+      <div className>\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n@@ -27,9 +25,9 @@\n           <Route path=\"kontakt\" element={<Contact />} />\n           <Route path=\"*\" element={<Error />} />\n         </Routes>\n         <Footer />\n-\n+      </div>\n     </BrowserRouter>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1677606086665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-      <div className>\n+\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n@@ -25,9 +25,9 @@\n           <Route path=\"kontakt\" element={<Contact />} />\n           <Route path=\"*\" element={<Error />} />\n         </Routes>\n         <Footer />\n-      </div>\n+\n     </BrowserRouter>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1677606174995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,20 +14,21 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n+    <div>\n \n-        <Navbar />\n-        <Routes>\n-          <Route path=\"/\" element={<HomePage />} />\n-          <Route path=\"oferta\" element={<Offer />} />\n-          <Route path=\"galeria\" element={<Gallery />} />\n-          <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n-          <Route path=\"kontakt\" element={<Contact />} />\n-          <Route path=\"*\" element={<Error />} />\n-        </Routes>\n-        <Footer />\n-\n+      <Navbar />\n+      <Routes>\n+        <Route path=\"/\" element={<HomePage />} />\n+        <Route path=\"oferta\" element={<Offer />} />\n+        <Route path=\"galeria\" element={<Gallery />} />\n+        <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n+        <Route path=\"kontakt\" element={<Contact />} />\n+        <Route path=\"*\" element={<Error />} />\n+      </Routes>\n+      <Footer />\n+    </div>\n     </BrowserRouter>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1677606182913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,21 +14,20 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-    <div>\n-\n-      <Navbar />\n-      <Routes>\n-        <Route path=\"/\" element={<HomePage />} />\n-        <Route path=\"oferta\" element={<Offer />} />\n-        <Route path=\"galeria\" element={<Gallery />} />\n-        <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n-        <Route path=\"kontakt\" element={<Contact />} />\n-        <Route path=\"*\" element={<Error />} />\n-      </Routes>\n-      <Footer />\n-    </div>\n+      <div className=\"\">\n+        <Navbar />\n+        <Routes>\n+          <Route path=\"/\" element={<HomePage />} />\n+          <Route path=\"oferta\" element={<Offer />} />\n+          <Route path=\"galeria\" element={<Gallery />} />\n+          <Route path=\"certyfikaty-i-uprawienia\" element={<Certificates />} />\n+          <Route path=\"kontakt\" element={<Contact />} />\n+          <Route path=\"*\" element={<Error />} />\n+        </Routes>\n+        <Footer />\n+      </div>\n     </BrowserRouter>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1677606192121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-      <div className=\"\">\n+      <div className=\"components\">\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n"
                 }
             ],
             "date": 1676207407723,

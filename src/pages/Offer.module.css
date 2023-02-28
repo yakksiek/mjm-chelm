@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 800px) {
   .page-offer {
-    min-height: 700px;
+    min-height: 80vh;
   }
 
   .section-offer {
