@@ -6,13 +6,15 @@ import classes from "./Offer.module.css";
 
 const Offer = () => {
   return (
-    <section className={`${classes["section-offer"]} page page-container`}>
-      <h2>Nasza oferta obejmuje</h2>
-      <section>
-        {rangeOfServices.map((service) => {
-          return <SingleProduct key={service.id} {...service} />;
-        })}
-      </section>
+    <section className={`${classes["page-offer"]} page`}>
+      <div className={`${classes["section-offer"]}`}>
+        <h2>Nasza oferta obejmuje</h2>
+        <section>
+          {rangeOfServices.map((service) => {
+            return <SingleProduct key={service.id} {...service} />;
+          })}
+        </section>
+      </div>
     </section>
   );
 };

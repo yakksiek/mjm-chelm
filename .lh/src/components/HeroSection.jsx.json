@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 34,
+            "activePatchIndex": 35,
             "patches": [
                 {
                     "date": 1674752606066,
@@ -144,6 +144,10 @@
                 {
                     "date": 1677448571299,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,8 +36,13 @@\n           części zamiennych i ich regeneracja, naprawa, modernizacja i\n           konserwacja urządzeń podlegających UDT. Usługi świadczymy głównie na\n           rzecz zakładów przemysłowych. Realizujemy również kompleksowe zadania\n           inwestycyjne.\n+          <br/>\n+          Od 2018 r. ”MJM” Sp. z o. o. dołączyła do grona Hardox Wearparts -\n+          sieci czołowego światowego producenta części eksploatacyjnych i\n+          usługodawcy w zakresie blach trudnościeralnych grupy SSAB, producenta\n+          blach trudnościeralnych Hardox.\n         </p>\n       </div>\n       <div className={classes.partners}>\n         <h3>Nasi partnerzy i certyfikaty</h3>\n"
+                },
+                {
+                    "date": 1677596267571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n       <div className={classes.partners}>\n         <h3>Nasi partnerzy i certyfikaty</h3>\n         <div className={classes[\"logo-partners-container\"]}>\n           <div>\n-            <a></a>\n+            <a><img src={hardox} alt=\"hardox logo\" /></a>\n           </div>\n           <div>\n             <img src={cemex} alt=\"cemex logo\" />\n           </div>\n"
                 }
             ],
             "date": 1674752606066,

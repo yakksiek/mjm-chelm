@@ -1,11 +1,17 @@
+.page-offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-offer {
   display: flex;
   padding: 10px;
   justify-content: center;
   flex-direction: column;
   color: var(--clr-primary-1);
-  width: 100%;
   background-color: #fff;
+  margin: 20px auto;
 }
 
 .section-offer h2 {
@@ -14,11 +20,14 @@
 }
 
 @media screen and (min-width: 800px) {
+  .page-offer {
+    min-height: 700px;
+  }
+
   .section-offer {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    width: 90%;
-    margin: 5vh auto;
+    margin: 20px;
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
   }

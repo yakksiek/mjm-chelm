@@ -72,7 +72,7 @@
 
 .logo-partners-container div {
   height: 60px;
-  margin: 1.25rem auto;
+  margin: 1.5rem auto;
 }
 
 .logo-partners-container div img {
@@ -82,6 +82,7 @@
 
 .certificate1 img {
   transform: scale(1.8);
+  margin-top: 15px;
 }
 
 /* image on the right  */
@@ -160,6 +161,10 @@
     margin: 0 auto;
     flex-direction: row;
     max-width: var(--max-width);
+  }
+
+  .certificate1 img {
+    margin-top: 0;
   }
 
   

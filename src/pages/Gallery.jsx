@@ -6,7 +6,7 @@ import { photos } from "../data";
 
 const Gallery = () => {
   return (
-    <section className={`${classes['page-gallery']}`}>
+    <section className={`${classes['page-gallery']} page`}>
       <div className="page-container">
         <h2>Galeria</h2>
         <PhotoGallery images={photos}/>

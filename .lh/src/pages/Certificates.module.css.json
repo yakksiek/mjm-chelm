@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 2,
+            "activePatchIndex": 35,
             "patches": [
                 {
                     "date": 1677490608357,
@@ -16,6 +16,138 @@
                 {
                     "date": 1677490625187,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,8 @@\n     width: 90%;\n     margin: 2vh auto;\n }\n \n-.page-gallery h2 {\n+.page-certificates h2 {\n     color: var(--clr-primary-1)\n }\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677497132787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n-.page-certi {\n-    width: 90%;\n-    margin: 2vh auto;\n+.page-certificates {\n+  width: 90%;\n+  height: 100%;\n+  margin: 2vh auto;\n }\n \n\\ No newline at end of file\n .page-certificates h2 {\n-    color: var(--clr-primary-1)\n+  color: var(--clr-primary-1);\n }\n-  \n"
+                },
+                {
+                    "date": 1677497163050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: 100%;\n+  height: 100vh - 75px;\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497175085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: 100vh - 75px;\n+  height: calc(100vh - 75px;\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497184698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: calc(100vh - 75px;\n+  height: calc(100vh - 205px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497191845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: calc(100vh - 205px);\n+  height: calc(100vh - 210px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497197708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: calc(100vh - 210px);\n+  height: calc(100vh - 220px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497217136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: calc(100vh - 220px);\n+  height: calc(100vh - 210px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497224900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: calc(100vh - 210px);\n+  height: calc(100vh - 220px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497230019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: calc(100vh - 220px);\n+  height: calc(100vh - 210px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497583272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: calc(100vh - 210px);\n+  height: 100vh;\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497659339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: 100vh;\n+  height: cacl100vh;\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497665837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: cacl100vh;\n+  height: cacl(100vh - 75px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497673168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: cacl(100vh - 75px);\n+  height: calc(100vh - 75px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497718756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n-  height: calc(100vh - 75px);\n+  height: calc(100vh - 175px);\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497794304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n   height: calc(100vh - 175px);\n-  margin: 2vh auto;\n+  /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497815239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n .page-certificates {\n   width: 90%;\n+  \n   height: calc(100vh - 175px);\n   /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497821086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n   width: 90%;\n-  \n+  min-height: 400px;\n   height: calc(100vh - 175px);\n   /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497828059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n   width: 90%;\n-  min-height: 400px;\n+  min-height: 200px;\n   height: calc(100vh - 175px);\n   /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497839448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n   width: 90%;\n-  min-height: 200px;\n+  min-height: 250px;\n   height: calc(100vh - 175px);\n   /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677497964920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n-  width: 90%;\n+  /* width: 90%;\n   min-height: 250px;\n-  height: calc(100vh - 175px);\n+  height: calc(100vh - 175px); */\n   /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n\\ No newline at end of file\n   color: var(--clr-primary-1);\n-}\n+}\n"
+                },
+                {
+                    "date": 1677590115486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n-  /* width: 90%;\n+  /* /* width: 90%; */\n   min-height: 250px;\n   height: calc(100vh - 175px); */\n   /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677590123085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n-  /* /* width: 90%; */\n+  width: 90%;\n   min-height: 250px;\n   height: calc(100vh - 175px); */\n-  /* margin: 2vh auto; */\n+  /* margin: 2vh auto;\n }\n \n .page-certificates h2 {\n\\ No newline at end of file\n   color: var(--clr-primary-1);\n-}\n+}\n"
+                },
+                {
+                    "date": 1677590130437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n   width: 90%;\n   min-height: 250px;\n-  height: calc(100vh - 175px); */\n-  /* margin: 2vh auto;\n+  height: calc(100vh - 175px);\n+  /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n\\ No newline at end of file\n   color: var(--clr-primary-1);\n-}\n+}\n"
+                },
+                {
+                    "date": 1677590141246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n   width: 90%;\n-  min-height: 250px;\n-  height: calc(100vh - 175px);\n-  /* margin: 2vh auto; */\n+  /* min-height: 250px;\n+  height: calc(100vh - 175px); */\n+  margin: 2vh auto;\n }\n \n\\ No newline at end of file\n .page-certificates h2 {\n   color: var(--clr-primary-1);\n-}\n+}\n"
+                },
+                {
+                    "date": 1677590146834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n   width: 90%;\n   /* min-height: 250px;\n   height: calc(100vh - 175px); */\n-  margin: 2vh auto;\n+  margin:0 auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677590153401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n   width: 90%;\n   /* min-height: 250px;\n   height: calc(100vh - 175px); */\n-  margin:0 auto;\n+  margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677595027271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n .page-certificates {\n   width: 90%;\n-  /* min-height: 250px;\n+  min-height: 550px;\n   height: calc(100vh - 175px); */\n   margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677595038729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,9 @@\n .page-certificates {\n   width: 90%;\n   min-height: 550px;\n-  height: calc(100vh - 175px); */\n-  margin: 2vh auto;\n+  /* margin: 2vh auto; */\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677595062755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-certificates {\n   width: 90%;\n   min-height: 550px;\n-  /* margin: 2vh auto; */\n+  margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1677595069851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n .page-certificates {\n   width: 90%;\n   min-height: 550px;\n-  margin: 2vh auto;\n }\n \n .page-certificates h2 {\n   color: var(--clr-primary-1);\n-}\n\\ No newline at end of file\n+}\n+\n+\n"
+                },
+                {
+                    "date": 1677595275848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n .page-certificates h2 {\n   color: var(--clr-primary-1);\n }\n \n-\n+@media \n"
+                },
+                {
+                    "date": 1677595295381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,7 @@\n .page-certificates h2 {\n   color: var(--clr-primary-1);\n }\n \n-@media \n+@media (max-width: 800px) {\n+  margin: 2vh auto;\n+}\n"
+                },
+                {
+                    "date": 1677595302363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,9 @@\n   color: var(--clr-primary-1);\n }\n \n @media (max-width: 800px) {\n+  .page-certificates{\n+    margin: 2vh auto;\n+\n+  }\n }\n"
                 }
             ],
             "date": 1677490608357,

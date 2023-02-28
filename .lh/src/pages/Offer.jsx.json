@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 42,
+            "activePatchIndex": 55,
             "patches": [
                 {
                     "date": 1675166573463,
@@ -176,6 +176,58 @@
                 {
                     "date": 1677490149805,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,17 +5,15 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-  \n-    <section className={`${classes[\"section-offer\"]} page-container`}>\n+    <section className={`${classes[\"section-offer\"]} page page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n       </section>\n-      \n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677583043357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes[\"section-offer\"]} page page-container`}>\n+    <section className={`${classes[\"section-offer\"]} page `}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1677583055068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes[\"section-offer\"]} page `}>\n+    <section className={`${classes[\"section-offer\"]} page page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1677583116393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes[\"section-offer\"]} page page-container`}>\n+    <section className={`${classes[\"section-offer\"]} page `}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1677583122966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,13 +6,16 @@\n \n const Offer = () => {\n   return (\n     <section className={`${classes[\"section-offer\"]} page `}>\n+      <div>\n+\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n+        </div>\n       </section>\n     </section>\n   );\n };\n"
+                },
+                {
+                    "date": 1677583130393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,17 +6,16 @@\n \n const Offer = () => {\n   return (\n     <section className={`${classes[\"section-offer\"]} page `}>\n-      <div>\n-\n-      <h2>Nasza oferta obejmuje</h2>\n-      <section>\n-        {rangeOfServices.map((service) => {\n-          return <SingleProduct key={service.id} {...service} />;\n-        })}\n-        </div>\n-      </section>\n+      <div className=\"page-container\">\n+        <h2>Nasza oferta obejmuje</h2>\n+        <section>\n+          {rangeOfServices.map((service) => {\n+            return <SingleProduct key={service.id} {...service} />;\n+          })}\n+        </section>\n+      </div>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677583144381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,17 +5,15 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes[\"section-offer\"]} page `}>\n-      <div className=\"page-container\">\n-        <h2>Nasza oferta obejmuje</h2>\n-        <section>\n-          {rangeOfServices.map((service) => {\n-            return <SingleProduct key={service.id} {...service} />;\n-          })}\n-        </section>\n-      </div>\n+    <section className={`${classes[\"section-offer\"]} page page-container`}>\n+      <h2>Nasza oferta obejmuje</h2>\n+      <section>\n+        {rangeOfServices.map((service) => {\n+          return <SingleProduct key={service.id} {...service} />;\n+        })}\n+      </section>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677583172524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,13 @@\n const Offer = () => {\n   return (\n     <section className={`${classes[\"section-offer\"]} page page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n-      <section>\n+      <div>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n-      </section>\n+      </div>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677583359031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,15 +5,15 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes[\"section-offer\"]} page page-container`}>\n+    <section className={`${classes[\"section-offer\"]}  page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n-      <div>\n+      <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n-      </div>\n+      </section>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677583366715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes[\"section-offer\"]}  page-container`}>\n+    <section className={`${classes[\"section-offer\"]} page page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1677583374880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes[\"section-offer\"]} page page-container`}>\n+    <section className={` page page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1677583383082,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={` page page-container`}>\n+    <section className={`${classes[\"section-offer\"]} page page-container`}>\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n"
+                },
+                {
+                    "date": 1677583391353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,14 +6,17 @@\n \n const Offer = () => {\n   return (\n     <section className={` page page-container`}>\n+      <div>\n+\n       <h2>Nasza oferta obejmuje</h2>\n       <section>\n         {rangeOfServices.map((service) => {\n           return <SingleProduct key={service.id} {...service} />;\n         })}\n       </section>\n+        </div>\n     </section>\n   );\n };\n \n"
+                },
+                {
+                    "date": 1677583476637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import classes from \"./Offer.module.css\";\n \n const Offer = () => {\n   return (\n-    <section className={`${classes['page-offer']}page`}>\n+    <section className={`${classes['page-offer']} page`}>\n       <div className={`${classes[\"section-offer\"]}`}>\n         <h2>Nasza oferta obejmuje</h2>\n         <section>\n           {rangeOfServices.map((service) => {\n"
                 }
             ],
             "date": 1675166573463,

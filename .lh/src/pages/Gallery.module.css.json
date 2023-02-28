@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 11,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1676286055399,
@@ -52,6 +52,34 @@
                 {
                     "date": 1676286303945,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .page-gallery {\n     width: 90%;\n-    margin: 0 auto;\n+    margin: 2vh auto;\n }\n \n .page-gallery h2 {\n-    color: var\n+    color: var(--clr-primary-1)\n }\n   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677498146722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .page-gallery {\n     width: 90%;\n-    margin: 2vh auto;\n+    /* margin: 2vh auto; */\n }\n \n .page-gallery h2 {\n     color: var(--clr-primary-1)\n"
+                },
+                {
+                    "date": 1677498153346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .page-gallery {\n     width: 90%;\n-    /* margin: 2vh auto; */\n+    margin: 0 auto;\n }\n \n .page-gallery h2 {\n     color: var(--clr-primary-1)\n"
+                },
+                {
+                    "date": 1677589952785,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .page-gallery {\n-    width: 90%;\n+    /* width: 90%; */\n     margin: 0 auto;\n }\n \n .page-gallery h2 {\n"
+                },
+                {
+                    "date": 1677590093930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .page-gallery {\n-    /* width: 90%; */\n+    width: 90%;\n     margin: 0 auto;\n }\n \n .page-gallery h2 {\n"
+                },
+                {
+                    "date": 1677590169341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .page-gallery {\n     width: 90%;\n-    margin: 0 auto;\n+    margin: 2vh auto;\n }\n \n .page-gallery h2 {\n     color: var(--clr-primary-1)\n"
+                },
+                {
+                    "date": 1677595339560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,10 @@\n \n .page-gallery h2 {\n     color: var(--clr-primary-1)\n }\n-  \n\\ No newline at end of file\n+\n+@media (max-width: 800px) {\n+    .page-certificates {\n+      margin: 2vh auto;\n+    }\n+  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677595347679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n     color: var(--clr-primary-1)\n }\n \n @media (max-width: 800px) {\n-    .page-certificates {\n+    .page-gallery {\n       margin: 2vh auto;\n     }\n   }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1676286055399,

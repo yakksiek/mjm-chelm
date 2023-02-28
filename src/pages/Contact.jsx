@@ -7,7 +7,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <section className="section">
+    <section className={`${classes['contact-section']} page`}>
       <div className={classes["contact-container"]}>
         <div className={classes["contact-info"]}>
           <div>

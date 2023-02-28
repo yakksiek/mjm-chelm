@@ -5,7 +5,7 @@ import classes from "./HeroSection.module.css";
 import mjm12 from "../assets/mjm12.jpg";
 import certificate1 from "../assets/certificate1.png";
 import hardox from "../assets/hardox.png";
-import cemex from "../assets/cemex.png";
+import rzetelnaFirma from "../assets/rzetelna-firma-logo.png";
 
 const HeroSection = () => {
   return (
@@ -49,13 +49,32 @@ const HeroSection = () => {
         <h3>Nasi partnerzy i certyfikaty</h3>
         <div className={classes["logo-partners-container"]}>
           <div>
-            <img src={hardox} alt="hardox logo" />
+            <a
+              href="https://www.ssab.com/pl-pl/marki-i-produkty/hardox"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={hardox} alt="hardox logo" />
+            </a>
+          </div>
+
+          <div className={classes.certificate1}>
+            <a
+              href="https://www.udt.gov.pl/o-udt"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={certificate1} alt="certificate" />
+            </a>
           </div>
           <div>
-            <img src={cemex} alt="cemex logo" />
-          </div>
-          <div className={classes.certificate1}>
-            <img src={certificate1} alt="certificate" />
+            <a
+              href="https://wizytowka.rzetelnafirma.pl/r/6314b3c331934bb79837fb6b51f047a2d19e1693617a45ddbfbd7e0d24af2ca3/1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={rzetelnaFirma} alt="rzetelna firma logo" />
+            </a>
           </div>
         </div>
       </div>

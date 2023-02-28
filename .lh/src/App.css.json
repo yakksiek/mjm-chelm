@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 166,
+            "activePatchIndex": 198,
             "patches": [
                 {
                     "date": 1674751476103,
@@ -672,6 +672,134 @@
                 {
                     "date": 1676289427419,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -196,10 +196,12 @@\n   background: var(--clr-primary-1);\n   padding: 0.5rem 1rem;\n }\n \n+.active li {\n+  color: #fff;\n+}\n \n-\n /* =============== \n Variables\n =============== */\n \n"
+                },
+                {
+                    "date": 1677497756878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n ::after,\n ::before {\n   margin: 0;\n   padding: 0;\n-  box-sizing: border-box;\n+  /* box-sizing: border-box; */\n }\n body {\n   /* font-family: \"Poppins\", sans-serif; */\n   /* font-family: \"Montserrat\", sans-serif; */\n"
+                },
+                {
+                    "date": 1677497768749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n ::after,\n ::before {\n   margin: 0;\n   padding: 0;\n-  /* box-sizing: border-box; */\n+  box-sizing: border-box;\n }\n body {\n   /* font-family: \"Poppins\", sans-serif; */\n   /* font-family: \"Montserrat\", sans-serif; */\n"
+                },
+                {
+                    "date": 1677497949835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -169,9 +169,11 @@\n   /* margin: 0 auto; */\n }\n \n .page {\n-  min-height: 100vh;\n+  width: 90%;\n+  min-height: 250px;\n+  height: calc(100vh - 175px);\n }\n \n @media (min-width: 992px) {\n   .section {\n"
+                },
+                {
+                    "date": 1677498009596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -184,9 +184,9 @@\n   }\n \n   .page h2 {\n     color: var(--clr-primary-1);\n-    padding: 20px 0;\n+    /* padding: 20px 0; */\n   }\n \n   .page-container {\n     max-width: var(--max-width);\n"
+                },
+                {
+                    "date": 1677498015663,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -178,15 +178,15 @@\n @media (min-width: 992px) {\n   .section {\n   }\n \n-  .page {\n+  /* .page {\n     min-height: 100vh;\n-  }\n+  } */\n \n   .page h2 {\n     color: var(--clr-primary-1);\n-    /* padding: 20px 0; */\n+    padding: 20px 0;\n   }\n \n   .page-container {\n     max-width: var(--max-width);\n"
+                },
+                {
+                    "date": 1677498040555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -162,14 +162,8 @@\n     padding: 0.5rem 1.5rem;\n   }\n }\n \n-/* section */\n-.section {\n-  /* width: 90vw; */\n-  /* margin: 0 auto; */\n-}\n-\n .page {\n   width: 90%;\n   min-height: 250px;\n   height: calc(100vh - 175px);\n"
+                },
+                {
+                    "date": 1677498218428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,18 +166,15 @@\n .page {\n   width: 90%;\n   min-height: 250px;\n   height: calc(100vh - 175px);\n+  margin: 0 auto;\n }\n \n @media (min-width: 992px) {\n   .section {\n   }\n \n-  /* .page {\n-    min-height: 100vh;\n-  } */\n-\n   .page h2 {\n     color: var(--clr-primary-1);\n     padding: 20px 0;\n   }\n"
+                },
+                {
+                    "date": 1677584942237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -197,100 +197,4 @@\n /* =============== \n Variables\n =============== */\n \n-/* .nav-center {\n-  width: 95vw;\n-  max-width: 1600px;\n-}\n-\n-.nav-header {\n-  display: flex;\n-  align-items: center;\n-  justify-content: space-between;\n-  padding: 1rem;\n-}\n-\n-.nav-toggle {\n-  font-size: 1.5rem;\n-  color: var(--clr-primary-1);\n-  background: transparent;\n-  border-color: transparent;\n-  transition: var(--transition);\n-  cursor: pointer;\n-}\n-\n-.nav-toggle.nav-toggle-clicked {\n-  transform: rotate(90deg);\n-}\n-\n-.logo {\n-  height: 60px;\n-}\n-\n-.links-container {\n-  height: 0;\n-  overflow: hidden;\n-  transition: var(--transition);\n-}\n-\n-.show-container {\n-  height: 10rem;\n-}\n-\n-.links .link {\n-  color: var(--clr-primary-1);\n-  font-weight: 400;\n-  display: block;\n-  font-size: 1.25rem; \n-  padding: 0.5rem 1rem;\n-  padding: 0.5rem 1.5rem;\n-}\n-\n-.links .link:hover {\n-  background: lightgray;\n-  color: white;\n-  padding: 0.5rem 1rem;\n-}\n-\n-@media screen and (min-width: 760px) {\n-  .nav-center {\n-    width: 95vw;\n-    margin: 0 auto;\n-    display: flex;\n-    align-items: center;\n-    justify-content: space-between;\n-    padding: 1rem;\n-  }\n-\n-  .nav-header {\n-    padding: 0;\n-  }\n-\n-  .nav-toggle {\n-    display: none;\n-  }\n-\n-  .links-container {\n-    height: auto !important;\n-  }\n-\n-  .links {\n-    display: flex;\n-  }\n-\n-  .links .link {\n-    padding: 0;\n-    margin: 0 0.2rem;\n-    border: 1px solid transparent;\n-    border-radius: 0.75rem;\n-    padding: 0.5rem 0.75rem;\n-    font-size: clamp(0.9rem, 2vw,1.25rem);\n-    font-weight: 400;\n-  }\n-\n-  .links .link:hover {\n-    background: var(--clr-primary-1);\n-    padding: 0.5rem 1rem;\n-    color: #fff;\n-  }\n-} */\n"
+                },
+                {
+                    "date": 1677584968905,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -163,12 +163,9 @@\n   }\n }\n \n .page {\n-  width: 90%;\n-  min-height: 250px;\n-  height: calc(100vh - 175px);\n-  margin: 0 auto;\n+  \n }\n \n @media (min-width: 992px) {\n   .section {\n@@ -193,8 +190,4 @@\n .active li {\n   color: #fff;\n }\n \n-/* =============== \n-Variables\n-=============== */\n-\n"
+                },
+                {
+                    "date": 1677584976816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -163,9 +163,12 @@\n   }\n }\n \n .page {\n-  \n+  width: 90%;\n+  min-height: 250px;\n+  height: calc(100vh - 175px);\n+  margin: 0 auto;\n }\n \n @media (min-width: 992px) {\n   .section {\n"
+                },
+                {
+                    "date": 1677585068083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,8 +156,10 @@\n   outline: 2px solid transparent;\n   outline-offset: 2px;\n }\n \n+\n+\n @media (min-width: 800px) {\n   .button {\n     padding: 0.5rem 1.5rem;\n   }\n"
+                },
+                {
+                    "date": 1677585073677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,10 +156,12 @@\n   outline: 2px solid transparent;\n   outline-offset: 2px;\n }\n \n+.page {\n+  width: 100;\n+}\n \n-\n @media (min-width: 800px) {\n   .button {\n     padding: 0.5rem 1.5rem;\n   }\n"
+                },
+                {
+                    "date": 1677585108809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,9 +157,10 @@\n   outline-offset: 2px;\n }\n \n .page {\n-  width: 100;\n+  width: 100%;\n+  \n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677585114067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n }\n \n .page {\n   width: 100%;\n-  \n+  height: auto;\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677585177696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,14 +167,14 @@\n     padding: 0.5rem 1.5rem;\n   }\n }\n \n-.page {\n+/* .page {\n   width: 90%;\n   min-height: 250px;\n   height: calc(100vh - 175px);\n   margin: 0 auto;\n-}\n+} */\n \n @media (min-width: 992px) {\n   .section {\n   }\n"
+                },
+                {
+                    "date": 1677585555557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,25 +156,25 @@\n   outline: 2px solid transparent;\n   outline-offset: 2px;\n }\n \n-.page {\n+/* .page {\n   width: 100%;\n   height: auto;\n-}\n+} */\n \n @media (min-width: 800px) {\n   .button {\n     padding: 0.5rem 1.5rem;\n   }\n }\n \n-/* .page {\n+.page {\n   width: 90%;\n   min-height: 250px;\n   height: calc(100vh - 175px);\n   margin: 0 auto;\n-} */\n+}\n \n @media (min-width: 992px) {\n   .section {\n   }\n"
+                },
+                {
+                    "date": 1677586885269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,12 +156,12 @@\n   outline: 2px solid transparent;\n   outline-offset: 2px;\n }\n \n-/* .page {\n+.page {\n   width: 100%;\n   height: auto;\n-} */\n+}\n \n @media (min-width: 800px) {\n   .button {\n     padding: 0.5rem 1.5rem;\n@@ -169,10 +169,10 @@\n }\n \n .page {\n   width: 90%;\n-  min-height: 250px;\n-  height: calc(100vh - 175px);\n+  /* min-height: 250px; */\n+  /* height: calc(100vh - 175px); */\n   margin: 0 auto;\n }\n \n @media (min-width: 992px) {\n"
+                },
+                {
+                    "date": 1677586921729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,24 +158,18 @@\n }\n \n .page {\n   width: 100%;\n-  height: auto;\n }\n \n @media (min-width: 800px) {\n   .button {\n     padding: 0.5rem 1.5rem;\n   }\n }\n \n-.page {\n-  width: 90%;\n-  /* min-height: 250px; */\n-  /* height: calc(100vh - 175px); */\n-  margin: 0 auto;\n-}\n \n+\n @media (min-width: 992px) {\n   .section {\n   }\n \n"
+                },
+                {
+                    "date": 1677586984447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,12 +164,18 @@\n @media (min-width: 800px) {\n   .button {\n     padding: 0.5rem 1.5rem;\n   }\n+\n+  .page {\n+    width: 90%;\n+    width: 70%;\n+    max-width: 1000px;\n+    height: calc(100vh - 175px);\n+    margin: 0 auto;\n+  }\n }\n \n-\n-\n @media (min-width: 992px) {\n   .section {\n   }\n \n@@ -191,5 +197,4 @@\n \n .active li {\n   color: #fff;\n }\n-\n"
+                },
+                {
+                    "date": 1677588427802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,9 +166,8 @@\n     padding: 0.5rem 1.5rem;\n   }\n \n   .page {\n-    width: 90%;\n     width: 70%;\n     max-width: 1000px;\n     height: calc(100vh - 175px);\n     margin: 0 auto;\n"
+                },
+                {
+                    "date": 1677588435539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -167,9 +167,9 @@\n   }\n \n   .page {\n     width: 70%;\n-    max-width: 1000px;\n+    /* max-width: 1000px; */\n     height: calc(100vh - 175px);\n     margin: 0 auto;\n   }\n }\n"
+                },
+                {
+                    "date": 1677588505802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,9 +166,9 @@\n     padding: 0.5rem 1.5rem;\n   }\n \n   .page {\n-    width: 70%;\n+    /* width: 70%; */\n     /* max-width: 1000px; */\n     height: calc(100vh - 175px);\n     margin: 0 auto;\n   }\n"
+                },
+                {
+                    "date": 1677588531686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -166,10 +166,10 @@\n     padding: 0.5rem 1.5rem;\n   }\n \n   .page {\n-    /* width: 70%; */\n-    /* max-width: 1000px; */\n+    width: 70%;\n+    max-width: 1000px;\n     height: calc(100vh - 175px);\n     margin: 0 auto;\n   }\n }\n"
+                },
+                {
+                    "date": 1677589670024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -174,10 +174,8 @@\n   }\n }\n \n @media (min-width: 992px) {\n-  .section {\n-  }\n \n   .page h2 {\n     color: var(--clr-primary-1);\n     padding: 20px 0;\n"
+                },
+                {
+                    "date": 1677589700362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,8 +158,9 @@\n }\n \n .page {\n   width: 100%;\n+  \n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677589706806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n }\n \n .page {\n   width: 100%;\n-  \n+  height: 100vh;\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677589822341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n }\n \n .page {\n   width: 100%;\n-  height: 100vh;\n+  height: 90vh;\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677589835779,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n }\n \n .page {\n   width: 100%;\n-  height: 90vh;\n+  height: 80vh;\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677589891018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n }\n \n .page {\n   width: 100%;\n-  height: 80vh;\n+  /* height: 80vh; */\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677589915774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,8 +159,9 @@\n \n .page {\n   width: 100%;\n   /* height: 80vh; */\n+  padding: 20px;\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677589931283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n \n .page {\n   width: 100%;\n   /* height: 80vh; */\n-  padding: 20px;\n+  padding: 10px;\n }\n \n @media (min-width: 800px) {\n   .button {\n"
+                },
+                {
+                    "date": 1677590100950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n \n .page {\n   width: 100%;\n   /* height: 80vh; */\n-  padding: 10px;\n+  /* padding: 10px; */\n }\n \n @media (min-width: 800px) {\n   .button {\n"
                 }
             ],
             "date": 1674751476103,

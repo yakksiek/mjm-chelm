@@ -1,8 +1,15 @@
 .page-certificates {
   width: 90%;
-  margin: 2vh auto;
+  min-height: 550px;
 }
 
 .page-certificates h2 {
   color: var(--clr-primary-1);
+}
+
+@media (max-width: 800px) {
+  .page-certificates {
+    margin: 2vh auto;
+    height: calc(100vh - 210px);
+  }
 }
