@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/components/ScrollToTop.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1677609029694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677609036759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import React from 'react'\n+import {use} from 'react'\n \n const ScrollToTop = () => {\n   return (\n     <div>ScrollToTop</div>\n"
+                },
+                {
+                    "date": 1677609045608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n-import {use} from 'react'\n+import {useEffect} from 'react'\n+import {useLo}\n \n const ScrollToTop = () => {\n   return (\n     <div>ScrollToTop</div>\n"
+                },
+                {
+                    "date": 1677609064394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,8 @@\n import {useEffect} from 'react'\n import { useLocation } from 'react-router-dom'\n \n const ScrollToTop = () => {\n-  return (\n-    <div>ScrollToTop</div>\n-  )\n+  return null\n }\n \n export default ScrollToTop\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1677609075444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { useEffect } from \"react\";\n import { useLocation } from \"react-router-dom\";\n \n const ScrollToTop = () => {\n-    const {pathname} = \n+    const {pathname} = useLocation()\n \n \n   return null;\n };\n"
+                }
+            ],
+            "date": 1677609029694,
+            "name": "Commit-0",
+            "content": "import React from 'react'\n\nconst ScrollToTop = () => {\n  return (\n    <div>ScrollToTop</div>\n  )\n}\n\nexport default ScrollToTop"
+        }
+    ]
+}

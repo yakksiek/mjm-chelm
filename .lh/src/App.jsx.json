@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 12,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1676207407723,
@@ -56,6 +56,30 @@
                 {
                     "date": 1677606192121,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n \n function App() {\n   return (\n     <BrowserRouter>\n-      <div className=\"\">\n+      <div className=\"components\">\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n"
+                },
+                {
+                    "date": 1677609146532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,13 +10,14 @@\n   HomePage,\n } from \"./pages/index\";\n import Navbar from \"./components/Navbar\";\n import Footer from \"./components/Footer\";\n+import ScrollToTop from \"./components/ScrollToTop\";\n \n function App() {\n   return (\n     <BrowserRouter>\n-      <div className=\"components\">\n+      <div className=\"components-container\">\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n"
+                },
+                {
+                    "date": 1677609176981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n   HomePage,\n } from \"./pages/index\";\n import Navbar from \"./components/Navbar\";\n import Footer from \"./components/Footer\";\n-import ScrollToTop from \"./components/ScrollToTop\";\n \n function App() {\n   return (\n     <BrowserRouter>\n"
+                },
+                {
+                    "date": 1677609230857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n   HomePage,\n } from \"./pages/index\";\n import Navbar from \"./components/Navbar\";\n import Footer from \"./components/Footer\";\n+import ScrollToTop from \"./components/ScrollToTop\";\n \n function App() {\n   return (\n     <BrowserRouter>\n"
+                },
+                {
+                    "date": 1677609246323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,9 @@\n function App() {\n   return (\n     <BrowserRouter>\n       <div className=\"components-container\">\n+        <ScrollToTop />\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n"
+                },
+                {
+                    "date": 1677609257097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n function App() {\n   return (\n     <BrowserRouter>\n       <div className=\"components-container\">\n-        <ScrollToTop />\n+        {/* <ScrollToTop /> */}\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n"
+                },
+                {
+                    "date": 1677609301691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n function App() {\n   return (\n     <BrowserRouter>\n       <div className=\"components-container\">\n-        {/* <ScrollToTop /> */}\n+        <ScrollToTop />\n         <Navbar />\n         <Routes>\n           <Route path=\"/\" element={<HomePage />} />\n           <Route path=\"oferta\" element={<Offer />} />\n"
                 }
             ],
             "date": 1676207407723,
