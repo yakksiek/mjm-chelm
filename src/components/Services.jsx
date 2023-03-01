@@ -10,7 +10,10 @@ const Products = () => {
 
       <div className={`${classes["container-services"]}`}>
         <div className={classes.service}>
-          <h4>TUTAJ MOŻE TYTUŁ PODSUMOWUJĄCY TĘ GRUPĘ</h4>
+          <h4>
+            Konstrukcje stalowe, maszyny i urządzenia przemysłowe, ciągi
+            technologiczne
+          </h4>
           <ul>
             <li>Wykonawstwo i montaż konstrukcji stalowych</li>
             <li>
@@ -24,7 +27,9 @@ const Products = () => {
           </ul>
         </div>
         <div className={classes.service}>
-          <h4>TUTAJ MOŻE TYTUŁ PODSUMOWUJĄCY TĘ GRUPĘ</h4>
+          <h4>
+            Obróbka elementów metalowych, urządzenia dźwignicowe podlegające UDT
+          </h4>
           <ul>
             <li>Obróbka skrawaniem i obróbka plastyczna na zimno lub gorąco</li>
             <li>
