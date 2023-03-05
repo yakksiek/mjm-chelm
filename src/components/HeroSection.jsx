@@ -23,7 +23,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className={classes["image-container"]}>
-          <img src={mjm12} className={classes["image-hero"]} />
+          {/* <img src={mjm12} className={classes["image-hero"]} /> */}
         </div>
       </div>
       <div className={`${classes.bio}`}>
