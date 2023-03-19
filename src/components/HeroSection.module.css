@@ -27,26 +27,20 @@
 }
 
 .bio {
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 .bio p {
   color: var(--clr-primary-1);
-  text-align: center;
-  padding: 30px 40px;
+  /* text-align: center; */
+  /* padding: 30px 40px; */
   max-width: 800px;
   line-height: 1.6;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .image-container {
   height: 44vh;
-}
-
-.image-hero {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 .partners {
@@ -90,9 +84,11 @@
   .hero {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 40px auto;
     max-width: var(--max-width);
-    height: 400px;
+    /* height: 400px; */
+    height: 60vh;
+    /* padding: 40px; */
   }
 
   .info {
@@ -100,10 +96,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     color: var(--clr-primary-1);
     background-color: transparent;
-    padding: 20px;
+    padding: 40px;
+    text-align: left;
   }
 
   .info h1 {
@@ -122,34 +119,25 @@
     line-height: 1.4;
   }
 
-  .bio {
-    margin: 20px auto;
-    width: 100vw;
-  }
-
   .bio p {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-weight: 500;
-    padding: 20px 20px;
-    max-width: 800px;
-    font-size: 18px;
+    /* padding: 20px 20px; */
+    /* width: auto; */
+    font-size: 16px;
   }
 
   .image-container {
-    width: 80%;
+    width: 100%;
     height: 100%;
   }
 
-  .image-hero {
-    max-width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* border-radius: 5%; */
-    clip-path: polygon(0% 0, 100% 0, 100% 100%, 40% 100%);
-  }
-
-  .button-hero {
-    color: white;
+  .hero-gallery {
+    /* position: absolute; */
+    /* margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
   }
 
   .partners h3 {
@@ -166,6 +154,4 @@
   .certificate1 img {
     margin-top: 0;
   }
-
-  
 }

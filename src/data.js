@@ -69,6 +69,44 @@ import img20 from "./assets/gallery_imgs/800/punkt-zaladunku-cementu-na-samochod
 import img21 from "./assets/gallery_imgs/800/wykonanie-i-montaz-klapy-materialowej-pieca-obrotowego.jpeg";
 import img22 from "./assets/gallery_imgs/800/zaladunek-cementu-luzem-na-wagony-rekonstrukcja-dna-zbiornika.jpeg";
 
+export const heroPhotos = [
+  {
+    src: img10,
+    width: 602,
+    height: 800,
+    // title: "Logo firmy",
+    description: "Siedziba firmy.",
+  },
+  {
+    src: img12,
+    width: 1024,
+    height: 771,
+    title: "title1",
+    description: "image dscription",
+  },
+  {
+    src: img8,
+    width: 1024,
+    height: 770,
+    title: "Logo firmy",
+    description: "proces obróbki metalu",
+  },
+  {
+    src: img4,
+    width: 1024,
+    height: 770,
+    title: "title1",
+    description: "image dscription",
+  },
+  {
+    src: img17,
+    width: 710,
+    height: 1024,
+    title: "title1",
+    description: "image dscription",
+  },
+];
+
 export const photos = [
   {
     src: img1,

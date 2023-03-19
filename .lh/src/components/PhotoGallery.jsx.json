@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 18,
             "patches": [
                 {
                     "date": 1675005725812,
@@ -32,6 +32,54 @@
                 {
                     "date": 1677437153167,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n import \"yet-another-react-lightbox/plugins/thumbnails.css\";\n import \"yet-another-react-lightbox/plugins/captions.css\";\n \n-import { photos } from \"../data\";\n+\n // import slides from \"../data/slides\";\n \n const PhotoGallery = ({ images }) => {\n   const [index, setIndex] = React.useState(-1);\n@@ -31,9 +31,9 @@\n       <Lightbox\n         open={index >= 0}\n         index={index}\n         close={() => setIndex(-1)}\n-        slides={photos}\n+        slides={images}\n         plugins={[Fullscreen, Slideshow, Thumbnails, Zoom, Captions]}\n       />\n     </>\n   );\n"
+                },
+                {
+                    "date": 1679244420196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,20 +12,17 @@\n \n import \"yet-another-react-lightbox/plugins/thumbnails.css\";\n import \"yet-another-react-lightbox/plugins/captions.css\";\n \n-\n-// import slides from \"../data/slides\";\n-\n const PhotoGallery = ({ images }) => {\n   const [index, setIndex] = React.useState(-1);\n \n   return (\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        targetRowHeight={150}\n+        targetRowHeight={500}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679244427742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        targetRowHeight={500}\n+        targetRowHeight={300}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679244434308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        targetRowHeight={300}\n+        targetRowHeight={250}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679244454723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        targetRowHeight={250}\n+        targetRowHeight={200}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679244478030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n import \"yet-another-react-lightbox/plugins/thumbnails.css\";\n import \"yet-another-react-lightbox/plugins/captions.css\";\n \n-const PhotoGallery = ({ images }) => {\n+const PhotoGallery = ({ images,  }) => {\n   const [index, setIndex] = React.useState(-1);\n \n   return (\n     <>\n"
+                },
+                {
+                    "date": 1679244484981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n import \"yet-another-react-lightbox/plugins/thumbnails.css\";\n import \"yet-another-react-lightbox/plugins/captions.css\";\n \n-const PhotoGallery = ({ images,  }) => {\n+const PhotoGallery = ({ images, rowHeigh = 150 }) => {\n   const [index, setIndex] = React.useState(-1);\n \n   return (\n     <>\n"
+                },
+                {
+                    "date": 1679251637951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,11 +18,11 @@\n \n   return (\n     <>\n       <PhotoAlbum\n-        layout=\"rows\"\n+        layout=\"column\"\n         photos={images}\n-        targetRowHeight={200}\n+        targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679251646946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \n   return (\n     <>\n       <PhotoAlbum\n-        layout=\"column\"\n+        layout=\"rows\"\n         photos={images}\n         targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n"
+                },
+                {
+                    "date": 1679251782377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        targetRowHeight={rowHeigh}\n+        // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679251890640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        // targetRowHeight={rowHeigh}\n+        targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679251907039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        targetRowHeight={rowHeigh}\n+        // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679251990626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        // targetRowHeight={rowHeigh}\n+        targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
                 }
             ],
             "date": 1675005725812,

@@ -1,50 +1,62 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
+import PhotoGallery from "../components/PhotoGallery";
 
 import classes from "./HeroSection.module.css";
 import mjm12 from "../assets/mjm12.jpg";
 import certificate1 from "../assets/certificate1.png";
 import hardox from "../assets/hardox.png";
 import rzetelnaFirma from "../assets/rzetelna-firma-logo.png";
+import { heroPhotos } from "../data";
 
 const HeroSection = () => {
+  const [heroGallery, setHeroGallery] = useState(heroPhotos);
+
   return (
     <main>
       <div className={`${classes.hero}`}>
         <div className={classes.info}>
           <h1>"MJM"</h1>
           <h2>Sp. z o. o. Chełm</h2>
-
-          <div className={classes["call-to-action"]}>
-            <h3>Zbudujmy przyszłość razem.</h3>
-            <Link className={classes["button-hero"]} to="/kontakt">
-              <button className="button">Kontakt</button>
-            </Link>
+          <h3>Zbudujmy przyszłość razem.</h3>
+          <div className={`${classes.bio}`}>
+            <p>
+              "MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku.
+              Powstała w wyniku przekształceń własnościowych w Cementowni
+              „Chełm” na bazie jej Wydziału Mechanicznego. Podstawowy zakres
+              działalności Spółki to wykonawstwo i montaż konstrukcji stalowych,
+              obróbka skrawaniem, remonty mechaniczne maszyn i urządzeń
+              przemysłowych, wykonawstwo części zamiennych i ich regeneracja,
+              naprawa, modernizacja i konserwacja urządzeń podlegających UDT.
+              Usługi świadczymy głównie na rzecz zakładów przemysłowych.
+              Realizujemy również kompleksowe zadania inwestycyjne.
+            </p>
+            <p>
+              Od 2018 r. ”MJM” Sp. z o. o. dołączyła do grona Hardox Wearparts -
+              sieci czołowego światowego producenta części eksploatacyjnych i
+              usługodawcy w zakresie blach trudnościeralnych grupy SSAB,
+              producenta blach trudnościeralnych Hardox.
+            </p>
           </div>
         </div>
+
         <div className={classes["image-container"]}>
-          {/* <img src={mjm12} className={classes["image-hero"]} /> */}
+          {/* {heroPhotos.map((photo, index) => {
+            return (
+              <div
+                key={index}
+                className={classes["image-hero"]}
+                style={{ backgroundImage: `url(${photo.src})` }}
+              ></div>
+            );
+          })} */}
+          <div className={classes["hero-gallery"]}>
+            <PhotoGallery images={heroGallery} rowHeigh={230} />
+          </div>
         </div>
       </div>
-      <div className={`${classes.bio}`}>
-        <p>
-          "MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku. Powstała
-          w wyniku przekształceń własnościowych w Cementowni „Chełm” na bazie
-          jej Wydziału Mechanicznego. Podstawowy zakres działalności Spółki to
-          wykonawstwo i montaż konstrukcji stalowych, obróbka skrawaniem,
-          remonty mechaniczne maszyn i urządzeń przemysłowych, wykonawstwo
-          części zamiennych i ich regeneracja, naprawa, modernizacja i
-          konserwacja urządzeń podlegających UDT. Usługi świadczymy głównie na
-          rzecz zakładów przemysłowych. Realizujemy również kompleksowe zadania
-          inwestycyjne.
-        </p>
-        <p>
-          Od 2018 r. ”MJM” Sp. z o. o. dołączyła do grona Hardox Wearparts -
-          sieci czołowego światowego producenta części eksploatacyjnych i
-          usługodawcy w zakresie blach trudnościeralnych grupy SSAB, producenta
-          blach trudnościeralnych Hardox.
-        </p>
-      </div>
+
       <div className={classes.partners}>
         <h3>Nasi partnerzy i certyfikaty</h3>
         <div className={classes["logo-partners-container"]}>
