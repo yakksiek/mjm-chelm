@@ -55,15 +55,6 @@ const HeroSection = () => {
         </div>
 
         <div className={classes["image-container"]}>
-          {/* {heroPhotos.map((photo, index) => {
-            return (
-              <div
-                key={index}
-                className={classes["image-hero"]}
-                style={{ backgroundImage: `url(${photo.src})` }}
-              ></div>
-            );
-          })} */}
           <div className={classes["hero-gallery"]}>
             {isDesktop ? (
               <PhotoGallery images={heroGallery} />

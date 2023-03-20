@@ -70,8 +70,12 @@
     flex-direction: row;
     margin: 40px auto;
     max-width: var(--max-width);
-    height: 75vh;
+    height: 65vh;
     width: 95vw;
+  }
+
+  .hero > * {
+    flex: 1 1;
   }
 
   .info {
@@ -148,6 +152,6 @@
 
 @media (min-width: 1400px) {
   .hero {
-    height: 40vh;
+    height: 45vh;
   }
 }

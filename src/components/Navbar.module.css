@@ -68,11 +68,6 @@
     display: none;
   }
 
-  .logo {
-    transform: scale(1.3);
-    margin-top: 20px;
-  }
-
   .links-container {
     height: auto !important;
   }
@@ -105,5 +100,12 @@
 
   .link:last-of-type {
     background-color: var(--clr-accent-yellow);
+  }
+}
+
+@media (min-width: 960px) {
+  .logo {
+    transform: scale(1.3);
+    margin-top: 20px;
   }
 }
