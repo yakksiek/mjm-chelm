@@ -145,3 +145,9 @@
     height: 50vh;
   }
 }
+
+@media (min-width: 1400px) {
+  .hero {
+    height: 40vh;
+  }
+}
