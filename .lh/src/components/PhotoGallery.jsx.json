@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 39,
             "patches": [
                 {
                     "date": 1675005725812,
@@ -80,6 +80,90 @@
                 {
                     "date": 1679251990626,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        // targetRowHeight={rowHeigh}\n+        targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679252207881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     <>\n       <PhotoAlbum\n         layout=\"rows\"\n         photos={images}\n-        targetRowHeight={rowHeigh}\n+        // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n \n       <Lightbox\n"
+                },
+                {
+                    "date": 1679252258077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \n   return (\n     <>\n       <PhotoAlbum\n-        layout=\"rows\"\n+        layout=\"columns\"\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n       />\n"
+                },
+                {
+                    "date": 1679253201461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,8 +22,12 @@\n         layout=\"columns\"\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n+        columns={(containerWidth) => {\n+          if (containerWidth < 400) return 2;\n+          if (containerWidth < 800) return 3;\n+          return 4;\n       />\n \n       <Lightbox\n         open={index >= 0}\n"
+                },
+                {
+                    "date": 1679253209175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n         columns={(containerWidth) => {\n           if (containerWidth < 400) return 2;\n           if (containerWidth < 800) return 3;\n           return 4;\n+        }}\n       />\n \n       <Lightbox\n         open={index >= 0}\n"
+                },
+                {
+                    "date": 1679253224280,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 400) return 2;\n+          if (containerWidth < 500) return 2;\n           if (containerWidth < 800) return 3;\n           return 4;\n         }}\n       />\n"
+                },
+                {
+                    "date": 1679253239955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 500) return 2;\n+          if (containerWidth < 450) return 2;\n           if (containerWidth < 800) return 3;\n           return 4;\n         }}\n       />\n"
+                },
+                {
+                    "date": 1679253253098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 450) return 2;\n+          if (containerWidth < 420) return 2;\n           if (containerWidth < 800) return 3;\n           return 4;\n         }}\n       />\n"
+                },
+                {
+                    "date": 1679253275829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 420) return 2;\n+          if (containerWidth < 450) return 2;\n           if (containerWidth < 800) return 3;\n           return 4;\n         }}\n       />\n"
+                },
+                {
+                    "date": 1679253564908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,8 @@\n     <>\n       <PhotoAlbum\n         layout=\"columns\"\n         photos={images}\n-        // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 450) return 2;\n           if (containerWidth < 800) return 3;\n"
+                },
+                {
+                    "date": 1679256081450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,11 @@\n \n   return (\n     <>\n       <PhotoAlbum\n-        layout=\"columns\"\n+        layout=\"rows\"\n         photos={images}\n+        // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 450) return 2;\n           if (containerWidth < 800) return 3;\n"
+                },
+                {
+                    "date": 1679256113374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \n   return (\n     <>\n       <PhotoAlbum\n-        layout=\"rows\"\n+        layout=\"columns\"\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n"
+                },
+                {
+                    "date": 1679256162141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n import \"yet-another-react-lightbox/plugins/thumbnails.css\";\n import \"yet-another-react-lightbox/plugins/captions.css\";\n \n-const PhotoGallery = ({ images, rowHeigh = 150 }) => {\n+const PhotoGallery = ({ images, layout= }) => {\n   const [index, setIndex] = React.useState(-1);\n \n   return (\n     <>\n"
+                },
+                {
+                    "date": 1679256172930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,15 +12,15 @@\n \n import \"yet-another-react-lightbox/plugins/thumbnails.css\";\n import \"yet-another-react-lightbox/plugins/captions.css\";\n \n-const PhotoGallery = ({ images, layout= }) => {\n+const PhotoGallery = ({ images, layout = \"columns\" }) => {\n   const [index, setIndex] = React.useState(-1);\n \n   return (\n     <>\n       <PhotoAlbum\n-        layout=\"columns\"\n+        layout=lyout\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n"
+                },
+                {
+                    "date": 1679256178113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \n   return (\n     <>\n       <PhotoAlbum\n-        layout=lyout\n+        layout=layout=\"\"\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n"
+                },
+                {
+                    "date": 1679309738807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,15 +18,15 @@\n \n   return (\n     <>\n       <PhotoAlbum\n-        layout=layout=\"\"\n+        layout={layout}\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 450) return 2;\n-          if (containerWidth < 800) return 3;\n+          if (containerWidth < 900) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1679309782662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 450) return 2;\n+          // if (containerWidth < 450) return 2;\n           if (containerWidth < 900) return 3;\n           return 4;\n         }}\n       />\n"
+                },
+                {
+                    "date": 1679309801259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,10 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          // if (containerWidth < 450) return 2;\n-          if (containerWidth < 900) return 3;\n+          if (containerWidth < 450) return 2;\n+          if (containerWidth < 900) return 2;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1679309812333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 450) return 2;\n+          if (containerWidth < ) return 2;\n           if (containerWidth < 900) return 2;\n           return 4;\n         }}\n       />\n"
+                },
+                {
+                    "date": 1679309818866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,10 +23,10 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < ) return 2;\n-          if (containerWidth < 900) return 2;\n+          if (containerWidth < 450) return 2;\n+          if (containerWidth < 900) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1679309846262,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 450) return 2;\n+          if (containerWidth < 50) return 2;\n           if (containerWidth < 900) return 3;\n           return 4;\n         }}\n       />\n"
+                },
+                {
+                    "date": 1679309859603,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 50) return 2;\n+          if (containerWidth < 450) return 2;\n           if (containerWidth < 900) return 3;\n           return 4;\n         }}\n       />\n"
                 }
             ],
             "date": 1675005725812,

@@ -13,16 +13,21 @@ import Captions from "yet-another-react-lightbox/plugins/captions";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 import "yet-another-react-lightbox/plugins/captions.css";
 
-const PhotoGallery = ({ images, rowHeigh = 150 }) => {
+const PhotoGallery = ({ images, layout = "columns" }) => {
   const [index, setIndex] = React.useState(-1);
 
   return (
     <>
       <PhotoAlbum
-        layout="rows"
+        layout={layout}
         photos={images}
-        targetRowHeight={rowHeigh}
+        // targetRowHeight={rowHeigh}
         onClick={({ index }) => setIndex(index)}
+        columns={(containerWidth) => {
+          if (containerWidth < 450) return 2;
+          if (containerWidth < 900) return 3;
+          return 4;
+        }}
       />
 
       <Lightbox

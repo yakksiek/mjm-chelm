@@ -105,6 +105,27 @@ export const heroPhotos = [
     title: "title1",
     description: "image dscription",
   },
+  {
+    src: img14,
+    width: 1100,
+    height: 733,
+    // title: "Młyn kulowy",
+    description: "Młyn kulowy do przemiału cementru - montaż.",
+  },
+  {
+    src: img15,
+    width: 1024,
+    height: 770,
+    // title: "Piec obrotowy",
+    description: "Montaż roli oporowej pieca obrotoweg.",
+  },
+  {
+    src: img16,
+    width: 1100,
+    height: 825,
+    // title: "Palety",
+    description: "",
+  },
 ];
 
 export const photos = [

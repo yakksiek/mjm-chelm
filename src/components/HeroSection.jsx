@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import PhotoGallery from "../components/PhotoGallery";
@@ -12,6 +12,19 @@ import { heroPhotos } from "../data";
 
 const HeroSection = () => {
   const [heroGallery, setHeroGallery] = useState(heroPhotos);
+  const [heroGalleryMobile, setHeroGalleryMobile] = useState(
+    heroPhotos.slice(0, 3)
+  );
+  const [isDesktop, setDesktop] = useState(window.innerWidth > 760);
+
+  const updateMedia = () => {
+    setDesktop(window.innerWidth > 760);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  }, [isDesktop]);
 
   return (
     <main>
@@ -19,7 +32,7 @@ const HeroSection = () => {
         <div className={classes.info}>
           <h1>"MJM"</h1>
           <h2>Sp. z o. o. Chełm</h2>
-          <h3>Zbudujmy przyszłość razem.</h3>
+          {/* <h3>Zbudujmy przyszłość razem.</h3> */}
           <div className={`${classes.bio}`}>
             <p>
               "MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku.
@@ -29,8 +42,8 @@ const HeroSection = () => {
               obróbka skrawaniem, remonty mechaniczne maszyn i urządzeń
               przemysłowych, wykonawstwo części zamiennych i ich regeneracja,
               naprawa, modernizacja i konserwacja urządzeń podlegających UDT.
-              Usługi świadczymy głównie na rzecz zakładów przemysłowych.
-              Realizujemy również kompleksowe zadania inwestycyjne.
+              {/* Usługi świadczymy głównie na rzecz zakładów przemysłowych.
+              Realizujemy również kompleksowe zadania inwestycyjne. */}
             </p>
             <p>
               Od 2018 r. ”MJM” Sp. z o. o. dołączyła do grona Hardox Wearparts -
@@ -52,7 +65,11 @@ const HeroSection = () => {
             );
           })} */}
           <div className={classes["hero-gallery"]}>
-            <PhotoGallery images={heroGallery} rowHeigh={230} />
+            {isDesktop ? (
+              <PhotoGallery images={heroGallery} />
+            ) : (
+              <PhotoGallery images={heroGalleryMobile} />
+            )}
           </div>
         </div>
       </div>

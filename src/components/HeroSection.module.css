@@ -1,17 +1,13 @@
 .hero {
-  position: relative;
-  height: 44vh;
+  margin-bottom: 20px;
 }
 
 .info {
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  background-color: hsla(0, 0%, 0%, 0.5);
-  z-index: 1;
+  color: #00418c;
+  width: 90vw;
+  margin: 0 auto;
   font-weight: 900;
   text-align: center;
-  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,21 +22,10 @@
   margin-bottom: 10px;
 }
 
-.bio {
-  /* width: 100vw; */
-}
-
 .bio p {
   color: var(--clr-primary-1);
-  /* text-align: center; */
-  /* padding: 30px 40px; */
   max-width: 800px;
   line-height: 1.6;
-  /* margin: 0; */
-}
-
-.image-container {
-  height: 44vh;
 }
 
 .partners {
@@ -79,16 +64,14 @@
   margin-top: 15px;
 }
 
-/* image on the right  */
 @media (min-width: 760px) {
   .hero {
     display: flex;
     flex-direction: row;
     margin: 40px auto;
     max-width: var(--max-width);
-    /* height: 400px; */
-    height: 60vh;
-    /* padding: 40px; */
+    height: 75vh;
+    width: 95vw;
   }
 
   .info {
@@ -103,12 +86,6 @@
     text-align: left;
   }
 
-  .info h1 {
-    font-weight: 800;
-    font-size: 60px;
-    margin-bottom: 0;
-  }
-
   .info h2 {
     margin-top: 0;
   }
@@ -119,25 +96,32 @@
     line-height: 1.4;
   }
 
+  .bio {
+    position: relative;
+    padding-left: 10px;
+  }
+
+  .bio::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: -2%;
+    border-left: 4px solid var(--clr-accent-yellow);
+    height: 75%;
+  }
+
   .bio p {
-    /* margin: 0 auto; */
-    font-weight: 500;
-    /* padding: 20px 20px; */
-    /* width: auto; */
+    margin-top: 20px;
+    font-weight: 400;
     font-size: 16px;
   }
 
   .image-container {
     width: 100%;
     height: 100%;
-  }
-
-  .hero-gallery {
-    /* position: absolute; */
-    /* margin: 0;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); */
+    display: grid;
+    align-items: center;
   }
 
   .partners h3 {
@@ -153,5 +137,11 @@
 
   .certificate1 img {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 960px) {
+  .hero {
+    height: 50vh;
   }
 }
