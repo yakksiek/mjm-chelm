@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 269,
+            "activePatchIndex": 272,
             "patches": [
                 {
                     "date": 1674751476103,
@@ -1084,6 +1084,18 @@
                 {
                     "date": 1679309696837,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,9 @@\n p {\n   margin-bottom: 1.25rem;\n   color: white;\n }\n-@media screen and (min-width: 800px) {\n+@media screen and (min-width: 810px) {\n   h1 {\n     font-size: 5rem;\n   }\n   h2 {\n"
+                },
+                {
+                    "date": 1679318277788,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n @import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap\");\n @import url(\"https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap\");\n-@import url(\"https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&display=swap\");\n+@import url(\"https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap\");\n \n @import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap\");\n \n /*\n"
+                },
+                {
+                    "date": 1679318624182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,8 +185,12 @@\n .active li {\n   color: #fff;\n }\n \n+.active.link:last-of-type {\n+  background-color: var(--clr-primary-1);\n+}\n+\n .components-container {\n   min-height: 100vh;\n   display: flex;\n   flex-direction: column;\n"
+                },
+                {
+                    "date": 1679318642689,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,12 +185,8 @@\n .active li {\n   color: #fff;\n }\n \n-.active.link:last-of-type {\n-  background-color: var(--clr-primary-1);\n-}\n-\n .components-container {\n   min-height: 100vh;\n   display: flex;\n   flex-direction: column;\n"
                 }
             ],
             "date": 1674751476103,

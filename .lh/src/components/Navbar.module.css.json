@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 32,
+            "activePatchIndex": 52,
             "patches": [
                 {
                     "date": 1676283442646,
@@ -136,6 +136,86 @@
                 {
                     "date": 1677497704012,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,8 +56,9 @@\n     align-items: center;\n     justify-content: space-between;\n     padding: 1rem;\n     max-width: 1600px;\n+    height: 100px;\n   }\n \n   .nav-header {\n     padding: 0;\n"
+                },
+                {
+                    "date": 1679318121358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,9 @@\n   display: block;\n   font-size: 1.25rem;\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n+  fo\n }\n \n /* .links .link:hover {\n     background: lightgray;\n"
+                },
+                {
+                    "date": 1679318126495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n   display: block;\n   font-size: 1.25rem;\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n-  fo\n+  font-family: \"Outfit\", sans-serif;\n }\n \n /* .links .link:hover {\n     background: lightgray;\n"
+                },
+                {
+                    "date": 1679318136815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,9 @@\n   font-size: 1.25rem;\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n   font-family: \"Outfit\", sans-serif;\n+  font-weight: ;\n }\n \n /* .links .link:hover {\n     background: lightgray;\n"
+                },
+                {
+                    "date": 1679318143520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n   font-size: 1.25rem;\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n   font-family: \"Outfit\", sans-serif;\n-  font-weight: ;\n+  font-weight: 700;\n }\n \n /* .links .link:hover {\n     background: lightgray;\n"
+                },
+                {
+                    "date": 1679318189373,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,10 +38,9 @@\n   display: block;\n   font-size: 1.25rem;\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n-  font-family: \"Outfit\", sans-serif;\n-  font-weight: 700;\n+ \n }\n \n /* .links .link:hover {\n     background: lightgray;\n"
+                },
+                {
+                    "date": 1679318194858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,8 +41,13 @@\n   padding: 0.5rem 1.5rem;\n  \n }\n \n+.link li {\n+  font-family: \"Outfit\", sans-serif;\n+  font-weight: 700;\n+}\n+\n /* .links .link:hover {\n     background: lightgray;\n     color: white;\n     padding: 0.5rem 1rem;\n"
+                },
+                {
+                    "date": 1679318201156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,9 @@\n }\n \n .link li {\n   font-family: \"Outfit\", sans-serif;\n-  font-weight: 700;\n+  font-weight: 600;\n }\n \n /* .links .link:hover {\n     background: lightgray;\n"
+                },
+                {
+                    "date": 1679318285853,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,8 @@\n   display: block;\n   font-size: 1.25rem;\n   padding: 0.5rem 1rem;\n   padding: 0.5rem 1.5rem;\n- \n }\n \n .link li {\n   font-family: \"Outfit\", sans-serif;\n"
+                },
+                {
+                    "date": 1679318321110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,12 @@\n   .nav-toggle {\n     display: none;\n   }\n \n+  .logo {\n+    tra\n+  }\n+\n   .links-container {\n     height: auto !important;\n   }\n \n"
+                },
+                {
+                    "date": 1679318327750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n     display: none;\n   }\n \n   .logo {\n-    tra\n+    transform: scale(1.3);\n   }\n \n   .links-container {\n     height: auto !important;\n"
+                },
+                {
+                    "date": 1679318333555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,9 @@\n   }\n \n   .logo {\n     transform: scale(1.3);\n+    margin-top: ;\n   }\n \n   .links-container {\n     height: auto !important;\n"
+                },
+                {
+                    "date": 1679318342201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n   }\n \n   .logo {\n     transform: scale(1.3);\n-    margin-top: ;\n+    margin-top: 10px;\n   }\n \n   .links-container {\n     height: auto !important;\n"
+                },
+                {
+                    "date": 1679318412070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n   }\n \n   .logo {\n     transform: scale(1.3);\n-    margin-top: 10px;\n+    margin-top: 20px;\n   }\n \n   .links-container {\n     height: auto !important;\n@@ -91,9 +91,8 @@\n     margin: 0 0.2rem;\n     border: 1px solid transparent;\n     border-radius: 0.75rem;\n     padding: 0.5rem 0.75rem;\n-    /* font-size: 1.25rem; */\n     font-size: clamp(0.9rem, 2vw, 1.25rem);\n     font-weight: 400;\n   }\n \n"
+                },
+                {
+                    "date": 1679318432194,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,5 +105,7 @@\n     background: var(--clr-primary-1);\n     padding: 0.5rem 0.75rem;\n     color: #fff;\n   }\n+\n+  .link:\n }\n"
+                },
+                {
+                    "date": 1679318437849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -106,6 +106,8 @@\n     padding: 0.5rem 0.75rem;\n     color: #fff;\n   }\n \n-  .link:\n+  .link:last-of-type {\n+    \n+  }\n }\n"
+                },
+                {
+                    "date": 1679318445050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,7 +107,7 @@\n     color: #fff;\n   }\n \n   .link:last-of-type {\n-    \n+    background-color: var(--);\n   }\n }\n"
+                },
+                {
+                    "date": 1679318453694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,7 +107,7 @@\n     color: #fff;\n   }\n \n   .link:last-of-type {\n-    background-color: var(--);\n+    background-color: var(--clr);\n   }\n }\n"
+                },
+                {
+                    "date": 1679318499016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,7 +107,9 @@\n     color: #fff;\n   }\n \n   .link:last-of-type {\n-    background-color: var(--clr);\n+    background-color: var(--clr-accent-yellow);\n   }\n+\n+  \n }\n"
+                },
+                {
+                    "date": 1679318505794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -110,6 +110,8 @@\n   .link:last-of-type {\n     background-color: var(--clr-accent-yellow);\n   }\n \n-  \n+  .link:last-of-type.active {\n+    \n+  }\n }\n"
+                },
+                {
+                    "date": 1679318512625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -111,7 +111,7 @@\n     background-color: var(--clr-accent-yellow);\n   }\n \n   .link:last-of-type.active {\n-    color: var(--);\n+    color: var(--clr-primary-1);\n   }\n }\n"
                 }
             ],
             "date": 1676283442646,
