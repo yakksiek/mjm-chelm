@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 272,
+            "activePatchIndex": 273,
             "patches": [
                 {
                     "date": 1674751476103,
@@ -1096,6 +1096,10 @@
                 {
                     "date": 1679318642689,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,12 +185,8 @@\n .active li {\n   color: #fff;\n }\n \n-.active.link:last-of-type {\n-  background-color: var(--clr-primary-1);\n-}\n-\n .components-container {\n   min-height: 100vh;\n   display: flex;\n   flex-direction: column;\n"
+                },
+                {
+                    "date": 1679321881359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n   h2 {\n     font-size: 2rem;\n   }\n   h3 {\n-    font-size: 2rem;\n+    font-size: 1.5rem;\n   }\n   h4 {\n     font-size: 1rem;\n   }\n"
                 }
             ],
             "date": 1674751476103,
