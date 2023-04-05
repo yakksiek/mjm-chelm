@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 273,
+            "activePatchIndex": 281,
             "patches": [
                 {
                     "date": 1674751476103,
@@ -1100,6 +1100,38 @@
                 {
                     "date": 1679321881359,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,9 +98,9 @@\n   h2 {\n     font-size: 2rem;\n   }\n   h3 {\n-    font-size: 2rem;\n+    font-size: 1.5rem;\n   }\n   h4 {\n     font-size: 1rem;\n   }\n"
+                },
+                {
+                    "date": 1679329218236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n */\n \n :root {\n   /* dark shades of primary color*/\n-  --clr-primary-1: #00418c;\n+  --clr-primary-1: #153457;\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --clr-accent-yellow: #ebb802;\n"
+                },
+                {
+                    "date": 1679329484884,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n */\n \n :root {\n   /* dark shades of primary color*/\n+  /* --clr-primary-1: #153457; */\n   --clr-primary-1: #153457;\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n"
+                },
+                {
+                    "date": 1679329493271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n :root {\n   /* dark shades of primary color*/\n   /* --clr-primary-1: #153457; */\n-  --clr-primary-1: #153457;\n+  --clr-primary-1: hsl(59,);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --clr-accent-yellow: #ebb802;\n"
+                },
+                {
+                    "date": 1679329499394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n :root {\n   /* dark shades of primary color*/\n   /* --clr-primary-1: #153457; */\n-  --clr-primary-1: hsl(59,);\n+  --clr-primary-1: hsl(59, 61, 2);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --clr-accent-yellow: #ebb802;\n"
+                },
+                {
+                    "date": 1679329505636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n :root {\n   /* dark shades of primary color*/\n   /* --clr-primary-1: #153457; */\n-  --clr-primary-1: hsl(59, 61, 2);\n+  --clr-primary-1: hsl(59, 61%, 21);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --clr-accent-yellow: #ebb802;\n"
+                },
+                {
+                    "date": 1679329531015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n :root {\n   /* dark shades of primary color*/\n   /* --clr-primary-1: #153457; */\n-  --clr-primary-1: hsl(59, 61%, 21);\n+  --clr-primary-1: hsl(21,52,87);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --clr-accent-yellow: #ebb802;\n"
+                },
+                {
+                    "date": 1679329571389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n :root {\n   /* dark shades of primary color*/\n   /* --clr-primary-1: #153457; */\n-  --clr-primary-1: hsl(21,52,87);\n+  --clr-primary-1: hsl(211, 52, 87);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --clr-accent-yellow: #ebb802;\n"
+                },
+                {
+                    "date": 1679329579495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n :root {\n   /* dark shades of primary color*/\n   /* --clr-primary-1: #153457; */\n-  --clr-primary-1: hsl(211, 52, 87);\n+  --clr-primary-1: hsl(211, 75, 33);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --clr-accent-yellow: #ebb802;\n"
                 }
             ],
             "date": 1674751476103,

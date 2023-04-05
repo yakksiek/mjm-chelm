@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 67,
+            "activePatchIndex": 183,
             "patches": [
                 {
                     "date": 1675092612576,
@@ -276,6 +276,470 @@
                 {
                     "date": 1676295226187,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,23 +33,22 @@\n   margin-top: 15px;\n }\n \n @media (min-width: 760px) {\n-\n+  .section-services h3 {\n+    font-size: 2rem;\n+    margin-bottom: 2rem;\n+  }\n }\n \n @media (min-width: 992px) {\n   .section-services {\n     max-width: var(--max-width);\n-    margin: 4rem auto;\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n   }\n \n-\n- \n-\n   .section-services h4 {\n     margin-bottom: 1.5rem;\n     line-height: 1.5;\n     font-size: 18px;\n"
+                },
+                {
+                    "date": 1679325852838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \n .service li {\n   margin-bottom: 0.2rem;\n   list-style-type: disc;\n-  /* text-align: left; */\n+  \n }\n \n .button-view-offer {\n   margin-top: 15px;\n"
+                },
+                {
+                    "date": 1679325857997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \n .service li {\n   margin-bottom: 0.2rem;\n   list-style-type: disc;\n-  \n+  fot\n }\n \n .button-view-offer {\n   margin-top: 15px;\n"
+                },
+                {
+                    "date": 1679325864932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \n .service li {\n   margin-bottom: 0.2rem;\n   list-style-type: disc;\n-  fot\n+  color: var()\n }\n \n .button-view-offer {\n   margin-top: 15px;\n"
+                },
+                {
+                    "date": 1679325887201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \n .service li {\n   margin-bottom: 0.2rem;\n   list-style-type: disc;\n-  color: var()\n+  color: #101947\n }\n \n .button-view-offer {\n   margin-top: 15px;\n"
+                },
+                {
+                    "date": 1679325896864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n \n .service li {\n   margin-bottom: 0.2rem;\n   list-style-type: disc;\n-  color: #101947\n+  \n }\n \n .button-view-offer {\n   margin-top: 15px;\n"
+                },
+                {
+                    "date": 1679325915996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,13 +10,15 @@\n .section-services h3 {\n   margin-bottom: 1rem;\n   font-size: 1.5rem;\n   text-align: center;\n+  fo\n }\n \n .service {\n   padding: 1rem;\n   text-align: center;\n+  color: #101947;\n }\n \n .service ul {\n   list-style-type: disc;\n@@ -25,9 +27,8 @@\n \n .service li {\n   margin-bottom: 0.2rem;\n   list-style-type: disc;\n-  \n }\n \n .button-view-offer {\n   margin-top: 15px;\n"
+                },
+                {
+                    "date": 1679325921583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n .section-services h3 {\n   margin-bottom: 1rem;\n   font-size: 1.5rem;\n   text-align: center;\n-  fo\n+  color: #fff;\n }\n \n .service {\n   padding: 1rem;\n"
+                },
+                {
+                    "date": 1679325935375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n+  back\n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1679325940902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n-  back\n+  background-color: #101947;\n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1679325951110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n-  background-color: #101947;\n+  background-color: #153457;\n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1679325966945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n-  background-color: #153457;\n+  background-color: #153457; \n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1679325977335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n+  do przeniesienia \n   background-color: #153457; \n }\n \n .section-services h3 {\n"
+                },
+                {
+                    "date": 1679325986481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n   color: var(--clr-primary-1);\n-  do przeniesienia \n+  /* do przeniesienia  */\n   background-color: #153457; \n }\n \n .section-services h3 {\n@@ -18,8 +18,9 @@\n \n .service {\n   padding: 1rem;\n   text-align: center;\n+    /* do przeniesienia  */\n   color: #101947;\n }\n \n .service ul {\n"
+                },
+                {
+                    "date": 1679326007332,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .section-services {\n-  margin: 1rem auto;\n+  /* margin: 1rem auto; */\n   padding: 30px;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n"
+                },
+                {
+                    "date": 1679326022397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .section-services {\n-  /* margin: 1rem auto; */\n+  margin: 1rem auto;\n   padding: 30px;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n@@ -20,8 +20,9 @@\n   padding: 1rem;\n   text-align: center;\n     /* do przeniesienia  */\n   color: #101947;\n+  \n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679326039794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n   padding: 1rem;\n   text-align: center;\n     /* do przeniesienia  */\n   color: #101947;\n-  \n+  background-color: ;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679326064449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   padding: 30px;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n+  gap: 1rem;\n   color: var(--clr-primary-1);\n   /* do przeniesienia  */\n   background-color: #153457; \n }\n@@ -20,9 +21,9 @@\n   padding: 1rem;\n   text-align: center;\n     /* do przeniesienia  */\n   color: #101947;\n-  background-color: ;\n+  background-color: #fff;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679326088752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n   padding: 30px;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n+  jus\n   gap: 1rem;\n   color: var(--clr-primary-1);\n   /* do przeniesienia  */\n   background-color: #153457; \n"
+                },
+                {
+                    "date": 1679326099270,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   padding: 30px;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n-  jus\n+  justify-content: ;\n   gap: 1rem;\n   color: var(--clr-primary-1);\n   /* do przeniesienia  */\n   background-color: #153457; \n"
+                },
+                {
+                    "date": 1679326152770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,9 @@\n   padding: 30px;\n   display: flex;\n   flex-direction: column;\n   align-items: center;\n-  justify-content: ;\n-  gap: 1rem;\n+  justify-content: space-around;\n   color: var(--clr-primary-1);\n   /* do przeniesienia  */\n   background-color: #153457; \n }\n"
+                },
+                {
+                    "date": 1679326195729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,9 @@\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n+    \n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n"
+                },
+                {
+                    "date": 1679326201530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    \n+    gap: \n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n"
+                },
+                {
+                    "date": 1679326243450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   align-items: center;\n   justify-content: space-around;\n   color: var(--clr-primary-1);\n   /* do przeniesienia  */\n-  background-color: #153457; \n+  background-color: #153457;\n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n@@ -19,9 +19,9 @@\n \n .service {\n   padding: 1rem;\n   text-align: center;\n-    /* do przeniesienia  */\n+  /* do przeniesienia  */\n   color: #101947;\n   background-color: #fff;\n }\n \n@@ -51,9 +51,9 @@\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    gap: \n+    \n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n"
+                },
+                {
+                    "date": 1679326282007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,8 @@\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    \n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n@@ -62,12 +61,13 @@\n   }\n \n   .container-services {\n     display: flex;\n+    gap: 1rem;\n   }\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n-    width: 33%;\n+    /* width: 33%; */\n   }\n }\n"
+                },
+                {
+                    "date": 1679326302559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,7 +67,7 @@\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n-    /* width: 33%; */\n+    width: 33%;\n   }\n }\n"
+                },
+                {
+                    "date": 1679326312265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,7 +67,7 @@\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n-    width: 33%;\n+  \n   }\n }\n"
+                },
+                {
+                    "date": 1679326321655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,10 +64,13 @@\n     display: flex;\n     gap: 1rem;\n   }\n \n+  .container-services > * {\n+    flex: 1 1 1;\n+  }\n+\n   .service {\n     padding: 1rem;\n     text-align: center;\n-  \n   }\n }\n"
+                },
+                {
+                    "date": 1679326345174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n     gap: 1rem;\n   }\n \n   .container-services > * {\n-    flex: 1 1 1;\n+    flex: 1 1;\n   }\n \n   .service {\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1679326354031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,9 +65,9 @@\n     gap: 1rem;\n   }\n \n   .container-services > * {\n-    flex: 1 1;\n+    /* flex: 1; */\n   }\n \n   .service {\n     padding: 1rem;\n"
+                },
+                {
+                    "date": 1679326365403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -65,12 +65,13 @@\n     gap: 1rem;\n   }\n \n   .container-services > * {\n-    /* flex: 1; */\n+    flex: 1;\n   }\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n+    \n   }\n }\n"
+                },
+                {
+                    "date": 1679326371432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,7 +71,7 @@\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n-    \n+    border-radius: 20px;\n   }\n }\n"
+                },
+                {
+                    "date": 1679326926847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,10 @@\n   color: #101947;\n   background-color: #fff;\n }\n \n+.ser\n+\n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n }\n"
+                },
+                {
+                    "date": 1679326932732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n   color: #101947;\n   background-color: #fff;\n }\n \n-.ser\n+.service .service-\n \n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n"
+                },
+                {
+                    "date": 1679326938631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,11 @@\n   color: #101947;\n   background-color: #fff;\n }\n \n-.service .service-\n+.service-image {\n+  \n+}\n \n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n"
+                },
+                {
+                    "date": 1679326956071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   background-color: #fff;\n }\n \n .service-image {\n-  \n+  height: ;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679326962591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,10 @@\n   background-color: #fff;\n }\n \n .service-image {\n-  height: ;\n+  height: 200px;\n+  width: ;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327026167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n }\n \n .service-image {\n   height: 200px;\n-  width: ;\n+  back\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327039535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,9 @@\n }\n \n .service-image {\n   height: 200px;\n+  background-repeat: no-repeat;\n   back\n }\n \n .service ul {\n"
+                },
+                {
+                    "date": 1679327046124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n \n .service-image {\n   height: 200px;\n   background-repeat: no-repeat;\n-  back\n+  background-size: ;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327058542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n \n .service-image {\n   height: 200px;\n   background-repeat: no-repeat;\n-  background-size: ;\n+  background-size: contain;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327075022,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   background-color: #fff;\n }\n \n .service-image {\n-  height: 200px;\n+  height: 150px;\n   background-repeat: no-repeat;\n   background-size: contain;\n }\n \n"
+                },
+                {
+                    "date": 1679327088285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n .service-image {\n   height: 150px;\n   background-repeat: no-repeat;\n   background-size: contain;\n+  back\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327190940,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,10 +27,10 @@\n \n .service-image {\n   height: 150px;\n   background-repeat: no-repeat;\n-  background-size: contain;\n-  back\n+  background-size: fill;\n+  background-position: 50%;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327197123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n \n .service-image {\n   height: 150px;\n   background-repeat: no-repeat;\n-  background-size: fill;\n+  background-size: cover;\n   background-position: 50%;\n }\n \n .service ul {\n"
+                },
+                {
+                    "date": 1679327209058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,8 +31,10 @@\n   background-size: cover;\n   background-position: 50%;\n }\n \n+.ser\n+\n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n }\n"
+                },
+                {
+                    "date": 1679327215420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,11 @@\n   background-size: cover;\n   background-position: 50%;\n }\n \n-.ser\n+.service-image:nth-child(2) {\n+  \n+}\n \n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n"
+                },
+                {
+                    "date": 1679327222136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n   background-position: 50%;\n }\n \n .service-image:nth-child(2) {\n-  \n+  background-size: ;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327230113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,10 @@\n   background-position: 50%;\n }\n \n .service-image:nth-child(2) {\n-  background-size: ;\n+  background-size: cover;\n+  ba\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327237465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n }\n \n .service-image:nth-child(2) {\n   background-size: cover;\n-  ba\n+  transform: scale();\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327244169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n }\n \n .service-image:nth-child(2) {\n   background-size: cover;\n-  transform: scale();\n+  transform: scale(0.5);\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327251409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n   background-position: 50%;\n }\n \n .service-image:nth-child(2) {\n-  background-size: cover;\n+  background-size: contain;\n   transform: scale(0.5);\n }\n \n .service ul {\n"
+                },
+                {
+                    "date": 1679327258526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n }\n \n .service-image:nth-child(2) {\n   background-size: contain;\n-  transform: scale(0.5);\n+  transform: scale(0.7);\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327266079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n }\n \n .service-image:nth-child(2) {\n   background-size: contain;\n-  transform: scale(0.7);\n+  /* transform: scale(0.7); */\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327288311,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n   background-size: cover;\n   background-position: 50%;\n }\n \n-.service-image:nth-child(2) {\n+.service-image:nth-el(2) {\n   background-size: contain;\n-  /* transform: scale(0.7); */\n+  transform: scale(0.7);\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327294277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n   background-size: cover;\n   background-position: 50%;\n }\n \n-.service-image:nth-el(2) {\n+.service-image:nth-of-type() {\n   background-size: contain;\n   transform: scale(0.7);\n }\n \n"
+                },
+                {
+                    "date": 1679327305611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,11 +31,11 @@\n   background-size: cover;\n   background-position: 50%;\n }\n \n-.service-image:nth-of-type() {\n+.service-image:nth-of-type(2) {\n   background-size: contain;\n-  transform: scale(0.7);\n+  transform: scale(0.4);\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327319857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,10 +32,10 @@\n   background-position: 50%;\n }\n \n .service-image:nth-of-type(2) {\n-  background-size: contain;\n-  transform: scale(0.4);\n+  /* background-size: contain; */\n+  transform: scale(0.2);\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327443388,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,17 +24,17 @@\n   color: #101947;\n   background-color: #fff;\n }\n \n-.service-image {\n+.service .service-image {\n   height: 150px;\n   background-repeat: no-repeat;\n   background-size: cover;\n   background-position: 50%;\n }\n \n .service-image:nth-of-type(2) {\n-  /* background-size: contain; */\n+  background-size: contain;\n   transform: scale(0.2);\n }\n \n .service ul {\n"
+                },
+                {
+                    "date": 1679327459370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,10 @@\n   color: #101947;\n   background-color: #fff;\n }\n \n-.service .service-image {\n-  height: 150px;\n+.service img {\n+  width: 100%;\n   background-repeat: no-repeat;\n   background-size: cover;\n   background-position: 50%;\n }\n"
+                },
+                {
+                    "date": 1679327465288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   background-color: #fff;\n }\n \n .service img {\n-  width: 100%;\n+  width: 90%;\n   background-repeat: no-repeat;\n   background-size: cover;\n   background-position: 50%;\n }\n"
+                },
+                {
+                    "date": 1679327485200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,15 +25,15 @@\n   background-color: #fff;\n }\n \n .service img {\n-  width: 90%;\n+  width: 80%;\n   background-repeat: no-repeat;\n   background-size: cover;\n   background-position: 50%;\n }\n \n-.service-image:nth-of-type(2) {\n+.service img:nth-of-type(2) {\n   background-size: contain;\n   transform: scale(0.2);\n }\n \n"
+                },
+                {
+                    "date": 1679327501517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n   background-position: 50%;\n }\n \n .service img:nth-of-type(2) {\n-  background-size: contain;\n+  /* background-size: contain; */\n   transform: scale(0.2);\n }\n \n .service ul {\n"
+                },
+                {
+                    "date": 1679327507497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,10 +26,10 @@\n }\n \n .service img {\n   width: 80%;\n-  background-repeat: no-repeat;\n-  background-size: cover;\n+  /* background-repeat: no-repeat; */\n+  /* background-size: cover; */\n   background-position: 50%;\n }\n \n .service img:nth-of-type(2) {\n"
+                },
+                {
+                    "date": 1679327533809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,11 +25,12 @@\n   background-color: #fff;\n }\n \n .service img {\n-  width: 80%;\n+  height: 150px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n+\n   background-position: 50%;\n }\n \n .service img:nth-of-type(2) {\n"
+                },
+                {
+                    "date": 1679327539202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   background-color: #fff;\n }\n \n .service img {\n-  height: 150px;\n+  height: 250px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n \n   background-position: 50%;\n"
+                },
+                {
+                    "date": 1679327546984,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   background-color: #fff;\n }\n \n .service img {\n-  height: 250px;\n+  height: 200px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n \n   background-position: 50%;\n"
+                },
+                {
+                    "date": 1679327560256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,9 @@\n }\n \n .service img:nth-of-type(2) {\n   /* background-size: contain; */\n-  transform: scale(0.2);\n+  he\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327573139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,11 @@\n \n   background-position: 50%;\n }\n \n-.service img:nth-of-type(2) {\n+.service img::nth-of-type(2) {\n   /* background-size: contain; */\n-  he\n+  height: 100px;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679327604218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n \n   background-position: 50%;\n }\n \n-.service img::nth-of-type(2) {\n+img:nth-of-type(2) {\n   /* background-size: contain; */\n   height: 100px;\n }\n \n"
+                },
+                {
+                    "date": 1679327643211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,11 +32,11 @@\n \n   background-position: 50%;\n }\n \n-img:nth-of-type(2) {\n+.service img:nth-of-type(2) {\n   /* background-size: contain; */\n-  height: 100px;\n+  background-color: red;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679328706741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n .service img {\n   height: 200px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n-\n+  border-radius: ;\n   background-position: 50%;\n }\n \n .service img:nth-of-type(2) {\n"
+                },
+                {
+                    "date": 1679328713625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n .service img {\n   height: 200px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n-  border-radius: ;\n+  border-radius: 20px;\n   background-position: 50%;\n }\n \n .service img:nth-of-type(2) {\n"
+                },
+                {
+                    "date": 1679328821260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,9 +34,8 @@\n }\n \n .service img:nth-of-type(2) {\n   /* background-size: contain; */\n-  background-color: red;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679328827304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n-.service img:nth-of-type(2) {\n+.serviceimg:nth-of-type(2) {\n   /* background-size: contain; */\n }\n \n .service ul {\n"
+                },
+                {
+                    "date": 1679328881799,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,16 +25,16 @@\n   background-color: #fff;\n }\n \n .service img {\n-  height: 200px;\n+  height: 150px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n-.serviceimg:nth-of-type(2) {\n+.service img:nth-of-type(2) {\n   /* background-size: contain; */\n }\n \n .service ul {\n"
+                },
+                {
+                    "date": 1679328968398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,12 +32,8 @@\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n-.service img:nth-of-type(2) {\n-  /* background-size: contain; */\n-}\n-\n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n }\n"
+                },
+                {
+                    "date": 1679328992715,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,12 @@\n   /* do przeniesienia  */\n   background-color: #153457;\n }\n \n+.container-services {\n+  vi\n+}\n+\n .section-services h3 {\n   margin-bottom: 1rem;\n   font-size: 1.5rem;\n   text-align: center;\n"
+                },
+                {
+                    "date": 1679328998611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n   background-color: #153457;\n }\n \n .container-services {\n-  vi\n+  width: 95vw;\n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1679329027260,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n }\n \n .container-services {\n   width: 95vw;\n+  border-radius: 20px;\n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1679329048433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n }\n \n .container-services {\n   width: 95vw;\n-  border-radius: 20px;\n+ \n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1679329064965,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n }\n \n .container-services {\n   width: 95vw;\n- \n }\n \n .section-services h3 {\n   margin-bottom: 1rem;\n"
+                },
+                {
+                    "date": 1679329110645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,9 @@\n }\n \n .button-view-offer {\n   margin-top: 15px;\n+  b\n }\n \n @media (min-width: 760px) {\n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1679329116441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n }\n \n .button-view-offer {\n   margin-top: 15px;\n-  b\n+  background-color: var(--);\n }\n \n @media (min-width: 760px) {\n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1679329132383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,9 +48,9 @@\n }\n \n .button-view-offer {\n   margin-top: 15px;\n-  background-color: var(--);\n+  background-color: var(--clr-accent-yellow);\n }\n \n @media (min-width: 760px) {\n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1679329139317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,9 @@\n \n .button-view-offer {\n   margin-top: 15px;\n   background-color: var(--clr-accent-yellow);\n+  color: \n }\n \n @media (min-width: 760px) {\n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1679329153752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n \n .button-view-offer {\n   margin-top: 15px;\n   background-color: var(--clr-accent-yellow);\n-  color: \n+  color: #153457\n }\n \n @media (min-width: 760px) {\n   .section-services h3 {\n"
+                },
+                {
+                    "date": 1679329160843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,8 +49,9 @@\n \n .button-view-offer {\n   margin-top: 15px;\n   background-color: var(--clr-accent-yellow);\n+  /* do przeniesienia */\n   color: #153457\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1679329186890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,11 +50,15 @@\n .button-view-offer {\n   margin-top: 15px;\n   background-color: var(--clr-accent-yellow);\n   /* do przeniesienia */\n-  color: #153457\n+  color: #153457;\n }\n \n+.button-view-offer {\n+  color: #fff;\n+}\n+\n @media (min-width: 760px) {\n   .section-services h3 {\n     font-size: 2rem;\n     margin-bottom: 2rem;\n"
+                },
+                {
+                    "date": 1679329194675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n   /* do przeniesienia */\n   color: #153457;\n }\n \n-.button-view-offer {\n+.button-view-offer:hover {\n   color: #fff;\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1679329724343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n   background-color: #fff;\n }\n \n .service img {\n-  height: 150px;\n+  width: 150px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n   border-radius: 20px;\n   background-position: 50%;\n"
+                },
+                {
+                    "date": 1679329738684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,10 @@\n   background-color: #fff;\n }\n \n .service img {\n-  width: 150px;\n+  width: 300px;\n+  height: 150px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n   border-radius: 20px;\n   background-position: 50%;\n"
+                },
+                {
+                    "date": 1679329777615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,9 @@\n   width: 300px;\n   height: 150px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n+  object-fit: cover;\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n"
+                },
+                {
+                    "date": 1679329843750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,8 +38,10 @@\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n+img:\n+\n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n }\n"
+                },
+                {
+                    "date": 1679329850254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,9 @@\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n-img:\n+img:nth-of(2) \n \n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n"
+                },
+                {
+                    "date": 1679329862820,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,11 @@\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n-img:nth-of(2) \n+img:nth-of-type(2) {\n+  obje\n+} \n \n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n"
+                },
+                {
+                    "date": 1679329868389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n   background-position: 50%;\n }\n \n img:nth-of-type(2) {\n-  obje\n+  object-fit: contain;\n } \n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1679329891538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,10 +39,9 @@\n   background-position: 50%;\n }\n \n img:nth-of-type(2) {\n-  object-fit: contain;\n-} \n+  tra\n \n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n"
+                },
+                {
+                    "date": 1679329898504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,9 @@\n   background-position: 50%;\n }\n \n img:nth-of-type(2) {\n-  tra\n+  transform: scale(0.5);\n \n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n"
+                },
+                {
+                    "date": 1679329916078,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,10 +38,11 @@\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n-img:nth-of-type(2) {\n+.service img:nth-of-type(2) {\n   transform: scale(0.5);\n+}\n \n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n"
+                },
+                {
+                    "date": 1679329933441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,21 +29,15 @@\n   background-color: #fff;\n }\n \n .service img {\n-  width: 300px;\n   height: 150px;\n   /* background-repeat: no-repeat; */\n   /* background-size: cover; */\n-  object-fit: cover;\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n-.service img:nth-of-type(2) {\n-  transform: scale(0.5);\n-}\n-\n .service ul {\n   list-style-type: disc;\n   list-style-position: inside;\n }\n@@ -59,9 +53,9 @@\n   /* do przeniesienia */\n   color: #153457;\n }\n \n-.button-view-offer:hover {\n+.button-view-offer:hov {\n   color: #fff;\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1679329947855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,9 @@\n }\n \n .service img {\n   height: 150px;\n-  /* background-repeat: no-repeat; */\n-  /* background-size: cover; */\n+\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n@@ -53,9 +52,9 @@\n   /* do przeniesienia */\n   color: #153457;\n }\n \n-.button-view-offer:hov {\n+.button-view-offer:hover {\n   color: #fff;\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1679329979861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,9 @@\n   background-color: #fff;\n }\n \n .service img {\n-  height: 150px;\n-\n+  width: 150px;\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n"
+                },
+                {
+                    "date": 1679329991016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n   background-color: #fff;\n }\n \n .service img {\n-  width: 150px;\n+  width: 300px;\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n"
+                },
+                {
+                    "date": 1679330313503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   align-items: center;\n   justify-content: space-around;\n   color: var(--clr-primary-1);\n   /* do przeniesienia  */\n-  background-color: #153457;\n+  background-color: var(--clr-primary-1);\n }\n \n .container-services {\n   width: 95vw;\n"
+                },
+                {
+                    "date": 1679330349620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   align-items: center;\n   justify-content: space-around;\n   color: var(--clr-primary-1);\n   /* do przeniesienia  */\n-  background-color: var(--clr-primary-1);\n+  background-color: #153457;\n }\n \n .container-services {\n   width: 95vw;\n@@ -79,8 +79,9 @@\n \n   .container-services {\n     display: flex;\n     gap: 1rem;\n+    \n   }\n \n   .container-services > * {\n     flex: 1;\n"
+                },
+                {
+                    "date": 1679330382671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n \n   .container-services {\n     display: flex;\n     gap: 1rem;\n-    \n+    width: 90%\n   }\n \n   .container-services > * {\n     flex: 1;\n"
+                },
+                {
+                    "date": 1679330391437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n \n   .container-services {\n     display: flex;\n     gap: 1rem;\n-    width: 90%\n+    width: 95%\n   }\n \n   .container-services > * {\n     flex: 1;\n"
+                },
+                {
+                    "date": 1679330490124,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n   align-items: center;\n   justify-content: space-around;\n   color: var(--clr-primary-1);\n   /* do przeniesienia  */\n-  background-color: #153457;\n+  /* background-color: #153457; */\n }\n \n .container-services {\n   width: 95vw;\n"
+                },
+                {
+                    "date": 1679330614454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n   padding: 1rem;\n   text-align: center;\n   /* do przeniesienia  */\n   color: #101947;\n-  background-color: #fff;\n+  /* background-color: #fff; */\n }\n \n .service img {\n   width: 300px;\n"
+                },
+                {
+                    "date": 1680694303336,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n .service {\n   padding: 1rem;\n   text-align: center;\n   /* do przeniesienia  */\n-  color: #101947;\n+  /* color: #101947; */\n   /* background-color: #fff; */\n }\n \n .service img {\n"
+                },
+                {
+                    "date": 1680694320511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n .section-services h3 {\n   margin-bottom: 1rem;\n   font-size: 1.5rem;\n   text-align: center;\n-  color: #fff;\n+  /* color: #fff; */\n }\n \n .service {\n   padding: 1rem;\n"
+                },
+                {
+                    "date": 1680694404175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n   /* background-color: #fff; */\n }\n \n .service img {\n-  width: 300px;\n+  width: 250px;\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n"
+                },
+                {
+                    "date": 1680694491966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n .service img {\n   width: 250px;\n   border-radius: 20px;\n   background-position: 50%;\n+  margin\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1680694514137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n .service img {\n   width: 250px;\n   border-radius: 20px;\n   background-position: 50%;\n-  margin\n+  \n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1680694528068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,8 @@\n .service img {\n   width: 250px;\n   border-radius: 20px;\n   background-position: 50%;\n-  \n }\n \n .service ul {\n   list-style-type: disc;\n@@ -61,8 +60,10 @@\n   .section-services h3 {\n     font-size: 2rem;\n     margin-bottom: 2rem;\n   }\n+\n+  .seri\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1680694534091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,11 @@\n     font-size: 2rem;\n     margin-bottom: 2rem;\n   }\n \n-  .seri\n+  .service img {\n+    margin-bottom: 24px;\n+  }\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
                 }
             ],
             "date": 1675092612576,
