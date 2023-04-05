@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 188,
+            "activePatchIndex": 204,
             "patches": [
                 {
                     "date": 1675092612576,
@@ -760,6 +760,70 @@
                 {
                     "date": 1680695059471,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n     margin-bottom: 24px;\n   }\n }\n \n-@media (min-width: 820px) {\n+@media (min-width: 9220px) {\n   .section-services {\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n@@ -86,11 +86,11 @@\n     gap: 1rem;\n     width: 95%\n   }\n \n-  /* .container-services > * {\n+  .container-services > * {\n     flex: 1;\n-  } */\n+  }\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1680695250468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n     margin-bottom: 24px;\n   }\n }\n \n-@media (min-width: 9220px) {\n+@media (min-width: 760px) {\n   .section-services {\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1680695274804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,9 @@\n   }\n \n   .container-services {\n     display: flex;\n-    gap: 1rem;\n+    /* gap: 1rem; */\n     width: 95%\n   }\n \n   .container-services > * {\n"
+                },
+                {
+                    "date": 1680695351004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,9 @@\n   }\n \n   .service img {\n     margin-bottom: 24px;\n+    image\n   }\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1680695358096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n   }\n \n   .service img {\n     margin-bottom: 24px;\n-    image\n+    width: 100%;\n   }\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1680695420075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n   }\n \n   .service img {\n     margin-bottom: 24px;\n-    width: 100%;\n+    max-width: 100%;\n   }\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1680695425466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n   }\n \n   .service img {\n     margin-bottom: 24px;\n-    max-width: 100%;\n+    max-width: 250px;\n   }\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1680695445355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n   /* background-color: #fff; */\n }\n \n .service img {\n-  width: 250px;\n+  max-width: 250px;\n   border-radius: 20px;\n   background-position: 50%;\n }\n \n"
+                },
+                {
+                    "date": 1680695455329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n   }\n \n   .service img {\n     margin-bottom: 24px;\n-    max-width: 250px;\n+    /* max-width: 250px; */\n   }\n }\n \n @media (min-width: 760px) {\n"
+                },
+                {
+                    "date": 1680695520486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,8 +32,9 @@\n .service img {\n   max-width: 250px;\n   border-radius: 20px;\n   background-position: 50%;\n+  mar\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1680695526519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n .service img {\n   max-width: 250px;\n   border-radius: 20px;\n   background-position: 50%;\n-  mar\n+  margin: 1rem 0;\n }\n \n .service ul {\n   list-style-type: disc;\n"
+                },
+                {
+                    "date": 1680695584348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,6 +96,7 @@\n   .service {\n     padding: 1rem;\n     text-align: center;\n     border-radius: 20px;\n+    background-color: ;\n   }\n }\n"
+                },
+                {
+                    "date": 1680695601847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -84,9 +84,9 @@\n   }\n \n   .container-services {\n     display: flex;\n-    /* gap: 1rem; */\n+    gap: 1rem;\n     width: 95%\n   }\n \n   .container-services > * {\n@@ -96,7 +96,7 @@\n   .service {\n     padding: 1rem;\n     text-align: center;\n     border-radius: 20px;\n-    background-color: ;\n+    background-color: #153457;\n   }\n }\n"
+                },
+                {
+                    "date": 1680695699092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,9 @@\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n+    color: #fff\n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n"
+                },
+                {
+                    "date": 1680695728133,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n-    color: #fff\n+    \n   }\n \n   .section-services h4 {\n     margin-bottom: 1.5rem;\n"
+                },
+                {
+                    "date": 1680695734610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,8 +81,9 @@\n   .section-services h4 {\n     margin-bottom: 1.5rem;\n     line-height: 1.5;\n     font-size: 18px;\n+    \n   }\n \n   .container-services {\n     display: flex;\n"
+                },
+                {
+                    "date": 1680695741871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n \n   .container-services {\n     display: flex;\n     gap: 1rem;\n-    width: 95%''\n+    width: 95%\n     color: #fff\n   }\n \n   .container-services > * {\n"
                 }
             ],
             "date": 1675092612576,
