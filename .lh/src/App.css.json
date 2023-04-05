@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 281,
+            "activePatchIndex": 285,
             "patches": [
                 {
                     "date": 1674751476103,
@@ -1132,6 +1132,22 @@
                 {
                     "date": 1679329579495,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \n :root {\n   /* dark shades of primary color*/\n   /* --clr-primary-1: #153457; */\n-  --clr-primary-1: hsl(211, 52, 87);\n+  --clr-primary-1: hsl(211, 75, 33);\n   --clr-primary-2: hsl(205, 72%, 37%);\n   --clr-primary-4: hsl(205, 63%, 48%);\n   --clr-primary-5: hsl(220, 4%, 86%);\n   --clr-accent-yellow: #ebb802;\n"
+                },
+                {
+                    "date": 1680708586443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -191,4 +191,8 @@\n   min-height: 100vh;\n   display: flex;\n   flex-direction: column;\n }\n+\n+.react-photo-album--photo {\n+  border-radius: 20px;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1680708593749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,5 +194,5 @@\n }\n \n .react-photo-album--photo {\n   border-radius: 20px;\n-}\n\\ No newline at end of file\n+}`\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1680708600143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -192,7 +192,7 @@\n   display: flex;\n   flex-direction: column;\n }\n \n-.react-photo-album--photo {\n+/* .react-photo-album--photo {\n   border-radius: 20px;\n\\ No newline at end of file\n-}`\n+} */\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1680708624436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -192,7 +192,4 @@\n   display: flex;\n   flex-direction: column;\n }\n \n-/* .react-photo-album--photo {\n-  border-radius: 20px;\n-} */\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1674751476103,
