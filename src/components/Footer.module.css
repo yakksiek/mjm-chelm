@@ -23,6 +23,11 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.logo {
+  width: 50px;
 }
 
 .footer-address-container div {

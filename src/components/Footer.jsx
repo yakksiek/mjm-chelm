@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { footerLinks } from "../data";
+import logo from "../assets/logo.png";
 
 import classes from "./Footer.module.css";
 
@@ -10,6 +11,7 @@ const Footer = () => {
       <div className={`page-container ${classes["footer-content"]}`}>
         <div className={classes["footer-address-container"]}>
           <div className={classes["footer-address"]}>
+            <img src={logo} alt="mjm-logo" className={classes.logo}/>
             <p>"MJM" Sp. z o.o.</p>
             <p>22-100 Chełm ul. Fabryczna 6</p>
           </div>
