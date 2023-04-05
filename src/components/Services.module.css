@@ -67,7 +67,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 922px) {
   .section-services {
     max-width: var(--max-width);
     display: flex;

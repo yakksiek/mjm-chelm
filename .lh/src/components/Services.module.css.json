@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 183,
+            "activePatchIndex": 188,
             "patches": [
                 {
                     "date": 1675092612576,
@@ -740,6 +740,26 @@
                 {
                     "date": 1680694534091,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,11 @@\n     font-size: 2rem;\n     margin-bottom: 2rem;\n   }\n \n-  .seri\n+  .service img {\n+    margin-bottom: 24px;\n+  }\n }\n \n @media (min-width: 992px) {\n   .section-services {\n"
+                },
+                {
+                    "date": 1680694993704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n     margin-bottom: 24px;\n   }\n }\n \n-@media (min-width: 992px) {\n+@media (min-width: 960px) {\n   .section-services {\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1680695003198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n     margin-bottom: 24px;\n   }\n }\n \n-@media (min-width: 960px) {\n+@media (min-width: 820px) {\n   .section-services {\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n"
+                },
+                {
+                    "date": 1680695026656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n }\n \n @media (min-width: 820px) {\n   .section-services {\n-    max-width: var(--max-width);\n+    /* max-width: var(--max-width); */\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n   }\n"
+                },
+                {
+                    "date": 1680695036829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n }\n \n @media (min-width: 820px) {\n   .section-services {\n-    /* max-width: var(--max-width); */\n+    max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n     align-items: center;\n   }\n@@ -86,11 +86,11 @@\n     gap: 1rem;\n     width: 95%\n   }\n \n-  .container-services > * {\n+  /* .container-services > * {\n     flex: 1;\n-  }\n+  } */\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n"
+                },
+                {
+                    "date": 1680695059471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,9 @@\n     margin-bottom: 24px;\n   }\n }\n \n-@media (min-width: 820px) {\n+@media (min-width: 9220px) {\n   .section-services {\n     max-width: var(--max-width);\n     display: flex;\n     flex-direction: column;\n@@ -86,11 +86,11 @@\n     gap: 1rem;\n     width: 95%\n   }\n \n-  /* .container-services > * {\n+  .container-services > * {\n     flex: 1;\n-  } */\n+  }\n \n   .service {\n     padding: 1rem;\n     text-align: center;\n"
                 }
             ],
             "date": 1675092612576,
