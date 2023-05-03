@@ -366,18 +366,20 @@ import certificate1 from "./assets/certificate1.png";
 export const landingPageServices = [
   {
     id: 1,
-    title:
-      "Konstrukcje stalowe, maszyny i urządzenia przemysłowe, ciągi technologiczne",
+    title: "Czym się zajmujemy",
     img: img3,
     services: [
       "Wykonawstwo i montaż konstrukcji stalowych",
       "Wykonawstwo urządzeń wg dokumentacji zleceniodawcy lub własnych projektów oraz części zamiennych do maszyn i urządzeń",
       "Remonty i modernizacja ciągów technologicznych, maszyn i urządzeń przemysłowych",
+      "Montaż, naprawa, modernizacja i konserwacja dźwignic (suwnice, wciągniki, wciągarki, podesty ruchome, żurawie, dźwigniki, wózki jezdniowe)",
+      "Obróbka skrawaniem",
+      "Wykonawstwo prac spawalniczych",
     ],
   },
   {
     id: 2,
-    title: 'Spółka "MJM" posiada następujące certyfikaty i uprawnienia:',
+    title: "Posiadane certyfikaty i uprawnienia",
     img: certificate1,
     services: [
       "Certyfikat ISO 9001 - System zarządzania jakością",
@@ -388,17 +390,17 @@ export const landingPageServices = [
       "Uprawnienia do prowadzenia działalności szkoleniowej – wpis do ewidencji szkół i placówek niepublicznych",
     ],
   },
-  {
-    id: 3,
-    title:
-      "Obróbka elementów metalowych, urządzenia dźwignicowe podlegające UDT",
-    img: img7,
-    services: [
-      "Obróbka skrawaniem i obróbka plastyczna na zimno lub gorąco",
-      "Montaż, naprawa, modernizacja i konserwacja dźwignic (suwnice, wciągniki, wciągarki, podesty ruchome, żurawie, dźwigniki, wózki jezdniowe)",
-      "Wykonawstwo prac spawalniczych",
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title:
+  //     "Obróbka elementów metalowych, urządzenia dźwignicowe podlegające UDT",
+  //   img: img7,
+  //   services: [
+  //     "Obróbka skrawaniem i obróbka plastyczna na zimno lub gorąco",
+  //     "Montaż, naprawa, modernizacja i konserwacja dźwignic (suwnice, wciągniki, wciągarki, podesty ruchome, żurawie, dźwigniki, wózki jezdniowe)",
+  //     "Wykonawstwo prac spawalniczych",
+  //   ],
+  // },
 ];
 
 export const rangeOfServices = [

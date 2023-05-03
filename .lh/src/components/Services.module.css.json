@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 204,
+            "activePatchIndex": 205,
             "patches": [
                 {
                     "date": 1675092612576,
@@ -824,6 +824,10 @@
                 {
                     "date": 1680695741871,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n \n   .container-services {\n     display: flex;\n     gap: 1rem;\n-    width: 95%''\n+    width: 95%\n     color: #fff\n   }\n \n   .container-services > * {\n"
+                },
+                {
+                    "date": 1683139813900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,9 +104,9 @@\n     border-radius: 20px;\n     background-color: #fff;\n   }\n \n-  .service:nth-child(1), \n+  /* .service:nth-child(1), \n   .service:nth-child(3) {\n     transform: translate(0, 5%);\n-  }\n+  } */\n }\n"
                 }
             ],
             "date": 1675092612576,

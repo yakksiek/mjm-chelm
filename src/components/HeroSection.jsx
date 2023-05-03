@@ -36,12 +36,11 @@ const HeroSection = () => {
           <div className={`${classes.bio}`}>
             <p>
               "MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku.
-              Powstała w wyniku przekształceń własnościowych w Cementowni
-              „Chełm” na bazie jej Wydziału Mechanicznego. Podstawowy zakres
-              działalności Spółki to wykonawstwo i montaż konstrukcji stalowych,
-              obróbka skrawaniem, remonty mechaniczne maszyn i urządzeń
-              przemysłowych, wykonawstwo części zamiennych i ich regeneracja,
-              naprawa, modernizacja i konserwacja urządzeń podlegających UDT.
+              Podstawowy zakres działalności Spółki to wykonawstwo i montaż
+              konstrukcji stalowych, obróbka skrawaniem, remonty mechaniczne
+              maszyn i urządzeń przemysłowych, wykonawstwo części zamiennych i
+              ich regeneracja, naprawa, modernizacja i konserwacja urządzeń
+              podlegających UDT.
               {/* Usługi świadczymy głównie na rzecz zakładów przemysłowych.
               Realizujemy również kompleksowe zadania inwestycyjne. */}
             </p>
