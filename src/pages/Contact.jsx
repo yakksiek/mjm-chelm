@@ -7,7 +7,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <section className={`${classes['contact-section']} page`}>
+    <section className={`${classes["contact-section"]} page`}>
       <div className={classes["contact-container"]}>
         <div className={classes["contact-info"]}>
           <div>
@@ -31,7 +31,7 @@ const Contact = () => {
               className={`${classes["icon-email"]} ${classes["contact-icon"]}`}
             />
             <p>
-              <a href="mailto:mjm@mjm.chelm.pl">mjm@mjm.chelm.pl</a>
+              <a href="mailto:mjm@mjmchelm.pl">mjm@mjmchelm.pl</a>
             </p>
           </div>
         </div>

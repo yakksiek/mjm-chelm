@@ -70,7 +70,8 @@
     flex-direction: row;
     margin: 40px auto;
     max-width: var(--max-width);
-    height: 65vh;
+    height: fit-content;
+    height: 70vh;
     min-height: 650px;
     width: 95vw;
   }
@@ -150,14 +151,15 @@
   }
 }
 
-@media (min-width: 860px) {
+@media (min-width: 785px) {
   .hero {
-    height: 55vh;
+    min-height: 750px;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 884px) {
   .hero {
-    height: 40vh;
+    height: 20vh;
+    min-height: 500px;
   }
 }

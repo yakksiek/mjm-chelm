@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 18,
+            "activePatchIndex": 19,
             "patches": [
                 {
                     "date": 1676286055399,
@@ -80,6 +80,10 @@
                 {
                     "date": 1677595347679,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n     color: var(--clr-primary-1)\n }\n \n @media (max-width: 800px) {\n-    .page-certificates {\n+    .page-gallery {\n       margin: 2vh auto;\n     }\n   }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1684257767749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n .page-gallery {\n-    width: 90%;\n-    margin: 2vh auto;\n+  width: 90%;\n+  margin-bottom: 2;\n }\n \n .page-gallery h2 {\n-    color: var(--clr-primary-1)\n+  color: var(--clr-primary-1);\n }\n \n @media (max-width: 800px) {\n-    .page-gallery {\n\\ No newline at end of file\n-      margin: 2vh auto;\n-    }\n-  }\n+  .page-gallery {\n+    margin: 2vh auto;\n+  }\n+}\n"
                 }
             ],
             "date": 1676286055399,

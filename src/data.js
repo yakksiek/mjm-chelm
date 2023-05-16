@@ -1,3 +1,9 @@
+const defaultLink = {
+  id: `Number`,
+  url: String,
+  text: String,
+};
+
 export const links = [
   {
     id: 1,
@@ -46,245 +52,504 @@ export const footerLinks = [
 
 const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
-import img1 from "./assets/gallery_imgs/800/MJM-1.jpg";
-import img2 from "./assets/gallery_imgs/800/MJM-3.jpg";
-import img3 from "./assets/gallery_imgs/800/MJM-4.jpg";
-import img4 from "./assets/gallery_imgs/800/MJM-6.jpg";
-import img5 from "./assets/gallery_imgs/800/MJM-8.jpg";
-import img6 from "./assets/gallery_imgs/800/MJM-9.jpg";
-import img7 from "./assets/gallery_imgs/800/chwytak-suwnicy-po-modernizacji.jpeg";
-import img8 from "./assets/gallery_imgs/800/element-zbiornika.jpeg";
-import img9 from "./assets/gallery_imgs/800/hala-paliw-alternatywnych-z-podtorzem-suwnicy-wykonanie-i-montaz.jpeg";
-import img10 from "./assets/gallery_imgs/800/linia-paliw-alternatywnych-wykonanie-i-monta-konstrukcji-2.jpeg";
-import img11 from "./assets/gallery_imgs/800/linia-paliw-alternatywnych-wykonanie-i-montaz-konstrukcji-podpory-2.jpeg";
-import img12 from "./assets/gallery_imgs/800/mlyn-cementu-4x12-m-montaz1.jpeg";
-import img13 from "./assets/gallery_imgs/800/mlyn-cementu-4x12-m-montaz2.jpeg";
-import img14 from "./assets/gallery_imgs/800/mlyn-cementu-4x12-m-montaz3.jpeg";
-import img15 from "./assets/gallery_imgs/800/monta-roli-oporowej-pieca-obrotowego.jpeg";
-import img16 from "./assets/gallery_imgs/800/palety.jpeg";
-import img17 from "./assets/gallery_imgs/800/punkt-zaladunku-cementu-na-samochody-wykonanie-i-montaz-konstrukcji-i-urzdzen-1.jpeg";
-import img18 from "./assets/gallery_imgs/800/punkt-zaladunku-cementu-na-samochody-wykonanie-i-montaz-konstrukcji-i-urzdzen-2.jpeg";
-import img19 from "./assets/gallery_imgs/800/punkt-zaladunku-cementu-na-samochody-wykonanie-i-montaz-konstrukcji-i-urzdzen-3.jpeg";
-import img20 from "./assets/gallery_imgs/800/punkt-zaladunku-cementu-na-samochody-wykonanie-i-montaz-konstrukcji.jpeg";
-import img21 from "./assets/gallery_imgs/800/wykonanie-i-montaz-klapy-materialowej-pieca-obrotowego.jpeg";
-import img22 from "./assets/gallery_imgs/800/zaladunek-cementu-luzem-na-wagony-rekonstrukcja-dna-zbiornika.jpeg";
-import img23 from "./assets/gallery_imgs/800/rurociąg_wlotu_suszarko-kruszarki.jpg";
+import img0 from "./assets/gallery_imgs/belki-konstrukcji-dachu.jpg";
+import img1 from "./assets/gallery_imgs/głowica-cyklonu-fi3400.jpg";
+import img2 from "./assets/gallery_imgs/kanał-wentylacyjny.jpg";
+import img3 from "./assets/gallery_imgs/komin-fi1000x36000.jpg";
+import img4 from "./assets/gallery_imgs/komora-dymowa.jpg";
+import img5 from "./assets/gallery_imgs/koryta-przenośników-ślimakowych.jpg";
+import img6 from "./assets/gallery_imgs/kosz-zasypowy-z-mieszadłem.jpg";
+import img7 from "./assets/gallery_imgs/kosz-zasypowy.jpg";
+import img8 from "./assets/gallery_imgs/koło-suwnicy-fi-1000.jpg";
+import img9 from "./assets/gallery_imgs/kratownica.jpg";
+import img10 from "./assets/gallery_imgs/kubełka-elewatora-1.jpg";
+import img11 from "./assets/gallery_imgs/kubełka-elewatora-2.jpg";
+import img12 from "./assets/gallery_imgs/kubło-wagonowe.jpg";
+import img13 from "./assets/gallery_imgs/kurtyna-instalacji-dolotowej-suszarko_kruszarki.jpg";
+import img14 from "./assets/gallery_imgs/lej-silosu.jpg";
+import img15 from "./assets/gallery_imgs/lej-zsypowy.jpg";
+import img16 from "./assets/gallery_imgs/moduł-cieplny.jpg";
+import img17 from "./assets/gallery_imgs/montaz-podpory-pomostu-1.jpg";
+import img18 from "./assets/gallery_imgs/montaz-podpory-pomostu.jpg";
+import img19 from "./assets/gallery_imgs/montaz-podpór.jpg";
+import img20 from "./assets/gallery_imgs/montaż-kanałów.jpg";
+import img21 from "./assets/gallery_imgs/montaż-punktu-załadunku-cementy.jpg";
+import img22 from "./assets/gallery_imgs/montaż-wirnika-suszarko_kruszarki.jpg";
+import img23 from "./assets/gallery_imgs/montaż_wykonanych_elementów_linii_paliw_alternatywnych_w_Zakładzie_Cementownia_Chełm-1.jpg";
+import img24 from "./assets/gallery_imgs/montaż_wykonanych_elementów_linii_paliw_alternatywnych_w_Zakładzie_Cementownia_Chełm-2.jpg";
+import img26 from "./assets/gallery_imgs/podawacz_celkowy_fi_1000.jpg";
+import img27 from "./assets/gallery_imgs/podest.jpg";
+import img28 from "./assets/gallery_imgs/punkt_załadunku_cementu_na_samochody_-_wykonanie_i_montaż_konstrukcji_i_urządzeń_1.jpg";
+import img29 from "./assets/gallery_imgs/punkt_załadunku_cementu_na_samochody_-_wykonanie_i_montaż_konstrukcji_i_urządzeń_3a.jpg";
+import img30 from "./assets/gallery_imgs/rama_pod_sprężarkę_gazu_-_13_ton.jpg";
+import img31 from "./assets/gallery_imgs/resory_wieńca_zębatego_pieca_obrotowego.jpg";
+import img32 from "./assets/gallery_imgs/rolka_oporowa_po_spawaniu_pęknięcia.jpg";
+import img33 from "./assets/gallery_imgs/rolka_oporowa_przed_spawaniem_pęknięcia.jpg";
+import img34 from "./assets/gallery_imgs/rurociąg_nadmuchowy-2.jpg";
+import img35 from "./assets/gallery_imgs/rurociąg_nadmuchowy.jpg";
+import img36 from "./assets/gallery_imgs/rurociąg_wlotu_suszarko-kruszarki.jpg";
+import img37 from "./assets/gallery_imgs/rury_spawane.jpg";
+import img38 from "./assets/gallery_imgs/segment_rurociągu.jpg";
+import img39 from "./assets/gallery_imgs/segmenty_rynien_aeracyjnych.jpg";
+import img40 from "./assets/gallery_imgs/siedziba_MJM.jpg";
+import img41 from "./assets/gallery_imgs/stożek_cyklonu_fi_3400.jpg";
+import img42 from "./assets/gallery_imgs/tarcza_wirnika_suszarko-kruszarki-1.jpg";
+import img43 from "./assets/gallery_imgs/tarcza_wirnika_suszarko-kruszarki-2.jpg";
+import img44 from "./assets/gallery_imgs/walcowanie_stożka_-_2.jpg";
+import img45 from "./assets/gallery_imgs/walcowanie_stożka_z_blachy_g=20_mm.jpg";
+import img46 from "./assets/gallery_imgs/wały_przenośników_ślimakowych.jpg";
+import img47 from "./assets/gallery_imgs/wieniec_zębaty_i_resory_wieńca_pieca_obrotowego_-_rozwiercanie_otworów_w_wieńcu.jpg";
+import img48 from "./assets/gallery_imgs/wykładziny_Hardox_mieszalnika.jpg";
+import img49 from "./assets/gallery_imgs/wypalanie_otworów_w_blachach_na_przecinarce_plazmowej.jpg";
+import img50 from "./assets/gallery_imgs/wózek_suwnicy.jpg";
+import img51 from "./assets/gallery_imgs/zasuwa_muszlowa_500x700.jpg";
+import img52 from "./assets/gallery_imgs/zasuwa_nożowa_fi1320.jpg";
+import img53 from "./assets/gallery_imgs/zasuwa_płaska_700x700.jpg";
+import img54 from "./assets/gallery_imgs/zasuwa_szpilkowa_500x700.jpg";
+import img55 from "./assets/gallery_imgs/zasuwy_ręczne.jpg";
+import img56 from "./assets/gallery_imgs/zesypy_z_wykładziną_RENALOX-1.jpg";
+import img57 from "./assets/gallery_imgs/zesypy_z_wykładziną_RENALOX-2.jpg";
+import img58 from "./assets/gallery_imgs/zsypy.jpg";
+import img59 from "./assets/gallery_imgs/ślimakowy_pobieracz_próbek_fi_50-1.jpg";
+import img60 from "./assets/gallery_imgs/ślimakowy_pobieracz_próbek_fi_50-2.jpg";
+import img61 from "./assets/gallery_imgs/żaluzja_2500x2800.jpg";
+import img62 from "./assets/gallery_imgs/linia_paliw_alternatywnych_wykonanie_i_montaż_konstrukcji_2.jpg";
+import img63 from "./assets/gallery_imgs/walcowanie_blachy_na_stożek.jpg";
 
 export const heroPhotos = [
   {
-    src: img10,
-    width: 602,
+    src: img3,
+    width: 800,
+    height: 606,
+    description: "komin fi 1000x36000",
+  },
+  {
+    src: img36,
+    width: 537,
+    height: 945,
+    description: "rurociąg wlotu suszarko-kruszarki",
+  },
+  {
+    src: img42,
+    width: 732,
     height: 800,
-    // title: "Logo firmy",
-    description: "Siedziba firmy.",
+    description: "tarcza wirnika suszarko-kruszarki",
+  },
+  {
+    src: img62,
+    width: 550,
+    height: 825,
+    description: "linia paliw alternatywnych wykonanie i montaż konstrukcji",
   },
   {
     src: img12,
-    width: 1024,
-    height: 771,
-    title: "title1",
-    description: "image dscription",
-  },
-  {
-    src: img8,
-    width: 1024,
-    height: 770,
-    title: "Logo firmy",
-    description: "proces obróbki metalu",
-  },
-  {
-    src: img4,
-    width: 1024,
-    height: 770,
-    title: "title1",
-    description: "image dscription",
-  },
-  {
-    src: img17,
-    width: 710,
-    height: 1024,
-    title: "title1",
-    description: "image dscription",
+    width: 800,
+    height: 595,
+    description: "kubło wagonowe",
   },
   {
     src: img14,
-    width: 1100,
-    height: 733,
-    // title: "Młyn kulowy",
-    description: "Młyn kulowy do przemiału cementru - montaż.",
+    width: 800,
+    height: 600,
+    description: "lej silosu",
   },
   {
     src: img15,
-    width: 1024,
-    height: 770,
-    // title: "Piec obrotowy",
-    description: "Montaż roli oporowej pieca obrotoweg.",
+    width: 800,
+    height: 600,
+    description: "kosz zasypowy z mieszadłem",
   },
   {
-    src: img16,
-    width: 1100,
-    height: 825,
-    // title: "Palety",
+    src: img63,
+    width: 800,
+    height: 668,
     description: "",
   },
 ];
 
 export const photos = [
   {
+    src: img0,
+    width: 800,
+    height: 450,
+    description: "belki konstrukcji dachu",
+  },
+  {
     src: img1,
-    width: 602,
-    height: 800,
-    // title: "Logo firmy",
-    description: "Siedziba firmy.",
+    width: 800,
+    height: 600,
+    description: "głowica cyklonu fi3400",
   },
   {
     src: img2,
-    width: 1024,
-    height: 771,
-    // title: "title1",
-    // description: "image dscription",
+    width: 800,
+    height: 600,
+    description: "kanał wentylacyjny",
   },
   {
     src: img3,
-    width: 1024,
-    height: 770,
-    // title: "Logo firmy",
-    description: "proces obróbki metalu",
+    width: 800,
+    height: 606,
+    description: "komin fi 1000x36000",
   },
   {
     src: img4,
-    width: 1024,
-    height: 770,
-    // title: "title1",
-    // description: "image dscription",
+    width: 800,
+    height: 691,
+    description: "komora dymowa",
   },
   {
     src: img5,
-    width: 710,
-    height: 1024,
-    // title: "title1",
-    // description: "image dscription",
+    width: 800,
+    height: 450,
+    description: "koryta przenośników ślimakowych",
   },
   {
     src: img6,
-    width: 1024,
-    height: 770,
-    // title: "title1",
-    // description: "image dscription",
+    width: 800,
+    height: 600,
+    description: "kosz zasypowy z mieszadłem",
   },
   {
     src: img7,
-    width: 1100,
-    height: 825,
-    // title: "Chwytak",
-    description: "Chwytak suwnicy po modernizacji.",
+    width: 800,
+    height: 450,
+    description: "kosz zasypowy",
   },
   {
     src: img8,
-    width: 1100,
-    height: 825,
-    // title: "Zbiornik",
-    // description: "Wykonianie element zbiornika.",
+    width: 230,
+    height: 230,
+    description: "koło suwnicy fi 1000",
   },
   {
     src: img9,
-    width: 1100,
-    height: 733,
-    // title: "Hala",
-    description:
-      "Hala paliw alternatywnych z podtorzem suwnicy - wykonanie i montaż.",
+    width: 800,
+    height: 600,
+    description: "kratownica",
   },
   {
     src: img10,
-    width: 550,
-    height: 825,
-    // title: "Linia paliw alternatywnych",
-    description: "Wykonanie i montaż konstrukcji.",
+    width: 800,
+    height: 450,
+    description: "kubełka elewatora 1",
   },
   {
     src: img11,
-    width: 550,
-    height: 825,
-    // title: "Hala paliw alternatywnych",
-    description: "Wykonanie i montaż konstrukcji podpory.",
+    width: 800,
+    height: 600,
+    description: "kubełka elewatora 2",
   },
   {
     src: img12,
-    width: 1100,
-    height: 733,
-    // title: "Młyn kulowy",
-    description: "Młyn kulowy do przemiału cementru - montaż.",
+    width: 800,
+    height: 595,
+    description: "kubło wagonowe",
   },
   {
     src: img13,
-    width: 1100,
-    height: 733,
-    // title: "Młyn kulowy",
-    description: "Młyn kulowy do przemiału cementru - montaż.",
+    width: 800,
+    height: 450,
+    description: "kurtyna instalacji dolotowej suszarko-kruszarki",
   },
   {
     src: img14,
-    width: 1100,
-    height: 733,
-    // title: "Młyn kulowy",
-    description: "Młyn kulowy do przemiału cementru - montaż.",
+    width: 800,
+    height: 600,
+    description: "lej silosu",
   },
   {
     src: img15,
-    width: 1024,
-    height: 770,
-    // title: "Piec obrotowy",
-    description: "Montaż roli oporowej pieca obrotoweg.",
+    width: 800,
+    height: 450,
+    description: "lej zsypowy",
   },
   {
     src: img16,
-    width: 1100,
-    height: 825,
-    // title: "Palety",
-    description: "",
+    width: 800,
+    height: 450,
+    description: "moduł cieplny",
   },
   {
     src: img17,
-    width: 550,
-    height: 825,
-    // title: "Punkt załadunku cementu",
-    description: "Punkt załadunku cementru na samochody - wykonanie i montaż.",
+    width: 533,
+    height: 800,
+    description: "montaż podpory pomostu 2",
   },
   {
     src: img18,
-    width: 1100,
-    height: 733,
-    // title: "Punkt załadunku cementu",
-    description: "Punkt załadunku cementru na samochody - wykonanie i montaż.",
+    width: 533,
+    height: 800,
+    description: "montaż podpory pomostu 1",
   },
   {
     src: img19,
-    width: 1100,
-    height: 733,
-    // title: "Punkt załadunku cementu",
-    description: "Punkt załadunku cementru na samochody - wykonanie i montaż.",
+    width: 800,
+    height: 600,
+    description: "montaż podpór",
   },
   {
     src: img20,
-    width: 1100,
-    height: 733,
-    // title: "Punkt załadunku cementu",
-    description: "Punkt załadunku cementru na samochody - wykonanie i montaż.",
+    width: 800,
+    height: 600,
+    description: "montaż kanałów",
   },
   {
     src: img21,
-    width: 1100,
-    height: 733,
-    // title: "Piec obrotowy",
-    description: "Wykonanie i montaż klapy materiałowej pieca obrotowego.",
+    width: 533,
+    height: 800,
+    description: "montaż punktu załadunku cementu",
   },
   {
     src: img22,
-    width: 1100,
-    height: 733,
-    // title: "Rekonstrukcja dna zbiornika",
+    width: 800,
+    height: 450,
+    description: "montaż wirnika suszarko-kruszarki",
+  },
+  {
+    src: img23,
+    width: 533,
+    height: 800,
     description:
-      "Załadunek cementu luzem na wagony - rekonstrukcja dna zbiornika.",
+      "montaż wykonanych elementów linii paliw alternatywnych w Zakładzie Cementownia Chełm 1",
+  },
+  {
+    src: img24,
+    width: 533,
+    height: 800,
+    description:
+      "montaż wykonanych elementów linii paliw alternatywnych w Zakładzie Cementownia Chełm 2",
+  },
+  {
+    src: img26,
+    width: 800,
+    height: 471,
+    description: "podawacz celkowy fi 1000",
+  },
+  {
+    src: img27,
+    width: 800,
+    height: 600,
+    description: "podest",
+  },
+  {
+    src: img28,
+    width: 800,
+    height: 533,
+    description:
+      "punkt załadunku cementu na samochody - wykonanie i montaż konstrukcji i urządzeń 1",
+  },
+  {
+    src: img29,
+    width: 624,
+    height: 800,
+    description:
+      "punkt załadunku cementu na samochody - wykonanie i montaż konstrukcji i urządzeń 2",
+  },
+  {
+    src: img30,
+    width: 800,
+    height: 398,
+    description: "rama pod sprężarkę gazu - 13 ton",
+  },
+  {
+    src: img31,
+    width: 800,
+    height: 600,
+    description: "resory wieńca zębatego pieca obrotowego",
+  },
+  {
+    src: img32,
+    width: 800,
+    height: 600,
+    description: "rolka oporowa po spawaniu pęknięcia",
+  },
+  {
+    src: img33,
+    width: 800,
+    height: 600,
+    description: "rolka oporowa przed spawaniem pęknięcia",
+  },
+  {
+    src: img35,
+    width: 800,
+    height: 450,
+    description: "rurociąg nadmuchowy",
+  },
+  {
+    src: img34,
+    width: 800,
+    height: 450,
+    description: "rurociąg nadmuchowy 2",
+  },
+  {
+    src: img36,
+    width: 537,
+    height: 945,
+    description: "rurociąg wlotu suszarko-kruszarki",
+  },
+  {
+    src: img37,
+    width: 800,
+    height: 450,
+    description: "rury spawane",
+  },
+  {
+    src: img38,
+    width: 600,
+    height: 800,
+    description: "segment rurociągu",
+  },
+  {
+    src: img39,
+    width: 800,
+    height: 450,
+    description: "segmenty rynien aeracyjnych",
+  },
+  {
+    src: img40,
+    width: 800,
+    height: 430,
+    description: "siedziba MJM",
+  },
+  {
+    src: img41,
+    width: 800,
+    height: 600,
+    description: "stożek cyklonu fi 3400",
+  },
+  {
+    src: img42,
+    width: 732,
+    height: 800,
+    description: "tarcza wirnika suszarko-kruszarki 1",
+  },
+  {
+    src: img43,
+    width: 800,
+    height: 692,
+    description: "tarcza wirnika suszarko-kruszarki 2",
+  },
+  {
+    src: img44,
+    width: 450,
+    height: 800,
+    description: "walcowanie stożka",
+  },
+  {
+    src: img45,
+    width: 450,
+    height: 800,
+    description: "walcowanie stożka z blachy g=20 mm",
+  },
+  {
+    src: img46,
+    width: 800,
+    height: 450,
+    description: "wały przenośników ślimakowych",
+  },
+  {
+    src: img47,
+    width: 800,
+    height: 600,
+    description:
+      "wieniec zębaty i resory wieńca pieca obrotowego - rozwiercanie otworów w wieńcu",
+  },
+  {
+    src: img48,
+    width: 800,
+    height: 450,
+    description: "wykładziny Hardox mieszalnika",
+  },
+  {
+    src: img49,
+    width: 800,
+    height: 450,
+    description: "wypalanie otworów w blachach na przecinarce plazmowej",
+  },
+  {
+    src: img50,
+    width: 800,
+    height: 690,
+    description: "wózek suwnicy",
+  },
+  {
+    src: img51,
+    width: 800,
+    height: 600,
+    description: "zasuwa muszlowa 500x700",
+  },
+  {
+    src: img52,
+    width: 600,
+    height: 800,
+    description: "zasuwa nożowa fi1320",
+  },
+  {
+    src: img53,
+    width: 800,
+    height: 600,
+    description: "zasuwa płaska 700x700",
+  },
+  {
+    src: img54,
+    width: 800,
+    height: 600,
+    description: "zasuwa szpilkowa 500x700",
+  },
+  {
+    src: img55,
+    width: 800,
+    height: 450,
+    description: "zasuwy ręczne",
+  },
+  {
+    src: img56,
+    width: 800,
+    height: 600,
+    description: "zesypy z wykładziną RENALOX 1",
+  },
+  {
+    src: img57,
+    width: 800,
+    height: 600,
+    description: "zesypy z wykładziną RENALOX 2",
+  },
+  {
+    src: img58,
+    width: 800,
+    height: 488,
+    description: "zsypy",
+  },
+  {
+    src: img59,
+    width: 800,
+    height: 450,
+    description: "ślimakowy pobieracz próbek fi 50 1",
+  },
+  {
+    src: img60,
+    width: 450,
+    height: 800,
+    description: "ślimakowy pobieracz próbek fi 50 2",
+  },
+  {
+    src: img61,
+    width: 800,
+    height: 450,
+    description: "żaluzja 2500x2800",
+  },
+  {
+    src: img62,
+    width: 550,
+    height: 825,
+    description: "linia paliw alternatywnych wykonanie i montaż konstrukcji",
+  },
+  {
+    src: img63,
+    width: 800,
+    height: 668,
+    description: "walcowanie blachy na stożek",
   },
 ];
 

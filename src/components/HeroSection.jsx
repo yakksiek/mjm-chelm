@@ -18,7 +18,7 @@ const HeroSection = () => {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 760);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 760);
+    setDesktop(window.innerWidth > 759);
   };
 
   useEffect(() => {

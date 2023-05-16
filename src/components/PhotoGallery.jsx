@@ -25,7 +25,7 @@ const PhotoGallery = ({ images, layout = "columns" }) => {
         onClick={({ index }) => setIndex(index)}
         columns={(containerWidth) => {
           if (containerWidth < 380) return 2;
-          if (containerWidth < 900) return 3;
+          if (containerWidth < 800) return 3;
           return 4;
         }}
       />

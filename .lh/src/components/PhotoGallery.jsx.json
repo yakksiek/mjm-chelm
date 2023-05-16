@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 41,
+            "activePatchIndex": 51,
             "patches": [
                 {
                     "date": 1675005725812,
@@ -172,6 +172,46 @@
                 {
                     "date": 1679319967702,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 400) return 2;\n+          if (containerWidth < 380) return 2;\n           if (containerWidth < 900) return 3;\n           return 4;\n         }}\n       />\n"
+                },
+                {
+                    "date": 1684258362175,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 380) return 2;\n-          if (containerWidth < 900) return 3;\n+          if (containerWidth < 940) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1684258377947,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 380) return 2;\n-          if (containerWidth < 940) return 3;\n+          if (containerWidth < 950) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1684258411459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 380) return 2;\n-          if (containerWidth < 950) return 3;\n+          if (containerWidth < 900) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1684258420893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 380) return 2;\n-          if (containerWidth < 900) return 3;\n+          if (containerWidth < 950) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1684258436456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,13 +22,13 @@\n         layout={layout}\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n-        columns={(containerWidth) => {\n-          if (containerWidth < 380) return 2;\n-          if (containerWidth < 950) return 3;\n-          return 4;\n-        }}\n+        // columns={(containerWidth) => {\n+        //   if (containerWidth < 380) return 2;\n+        //   if (containerWidth < 950) return 3;\n+        //   return 4;\n+        // }}\n       />\n \n       <Lightbox\n         open={index >= 0}\n"
+                },
+                {
+                    "date": 1684258474268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,13 +22,13 @@\n         layout={layout}\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n-        // columns={(containerWidth) => {\n-        //   if (containerWidth < 380) return 2;\n-        //   if (containerWidth < 950) return 3;\n-        //   return 4;\n-        // }}\n+        columns={(containerWidth) => {\n+          if (containerWidth < 380) return 2;\n+          if (containerWidth < 950) return 3;\n+          return 4;\n+        }}\n       />\n \n       <Lightbox\n         open={index >= 0}\n"
+                },
+                {
+                    "date": 1684258490104,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 380) return 2;\n-          if (containerWidth < 950) return 3;\n+          if (containerWidth < 90) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1684258554127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 380) return 2;\n-          if (containerWidth < 90) return 3;\n+          if (containerWidth < 0) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1684258936555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,9 +24,9 @@\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n           if (containerWidth < 380) return 2;\n-          if (containerWidth < 870) return 3;\n+          if (containerWidth < 800) return 3;\n           return 4;\n         }}\n       />\n \n"
+                },
+                {
+                    "date": 1684258965199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n         photos={images}\n         // targetRowHeight={rowHeigh}\n         onClick={({ index }) => setIndex(index)}\n         columns={(containerWidth) => {\n-          if (containerWidth < 30) return 2;\n+          if (containerWidth < 400) return 2;\n           if (containerWidth < 800) return 3;\n           return 4;\n         }}\n       />\n"
                 }
             ],
             "date": 1675005725812,

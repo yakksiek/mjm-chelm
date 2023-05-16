@@ -11,7 +11,7 @@ const Footer = () => {
       <div className={`page-container ${classes["footer-content"]}`}>
         <div className={classes["footer-address-container"]}>
           <div className={classes["footer-address"]}>
-            <img src={logo} alt="mjm-logo" className={classes.logo}/>
+            <img src={logo} alt="mjm-logo" className={classes.logo} />
             <p>"MJM" Sp. z o.o.</p>
             <p>22-100 Chełm ul. Fabryczna 6</p>
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
             <p>tel. 82 564 65 41</p>
             <p>tel. 82 563 26 52</p>
             <p>
-              <a href="mailto:mjm@mjm.chelm.pl">mjm@mjm.chelm.pl</a>
+              <a href="mailto:mjm@mjmchelm.pl">mjm@mjmchelm.pl</a>
             </p>
           </div>
         </div>

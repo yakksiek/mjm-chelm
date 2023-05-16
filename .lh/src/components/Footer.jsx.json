@@ -1,322 +1,322 @@
 {
-    "sourceFile": "src/components/Footer.jsx",
-    "activeCommit": 0,
-    "commits": [
+  "sourceFile": "src/components/Footer.jsx",
+  "activeCommit": 0,
+  "commits": [
+    {
+      "activePatchIndex": 76,
+      "patches": [
         {
-            "activePatchIndex": 76,
-            "patches": [
-                {
-                    "date": 1676205990693,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n"
-                },
-                {
-                    "date": 1676206007336,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-rafce\n\\ No newline at end of file\n+import React from 'react'\n+\n+const Footer = () => {\n+  return (\n+    <footer>Footer</footer>\n+  )\n+}\n+\n+export default Footer\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1676206226635,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,12 @@\n import React from 'react'\n \n const Footer = () => {\n   return (\n-    <footer>Footer</footer>\n+    <footer>\n+        <id\n+\n+    </footer>\n   )\n }\n \n export default Footer\n\\ No newline at end of file\n"
-                },
-                {
-                    "date": 1676206231846,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-        <id\n+        .\n \n     </footer>\n   )\n }\n"
-                },
-                {
-                    "date": 1676206240907,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-        .\n+        <div className=\"page-container\">\n+            \n+        </div>\n \n     </footer>\n   )\n }\n"
-                },
-                {
-                    "date": 1676206626316,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n const Footer = () => {\n   return (\n     <footer>\n         <div className=\"page-container\">\n-            \n+            <div>\n+                \n+            </div>\n         </div>\n \n     </footer>\n   )\n"
-                },
-                {
-                    "date": 1676206634295,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n const Footer = () => {\n   return (\n     <footer>\n         <div className=\"page-container\">\n-            <div>\n-                \n+            <div className='address'>\n+\n             </div>\n         </div>\n \n     </footer>\n"
-                },
-                {
-                    "date": 1676206648753,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Footer = () => {\n   return (\n     <footer>\n         <div className=\"page-container\">\n-            <div className='address'>\n+            <div className='footer-address'>\n \n             </div>\n         </div>\n \n"
-                },
-                {
-                    "date": 1676206684219,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-\n+    \n             </div>\n         </div>\n \n     </footer>\n"
-                },
-                {
-                    "date": 1676206706042,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    \n+    <p\n             </div>\n         </div>\n \n     </footer>\n"
-                },
-                {
-                    "date": 1676206711994,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p\n+    <p> \"M\"\n+    </p>\n             </div>\n         </div>\n \n     </footer>\n"
-                },
-                {
-                    "date": 1676206721203,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> \"M\"\n+    <p> ,,M\"\n     </p>\n             </div>\n         </div>\n \n"
-                },
-                {
-                    "date": 1676206728091,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> ,,M\"\n+    <p> ,,MJM''\n     </p>\n             </div>\n         </div>\n \n"
-                },
-                {
-                    "date": 1676206747238,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> ,,MJM''\n+    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm \n     </p>\n             </div>\n         </div>\n \n"
-                },
-                {
-                    "date": 1676206754657,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm \n+    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna \n     </p>\n             </div>\n         </div>\n \n"
-                },
-                {
-                    "date": 1676206781040,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna \n+    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6\n     </p>\n             </div>\n         </div>\n \n"
-                },
-                {
-                    "date": 1676206788457,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,16 @@\n-import React from 'react'\n+import React from \"react\";\n \n const Footer = () => {\n   return (\n     <footer>\n-        <div className=\"page-container\">\n-            <div className='footer-address'>\n-    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6\n-    </p>\n-            </div>\n+      <div className=\"page-container\">\n+        <div className=\"footer-address\">\n+          <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n+          p\n         </div>\n-\n\\ No newline at end of file\n+      </div>\n     </footer>\n-  )\n-}\n+  );\n+};\n \n-export default Footer\n+export default Footer;\n"
-                },
-                {
-                    "date": 1676206797280,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n-          p\n+          <p>tel./fa</p>\n         </div>\n       </div>\n     </footer>\n   );\n"
-                },
-                {
-                    "date": 1676206811348,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n-          <p>tel./fa</p>\n+          <p>tel./fax 82 563 26 52</p>\n         </div>\n       </div>\n     </footer>\n   );\n"
-                },
-                {
-                    "date": 1676206821558,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,12 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n+          <div>\n+\n           <p>tel./fax 82 563 26 52</p>\n+          </div>\n         </div>\n       </div>\n     </footer>\n   );\n"
-                },
-                {
-                    "date": 1676206828520,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n-          <div>\n+          <div className=\"phone\">\n \n           <p>tel./fax 82 563 26 52</p>\n           </div>\n         </div>\n"
-                },
-                {
-                    "date": 1676206836775,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n-          <div className=\"phone\">\n+          <div className=\"phone-numbers-container\">\n \n           <p>tel./fax 82 563 26 52</p>\n           </div>\n         </div>\n"
-                },
-                {
-                    "date": 1676206927798,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n-\n           <p>tel./fax 82 563 26 52</p>\n           </div>\n         </div>\n       </div>\n"
-                },
-                {
-                    "date": 1676207020530,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n           <p>tel./fax 82 563 26 52</p>\n+          <p></p>\n           </div>\n         </div>\n       </div>\n     </footer>\n"
-                },
-                {
-                    "date": 1676207034012,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n           <p>tel./fax 82 563 26 52</p>\n+          <p>tel. 82 564 66 91</p>\n           <p></p>\n           </div>\n         </div>\n       </div>\n"
-                },
-                {
-                    "date": 1676207052523,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,12 +6,13 @@\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n-          <p>tel./fax 82 563 26 52</p>\n-          <p>tel. 82 564 66 91</p>\n-          <p></p>\n+            <p>tel./fax 82 563 26 52</p>\n+            <p>tel. 82 564 66 91</p>\n+            <p>tel. 82 564 64 40</p>\n           </div>\n+          \n         </div>\n       </div>\n     </footer>\n   );\n"
-                },
-                {
-                    "date": 1676207067755,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n           </div>\n-          \n+          <p></p>\n         </div>\n       </div>\n     </footer>\n   );\n"
-                },
-                {
-                    "date": 1676207075632,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n           </div>\n-          <p></p>\n+          <pmjm@mjm.chelm.pl</p>\n         </div>\n       </div>\n     </footer>\n   );\n"
-                },
-                {
-                    "date": 1676207085307,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n           </div>\n-          <pmjm@mjm.chelm.pl</p>\n+          <p>mjm@mjm.chelm.pl</p>\n         </div>\n       </div>\n     </footer>\n   );\n"
-                },
-                {
-                    "date": 1676207116633,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n             <p>tel. 82 564 64 40</p>\n           </div>\n           <p>mjm@mjm.chelm.pl</p>\n         </div>\n+        \n       </div>\n     </footer>\n   );\n };\n"
-                },
-                {
-                    "date": 1676207127543,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,13 @@\n             <p>tel. 82 564 64 40</p>\n           </div>\n           <p>mjm@mjm.chelm.pl</p>\n         </div>\n-        \n+        <div>\n+            <ul>\n+                <\n+            </ul>\n+        </div>\n       </div>\n     </footer>\n   );\n };\n"
-                },
-                {
-                    "date": 1676207135686,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n           <p>mjm@mjm.chelm.pl</p>\n         </div>\n         <div>\n             <ul>\n-                <\n+                <li>\n+                    \n+                </li>\n             </ul>\n         </div>\n       </div>\n     </footer>\n"
-                },
-                {
-                    "date": 1676207225980,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import React from \"react\";\n+import { NavLink } from \"react-router-dom\";\n \n const Footer = () => {\n   return (\n     <footer>\n@@ -14,11 +15,9 @@\n           <p>mjm@mjm.chelm.pl</p>\n         </div>\n         <div>\n             <ul>\n-                <li>\n-                    \n-                </li>\n+                <li></li>\n             </ul>\n         </div>\n       </div>\n     </footer>\n"
-                },
-                {
-                    "date": 1676207237750,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,13 @@\n           <p>mjm@mjm.chelm.pl</p>\n         </div>\n         <div>\n             <ul>\n-                <li></li>\n+            <li key=1 onClick={() => setShowLinks(!showLinks)}>\n+                  <NavLink to={url} className=\"link\">\n+                    {text}\n+                  </NavLink>\n+                </li>\n             </ul>\n         </div>\n       </div>\n     </footer>\n"
-                },
-                {
-                    "date": 1676207278822,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n           <p>mjm@mjm.chelm.pl</p>\n         </div>\n         <div>\n             <ul>\n-            <li key=1 onClick={() => setShowLinks(!showLinks)}>\n+            <li key=\"1\">\n                   <NavLink to={url} className=\"link\">\n                     {text}\n                   </NavLink>\n                 </li>\n"
-                },
-                {
-                    "date": 1676207315013,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <div>\n             <ul>\n             <li key=\"1\">\n                   <NavLink to={url} className=\"link\">\n-                    {text}\n+                    Powrót do strony głównej\n                   </NavLink>\n                 </li>\n             </ul>\n         </div>\n"
-                },
-                {
-                    "date": 1676207364872,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,15 +14,15 @@\n           </div>\n           <p>mjm@mjm.chelm.pl</p>\n         </div>\n         <div>\n-            <ul>\n+          <ul>\n             <li key=\"1\">\n-                  <NavLink to={url} className=\"link\">\n-                    Powrót do strony głównej\n-                  </NavLink>\n-                </li>\n-            </ul>\n+              <NavLink to=\"/\" className=\"link\">\n+                Powrót do strony głównej\n+              </NavLink>\n+            </li>\n+          </ul>\n         </div>\n       </div>\n     </footer>\n   );\n"
-                },
-                {
-                    "date": 1676207662044,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from \"react\";\n import { NavLink } from \"react-router-dom\";\n \n+import classes from ''\n+\n const Footer = () => {\n   return (\n     <footer>\n       <div className=\"page-container\">\n"
-                },
-                {
-                    "date": 1676207668725,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\n import { NavLink } from \"react-router-dom\";\n \n-import classes from ''\n+import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n     <footer>\n"
-                },
-                {
-                    "date": 1676207728795,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className=\"page-container\">\n+      <div className=`page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676207734252,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className=`page-container\">\n+      <div className=`page-container`>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676207744854,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className=`page-container`>\n+      <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676207752884,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className={`page-container`}>\n+      <div className={`page-container ${footer}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676207768099,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className={`page-container ${footer}`}>\n+      <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676207790047,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n-    <footer>\n+    <footer class={footer}>\n       <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n"
-                },
-                {
-                    "date": 1676207797748,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n-    <footer class={footer}>\n+    <footer className={}>\n       <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n"
-                },
-                {
-                    "date": 1676207805961,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n-    <footer className={}>\n+    <footer className={classes.[\"footer-section\"]}>\n       <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n"
-                },
-                {
-                    "date": 1676207863699,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n-    <footer className={classes.[\"footer-section\"]}>\n-      <div className={`page-container`}>\n+    <footer className={classes[\"footer-section\"]}>\n+      <div className={`page-container `}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676208071870,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container `}>\n+      <div className={`page-container ${classes[footer-row]}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676208077017,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container ${classes[footer-row]}`}>\n+      <div className={`page-container ${classes[]}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676208083779,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container ${classes[]}`}>\n+      <div className={`page-container ${classes['footer-row']}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676208228837,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container ${classes['footer-row']}`}>\n+      <div className={`page-container ${classes['footer-content']}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676208418275,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes['footer-content']}`}>\n         <div className=\"footer-address\">\n-          <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n+          <p> ,,MJM'' Sp. z o.o.</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
-                },
-                {
-                    "date": 1676208424152,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes['footer-content']}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o.</p>\n+          <p> ,,MJM'' Sp. z o.o.</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
-                },
-                {
-                    "date": 1676208436574,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,16 @@\n import React from \"react\";\n import { NavLink } from \"react-router-dom\";\n \n-import classes from './Footer.module.css'\n+import classes from \"./Footer.module.css\";\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container ${classes['footer-content']}`}>\n+      <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address\">\n-          <p> ,,MJM'' Sp. z o.o.</p>\n-          <p> ,,MJM'' Sp. z o.o.</p>\n+          <p>,,MJM'' Sp. z o.o.</p>\n+          <p> 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
-                },
-                {
-                    "date": 1676208494732,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n-        <div className=\"footer-address\">\n+        <div className=\"footer-address-container\">\n           <p>,,MJM'' Sp. z o.o.</p>\n-          <p> 22-110 Chełm ul. Fabryczna 6</p>\n+          <p>22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
-                },
-                {
-                    "date": 1676208503236,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,11 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address-container\">\n+            <div>\n+                \n+            </div>\n           <p>,,MJM'' Sp. z o.o.</p>\n           <p>22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
-                },
-                {
-                    "date": 1676208514531,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,12 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address-container\">\n-            <div>\n-                \n-            </div>\n+            <div className=\"\">\n           <p>,,MJM'' Sp. z o.o.</p>\n           <p>22-110 Chełm ul. Fabryczna 6</p>\n+            </div>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
-                },
-                {
-                    "date": 1676208521753,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address-container\">\n-            <div className=\"\">\n+            <div className={classes.footer}>\n           <p>,,MJM'' Sp. z o.o.</p>\n           <p>22-110 Chełm ul. Fabryczna 6</p>\n             </div>\n           <div className=\"phone-numbers-container\">\n"
-                },
-                {
-                    "date": 1676208532541,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address-container\">\n-            <div className={classes.footer}>\n+            <div className={classes[\"footer-address\"]}>\n           <p>,,MJM'' Sp. z o.o.</p>\n           <p>22-110 Chełm ul. Fabryczna 6</p>\n             </div>\n           <div className=\"phone-numbers-container\">\n"
-                },
-                {
-                    "date": 1676208540839,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n+          <p>mjm@mjm.chelm.pl</p>\n           </div>\n-          <p>mjm@mjm.chelm.pl</p>\n         </div>\n         <div>\n           <ul>\n             <li key=\"1\">\n"
-                },
-                {
-                    "date": 1676208559997,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,18 +6,18 @@\n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n-        <div className=\"footer-address-container\">\n-            <div className={classes[\"footer-address\"]}>\n-          <p>,,MJM'' Sp. z o.o.</p>\n-          <p>22-110 Chełm ul. Fabryczna 6</p>\n-            </div>\n+        <div className={footer-address-container\">\n+          <div className={classes[\"footer-address\"]}>\n+            <p>,,MJM'' Sp. z o.o.</p>\n+            <p>22-110 Chełm ul. Fabryczna 6</p>\n+          </div>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n-          <p>mjm@mjm.chelm.pl</p>\n+            <p>mjm@mjm.chelm.pl</p>\n           </div>\n         </div>\n         <div>\n           <ul>\n"
-                },
-                {
-                    "date": 1676208565488,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n-        <div className={footer-address-container\">\n+        <div className={classes[footer-address-container}>\n           <div className={classes[\"footer-address\"]}>\n             <p>,,MJM'' Sp. z o.o.</p>\n             <p>22-110 Chełm ul. Fabryczna 6</p>\n           </div>\n"
-                },
-                {
-                    "date": 1676211812038,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n-        <div className={classes[footer-address-container}>\n+        <div className={classes[\"footer-address-container\"]}>\n           <div className={classes[\"footer-address\"]}>\n             <p>,,MJM'' Sp. z o.o.</p>\n             <p>22-110 Chełm ul. Fabryczna 6</p>\n           </div>\n@@ -25,8 +25,13 @@\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n+            <li key=\"1\">\n+              <NavLink to=\"/\" className=\"link\">\n+                Powrót do strony głównej\n+              </NavLink>\n+            </li>\n           </ul>\n         </div>\n       </div>\n     </footer>\n"
-                },
-                {
-                    "date": 1676211838637,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,13 @@\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n+            <li key=\"2\">\n+              <NavLink to=\"/oferta\" className=\"link\">\n+                Powrót do strony głównej\n+              </NavLink>\n+            </li>\n             <li key=\"1\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n"
-                },
-                {
-                    "date": 1676211846754,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,12 +27,12 @@\n               </NavLink>\n             </li>\n             <li key=\"2\">\n               <NavLink to=\"/oferta\" className=\"link\">\n-                Powrót do strony głównej\n+                oferta\n               </NavLink>\n             </li>\n-            <li key=\"1\">\n+            <li key=\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n"
-                },
-                {
-                    "date": 1676211865489,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n               <NavLink to=\"/oferta\" className=\"link\">\n                 oferta\n               </NavLink>\n             </li>\n-            <li key=\">\n-              <NavLink to=\"/\" className=\"link\">\n+            <li key=\"3\">\n+              <NavLink to=\"/kontakt\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n           </ul>\n"
-                },
-                {
-                    "date": 1676211870604,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n               </NavLink>\n             </li>\n             <li key=\"3\">\n               <NavLink to=\"/kontakt\" className=\"link\">\n-                Powrót do strony głównej\n+                Kontakt\n               </NavLink>\n             </li>\n           </ul>\n         </div>\n"
-                },
-                {
-                    "date": 1676211907013,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,17 +19,17 @@\n             <p>mjm@mjm.chelm.pl</p>\n           </div>\n         </div>\n         <div>\n-          <ul>\n+          <ul className={classes}>\n             <li key=\"1\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n               <NavLink to=\"/oferta\" className=\"link\">\n-                oferta\n+                Oferta\n               </NavLink>\n             </li>\n             <li key=\"3\">\n               <NavLink to=\"/kontakt\" className=\"link\">\n"
-                },
-                {
-                    "date": 1676211915118,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <p>mjm@mjm.chelm.pl</p>\n           </div>\n         </div>\n         <div>\n-          <ul className={classes}>\n+          <ul className={classes[footer]}>\n             <li key=\"1\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n"
-                },
-                {
-                    "date": 1676211921797,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <p>mjm@mjm.chelm.pl</p>\n           </div>\n         </div>\n         <div>\n-          <ul className={classes[footer]}>\n+          <ul className={classes[footer-links]}>\n             <li key=\"1\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n"
-                },
-                {
-                    "date": 1676211947825,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,11 +19,11 @@\n             <p>mjm@mjm.chelm.pl</p>\n           </div>\n         </div>\n         <div>\n-          <ul className={classes[footer-links]}>\n+          <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className=\"link\">\n+              <NavLink to=\"/\" className=\"footer-link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n"
-                },
-                {
-                    "date": 1676212041161,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,14 +21,14 @@\n         </div>\n         <div>\n           <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className=\"footer-link\">\n+              <NavLink to=\"/\" className={\"footer-link\"}>\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n-              <NavLink to=\"/oferta\" className=\"link\">\n+              <NavLink to=\"/oferta\" className=\"footer-link\">\n                 Oferta\n               </NavLink>\n             </li>\n             <li key=\"3\">\n"
-                },
-                {
-                    "date": 1676212047532,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n         <div>\n           <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className={\"footer-link\"}>\n+              <NavLink to=\"/\" className={`footer-link`}>\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n"
-                },
-                {
-                    "date": 1676212055702,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n         <div>\n           <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className={`footer-link`}>\n+              <NavLink to=\"/\" className={`${classes.footer-link}`}>\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n"
-                },
-                {
-                    "date": 1676212061991,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n         <div>\n           <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className={`${classes[footer-link]}`}>\n+              <NavLink to=\"/\" className={`${classes['footer-link']}`}>\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n"
-                },
-                {
-                    "date": 1676212077430,
-                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n                 Oferta\n               </NavLink>\n             </li>\n             <li key=\"3\">\n-              <NavLink to=\"/kontakt\" className=\"link\">\n+              <NavLink to=\"/kontakt\" className={`${classes[\"footer-link\"]}`}>\n                 Kontakt\n               </NavLink>\n             </li>\n           </ul>\n"
-                }
-            ],
-            "date": 1676205990693,
-            "name": "Commit-0",
-            "content": "rafce"
+          "date": 1676205990693,
+          "content": "Index: \n===================================================================\n--- \n+++ \n"
+        },
+        {
+          "date": 1676206007336,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,9 @@\n-rafce\n\\ No newline at end of file\n+import React from 'react'\n+\n+const Footer = () => {\n+  return (\n+    <footer>Footer</footer>\n+  )\n+}\n+\n+export default Footer\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1676206226635,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,12 @@\n import React from 'react'\n \n const Footer = () => {\n   return (\n-    <footer>Footer</footer>\n+    <footer>\n+        <id\n+\n+    </footer>\n   )\n }\n \n export default Footer\n\\ No newline at end of file\n"
+        },
+        {
+          "date": 1676206231846,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-        <id\n+        .\n \n     </footer>\n   )\n }\n"
+        },
+        {
+          "date": 1676206240907,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-        .\n+        <div className=\"page-container\">\n+            \n+        </div>\n \n     </footer>\n   )\n }\n"
+        },
+        {
+          "date": 1676206626316,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,11 @@\n const Footer = () => {\n   return (\n     <footer>\n         <div className=\"page-container\">\n-            \n+            <div>\n+                \n+            </div>\n         </div>\n \n     </footer>\n   )\n"
+        },
+        {
+          "date": 1676206634295,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n const Footer = () => {\n   return (\n     <footer>\n         <div className=\"page-container\">\n-            <div>\n-                \n+            <div className='address'>\n+\n             </div>\n         </div>\n \n     </footer>\n"
+        },
+        {
+          "date": 1676206648753,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n const Footer = () => {\n   return (\n     <footer>\n         <div className=\"page-container\">\n-            <div className='address'>\n+            <div className='footer-address'>\n \n             </div>\n         </div>\n \n"
+        },
+        {
+          "date": 1676206684219,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-\n+    \n             </div>\n         </div>\n \n     </footer>\n"
+        },
+        {
+          "date": 1676206706042,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    \n+    <p\n             </div>\n         </div>\n \n     </footer>\n"
+        },
+        {
+          "date": 1676206711994,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p\n+    <p> \"M\"\n+    </p>\n             </div>\n         </div>\n \n     </footer>\n"
+        },
+        {
+          "date": 1676206721203,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> \"M\"\n+    <p> ,,M\"\n     </p>\n             </div>\n         </div>\n \n"
+        },
+        {
+          "date": 1676206728091,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> ,,M\"\n+    <p> ,,MJM''\n     </p>\n             </div>\n         </div>\n \n"
+        },
+        {
+          "date": 1676206747238,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> ,,MJM''\n+    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm \n     </p>\n             </div>\n         </div>\n \n"
+        },
+        {
+          "date": 1676206754657,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm \n+    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna \n     </p>\n             </div>\n         </div>\n \n"
+        },
+        {
+          "date": 1676206781040,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n   return (\n     <footer>\n         <div className=\"page-container\">\n             <div className='footer-address'>\n-    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna \n+    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6\n     </p>\n             </div>\n         </div>\n \n"
+        },
+        {
+          "date": 1676206788457,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,17 +1,16 @@\n-import React from 'react'\n+import React from \"react\";\n \n const Footer = () => {\n   return (\n     <footer>\n-        <div className=\"page-container\">\n-            <div className='footer-address'>\n-    <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6\n-    </p>\n-            </div>\n+      <div className=\"page-container\">\n+        <div className=\"footer-address\">\n+          <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n+          p\n         </div>\n-\n\\ No newline at end of file\n+      </div>\n     </footer>\n-  )\n-}\n+  );\n+};\n \n-export default Footer\n+export default Footer;\n"
+        },
+        {
+          "date": 1676206797280,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n-          p\n+          <p>tel./fa</p>\n         </div>\n       </div>\n     </footer>\n   );\n"
+        },
+        {
+          "date": 1676206811348,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n-          <p>tel./fa</p>\n+          <p>tel./fax 82 563 26 52</p>\n         </div>\n       </div>\n     </footer>\n   );\n"
+        },
+        {
+          "date": 1676206821558,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,12 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n+          <div>\n+\n           <p>tel./fax 82 563 26 52</p>\n+          </div>\n         </div>\n       </div>\n     </footer>\n   );\n"
+        },
+        {
+          "date": 1676206828520,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n-          <div>\n+          <div className=\"phone\">\n \n           <p>tel./fax 82 563 26 52</p>\n           </div>\n         </div>\n"
+        },
+        {
+          "date": 1676206836775,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <footer>\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n-          <div className=\"phone\">\n+          <div className=\"phone-numbers-container\">\n \n           <p>tel./fax 82 563 26 52</p>\n           </div>\n         </div>\n"
+        },
+        {
+          "date": 1676206927798,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n-\n           <p>tel./fax 82 563 26 52</p>\n           </div>\n         </div>\n       </div>\n"
+        },
+        {
+          "date": 1676207020530,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n           <p>tel./fax 82 563 26 52</p>\n+          <p></p>\n           </div>\n         </div>\n       </div>\n     </footer>\n"
+        },
+        {
+          "date": 1676207034012,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,9 @@\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n           <p>tel./fax 82 563 26 52</p>\n+          <p>tel. 82 564 66 91</p>\n           <p></p>\n           </div>\n         </div>\n       </div>\n"
+        },
+        {
+          "date": 1676207052523,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,12 +6,13 @@\n       <div className=\"page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n-          <p>tel./fax 82 563 26 52</p>\n-          <p>tel. 82 564 66 91</p>\n-          <p></p>\n+            <p>tel./fax 82 563 26 52</p>\n+            <p>tel. 82 564 66 91</p>\n+            <p>tel. 82 564 64 40</p>\n           </div>\n+          \n         </div>\n       </div>\n     </footer>\n   );\n"
+        },
+        {
+          "date": 1676207067755,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n           </div>\n-          \n+          <p></p>\n         </div>\n       </div>\n     </footer>\n   );\n"
+        },
+        {
+          "date": 1676207075632,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n           </div>\n-          <p></p>\n+          <pmjm@mjmchelm.pl</p>\n         </div>\n       </div>\n     </footer>\n   );\n"
+        },
+        {
+          "date": 1676207085307,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n           </div>\n-          <pmjm@mjmchelm.pl</p>\n+          <p>mjm@mjmchelm.pl</p>\n         </div>\n       </div>\n     </footer>\n   );\n"
+        },
+        {
+          "date": 1676207116633,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n             <p>tel. 82 564 64 40</p>\n           </div>\n           <p>mjm@mjmchelm.pl</p>\n         </div>\n+        \n       </div>\n     </footer>\n   );\n };\n"
+        },
+        {
+          "date": 1676207127543,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,13 @@\n             <p>tel. 82 564 64 40</p>\n           </div>\n           <p>mjm@mjmchelm.pl</p>\n         </div>\n-        \n+        <div>\n+            <ul>\n+                <\n+            </ul>\n+        </div>\n       </div>\n     </footer>\n   );\n };\n"
+        },
+        {
+          "date": 1676207135686,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,11 @@\n           <p>mjm@mjmchelm.pl</p>\n         </div>\n         <div>\n             <ul>\n-                <\n+                <li>\n+                    \n+                </li>\n             </ul>\n         </div>\n       </div>\n     </footer>\n"
+        },
+        {
+          "date": 1676207225980,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import React from \"react\";\n+import { NavLink } from \"react-router-dom\";\n \n const Footer = () => {\n   return (\n     <footer>\n@@ -14,11 +15,9 @@\n           <p>mjm@mjmchelm.pl</p>\n         </div>\n         <div>\n             <ul>\n-                <li>\n-                    \n-                </li>\n+                <li></li>\n             </ul>\n         </div>\n       </div>\n     </footer>\n"
+        },
+        {
+          "date": 1676207237750,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,13 @@\n           <p>mjm@mjmchelm.pl</p>\n         </div>\n         <div>\n             <ul>\n-                <li></li>\n+            <li key=1 onClick={() => setShowLinks(!showLinks)}>\n+                  <NavLink to={url} className=\"link\">\n+                    {text}\n+                  </NavLink>\n+                </li>\n             </ul>\n         </div>\n       </div>\n     </footer>\n"
+        },
+        {
+          "date": 1676207278822,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n           <p>mjm@mjmchelm.pl</p>\n         </div>\n         <div>\n             <ul>\n-            <li key=1 onClick={() => setShowLinks(!showLinks)}>\n+            <li key=\"1\">\n                   <NavLink to={url} className=\"link\">\n                     {text}\n                   </NavLink>\n                 </li>\n"
+        },
+        {
+          "date": 1676207315013,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         <div>\n             <ul>\n             <li key=\"1\">\n                   <NavLink to={url} className=\"link\">\n-                    {text}\n+                    Powrót do strony głównej\n                   </NavLink>\n                 </li>\n             </ul>\n         </div>\n"
+        },
+        {
+          "date": 1676207364872,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,15 +14,15 @@\n           </div>\n           <p>mjm@mjmchelm.pl</p>\n         </div>\n         <div>\n-            <ul>\n+          <ul>\n             <li key=\"1\">\n-                  <NavLink to={url} className=\"link\">\n-                    Powrót do strony głównej\n-                  </NavLink>\n-                </li>\n-            </ul>\n+              <NavLink to=\"/\" className=\"link\">\n+                Powrót do strony głównej\n+              </NavLink>\n+            </li>\n+          </ul>\n         </div>\n       </div>\n     </footer>\n   );\n"
+        },
+        {
+          "date": 1676207662044,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,9 @@\n import React from \"react\";\n import { NavLink } from \"react-router-dom\";\n \n+import classes from ''\n+\n const Footer = () => {\n   return (\n     <footer>\n       <div className=\"page-container\">\n"
+        },
+        {
+          "date": 1676207668725,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import React from \"react\";\n import { NavLink } from \"react-router-dom\";\n \n-import classes from ''\n+import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n     <footer>\n"
+        },
+        {
+          "date": 1676207728795,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className=\"page-container\">\n+      <div className=`page-container\">\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676207734252,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className=`page-container\">\n+      <div className=`page-container`>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676207744854,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className=`page-container`>\n+      <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676207752884,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className={`page-container`}>\n+      <div className={`page-container ${footer}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676207768099,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer>\n-      <div className={`page-container ${footer}`}>\n+      <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676207790047,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n-    <footer>\n+    <footer class={footer}>\n       <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n"
+        },
+        {
+          "date": 1676207797748,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n-    <footer class={footer}>\n+    <footer className={}>\n       <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n"
+        },
+        {
+          "date": 1676207805961,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n-    <footer className={}>\n+    <footer className={classes.[\"footer-section\"]}>\n       <div className={`page-container`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n"
+        },
+        {
+          "date": 1676207863699,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,10 @@\n import classes from './Footer.module.css'\n \n const Footer = () => {\n   return (\n-    <footer className={classes.[\"footer-section\"]}>\n-      <div className={`page-container`}>\n+    <footer className={classes[\"footer-section\"]}>\n+      <div className={`page-container `}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676208071870,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container `}>\n+      <div className={`page-container ${classes[footer-row]}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676208077017,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container ${classes[footer-row]}`}>\n+      <div className={`page-container ${classes[]}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676208083779,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container ${classes[]}`}>\n+      <div className={`page-container ${classes['footer-row']}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676208228837,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container ${classes['footer-row']}`}>\n+      <div className={`page-container ${classes['footer-content']}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676208418275,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes['footer-content']}`}>\n         <div className=\"footer-address\">\n-          <p> ,,MJM'' Sp. z o.o. 22-110 Chełm ul. Fabryczna 6</p>\n+          <p> ,,MJM'' Sp. z o.o.</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
+        },
+        {
+          "date": 1676208424152,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes['footer-content']}`}>\n         <div className=\"footer-address\">\n           <p> ,,MJM'' Sp. z o.o.</p>\n+          <p> ,,MJM'' Sp. z o.o.</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
+        },
+        {
+          "date": 1676208436574,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,16 @@\n import React from \"react\";\n import { NavLink } from \"react-router-dom\";\n \n-import classes from './Footer.module.css'\n+import classes from \"./Footer.module.css\";\n \n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n-      <div className={`page-container ${classes['footer-content']}`}>\n+      <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address\">\n-          <p> ,,MJM'' Sp. z o.o.</p>\n-          <p> ,,MJM'' Sp. z o.o.</p>\n+          <p>,,MJM'' Sp. z o.o.</p>\n+          <p> 22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
+        },
+        {
+          "date": 1676208494732,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,11 @@\n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n-        <div className=\"footer-address\">\n+        <div className=\"footer-address-container\">\n           <p>,,MJM'' Sp. z o.o.</p>\n-          <p> 22-110 Chełm ul. Fabryczna 6</p>\n+          <p>22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
+        },
+        {
+          "date": 1676208503236,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,11 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address-container\">\n+            <div>\n+                \n+            </div>\n           <p>,,MJM'' Sp. z o.o.</p>\n           <p>22-110 Chełm ul. Fabryczna 6</p>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n"
+        },
+        {
+          "date": 1676208514531,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,13 +7,12 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address-container\">\n-            <div>\n-                \n-            </div>\n+            <div className=\"\">\n           <p>,,MJM'' Sp. z o.o.</p>\n           <p>22-110 Chełm ul. Fabryczna 6</p>\n+            </div>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n"
+        },
+        {
+          "date": 1676208521753,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address-container\">\n-            <div className=\"\">\n+            <div className={classes.footer}>\n           <p>,,MJM'' Sp. z o.o.</p>\n           <p>22-110 Chełm ul. Fabryczna 6</p>\n             </div>\n           <div className=\"phone-numbers-container\">\n"
+        },
+        {
+          "date": 1676208532541,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n         <div className=\"footer-address-container\">\n-            <div className={classes.footer}>\n+            <div className={classes[\"footer-address\"]}>\n           <p>,,MJM'' Sp. z o.o.</p>\n           <p>22-110 Chełm ul. Fabryczna 6</p>\n             </div>\n           <div className=\"phone-numbers-container\">\n"
+        },
+        {
+          "date": 1676208540839,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n+          <p>mjm@mjmchelm.pl</p>\n           </div>\n-          <p>mjm@mjmchelm.pl</p>\n         </div>\n         <div>\n           <ul>\n             <li key=\"1\">\n"
+        },
+        {
+          "date": 1676208559997,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,18 +6,18 @@\n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n-        <div className=\"footer-address-container\">\n-            <div className={classes[\"footer-address\"]}>\n-          <p>,,MJM'' Sp. z o.o.</p>\n-          <p>22-110 Chełm ul. Fabryczna 6</p>\n-            </div>\n+        <div className={footer-address-container\">\n+          <div className={classes[\"footer-address\"]}>\n+            <p>,,MJM'' Sp. z o.o.</p>\n+            <p>22-110 Chełm ul. Fabryczna 6</p>\n+          </div>\n           <div className=\"phone-numbers-container\">\n             <p>tel./fax 82 563 26 52</p>\n             <p>tel. 82 564 66 91</p>\n             <p>tel. 82 564 64 40</p>\n-          <p>mjm@mjmchelm.pl</p>\n+            <p>mjm@mjmchelm.pl</p>\n           </div>\n         </div>\n         <div>\n           <ul>\n"
+        },
+        {
+          "date": 1676208565488,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n-        <div className={footer-address-container\">\n+        <div className={classes[footer-address-container}>\n           <div className={classes[\"footer-address\"]}>\n             <p>,,MJM'' Sp. z o.o.</p>\n             <p>22-110 Chełm ul. Fabryczna 6</p>\n           </div>\n"
+        },
+        {
+          "date": 1676211812038,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n const Footer = () => {\n   return (\n     <footer className={classes[\"footer-section\"]}>\n       <div className={`page-container ${classes[\"footer-content\"]}`}>\n-        <div className={classes[footer-address-container}>\n+        <div className={classes[\"footer-address-container\"]}>\n           <div className={classes[\"footer-address\"]}>\n             <p>,,MJM'' Sp. z o.o.</p>\n             <p>22-110 Chełm ul. Fabryczna 6</p>\n           </div>\n@@ -25,8 +25,13 @@\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n+            <li key=\"1\">\n+              <NavLink to=\"/\" className=\"link\">\n+                Powrót do strony głównej\n+              </NavLink>\n+            </li>\n           </ul>\n         </div>\n       </div>\n     </footer>\n"
+        },
+        {
+          "date": 1676211838637,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,13 @@\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n+            <li key=\"2\">\n+              <NavLink to=\"/oferta\" className=\"link\">\n+                Powrót do strony głównej\n+              </NavLink>\n+            </li>\n             <li key=\"1\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n"
+        },
+        {
+          "date": 1676211846754,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,12 +27,12 @@\n               </NavLink>\n             </li>\n             <li key=\"2\">\n               <NavLink to=\"/oferta\" className=\"link\">\n-                Powrót do strony głównej\n+                oferta\n               </NavLink>\n             </li>\n-            <li key=\"1\">\n+            <li key=\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n"
+        },
+        {
+          "date": 1676211865489,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,10 +30,10 @@\n               <NavLink to=\"/oferta\" className=\"link\">\n                 oferta\n               </NavLink>\n             </li>\n-            <li key=\">\n-              <NavLink to=\"/\" className=\"link\">\n+            <li key=\"3\">\n+              <NavLink to=\"/kontakt\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n           </ul>\n"
+        },
+        {
+          "date": 1676211870604,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -32,9 +32,9 @@\n               </NavLink>\n             </li>\n             <li key=\"3\">\n               <NavLink to=\"/kontakt\" className=\"link\">\n-                Powrót do strony głównej\n+                Kontakt\n               </NavLink>\n             </li>\n           </ul>\n         </div>\n"
+        },
+        {
+          "date": 1676211907013,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,17 +19,17 @@\n             <p>mjm@mjmchelm.pl</p>\n           </div>\n         </div>\n         <div>\n-          <ul>\n+          <ul className={classes}>\n             <li key=\"1\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n               <NavLink to=\"/oferta\" className=\"link\">\n-                oferta\n+                Oferta\n               </NavLink>\n             </li>\n             <li key=\"3\">\n               <NavLink to=\"/kontakt\" className=\"link\">\n"
+        },
+        {
+          "date": 1676211915118,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <p>mjm@mjmchelm.pl</p>\n           </div>\n         </div>\n         <div>\n-          <ul className={classes}>\n+          <ul className={classes[footer]}>\n             <li key=\"1\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n"
+        },
+        {
+          "date": 1676211921797,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n             <p>mjm@mjmchelm.pl</p>\n           </div>\n         </div>\n         <div>\n-          <ul className={classes[footer]}>\n+          <ul className={classes[footer-links]}>\n             <li key=\"1\">\n               <NavLink to=\"/\" className=\"link\">\n                 Powrót do strony głównej\n               </NavLink>\n"
+        },
+        {
+          "date": 1676211947825,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,11 +19,11 @@\n             <p>mjm@mjmchelm.pl</p>\n           </div>\n         </div>\n         <div>\n-          <ul className={classes[footer-links]}>\n+          <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className=\"link\">\n+              <NavLink to=\"/\" className=\"footer-link\">\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n"
+        },
+        {
+          "date": 1676212041161,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,14 +21,14 @@\n         </div>\n         <div>\n           <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className=\"footer-link\">\n+              <NavLink to=\"/\" className={\"footer-link\"}>\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n-              <NavLink to=\"/oferta\" className=\"link\">\n+              <NavLink to=\"/oferta\" className=\"footer-link\">\n                 Oferta\n               </NavLink>\n             </li>\n             <li key=\"3\">\n"
+        },
+        {
+          "date": 1676212047532,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n         <div>\n           <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className={\"footer-link\"}>\n+              <NavLink to=\"/\" className={`footer-link`}>\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n"
+        },
+        {
+          "date": 1676212055702,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n         <div>\n           <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className={`footer-link`}>\n+              <NavLink to=\"/\" className={`${classes.footer-link}`}>\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n"
+        },
+        {
+          "date": 1676212061991,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         </div>\n         <div>\n           <ul className={classes['footer-links']}>\n             <li key=\"1\">\n-              <NavLink to=\"/\" className={`${classes[footer-link]}`}>\n+              <NavLink to=\"/\" className={`${classes['footer-link']}`}>\n                 Powrót do strony głównej\n               </NavLink>\n             </li>\n             <li key=\"2\">\n"
+        },
+        {
+          "date": 1676212077430,
+          "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,9 @@\n                 Oferta\n               </NavLink>\n             </li>\n             <li key=\"3\">\n-              <NavLink to=\"/kontakt\" className=\"link\">\n+              <NavLink to=\"/kontakt\" className={`${classes[\"footer-link\"]}`}>\n                 Kontakt\n               </NavLink>\n             </li>\n           </ul>\n"
         }
-    ]
+      ],
+      "date": 1676205990693,
+      "name": "Commit-0",
+      "content": "rafce"
+    }
+  ]
 }
