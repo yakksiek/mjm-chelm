@@ -26,6 +26,18 @@ export const links = [
   },
 ];
 
+import certificate1 from "../src/assets/certificate1.png";
+import hardox from "../src/assets/hardox.png";
+import rzetelnaFirma from "../src/assets/rzetelna-firma-logo.png";
+
+export const partnersHero = [
+  {
+    id: 1,
+    url: "https://www.ssab.com/pl-pl/marki-i-produkty/hardox",
+    img: "",
+  },
+];
+
 export const footerLinks = [
   {
     id: 1,
@@ -617,8 +629,6 @@ export const certificates = [
       "Urząd Dozoru Technicznego - uprawnienia do wykonywania napraw",
   },
 ];
-
-import certificate1 from "./assets/certificate1.png";
 
 export const landingPageServices = [
   {
