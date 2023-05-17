@@ -71,7 +71,7 @@ export const footerLinks = [
 
 import img0 from "./assets/gallery_imgs/belki-konstrukcji-dachu.jpg";
 import img1 from "./assets/gallery_imgs/głowica-cyklonu-fi3400.jpg";
-import img2 from "./assets/gallery_imgs/kanał-wentylacyjny.jpg";
+import img2 from "./assets/gallery_imgs/kanal-wentylacyjny.jpg";
 import img3 from "./assets/gallery_imgs/komin-fi1000x36000.jpg";
 import img4 from "./assets/gallery_imgs/komora-dymowa.jpg";
 import img5 from "./assets/gallery_imgs/koryta-przenośników-ślimakowych.jpg";
