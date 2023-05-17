@@ -235,8 +235,8 @@ export const photos = [
   },
   {
     src: img8,
-    width: 230,
-    height: 230,
+    width: 800,
+    height: 533,
     description: "koło suwnicy fi 1000",
   },
   {
@@ -249,13 +249,13 @@ export const photos = [
     src: img10,
     width: 800,
     height: 450,
-    description: "kubełka elewatora 1",
+    description: "kubełka elewatora",
   },
   {
     src: img11,
     width: 800,
     height: 600,
-    description: "kubełka elewatora 2",
+    description: "kubełka elewatora",
   },
   {
     src: img12,
@@ -287,17 +287,17 @@ export const photos = [
     height: 450,
     description: "moduł cieplny",
   },
-  {
-    src: img17,
-    width: 533,
-    height: 800,
-    description: "montaż podpory pomostu 2",
-  },
+  // {
+  //   src: img17,
+  //   width: 533,
+  //   height: 800,
+  //   description: "montaż podpory pomostu 2",
+  // },
   {
     src: img18,
     width: 533,
     height: 800,
-    description: "montaż podpory pomostu 1",
+    description: "montaż podpory pomostu",
   },
   {
     src: img19,
@@ -328,15 +328,15 @@ export const photos = [
     width: 533,
     height: 800,
     description:
-      "montaż wykonanych elementów linii paliw alternatywnych w Zakładzie Cementownia Chełm 1",
+      "montaż wykonanych elementów linii paliw alternatywnych w Zakładzie Cementownia Chełm",
   },
-  {
-    src: img24,
-    width: 533,
-    height: 800,
-    description:
-      "montaż wykonanych elementów linii paliw alternatywnych w Zakładzie Cementownia Chełm 2",
-  },
+  // {
+  //   src: img24,
+  //   width: 533,
+  //   height: 800,
+  //   description:
+  //     "montaż wykonanych elementów linii paliw alternatywnych w Zakładzie Cementownia Chełm 2",
+  // },
   {
     src: img26,
     width: 800,
@@ -349,19 +349,19 @@ export const photos = [
     height: 600,
     description: "podest",
   },
-  {
-    src: img28,
-    width: 800,
-    height: 533,
-    description:
-      "punkt załadunku cementu na samochody - wykonanie i montaż konstrukcji i urządzeń 1",
-  },
+  // {
+  //   src: img28,
+  //   width: 800,
+  //   height: 533,
+  //   description:
+  //     "punkt załadunku cementu na samochody - wykonanie i montaż konstrukcji i urządzeń 1",
+  // },
   {
     src: img29,
     width: 624,
     height: 800,
     description:
-      "punkt załadunku cementu na samochody - wykonanie i montaż konstrukcji i urządzeń 2",
+      "punkt załadunku cementu na samochody - wykonanie i montaż konstrukcji i urządzeń",
   },
   {
     src: img30,
@@ -393,12 +393,12 @@ export const photos = [
     height: 450,
     description: "rurociąg nadmuchowy",
   },
-  {
-    src: img34,
-    width: 800,
-    height: 450,
-    description: "rurociąg nadmuchowy 2",
-  },
+  // {
+  //   src: img34,
+  //   width: 800,
+  //   height: 450,
+  //   description: "rurociąg nadmuchowy 2",
+  // },
   {
     src: img36,
     width: 537,
@@ -417,16 +417,16 @@ export const photos = [
     height: 800,
     description: "segment rurociągu",
   },
-  {
-    src: img39,
-    width: 800,
-    height: 450,
-    description: "segmenty rynien aeracyjnych",
-  },
+  // {
+  //   src: img39,
+  //   width: 800,
+  //   height: 450,
+  //   description: "segmenty rynien aeracyjnych",
+  // },
   {
     src: img40,
     width: 800,
-    height: 430,
+    height: 457,
     description: "siedziba MJM",
   },
   {
@@ -439,14 +439,14 @@ export const photos = [
     src: img42,
     width: 732,
     height: 800,
-    description: "tarcza wirnika suszarko-kruszarki 1",
+    description: "tarcza wirnika suszarko-kruszarki",
   },
-  {
-    src: img43,
-    width: 800,
-    height: 692,
-    description: "tarcza wirnika suszarko-kruszarki 2",
-  },
+  // {
+  //   src: img43,
+  //   width: 800,
+  //   height: 692,
+  //   description: "tarcza wirnika suszarko-kruszarki 2",
+  // },
   {
     src: img44,
     width: 450,
@@ -524,13 +524,13 @@ export const photos = [
     src: img56,
     width: 800,
     height: 600,
-    description: "zesypy z wykładziną RENALOX 1",
+    description: "zesypy z wykładziną RENALOX",
   },
   {
     src: img57,
     width: 800,
     height: 600,
-    description: "zesypy z wykładziną RENALOX 2",
+    description: "zesypy z wykładziną RENALOX",
   },
   {
     src: img58,
@@ -542,13 +542,13 @@ export const photos = [
     src: img59,
     width: 800,
     height: 450,
-    description: "ślimakowy pobieracz próbek fi 50 1",
+    description: "ślimakowy pobieracz próbek fi 50",
   },
   {
     src: img60,
     width: 450,
     height: 800,
-    description: "ślimakowy pobieracz próbek fi 50 2",
+    description: "ślimakowy pobieracz próbek fi 50",
   },
   {
     src: img61,
@@ -583,6 +583,7 @@ import iso26000en from "./assets/gallery_certificates/Certyfikat_ISO_26000_EN.jp
 import hardoxCertification from "./assets/gallery_certificates/Uprawnienie_HARDOX.jpg";
 import udtModernisationCertification from "./assets/gallery_certificates/Uprawnienie_UDT-modernizacja.jpg";
 import udtRepairCertification from "./assets/gallery_certificates/Uprawnienie_UDT-naprawa.jpg";
+import dzialalnoscOswiatowa from "./assets/gallery_certificates/pozwolenie-na-działalnosc-oswiatowa.jpg";
 
 export const certificates = [
   {
@@ -641,6 +642,12 @@ export const certificates = [
     description:
       "Urząd Dozoru Technicznego - uprawnienia do wykonywania napraw",
   },
+  {
+    src: dzialalnoscOswiatowa,
+    width: 722,
+    height: 1024,
+    description: "Pozwolenie na działalność oświatową",
+  },
 ];
 
 export const landingPageServices = [
@@ -650,11 +657,12 @@ export const landingPageServices = [
     img: img3,
     services: [
       "Wykonawstwo i montaż konstrukcji stalowych",
-      "Wykonawstwo urządzeń wg dokumentacji zleceniodawcy lub własnych projektów oraz części zamiennych do maszyn i urządzeń",
+      "Wykonawstwo części zamiennych do maszyn i urządzeń",
       "Remonty i modernizacja ciągów technologicznych, maszyn i urządzeń przemysłowych",
-      "Montaż, naprawa, modernizacja i konserwacja dźwignic (suwnice, wciągniki, wciągarki, podesty ruchome, żurawie, dźwigniki, wózki jezdniowe)",
+      "Montaż, naprawa, modernizacja i konserwacja dźwignic",
       "Obróbka skrawaniem",
       "Wykonawstwo prac spawalniczych",
+      "Sprzedaż wyrobów hutniczych i gazów technicznych",
     ],
   },
   {
@@ -664,9 +672,9 @@ export const landingPageServices = [
     services: [
       "Certyfikat ISO 9001 - System zarządzania jakością",
       "Certyfikat ISO 3834-2 – System jakości w spawalnictwie",
-      "Certyfikat zgodności Zakładowej Kontroli Produkcji wg PN-EN 1090-1",
+      "Certyfikat Zakładowej Kontroli Produkcji wg PN-EN 1090-1",
       "Certyfikat PN ISO 26000 - Społeczna odpowiedzialność",
-      "Uprawnienia nadane przez Urząd Dozoru Technicznego do naprawy i modernizacji urządzeń dźwignicowych podlegających UDT",
+      "Uprawnienia Urzędu Dozoru Technicznego do naprawy i modernizacji urządzeń dźwignicowych podlegających UDT",
       "Uprawnienia do prowadzenia działalności szkoleniowej – wpis do ewidencji szkół i placówek niepublicznych",
     ],
   },
