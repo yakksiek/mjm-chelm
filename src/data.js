@@ -131,7 +131,7 @@ import img59 from "./assets/gallery_imgs/ślimakowy_pobieracz_próbek_fi_50-1.jp
 import img60 from "./assets/gallery_imgs/ślimakowy_pobieracz_próbek_fi_50-2.jpg";
 import img61 from "./assets/gallery_imgs/żaluzja_2500x2800.jpg";
 import img62 from "./assets/gallery_imgs/linia_paliw_alternatywnych_wykonanie_i_montaż_konstrukcji_2.jpg";
-import img63 from "./assets/gallery_imgs/walcowanie_blachy_na_stożek.jpg";
+import img63 from "./assets/gallery_imgs/walcowanie_blachy_na_stozek.jpg";
 
 export const heroPhotos = [
   {
