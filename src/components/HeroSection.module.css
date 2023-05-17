@@ -59,7 +59,7 @@
   object-fit: cover;
 }
 
-.certificate1 img {
+.logo-partners-container div:nth-child(2) img {
   transform: scale(1.8);
   margin-top: 15px;
 }

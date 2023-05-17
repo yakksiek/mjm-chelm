@@ -34,7 +34,20 @@ export const partnersHero = [
   {
     id: 1,
     url: "https://www.ssab.com/pl-pl/marki-i-produkty/hardox",
-    img: "",
+    img: hardox,
+    name: "hardox logo",
+  },
+  {
+    id: 2,
+    url: "https://www.udt.gov.pl/o-udt",
+    img: certificate1,
+    name: "certyfikaty zakładowej kontroli produkcji",
+  },
+  {
+    id: 3,
+    url: "https://wizytowka.rzetelnafirma.pl/r/6314b3c331934bb79837fb6b51f047a2d19e1693617a45ddbfbd7e0d24af2ca3/1",
+    img: rzetelnaFirma,
+    name: "rzetelna firma logo",
   },
 ];
 

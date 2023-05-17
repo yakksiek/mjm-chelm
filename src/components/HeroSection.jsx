@@ -2,12 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import PhotoGallery from "../components/PhotoGallery";
+import { heroPhotos, partnersHero } from "../data";
 
 import classes from "./HeroSection.module.css";
-import certificate1 from "../assets/certificate1.png";
-import hardox from "../assets/hardox.png";
-import rzetelnaFirma from "../assets/rzetelna-firma-logo.png";
-import { heroPhotos } from "../data";
 
 const HeroSection = () => {
   const [heroGallery, setHeroGallery] = useState(heroPhotos);
@@ -63,34 +60,17 @@ const HeroSection = () => {
       <div className={classes.partners}>
         <h3>Nasi partnerzy i certyfikaty</h3>
         <div className={classes["logo-partners-container"]}>
-          <div>
-            <a
-              href="https://www.ssab.com/pl-pl/marki-i-produkty/hardox"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={hardox} alt="hardox logo" />
-            </a>
-          </div>
+          {partnersHero.map((partner) => {
+            const { id, url, img, name } = partner;
 
-          <div className={classes.certificate1}>
-            <a
-              href="https://www.udt.gov.pl/o-udt"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={certificate1} alt="certificate" />
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://wizytowka.rzetelnafirma.pl/r/6314b3c331934bb79837fb6b51f047a2d19e1693617a45ddbfbd7e0d24af2ca3/1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={rzetelnaFirma} alt="rzetelna firma logo" />
-            </a>
-          </div>
+            return (
+              <div key={id}>
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  <img src={img} alt={name} />
+                </a>
+              </div>
+            );
+          })}
         </div>
       </div>
     </main>
