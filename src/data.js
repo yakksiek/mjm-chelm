@@ -1,9 +1,3 @@
-const defaultLink = {
-  id: `Number`,
-  url: String,
-  text: String,
-};
-
 export const links = [
   {
     id: 1,
@@ -49,8 +43,6 @@ export const footerLinks = [
     text: "Kontakt",
   },
 ];
-
-const breakpoints = [3840, 2400, 1080, 640, 384, 256, 128, 96, 64, 48];
 
 import img0 from "./assets/gallery_imgs/belki-konstrukcji-dachu.jpg";
 import img1 from "./assets/gallery_imgs/głowica-cyklonu-fi3400.jpg";
@@ -655,17 +647,6 @@ export const landingPageServices = [
       "Uprawnienia do prowadzenia działalności szkoleniowej – wpis do ewidencji szkół i placówek niepublicznych",
     ],
   },
-  // {
-  //   id: 3,
-  //   title:
-  //     "Obróbka elementów metalowych, urządzenia dźwignicowe podlegające UDT",
-  //   img: img7,
-  //   services: [
-  //     "Obróbka skrawaniem i obróbka plastyczna na zimno lub gorąco",
-  //     "Montaż, naprawa, modernizacja i konserwacja dźwignic (suwnice, wciągniki, wciągarki, podesty ruchome, żurawie, dźwigniki, wózki jezdniowe)",
-  //     "Wykonawstwo prac spawalniczych",
-  //   ],
-  // },
 ];
 
 export const rangeOfServices = [

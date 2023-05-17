@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import PhotoGallery from "../components/PhotoGallery";
 
 import classes from "./HeroSection.module.css";
-import mjm12 from "../assets/mjm12.jpg";
 import certificate1 from "../assets/certificate1.png";
 import hardox from "../assets/hardox.png";
 import rzetelnaFirma from "../assets/rzetelna-firma-logo.png";
@@ -32,7 +31,6 @@ const HeroSection = () => {
         <div className={classes.info}>
           <h1>"MJM"</h1>
           <h2>Sp. z o. o. Chełm</h2>
-          {/* <h3>Zbudujmy przyszłość razem.</h3> */}
           <div className={`${classes.bio}`}>
             <p>
               "MJM” Sp. z o.o. rozpoczęła działalność dnia 08.03.1994 roku.
@@ -41,8 +39,6 @@ const HeroSection = () => {
               maszyn i urządzeń przemysłowych, wykonawstwo części zamiennych i
               ich regeneracja, naprawa, modernizacja i konserwacja urządzeń
               podlegających UDT.
-              {/* Usługi świadczymy głównie na rzecz zakładów przemysłowych.
-              Realizujemy również kompleksowe zadania inwestycyjne. */}
             </p>
             <p>
               Od 2018 r. ”MJM” Sp. z o. o. dołączyła do grona Hardox Wearparts -
