@@ -23,7 +23,7 @@ const HeroSection = () => {
   }, [isDesktop]);
 
   return (
-    <main>
+    <main className={classes['hero-container']}>
       <div className={`${classes.hero}`}>
         <div className={classes.info}>
           <h1>"MJM"</h1>

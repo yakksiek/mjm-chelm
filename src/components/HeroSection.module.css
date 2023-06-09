@@ -33,6 +33,9 @@
   text-align: center;
   color: var(--clr-primary-1);
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .partners h3 {
@@ -65,6 +68,14 @@
 }
 
 @media (min-width: 760px) {
+  .hero-container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .hero {
     display: flex;
     flex-direction: row;
@@ -130,7 +141,7 @@
 
   .partners {
     max-width: 1054px;
-    /* width: 95vw; */
+    width: 90vw;
     margin: 1rem auto;
     border-radius: 20px;
   }
@@ -143,7 +154,9 @@
   .logo-partners-container {
     margin: 0 auto;
     flex-direction: row;
+    justify-content: space-around;
     max-width: var(--max-width);
+    margin: 0;
   }
 
   .certificate1 img {
