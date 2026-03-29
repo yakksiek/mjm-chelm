@@ -22,10 +22,16 @@
   margin-bottom: 10px;
 }
 
+.bio {
+  margin-top: 10px;
+}
+
 .bio p {
   color: var(--clr-primary-1);
   max-width: 800px;
   line-height: 1.6;
+  text-align: left;
+  font-weight: normal;
 }
 
 .partners {
