@@ -54,6 +54,7 @@
 }
 
 .button-view-offer:hover {
+  background-color: var(--clr-primary-1);
   color: #fff;
 }
 
