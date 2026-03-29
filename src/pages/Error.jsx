@@ -1,12 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const Error = () => {
   return (
-    <section className="page">
+    <section className='page'>
       <h2>coś poszło nie tak...</h2>
-      <Link to="/" className="btn">
-        idź to strony głównej
+      <Link to='/' className='btn'>
+        idź do strony głównej
       </Link>
     </section>
   );
