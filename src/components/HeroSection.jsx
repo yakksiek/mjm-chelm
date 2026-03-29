@@ -1,16 +1,13 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from 'react';
 
-import PhotoGallery from "../components/PhotoGallery";
-import { heroPhotos, partnersHero } from "../data";
+import PhotoGallery from '../components/PhotoGallery';
+import { heroPhotos, partnersHero } from '../data';
 
-import classes from "./HeroSection.module.css";
+import classes from './HeroSection.module.css';
 
 const HeroSection = () => {
-  const [heroGallery, setHeroGallery] = useState(heroPhotos);
-  const [heroGalleryMobile, setHeroGalleryMobile] = useState(
-    heroPhotos.slice(0, 3)
-  );
+  const [heroGallery] = useState(heroPhotos);
+  const [heroGalleryMobile] = useState(heroPhotos.slice(0, 3));
   const [isDesktop, setDesktop] = useState(window.innerWidth > 760);
 
   const updateMedia = () => {
@@ -18,8 +15,8 @@ const HeroSection = () => {
   };
 
   useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
+    window.addEventListener('resize', updateMedia);
+    return () => window.removeEventListener('resize', updateMedia);
   }, [isDesktop]);
 
   return (
@@ -46,26 +43,24 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className={classes["image-container"]}>
-          <div className={classes["hero-gallery"]}>
-            {isDesktop ? (
-              <PhotoGallery images={heroGallery} />
-            ) : (
-              <PhotoGallery images={heroGalleryMobile} />
-            )}
+        <div className={classes['image-container']}>
+          <div className={classes['hero-gallery']}>
+            <PhotoGallery
+              images={isDesktop ? heroGallery : heroGalleryMobile}
+            />
           </div>
         </div>
       </div>
 
       <div className={classes.partners}>
         <h3>Nasi partnerzy i certyfikaty</h3>
-        <div className={classes["logo-partners-container"]}>
+        <div className={classes['logo-partners-container']}>
           {partnersHero.map((partner) => {
             const { id, url, img, name } = partner;
 
             return (
               <div key={id}>
-                <a href={url} target="_blank" rel="noopener noreferrer">
+                <a href={url} target='_blank' rel='noopener noreferrer'>
                   <img src={img} alt={name} />
                 </a>
               </div>
