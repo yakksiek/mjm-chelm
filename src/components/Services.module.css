@@ -36,12 +36,14 @@
 
 .service ul {
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  padding: 12px;
 }
 
 .service li {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
   list-style-type: disc;
+  text-align: left;
 }
 
 .button-view-offer {
