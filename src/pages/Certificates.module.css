@@ -7,3 +7,10 @@
   color: var(--clr-primary-1);
 }
 
+.page-certificates :global(.react-photo-album--photo) {
+  transition: transform 0.3s ease;
+}
+
+.page-certificates :global(.react-photo-album--photo:hover) {
+  transform: scale(1.05);
+}

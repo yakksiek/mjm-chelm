@@ -6,3 +6,11 @@
 .page-gallery h2 {
   color: var(--clr-primary-1);
 }
+
+.page-gallery :global(.react-photo-album--photo) {
+  transition: transform 0.3s ease;
+}
+
+.page-gallery :global(.react-photo-album--photo:hover) {
+  transform: scale(1.05);
+}
